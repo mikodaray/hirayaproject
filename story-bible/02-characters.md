@@ -1,20 +1,11 @@
 # Characters
 
-## Template (copy for each character)
-- Name:
-- Role in story:
-- Age and background:
-- Look (for the art):
-- Personality:
-- Want (what they chase):
-- Need (what they must learn):
-- Flaw:
-- Skills or weapons:
-- Key relationships:
-- Arc, start to end:
+Each character has their own doc in the `characters/` folder. Copy `characters/_template.md` to start a new one.
 
-## Main cast
-OPEN
+## Roster
+| Character | Role | Doc | Status |
+|-----------|------|-----|--------|
+| Protagonist (name OPEN) | Main protagonist | [protagonist.md](characters/protagonist.md) | draft |
 
 ## Supporting cast
 OPEN
