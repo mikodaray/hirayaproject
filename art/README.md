@@ -11,3 +11,4 @@ Generated and drawn art for Hiraya. Files are numbered in the order they were ad
 | 2 | 02-cast-group-scene-v1.png | First generated cast group scene on campus, from prompts/01-cast-group-scene.md, made with Canva image generation | 2026-11-05 |
 
 Note: the cast designs changed after this cover (Jeff has ube colored hair, Mel has long blonde hair, uniforms are blue shirts and khakis). Regenerate the cover when designs are final.
+| 3 | 03-cast-group-scene-v1-title.png | Same scene with the title added in Latin letters styled like Baybayin (needs review, lettering may not read as Hiraya) | 2026-11-05 |
