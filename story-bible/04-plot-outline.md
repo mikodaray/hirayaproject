@@ -18,7 +18,7 @@ Ending: OPEN
 ## Chapter list
 | # | Working title | What happens | Status |
 |---|---------------|--------------|--------|
-| 1 | OPEN | OPEN | idea |
+| 1 | "Read It Out Loud" (DRAFT) | 50 pages, DECIDED length. Full draft storyboard in chapter-1/00-overview.md and the pages files | draft storyboard |
 
 ## Key scenes and set pieces
 OPEN

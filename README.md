@@ -11,6 +11,8 @@ All story documents live in the `story-bible/` folder:
 - `story-bible/04-plot-outline.md`: arcs, chapters, key scenes
 - `story-bible/05-research-notes.md`: historical sources, references, facts to verify
 - `story-bible/06-ideas-inbox.md`: loose ideas, to sort later
+- `story-bible/chapter-1/`: the 50 page draft storyboard for chapter 1, start with 00-overview.md
+- `art/`: images, art style, and image prompts
 
 ## Working rules
 - Add to the inbox first, then move ideas into the right doc once decided.

@@ -13,6 +13,7 @@ Each character has their own doc in the `characters/` folder. Copy `characters/_
 
 ## Supporting cast
 - Jeff's sisters, docs to be made once they have names: older (23), younger (18), youngest (7)
+- Jeff's father: gave Jeff a necklace at 18, doc to be made once he has a name
 - Nikki's group of girls: unnamed, OPEN
 
 ## Antagonists

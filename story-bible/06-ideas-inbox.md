@@ -24,3 +24,8 @@ Drop any raw idea here, even half formed. We sort them into the other docs later
 - Homeroom with Sir Archie.
 - After school the three do a small routine together (snacks, a hangout spot) to show they are real friends.
 - Hook: the bamboo tube. Whether it appears at the end of chapter 1 or in chapter 2 is OPEN.
+
+## 2026-11-05 New facts (DECIDED by creator)
+- In this universe there are Agimats around the world. There are 10 in the Philippines, which ancient Filipinos called the Sangkapuluan.
+- When Jeff turned 18, his father gave him a necklace.
+- Chapter 1 is 50 pages. Draft storyboard is in story-bible/chapter-1/.

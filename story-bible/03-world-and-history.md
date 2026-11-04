@@ -39,3 +39,7 @@ How names, titles, and terms will be written: OPEN
 ## Rules of the world
 - DECIDED: reading the Baybayin on the bamboo tube aloud moves Jeff and his friends to ancient Butuan.
 - How they get home, and whether reading is involved: OPEN
+- DECIDED: Agimats exist all around the world. They are protective charms with powers of their own.
+- DECIDED: there are 10 Agimats in the Philippines. Ancient Filipinos called the islands the Sangkapuluan.
+- OPEN: names and powers of the ten Agimats, who holds them, and whether they are all friendly.
+- OPEN: whether Jeff's necklace is one of the ten, and whether the bamboo tube is an Agimat. The chapter 1 draft hints that the necklace is one of them.
