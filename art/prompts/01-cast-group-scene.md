@@ -6,7 +6,7 @@ Use: manga chapter cover page.
 Idea: low angle wide lens group shot. Jeff is cool and calm in the foreground, the other three are animated and funny.
 
 ## Prompt
-Manga chapter cover page illustration for the series Hiraya, shonen style, wide landscape composition, aspect ratio 4:3, bold clean ink linework, vivid colors, dynamic low angle wide lens perspective with strong depth. The nearest character looms large toward the camera, and the other characters are arranged behind him on a diagonal, receding into the scene. Setting: the grounds of a Philippine public high school in bright midday sun, a concrete school building with louvered windows and a covered walkway, a flagpole, tropical trees including a durian tree, a courtyard with a wooden bench, long soft shadows, warm light.
+Manga chapter cover page illustration for the series Hiraya, shonen style close to classic Naruto manga artwork (bold varied ink linework, heavy hatching, expressive faces, dramatic perspective), wide landscape composition, aspect ratio 4:3, bold clean ink linework, vivid colors, dynamic low angle wide lens perspective with strong depth. The nearest character looms large toward the camera, and the other characters are arranged behind him on a diagonal, receding into the scene. Setting: the grounds of a Philippine public high school in bright midday sun, a concrete school building with louvered windows and a covered walkway, a flagpole, tropical trees including a durian tree, a courtyard with a wooden bench, long soft shadows, warm light.
 
 Four teenage Filipino students in school uniform. The boys wear a blue short sleeved buttoned shirt and khaki pants. The girl wears an all white short sleeved blouse and a white skirt.
 

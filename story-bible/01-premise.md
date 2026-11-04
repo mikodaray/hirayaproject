@@ -21,5 +21,8 @@ OPEN
 ## Target audience and format
 Manga format. Reading direction, chapter length, planned volume count: OPEN
 
+## Art style
+DECIDED: close to how the Naruto manga looks. Details in art/ART-STYLE.md.
+
 ## What makes it different
 OPEN
