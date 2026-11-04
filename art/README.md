@@ -35,3 +35,6 @@ Generated manga pages go in the pages/ folder, named ch1-page-NN-vN.png.
 
 ## Lettering
 Dialogue, captions and sound effects are not burned into the images. They live in ../lettering.js and are drawn over the pages in the reader (the Lettering button turns them on or off). The text comes from story-bible/chapter-1/. Each entry has x, y and width in percent of the page, so a bubble can be moved by editing numbers.
+
+## Characters
+Reference sheets go in characters/. Prompts to make them: prompts/02-character-reference-sheets.md. Attach the saved sheets as references in later generations.
