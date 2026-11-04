@@ -14,6 +14,9 @@ All story documents live in the `story-bible/` folder:
 - `story-bible/chapter-1/`: the 50 page draft storyboard for chapter 1, start with 00-overview.md
 - `art/`: images, art style, and image prompts
 
+## Reader
+Open `index.html` through GitHub Pages to read the cover and the chapter 1 pages. To add a new page image, edit the `PAGES` list near the bottom of `index.html`.
+
 ## Working rules
 - Add to the inbox first, then move ideas into the right doc once decided.
 - Mark anything undecided as OPEN so we know what still needs a choice.

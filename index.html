@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hiraya Reader</title>
+<meta name="description" content="Reader for the Hiraya manga, from the cover to the last page of Chapter 1.">
+<meta name="color-scheme" content="dark">
+<style>
+  :root {
+    --bg: #14110f;
+    --panel: #1d1916;
+    --panel-2: #26211d;
+    --line: #3a322c;
+    --text: #f3ece4;
+    --muted: #a99d91;
+    --accent: #e9b44c;
+    --accent-ink: #1a1408;
+    --focus: #7cc4ff;
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  a { color: var(--accent); }
+  button, .btn {
+    font: inherit;
+    color: var(--text);
+    background: var(--panel-2);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 40px;
+  }
+  button:hover:not([disabled]), .btn:hover { border-color: var(--accent); }
+  button[disabled] { opacity: .35; cursor: default; }
+  button[aria-pressed="true"], button.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+  header {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 12px; padding: 12px 16px; border-bottom: 1px solid var(--line); background: var(--panel);
+  }
+  .brand { display: flex; align-items: baseline; gap: 10px; }
+  .brand h1 { margin: 0; font-size: 1.35rem; letter-spacing: .08em; text-transform: uppercase; }
+  .brand span { color: var(--muted); font-size: .9rem; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  main { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+
+  /* Reader */
+  #reader { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 16px; gap: 12px; min-height: 0; }
+  .stage { flex: 1; width: 100%; max-width: 1100px; display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 0; }
+  .nav { flex: 0 0 auto; width: 48px; height: 48px; padding: 0; justify-content: center; font-size: 1.4rem; }
+  .sheet { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; min-height: 0; }
+  .sheet img {
+    height: calc(100vh - 250px);
+    min-height: 260px;
+    max-height: 1000px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 8px 30px rgba(0,0,0,.5);
+  }
+  .placeholder {
+    width: min(100%, 420px);
+    aspect-ratio: 2 / 3;
+    max-height: calc(100vh - 250px);
+    border: 2px dashed var(--line);
+    border-radius: var(--radius);
+    background: var(--panel);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 24px; gap: 8px; color: var(--muted);
+  }
+  .placeholder strong { font-size: 2.4rem; color: var(--text); }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: center; color: var(--muted); font-size: .95rem; text-align: center; }
+  .meta .count { color: var(--text); font-weight: 600; }
+  .hint { color: var(--muted); font-size: .85rem; text-align: center; }
+  .progress { width: min(100%, 700px); height: 6px; background: var(--panel-2); border-radius: 99px; overflow: hidden; }
+  .progress > div { height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+
+  /* Grid */
+  #grid { display: none; padding: 16px; max-width: 1200px; width: 100%; margin: 0 auto; }
+  #grid.show { display: block; }
+  #grid h2 { margin: 4px 0 4px; font-size: 1.1rem; }
+  #grid p { margin: 0 0 16px; color: var(--muted); }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 14px; }
+  .card {
+    display: flex; flex-direction: column; gap: 6px; background: var(--panel); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 8px; text-align: left; color: var(--text); border-radius: var(--radius);
+  }
+  .card:hover { border-color: var(--accent); }
+  .thumb { aspect-ratio: 2 / 3; border-radius: 6px; background: var(--panel-2); display: flex; align-items: center; justify-content: center; overflow: hidden; color: var(--muted); font-size: .85rem; text-align: center; }
+  .thumb img { width: 100%; height: 100%; object-fit: contain; background: #fff; }
+  .card span { font-size: .9rem; }
+  .card .todo { color: var(--muted); }
+
+  footer { padding: 12px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; text-align: center; background: var(--panel); }
+
+  @media (max-width: 640px) {
+    .nav { width: 40px; height: 40px; }
+    .stage { gap: 6px; }
+    .sheet img { height: calc(100vh - 290px); }
+    .placeholder { max-height: calc(100vh - 290px); }
+    .brand span { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { .progress > div { transition: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><h1>Hiraya</h1><span>Chapter 1 reader</span></div>
+  <div class="controls" role="group" aria-label="Reader options">
+    <button id="btnReader" class="active" type="button">Reader</button>
+    <button id="btnGrid" type="button">All pages</button>
+    <button id="btnDir" type="button" aria-pressed="false" title="Reading direction is not decided yet. Switch to right to left if the book reads like Japanese manga.">Right to left</button>
+  </div>
+</header>
+
+<main>
+  <section id="reader" aria-label="Page reader">
+    <div class="stage">
+      <button class="nav" id="prev" type="button" aria-label="Previous page">&#8592;</button>
+      <div class="sheet" id="sheet" aria-live="polite"></div>
+      <button class="nav" id="next" type="button" aria-label="Next page">&#8594;</button>
+    </div>
+    <div class="meta" id="meta"></div>
+    <div class="progress" aria-hidden="true"><div id="bar"></div></div>
+    <div class="hint">Use the left and right arrow keys, or swipe. Press G for all pages.</div>
+  </section>
+
+  <section id="grid" aria-label="All pages">
+    <h2>All pages</h2>
+    <p>Cover first, then pages 1 to 50. Pages that are not drawn yet show a placeholder.</p>
+    <div class="cards" id="cards"></div>
+  </section>
+</main>
+
+<footer>
+  Hiraya by Miko. Draft artwork made with AI image tools and edited by hand. Images here are preview copies, use the full size links for the best quality.
+</footer>
+
+<script>
+  // To add or replace an image, edit its entry below, then commit.
+  // src: path to the image in this repo, or null if the page is not drawn yet.
+  // full: optional link to the full size image.
+  var STORYBOARD = "https://github.com/mikodaray/hirayaproject/blob/main/story-bible/chapter-1/";
+  var PAGES = [
+    { label: "Cover", title: "Chapter 1 cover", src: "art/05-chapter-1-cover-v1.png",
+      full: "https://www.canva.com/M/MAHZ_ImCC6E?utm_source=OC-AaBlKuT9h240&utm_campaign=agent_connector_create_image_asset_opened", story: STORYBOARD + "00-overview.md" },
+    { label: "Page 1", title: "Page 1, meet Jeff", src: "art/pages/ch1-page-01-v2.png",
+      full: "https://www.canva.com/M/MAHZ_PojTv8?utm_source=OC-AaBlKuT9h240&utm_campaign=agent_connector_create_image_asset_opened" }
+  ];
+  (function fill() {
+    for (var n = 2; n <= 50; n++) PAGES.push({ label: "Page " + n, title: "Page " + n, src: null });
+    for (var i = 1; i < PAGES.length; i++) {
+      var n2 = i; // page number
+      var start = Math.floor((n2 - 1) / 10) * 10 + 1;
+      var end = start + 9;
+      var pad = function (v) { return (v < 10 ? "0" : "") + v; };
+      if (!PAGES[i].story) PAGES[i].story = STORYBOARD + "pages-" + pad(start) + "-" + pad(end) + ".md";
+    }
+  })();
+
+  var idx = 0;
+  var rtl = false;
+  var sheet = document.getElementById("sheet");
+  var meta = document.getElementById("meta");
+  var bar = document.getElementById("bar");
+  var prevBtn = document.getElementById("prev");
+  var nextBtn = document.getElementById("next");
+  var reader = document.getElementById("reader");
+  var grid = document.getElementById("grid");
+  var btnReader = document.getElementById("btnReader");
+  var btnGrid = document.getElementById("btnGrid");
+  var btnDir = document.getElementById("btnDir");
+
+  try { rtl = localStorage.getItem("hiraya-rtl") === "1"; } catch (e) {}
+
+  function clamp(v) { return Math.max(0, Math.min(PAGES.length - 1, v)); }
+
+  function render() {
+    var p = PAGES[idx];
+    sheet.innerHTML = "";
+    if (p.src) {
+      var img = document.createElement("img");
+      img.src = p.src;
+      img.alt = p.title + " of Hiraya Chapter 1";
+      sheet.appendChild(img);
+    } else {
+      var ph = document.createElement("div");
+      ph.className = "placeholder";
+      ph.innerHTML = "<strong>" + (idx) + "</strong><div>" + p.label + " is not drawn yet.</div><div>The script for this page is in the storyboard.</div>";
+      sheet.appendChild(ph);
+    }
+    meta.innerHTML = "";
+    var count = document.createElement("span");
+    count.className = "count";
+    count.textContent = idx === 0 ? "Cover" : "Page " + idx + " of " + (PAGES.length - 1);
+    meta.appendChild(count);
+    if (p.full) {
+      var a = document.createElement("a"); a.href = p.full; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Open full size";
+      meta.appendChild(a);
+    }
+    if (p.story) {
+      var b = document.createElement("a"); b.href = p.story; b.target = "_blank"; b.rel = "noopener"; b.textContent = "Read the storyboard";
+      meta.appendChild(b);
+    }
+    bar.style.width = (PAGES.length > 1 ? (idx / (PAGES.length - 1)) * 100 : 100) + "%";
+    prevBtn.disabled = idx === 0;
+    nextBtn.disabled = idx === PAGES.length - 1;
+    // In right to left mode the left arrow goes forward.
+    prevBtn.textContent = rtl ? "→" : "←";
+    nextBtn.textContent = rtl ? "←" : "→";
+    prevBtn.setAttribute("aria-label", "Previous page");
+    nextBtn.setAttribute("aria-label", "Next page");
+    var order = rtl ? [nextBtn, sheet, prevBtn] : [prevBtn, sheet, nextBtn];
+    var stage = sheet.parentNode;
+    order.forEach(function (el) { stage.appendChild(el); });
+    btnDir.setAttribute("aria-pressed", rtl ? "true" : "false");
+    document.title = p.label + " | Hiraya Reader";
+    if (history.replaceState) history.replaceState(null, "", "#" + (idx === 0 ? "cover" : "p" + idx));
+  }
+
+  function go(i) { idx = clamp(i); render(); }
+  function showGrid(on) {
+    grid.classList.toggle("show", on);
+    reader.style.display = on ? "none" : "flex";
+    btnGrid.classList.toggle("active", on);
+    btnReader.classList.toggle("active", !on);
+  }
+
+  function buildGrid() {
+    var cards = document.getElementById("cards");
+    PAGES.forEach(function (p, i) {
+      var c = document.createElement("button");
+      c.type = "button"; c.className = "card";
+      var t = document.createElement("div"); t.className = "thumb";
+      if (p.src) { var im = document.createElement("img"); im.src = p.src; im.alt = ""; im.loading = "lazy"; t.appendChild(im); }
+      else t.textContent = "Not drawn yet";
+      var s = document.createElement("span"); s.textContent = p.label; if (!p.src) s.className = "todo";
+      c.appendChild(t); c.appendChild(s);
+      c.addEventListener("click", function () { showGrid(false); go(i); });
+      cards.appendChild(c);
+    });
+  }
+
+  prevBtn.addEventListener("click", function () { go(rtl ? idx + 1 : idx - 1); });
+  nextBtn.addEventListener("click", function () { go(rtl ? idx - 1 : idx + 1); });
+  btnReader.addEventListener("click", function () { showGrid(false); });
+  btnGrid.addEventListener("click", function () { showGrid(true); });
+  btnDir.addEventListener("click", function () {
+    rtl = !rtl;
+    try { localStorage.setItem("hiraya-rtl", rtl ? "1" : "0"); } catch (e) {}
+    render();
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.target && /input|textarea|select/i.test(e.target.tagName)) return;
+    if (e.key === "ArrowRight") go(rtl ? idx - 1 : idx + 1);
+    else if (e.key === "ArrowLeft") go(rtl ? idx + 1 : idx - 1);
+    else if (e.key === "g" || e.key === "G") showGrid(!grid.classList.contains("show"));
+    else if (e.key === "Escape") showGrid(false);
+    else if (e.key === "Home") go(0);
+    else if (e.key === "End") go(PAGES.length - 1);
+  });
+
+  var touchX = null;
+  reader.addEventListener("touchstart", function (e) { touchX = e.changedTouches[0].clientX; }, { passive: true });
+  reader.addEventListener("touchend", function (e) {
+    if (touchX === null) return;
+    var dx = e.changedTouches[0].clientX - touchX;
+    touchX = null;
+    if (Math.abs(dx) < 50) return;
+    var forward = rtl ? dx > 0 : dx < 0;
+    go(forward ? idx + 1 : idx - 1);
+  }, { passive: true });
+
+  function fromHash() {
+    var h = location.hash;
+    if (h === "#cover") idx = 0;
+    else if (/^#p\d+$/.test(h)) idx = clamp(parseInt(h.slice(2), 10));
+  }
+  window.addEventListener("hashchange", function () { fromHash(); render(); });
+  fromHash();
+  buildGrid();
+  render();
+</script>
+</body>
+</html>
