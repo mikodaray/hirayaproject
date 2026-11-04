@@ -1,10 +1,10 @@
-# Protagonist (name OPEN)
+# Nikki Sharon Legazpi
 
-Role: main protagonist
-Status: draft, waiting for first details
+Role: friend of the protagonist
+Status: draft, names only so far
 
 ## Basics
-- Full name and nicknames: OPEN
+- Full name and nicknames: Nikki Sharon Legazpi, goes by Nikki
 - Age: OPEN
 - Where they are from: OPEN
 - Social class or station: OPEN
@@ -15,6 +15,8 @@ Status: draft, waiting for first details
 - Face and hair: OPEN
 - Clothing and signature items: OPEN
 - Distinct marks or details: OPEN
+
+Cover concept notes: the cover shows three friends behind Jeff, a girl with long hair in a grey hoodie, a bigger guy in a green hoodie, and a guy with glasses and headphones. The girl is most likely Nikki. Confirm.
 
 ## Personality
 - Core traits: OPEN
@@ -39,7 +41,9 @@ Status: draft, waiting for first details
 - Key past events: OPEN
 
 ## Relationships
-- OPEN
+- Jeff Victorio: friend
+- Hal Bautista: friend
+- Mel Charlie Abaldado: friend
 
 ## Story arc
 - Start: OPEN
@@ -47,6 +51,5 @@ Status: draft, waiting for first details
 - End: OPEN
 
 ## Open questions
-- What is the protagonist's name?
-- What era and place do they live in?
-- What pushes them to begin the adventure?
+- What is Nikki like, and what does she bring to the group?
+- Is she only a friend, or does the story give her a bigger role?
