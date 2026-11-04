@@ -40,31 +40,37 @@ If you only want one splash page, we can fold page 7 into a normal layout.
 ## Story facts used here
 DECIDED by the creator:
 - Agimats exist all over the world. There are 10 in the Philippines, which ancient Filipinos called the Sangkapuluan.
-- Jeff's father gave him a necklace when Jeff turned 18.
+- Jeff's father gave him a necklace when Jeff turned 18, and the necklace is one of the ten Agimats.
 - The story is set in Butuan, 1001 to 1009, with history as flavor.
+- The four are put in the storage room as detention.
+- The four speak Bisaya at home. The people of Butuan speak an older Bisaya, with words the future no longer uses, so it is hard to understand. This causes funny misunderstandings. All dialogue is written in English.
 
-Whether the necklace is one of the ten Agimats, and whether the bamboo tube is an Agimat, are OPEN. This draft hints that the necklace is one of them, because the elder recognizes it. Please confirm or change that.
+Still OPEN: whether the bamboo tube is also an Agimat.
+
+## Language rule used in the pages
+- Dialogue is always written in English.
+- Spoken Bisaya from the four is shown in plain English with a caption note when it matters.
+- The people of Butuan speak in [brackets], also in English.
+- Two funny misunderstanding scenes: page 34 ("friends" sounds like "fish bait") and page 39 ("visitors" sounds like "ghosts"). The elder fixes it on page 39.
 
 ## Things I invented for this draft (confirm, change, or cut)
-- Detention in the east building as the reason the four are together
 - Sir Archie warning them about the cabinets, and his look at Jeff's necklace
 - The tube is found in a locked cabinet that opens when the necklace flares
 - Jeff can read some Baybayin because he studies it for fun
 - Mel plays along while Jeff reads, and music calms the warriors in Butuan
-- Jeff, Hal, Mel, and Nikki speak Bisaya, so they partly understand the people of Butuan. This is an idea to explain the language, and it needs a native speaker to check.
 - The tube vanishes when they land, and the way home is unknown
 - The year 1003 as the arrival year
 - The Rajah is based on Kiling, and the elder advisor is invented
 - The elder warns that not all ten Agimats are friendly
 - Nikki softens a little toward Hal after the fall
 - The father's flashback line: "Keep this close, anak. Never take it off."
+- The two misunderstanding jokes (fish bait and ghosts)
 
 ## Open questions
-1. Is the necklace one of the ten Agimats?
-2. Should detention be the reason they enter the storage room, or would you rather have them find the tube another way?
-3. Is Bisaya the home language of the four, and do you want modern Bisaya words in the dialogue?
-4. Do you want Nikki to soften this early, or stay hostile longer?
-5. Is the ending, the Rajah demanding the necklace, what you want for the first hook?
-6. Do you want one splash page or both?
-7. What is Jeff's father's name, and is he alive and in the story?
-8. Which grade or year are the four in? This only matters for the homeroom scenes.
+1. Do you want Nikki to soften this early, or stay hostile longer?
+2. Is the ending, the Rajah demanding the necklace, what you want for the first hook?
+3. Do you want one splash page or both?
+4. What is Jeff's father's name, and is he alive and in the story?
+5. Which grade or year are the four in? This only matters for the homeroom scenes.
+6. Is the bamboo tube also an Agimat?
+7. Do you want more language jokes later in the chapter?

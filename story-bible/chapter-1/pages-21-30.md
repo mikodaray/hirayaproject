@@ -155,7 +155,8 @@ CHILD: [Strangers! They fell from the sky!]
 
 **4. MEDIUM.** Hal.
 HAL: "Did he just say sky?"
-JEFF: "I understood him. It sounded like old Bisaya."
+JEFF: "I understood him. It's Bisaya, but with words nobody uses anymore."
+HAL: "I only understood half of that."
 
 **5. SMALL.** Nikki.
 NIKKI: "Okay. Where are we?"

@@ -42,4 +42,6 @@ How names, titles, and terms will be written: OPEN
 - DECIDED: Agimats exist all around the world. They are protective charms with powers of their own.
 - DECIDED: there are 10 Agimats in the Philippines. Ancient Filipinos called the islands the Sangkapuluan.
 - OPEN: names and powers of the ten Agimats, who holds them, and whether they are all friendly.
-- OPEN: whether Jeff's necklace is one of the ten, and whether the bamboo tube is an Agimat. The chapter 1 draft hints that the necklace is one of them.
+- DECIDED: Jeff's necklace is one of the ten Agimats.
+- OPEN: whether the bamboo tube is also an Agimat.
+- DECIDED: the four main characters speak Bisaya at home. The people of Butuan speak an older Bisaya with words that have since changed or disappeared, so the four only partly understand them and funny misunderstandings happen. All dialogue is written in English.

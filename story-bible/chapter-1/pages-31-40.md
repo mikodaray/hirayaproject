@@ -54,23 +54,25 @@ Layout: wide panel, two small panels, a medium panel, a large panel at the botto
 
 ---
 
-## Page 34 (6 panels): Tense
+## Page 34 (6 panels): Tense, and the first misunderstanding
 Layout: small panel, medium panel, two small panels, a small panel, a large panel at the bottom.
 
 **1. SMALL.** Hal, behind Jeff.
 HAL: "Jeff. Spears."
 
-**2. MEDIUM.** Jeff raises his hands slowly, cool as ever, and tries an old word.
-JEFF: "Maayong buntag?"
-(Good morning, in Bisaya. TO CHECK with a native Bisaya speaker.)
+**2. MEDIUM.** Jeff raises his hands slowly, cool as ever, and speaks slowly in Bisaya (shown here in English).
+JEFF: "Good morning! We are friends!"
+CAPTION: "(Jeff used the modern Bisaya word for 'friends'. In the old tongue it sounds like their word for 'fish bait'.)"
 
-**3. SMALL.** The warrior, confused.
-WARRIOR: [What is he saying?]
+**3. SMALL.** The lead warrior, frowning.
+WARRIOR: [Bait? He says they are bait?]
 
-**4. SMALL.** Nikki hides behind Mel, voice tiny.
+**4. SMALL.** A second warrior eyes them up and down.
+WARRIOR 2: [Bait for what? For us?]
+HAL: "Why are they looking at us like lunch?"
+
+**5. SMALL.** Nikki hides behind Mel, voice tiny.
 NIKKI: "Mel. Do something."
-
-**5. SMALL.** Mel.
 MEL: "What can I do?"
 NIKKI: "ANYTHING!"
 
@@ -162,7 +164,7 @@ She bows, fast.
 
 ---
 
-## Page 39 (6 panels): Audience
+## Page 39 (6 panels): Audience, and the second misunderstanding
 Layout: wide panel, two small panels, a medium panel, a small panel, a small panel.
 
 **1. WIDE.** The four kneel in a line, wet, muddy, in school uniforms. A strong contrast with the gold hall.
@@ -170,16 +172,20 @@ Layout: wide panel, two small panels, a medium panel, a small panel, a small pan
 **2. SMALL.** The Rajah.
 RAJAH: [Who are you, who arrive on my river with no boat?]
 
-**3. SMALL.** Jeff, catching meaning.
+**3. SMALL.** Jeff, catching the meaning.
 JEFF: "He's asking who we are."
 
-**4. MEDIUM.** Jeff stands halfway and speaks in slow, simple words.
-JEFF: "Ako si Jeff. Higala mi."
-(I am Jeff. We are friends. TO CHECK with a Bisaya speaker.)
+**4. MEDIUM.** Jeff stands halfway and speaks in slow, careful Bisaya (shown in English).
+JEFF: "I am Jeff. We are only visitors."
+CAPTION: "(Jeff's word for 'visitors' is now their word for 'ghosts'. Words change a lot in a thousand years.)"
 
-**5. SMALL.** The court murmurs at the strange modern sounds.
+**5. SMALL.** The court erupts. A man drops his basket.
+COURT: [GHOSTS!]
+HAL: "What did you say?!"
+JEFF: "I said visitors!"
 
-**6. SMALL.** The Rajah's eyes fix on Jeff's chest.
+**6. SMALL.** The Rajah is unbothered, eyes fixed on Jeff's chest. The elder leans in and whispers to him.
+ELDER: [The boy means guests. The word has moved with the years.]
 
 ---
 

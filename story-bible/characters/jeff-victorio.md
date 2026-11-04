@@ -14,7 +14,7 @@ Status: draft
 - Height and build: 5'10", tall and lean (DECIDED)
 - Face and hair: ube colored (purple) hair (DECIDED)
 - Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
-- Distinct marks or details: a necklace his father gave him when he turned 18 (DECIDED), design OPEN
+- Distinct marks or details: a necklace his father gave him when he turned 18, one of the ten Agimats (DECIDED), design OPEN
 
 ## Personality
 - Core traits: the cool guy of the group, but kind of nerdy (DECIDED)
@@ -64,5 +64,5 @@ The first generated cover (art/01-cover-concept-vol1.png) no longer matches the 
 - Which grade or year are they in? Jeff is 19 and it is a high school, so is that senior high?
 - What does Jeff want, and what is his flaw?
 - What are his sisters' names, and what are they like?
-- Is the necklace one of the ten Agimats of the Sangkapuluan?
+- What does the necklace do, and what is its name? (It is one of the ten Agimats of the Sangkapuluan, DECIDED.)
 - What is the glowing bamboo tube, and where does he find it?

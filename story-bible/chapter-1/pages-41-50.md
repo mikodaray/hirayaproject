@@ -192,8 +192,8 @@ MEL: "It's your father's."
 **4. MEDIUM.** Jeff closes his hand on the necklace. A flash of his father's hands in the flashback box. The elder watches him closely.
 
 **5. LARGE.** Jeff takes one step forward, in front of his friends. Same stance as Page 7. Calm smirk.
-JEFF: "Dili, Rajah."
-(No, Rajah. TO CHECK with a Bisaya speaker.)
+JEFF: "No, Rajah."
+(Spoken in Bisaya, shown here in English.)
 
 ---
 
