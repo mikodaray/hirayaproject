@@ -2,10 +2,11 @@
 
 Status: DRAFT, not yet generated
 Aspect ratio: 4:3 landscape
+Use: manga chapter cover page.
 Idea: low angle wide lens group shot. Jeff is cool and calm in the foreground, the other three are animated and funny.
 
 ## Prompt
-Manga color illustration, shonen style, wide landscape composition, aspect ratio 4:3, bold clean ink linework, vivid colors, dynamic low angle wide lens perspective with strong depth. The nearest character looms large toward the camera, and the other characters are arranged behind him on a diagonal, receding into the scene. Setting: the grounds of a Philippine public high school in bright midday sun, a concrete school building with louvered windows and a covered walkway, a flagpole, tropical trees including a durian tree, a courtyard with a wooden bench, long soft shadows, warm light.
+Manga chapter cover page illustration for the series Hiraya, shonen style, wide landscape composition, aspect ratio 4:3, bold clean ink linework, vivid colors, dynamic low angle wide lens perspective with strong depth. The nearest character looms large toward the camera, and the other characters are arranged behind him on a diagonal, receding into the scene. Setting: the grounds of a Philippine public high school in bright midday sun, a concrete school building with louvered windows and a covered walkway, a flagpole, tropical trees including a durian tree, a courtyard with a wooden bench, long soft shadows, warm light.
 
 Four teenage Filipino students in school uniform. The boys wear a blue short sleeved buttoned shirt and khaki pants. The girl wears an all white short sleeved blouse and a white skirt.
 
@@ -19,8 +20,8 @@ Seated on the bench in the background, Mel: the tallest and biggest, about 6 fee
 
 Dynamics: Jeff stands between Hal and Nikki and protects Hal. Nikki is the one picking on Hal. Mel's music makes the tension look funny. Hal, Nikki, and Mel have exaggerated manga comedy expressions, while Jeff stays composed.
 
-Mood: funny, warm, friendship, cool. Do not include any readable text, letters, watermark, or logo. Avoid extra fingers, deformed hands, blurry or low quality results, ninja outfits, headbands, anime sailor school uniforms, western fantasy, and copies of any existing characters or franchises.
+Mood: funny, warm, friendship, cool. Leave clean empty space near the top or one side for the chapter title. Do not include any readable text, letters, watermark, or logo. Avoid extra fingers, deformed hands, blurry or low quality results, ninja outfits, headbands, anime sailor school uniforms, western fantasy, and copies of any existing characters or franchises.
 
 ## Variants
 - Black and white manga look: replace "vivid colors" with "black and white ink, screentone shading, high contrast".
-- Chapter cover use: add "leave empty space at the top for the title".
+- Vertical cover: change the aspect ratio to 2:3 and stack the characters along the diagonal from bottom to top.
