@@ -11,14 +11,14 @@ Status: draft
 - Occupation or role in society: student at Durian Public High School in Durian City (DECIDED)
 
 ## Look (for the art)
-- Height and build: OPEN
-- Face and hair: OPEN
+- Height and build: curvy, fuller figure (DECIDED by the creator). Draw it naturally and modestly, never as fan service. Height OPEN (draft: about 5'4")
+- Face and hair: brown hair, pretty (DECIDED by the creator)
 - Uniform: all white blouse and skirt (DECIDED)
 - Distinct marks or details: OPEN
 
 ## Personality
-- Core traits: popular, always surrounded by other girls, bullies Jeff and Hal (DECIDED)
-- Habits and quirks: OPEN
+- Core traits: pretty, more of a comedian than a mean girl (DECIDED by the creator), popular, always surrounded by other girls, bullies Jeff and Hal (DECIDED)
+- Habits and quirks: loves a joke and a big reaction. Her humor can grow through the story and softens how she reads (DECIDED that she is a comedian, details OPEN)
 - How she speaks: OPEN
 - Fears: OPEN
 - Values and beliefs: OPEN
