@@ -14,6 +14,8 @@ Status: draft
 - Height and build: 5'0" flat, lean, significantly shorter than Jeff (DECIDED)
 - Face and hair: brown hair, glasses, looks cute (DECIDED)
 - Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
+- Reference sheet (creator generated): art/characters/02-hal-sheet-v1.png. Use it as the image reference for all future art.
+- Colors on the sheet: messy chestnut brown hair, big round thin black framed glasses, big brown eyes, tan skin, school blue shirt a little big on him, khaki tan pants, black loafers, big black backpack
 - Distinct marks or details: OPEN
 
 ## Personality
