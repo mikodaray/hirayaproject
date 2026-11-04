@@ -13,6 +13,8 @@ Status: draft
 ## Look (for the art)
 - Height and build: curvy, fuller figure (DECIDED by the creator). Draw it naturally and modestly, never as fan service. Height OPEN (draft: about 5'4")
 - Face and hair: brown hair, pretty (DECIDED by the creator)
+- Reference sheet (creator generated): art/characters/04-nikki-sheet-v1.png. Use it as the image reference for all future art.
+- Colors on the sheet: long wavy chestnut brown hair with a side part and a white hair clip, tan skin, dark brown eyes, white short sleeved collared blouse, white pleated skirt, white sneakers, playful smirk
 - Uniform: all white blouse and skirt (DECIDED)
 - Distinct marks or details: OPEN
 

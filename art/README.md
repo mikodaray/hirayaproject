@@ -46,3 +46,4 @@ Prompts with dialogue for all 50 pages: prompts/ch1-pages-all-with-dialogue.md (
 | 1 | characters/01-jeff-sheet-v1.png | Jeff full color reference sheet (front, side, back, face, expressions, details), made by the creator from prompts/02-character-reference-sheets.md | 2026-11-05 |
 | 2 | characters/02-hal-sheet-v1.png | Hal first sheet, cropped from a two person image (replaced by v2) | 2026-11-05 |
 | 2 | characters/02-hal-sheet-v2.png | Hal full color reference sheet, one character only, approved by the creator (current version) | 2026-11-05 |
+| 4 | characters/04-nikki-sheet-v1.png | Nikki full color reference sheet, one character only, chosen by the creator | 2026-11-05 |
