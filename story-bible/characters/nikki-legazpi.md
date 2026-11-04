@@ -6,9 +6,9 @@ Status: draft
 ## Basics
 - Full name and nicknames: Nikki Sharon Legazpi, goes by Nikki
 - Age: OPEN
-- Where they are from: OPEN (school is in Durian City)
+- Where they are from: OPEN (attends Durian Public High School in Durian City)
 - Social class or station: OPEN
-- Occupation or role in society: student at a school in Durian City (level, college or senior high: OPEN)
+- Occupation or role in society: student at Durian Public High School in Durian City (DECIDED)
 
 ## Look (for the art)
 - Height and build: OPEN

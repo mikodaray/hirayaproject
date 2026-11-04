@@ -8,7 +8,7 @@ Status: draft
 - Age: 19
 - Where they are from: Durian City, Mindanao (school is there, home to confirm)
 - Social class or station: OPEN
-- Occupation or role in society: student at a school in Durian City (level, college or senior high: OPEN)
+- Occupation or role in society: student at Durian Public High School in Durian City (DECIDED)
 
 ## Look (for the art)
 - Height and build: 5'10", tall and lean (DECIDED)
@@ -59,7 +59,7 @@ Status: draft
 The first generated cover (art/01-cover-concept-vol1.png) no longer matches the cast designs below, so those cover looks are outdated. Regenerate the cover once the designs are final.
 
 ## Open questions
-- Is the school college or senior high?
+- Which grade or year are they in? Jeff is 19 and it is a high school, so is that senior high?
 - What does Jeff want, and what is his flaw?
 - What are his sisters' names, and what are they like?
 - What is the glowing bamboo tube, and where does he find it?
