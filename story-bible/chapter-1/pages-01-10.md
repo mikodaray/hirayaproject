@@ -1,6 +1,7 @@
 # Chapter 1 Storyboard: Pages 1 to 10
 
 Status: DRAFT. Part 1 of 5. Introduces the four main characters, the bully conflict, the splash page for Jeff, and the start of homeroom.
+Reading direction: right to left. Left and right placements below are already mirrored for that.
 Panel sizes: WIDE = full width strip, LARGE = about half the page, TALL = vertical strip, SMALL = about one sixth, INSET = tiny panel on top of another.
 
 ---
@@ -11,9 +12,9 @@ Layout: wide strip on top, a tall panel and a small panel side by side in the mi
 **1. WIDE, top third.** Dawn over Durian City, a state of the art city like Makati. Glass towers catching the golden sunrise, wide avenues, colorful jeepneys driving along them, a few palm and durian trees along the street.
 CAPTION: "Durian City, Mindanao. 6:42 AM."
 
-**2. TALL, middle left.** The gate of Durian Public High School. Flag, painted sign, students trickling in, the modern skyline behind the school.
+**2. TALL, middle right.** The gate of Durian Public High School. Flag, painted sign, students trickling in, the modern skyline behind the school.
 
-**3. SMALL, middle right.** Close up: a necklace swinging against a blue uniform shirt. One tiny glint. No explanation.
+**3. SMALL, middle left.** Close up: a necklace swinging against a blue uniform shirt. One tiny glint. No explanation.
 
 **4. LARGE LOW ANGLE, bottom half.** Jeff walks toward the camera. Ube colored hair in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless.
 CAPTION: "Jefferson Victorio. Nineteen. Everyone says he's the cool one."
@@ -22,7 +23,7 @@ CAPTION: "Nobody mentions he reads about ancient spirits for breakfast."
 ---
 
 ## Page 2 (5 panels): Meet Hal
-Layout: wide strip on top, two small panels, then a tall panel on the right and a large panel on the left.
+Layout: wide strip on top, two small panels, then a tall panel on the left and a large panel on the right.
 
 **1. WIDE, top.** Behind Jeff, a tiny figure sprints through the crowd, a backpack bigger than he is.
 SFX: TAP TAP TAP TAP
@@ -34,10 +35,10 @@ JEFF: "Three. Two. One."
 SFX: THUD
 HAL: "JEFF! Wait up!"
 
-**4. TALL, right.** Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended.
+**4. TALL, left.** Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended.
 HAL: "You walked past the bakery again! I texted you six times!"
 
-**5. LARGE, left.** The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy.
+**5. LARGE, right.** The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy.
 HAL: "I got your favorite."
 JEFF: "You're a legend."
 CAPTION: "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."
@@ -45,11 +46,11 @@ CAPTION: "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any
 ---
 
 ## Page 3 (6 panels): Meet Mel
-Layout: wide strip on top, a tall panel on the left, three stacked small panels in the middle, a large panel at the bottom.
+Layout: wide strip on top, a tall panel on the right, three stacked small panels in the middle, a large panel at the bottom.
 
 **1. WIDE, top.** Violin music drifts across the school grounds. Students stop on the stairs. Glowing musical notes weave through the air.
 
-**2. TALL, left.** Mel on the school steps, eyes closed, long blonde hair over his shoulder, violin tucked under his chin. A very big, very gentle guy.
+**2. TALL, right.** Mel on the school steps, eyes closed, long blonde hair over his shoulder, violin tucked under his chin. A very big, very gentle guy.
 
 **3. SMALL.** Jeff and Hal arrive at the bottom of the steps. Hal waves with the pandesal bag.
 

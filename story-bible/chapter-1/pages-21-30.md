@@ -106,7 +106,7 @@ JEFF: "Then hold your breath!"
 ---
 
 ## Page 27 (5 panels): Splash
-Layout: one tall panel on the left, four stacked small panels on the right.
+Layout: one tall panel on the right, four stacked small panels on the left.
 
 **1. TALL.** The impact. A huge splash on the river. Birds scatter.
 SFX: SPLOOOSH

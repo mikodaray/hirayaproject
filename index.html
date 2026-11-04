@@ -128,7 +128,7 @@
   <div class="controls" role="group" aria-label="Reader options">
     <button id="btnReader" class="active" type="button">Reader</button>
     <button id="btnGrid" type="button">All pages</button>
-    <button id="btnDir" type="button" aria-pressed="false" title="Reading direction is not decided yet. Switch to right to left if the book reads like Japanese manga.">Right to left</button>
+    <button id="btnDir" type="button" aria-pressed="false" title="Hiraya reads from right to left, like a real manga. Press to switch to left to right.">Right to left</button>
   </div>
 </header>
 
@@ -141,18 +141,18 @@
     </div>
     <div class="meta" id="meta"></div>
     <div class="progress" aria-hidden="true"><div id="bar"></div></div>
-    <div class="hint">Use the left and right arrow keys, or swipe. Press G for all pages.</div>
+    <div class="hint">Reads right to left like a manga: press the left arrow or swipe right to go forward. Press G for all pages.</div>
   </section>
 
   <section id="grid" aria-label="All pages">
     <h2>All pages</h2>
-    <p>Cover first, then pages 1 to 50. Pages that are not drawn yet show a placeholder.</p>
+    <p>Cover first, then pages 1 to 50, ordered right to left. Pages that are not drawn yet show a placeholder.</p>
     <div class="cards" id="cards"></div>
   </section>
 </main>
 
 <footer>
-  Hiraya by Miko. Draft artwork made with AI image tools and edited by hand. Images here are preview copies, use the full size links for the best quality.
+  Hiraya by Miko. Draft artwork made with AI image tools. Images here are preview copies, use the full size links for the best quality.
 </footer>
 
 <script>
@@ -178,7 +178,7 @@
   })();
 
   var idx = 0;
-  var rtl = false;
+  var rtl = true; // DECIDED: the book reads right to left, like a real manga
   var sheet = document.getElementById("sheet");
   var meta = document.getElementById("meta");
   var bar = document.getElementById("bar");
@@ -190,7 +190,7 @@
   var btnGrid = document.getElementById("btnGrid");
   var btnDir = document.getElementById("btnDir");
 
-  try { rtl = localStorage.getItem("hiraya-rtl") === "1"; } catch (e) {}
+  try { var saved = localStorage.getItem("hiraya-dir"); if (saved === "ltr") rtl = false; } catch (e) {}
 
   function clamp(v) { return Math.max(0, Math.min(PAGES.length - 1, v)); }
 
@@ -233,6 +233,8 @@
     var stage = sheet.parentNode;
     order.forEach(function (el) { stage.appendChild(el); });
     btnDir.setAttribute("aria-pressed", rtl ? "true" : "false");
+    btnDir.textContent = rtl ? "Right to left" : "Left to right";
+    document.getElementById("cards").style.direction = rtl ? "rtl" : "ltr";
     document.title = p.label + " | Hiraya Reader";
     if (history.replaceState) history.replaceState(null, "", "#" + (idx === 0 ? "cover" : "p" + idx));
   }
@@ -266,7 +268,7 @@
   btnGrid.addEventListener("click", function () { showGrid(true); });
   btnDir.addEventListener("click", function () {
     rtl = !rtl;
-    try { localStorage.setItem("hiraya-rtl", rtl ? "1" : "0"); } catch (e) {}
+    try { localStorage.setItem("hiraya-dir", rtl ? "rtl" : "ltr"); } catch (e) {}
     render();
   });
 

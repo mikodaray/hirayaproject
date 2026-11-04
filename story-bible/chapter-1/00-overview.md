@@ -1,7 +1,7 @@
 # Chapter 1: Overview and Page Plan
 
 Status: DRAFT storyboard, 50 pages, written for the creator to review. Nothing here is final until the creator confirms it.
-DECIDED by the creator: Chapter 1 is 50 pages, the first pages introduce the four main characters, the layout should be dynamic with some panels bigger than others, and there should be a one page image for a point or a grand event.
+DECIDED by the creator: Chapter 1 is 50 pages, black and white, read right to left, the first pages introduce the four main characters, the layout should be dynamic with some panels bigger than others, and there should be a one page image for a point or a grand event.
 Everything else here is a DRAFT suggestion.
 
 Working title (DRAFT): "Read It Out Loud"
@@ -35,7 +35,8 @@ If you only want one splash page, we can fold page 7 into a normal layout.
 - Big panels for reveals, small panels for reactions and jokes, thin strips for silence and tension.
 - Jeff stays calm and cool in every scene. The other three have exaggerated, animated reactions.
 - Page 49 repeats the stance from page 7, so the ending echoes Jeff's first big moment.
-- Reading direction is still OPEN. If the book reads right to left, mirror the layouts.
+- Reading direction is DECIDED: right to left. Layouts are written for right to left reading, so in each row the first panel is on the right.
+- Chapter pages are black and white with screentone (DECIDED).
 
 ## Story facts used here
 DECIDED by the creator:
