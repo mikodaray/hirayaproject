@@ -8,10 +8,10 @@ Panel sizes: WIDE = full width strip, LARGE = about half the page, TALL = vertic
 ## Page 1 (4 panels): Opening, meet Jeff
 Layout: wide strip on top, a tall panel and a small panel side by side in the middle, a large panel at the bottom.
 
-**1. WIDE, top third.** Dawn over Durian City. Hills of durian trees, tricycles and jeepneys, tin roofs catching the light.
+**1. WIDE, top third.** Dawn over Durian City, a state of the art city like Makati. Glass towers catching the golden sunrise, wide avenues, colorful jeepneys driving along them, a few palm and durian trees along the street.
 CAPTION: "Durian City, Mindanao. 6:42 AM."
 
-**2. TALL, middle left.** The gate of Durian Public High School. Flag, painted sign, students trickling in.
+**2. TALL, middle left.** The gate of Durian Public High School. Flag, painted sign, students trickling in, the modern skyline behind the school.
 
 **3. SMALL, middle right.** Close up: a necklace swinging against a blue uniform shirt. One tiny glint. No explanation.
 
