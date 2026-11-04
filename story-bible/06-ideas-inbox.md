@@ -29,3 +29,7 @@ Drop any raw idea here, even half formed. We sort them into the other docs later
 - In this universe there are Agimats around the world. There are 10 in the Philippines, which ancient Filipinos called the Sangkapuluan.
 - When Jeff turned 18, his father gave him a necklace.
 - Chapter 1 is 50 pages. Draft storyboard is in story-bible/chapter-1/.
+
+## 2026-11-05
+- DECIDED: Hal is good at math and science, and he brings technology know how back to the past in Butuan. Ideas to try (DRAFT, not decided): clean water filtering, better boat or sail design, simple lenses, using trade goods and metals he sees in the market.
+

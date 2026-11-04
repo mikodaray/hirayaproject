@@ -19,7 +19,7 @@ Status: draft
 - Distinct marks or details: OPEN
 
 ## Personality
-- Core traits: OPEN
+- Core traits: smart, strong in math and science (DECIDED by the creator)
 - Habits and quirks: OPEN
 - How he speaks: OPEN
 - Fears: OPEN
@@ -33,13 +33,14 @@ Status: draft
 - Secret: OPEN
 
 ## Skills and abilities
-- Strengths: OPEN
+- Strengths: good at math and science (DECIDED by the creator)
 - Weapons or tools: OPEN
 - Weaknesses: OPEN
 
 ## Background
 - Family: OPEN
 - Key past events: OPEN
+- Role in the Butuan arc: Hal is the one who brings modern technology know how back to the past, using his math and science (DECIDED by the creator). Specific inventions and how he uses them: OPEN
 
 ## Relationships
 - Jeff Victorio: best friend, defends Hal from Nikki
@@ -56,6 +57,7 @@ Status: draft
 The first generated cover (art/01-cover-concept-vol1.png) no longer matches the cast designs below, so those cover looks are outdated. Regenerate the cover once the designs are final.
 
 ## Open questions
+- What does Hal build or fix in Butuan first, and with what materials? (Ideas go in story-bible/06-ideas-inbox.md.)
 - What is Hal like, and what does he bring to the group?
 - How does he handle Nikki, and does it change?
 - How old is he?
