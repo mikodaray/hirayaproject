@@ -14,6 +14,9 @@ Status: draft
 - Height and build: 5'10", tall and lean (DECIDED)
 - Face and hair: ube colored (purple) hair (DECIDED)
 - Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
+- Reference sheet (creator generated): art/characters/01-jeff-sheet-v1.png. Use it as the image reference for all future art.
+- Colors on the sheet: ube purple messy hair falling over one eye, tan skin, dark brown eyes, school blue shirt with the top button open, khaki tan pants, black loafers, black single strap backpack
+- Necklace on the sheet: a small purple gray carved stone charm on a thin chain, with runes on it (design still OPEN, the creator can change it)
 - Distinct marks or details: a necklace his father gave him when he turned 18, one of the ten Agimats (DECIDED), design OPEN
 
 ## Personality

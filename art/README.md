@@ -40,3 +40,7 @@ Dialogue, captions and sound effects are not burned into the images. They live i
 Reference sheets go in characters/. Prompts to make them: prompts/02-character-reference-sheets.md. Attach the saved sheets as references in later generations.
 
 Prompts with dialogue for all 50 pages: prompts/ch1-pages-all-with-dialogue.md (replaces the no text prompts for new generations).
+
+| # | File | What it is | Added |
+|---|------|------------|-------|
+| 1 | characters/01-jeff-sheet-v1.png | Jeff full color reference sheet (front, side, back, face, expressions, details), made by the creator from prompts/02-character-reference-sheets.md | 2026-11-05 |
