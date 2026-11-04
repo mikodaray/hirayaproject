@@ -12,3 +12,4 @@ Generated and drawn art for Hiraya. Files are numbered in the order they were ad
 
 Note: the cast designs changed after this cover (Jeff has ube colored hair, Mel has long blonde hair, uniforms are blue shirts and khakis). Regenerate the cover when designs are final.
 | 3 | 03-cast-group-scene-v1-title.png | Same scene with the title added in Latin letters styled like Baybayin (needs review, lettering may not read as Hiraya) | 2026-11-05 |
+| 4 | 04-cast-group-scene-v2-hiraya-title.png | Scene with the title reading Hiraya and Hal made a bit bigger in the frame, then a little smaller (current version, Canva media id MAHZ_AlKdYo) | 2026-11-05 |
