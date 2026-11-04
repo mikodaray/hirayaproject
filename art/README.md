@@ -38,3 +38,5 @@ Dialogue, captions and sound effects are not burned into the images. They live i
 
 ## Characters
 Reference sheets go in characters/. Prompts to make them: prompts/02-character-reference-sheets.md. Attach the saved sheets as references in later generations.
+
+Prompts with dialogue for all 50 pages: prompts/ch1-pages-all-with-dialogue.md (replaces the no text prompts for new generations).
