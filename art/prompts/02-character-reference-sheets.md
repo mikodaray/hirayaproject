@@ -19,8 +19,14 @@ Jefferson "Jeff" Victorio, 19 years old, tall and lean, 5 foot 10, the cool guy 
 Expression row: calm smirk, nerd excitement with sparkling eyes, serious protective glare, mild surprise, small shy smile.
 
 ## 2. Hal (Hal Bautista), Jeff's best friend
-Hal Bautista, teenage boy, exactly 5 foot flat, very short and lean, looks cute, the shortest of the four. Messy brown hair, big round glasses, large expressive eyes, a small nose, a round youthful face. School uniform: blue short sleeved buttoned shirt that looks slightly big on him, khaki pants, an oversized backpack that looks bigger than he is. Energetic pose, one arm raised, mouth open mid shout. Draw a small height scale bar next to him so the proportions stay correct next to Jeff.
-Expression row: loud complaint, big laugh, scared with tiny pupils, blurry no glasses squint, embarrassed blush.
+Lesson learned: do not mention Jeff, a height in feet, or a scale bar in the prompt. The generator then draws a second person and a height chart. Describe Hal's size by proportions only. Add the group height check later using both sheets as references.
+```
+Manga character reference sheet in full color, hand drawn with bold ink pen linework and flat cel style coloring with simple shading, in the style of a classic shonen manga like Naruto. Not realistic, not 3D, not painted. Plain white background. This sheet contains exactly ONE character, a single boy, and nobody else. Full body of this one boy shown three times in a row: front view, side view, back view, all standing straight at the same height. Next to them a large close up of his face and a row of five small head studies showing loud complaint, big laugh, scared with tiny pupils, squinting without glasses, and embarrassed blush. Small arrows pointing to key details. No height chart, no scale bar, no comparison silhouette, no color swatches, no readable text, no labels, no numbers, no logos. Setting of the story: modern Philippines. Use the exact colors given below.
+
+Character: Hal, a cute teenage boy with a very small childlike frame, slim, short legs, and a head that looks big compared to his body. Warm chestnut brown hair, messy and soft. Big round glasses with thin black frames, large bright brown eyes, a small nose, a round youthful face. School uniform: school blue short sleeved buttoned shirt that is a little too big for him, khaki tan pants, plain black school shoes, and a backpack that looks too big for his small body. Standing pose: energetic, one arm raised, mouth open mid shout.
+
+Avoid a second person, tall adult proportions, height markings, realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
+```
 
 ## 3. Mel (Mel Charlie Abaldado), the musical genius
 Mel Charlie Abaldado, teenage boy, 6 foot 2, big and on the heavy side, but gentle looking with soft rounded features and a kind face. Long golden blonde hair past the shoulders, calm closed or soft eyes. School uniform: blue short sleeved buttoned shirt, khaki pants. He always carries a violin, with the bow, in the standing view tucked under his arm and in one view played under his chin. He is the tallest and widest of the four.
