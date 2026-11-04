@@ -1,6 +1,6 @@
 # Prompt 01: Cast group scene on campus
 
-Status: DRAFT, not yet generated
+Status: generated once, result saved as art/02-cast-group-scene-v1.png (needs review)
 Aspect ratio: 4:3 landscape
 Use: manga chapter cover page.
 Idea: low angle wide lens group shot. Jeff is cool and calm in the foreground, the other three are animated and funny.
