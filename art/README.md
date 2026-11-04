@@ -20,4 +20,5 @@ Generated manga pages go in the pages/ folder, named ch1-page-NN-vN.png.
 
 | Page | File | Notes | Added |
 |------|------|-------|-------|
-| 1 | pages/ch1-page-01-v1.png | First version, four panels, no text yet, Canva media id MAHZ_F1hzqw (small preview copy, full size in Canva) | 2026-11-05 |
+| 1 | pages/ch1-page-01-v1.png | First version, replaced by v2 (older style, old city), Canva media id MAHZ_F1hzqw | 2026-11-05 |
+| 1 | pages/ch1-page-01-v2.png | Version 2: hand drawn style, modern Makati like Durian City with jeepneys, Canva media id MAHZ_PojTv8 (small preview copy, full size in Canva) | 2026-11-05 |

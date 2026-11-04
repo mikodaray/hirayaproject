@@ -1,6 +1,6 @@
 # Prompt: Chapter 1, Page 1
 
-Status: version 1 generated as art/pages/ch1-page-01-v1.png, version 2 being generated after the hand drawn and modern city updates. Reference image used for Jeff's design: art/03 and the cover scene in Canva (media id MAHZ-8y7fbM).
+Status: version 1 generated as art/pages/ch1-page-01-v1.png, version 2 saved as art/pages/ch1-page-01-v2.png (hand drawn, modern city). Reference image used for Jeff's design: art/03 and the cover scene in Canva (media id MAHZ-8y7fbM).
 Aspect ratio: 2:3 portrait
 Storyboard: story-bible/chapter-1/pages-01-10.md, Page 1
 Text (captions) is added later in Canva, so the image has none.
