@@ -5,7 +5,7 @@ Status: draft, names only so far
 
 ## Basics
 - Full name and nicknames: Jefferson Victorio, goes by Jeff
-- Age: OPEN
+- Age: 19
 - Where they are from: OPEN
 - Social class or station: OPEN
 - Occupation or role in society: OPEN
@@ -41,10 +41,17 @@ These are from the generated concept art. Confirm which parts are canon.
 - Weaknesses: OPEN
 
 ## Background
-- Family: OPEN
+- Family: three sisters, Jeff is the second oldest of four siblings
+  - Older sister, 23 (name OPEN)
+  - Younger sister, 18 (name OPEN)
+  - Youngest sister, 7 (name OPEN)
+- Parents: OPEN
 - Key past events: OPEN
 
 ## Relationships
+- Older sister (23): sibling, name OPEN
+- Younger sister (18): sibling, name OPEN
+- Youngest sister (7): sibling, name OPEN
 - Hal Bautista: friend
 - Mel Charlie Abaldado: friend
 - Nikki Sharon Legazpi: friend
@@ -55,7 +62,8 @@ These are from the generated concept art. Confirm which parts are canon.
 - End: OPEN
 
 ## Open questions
-- How old is Jeff, and is he a student?
+- Is Jeff a student? The cover shows a campus and an ID card.
+- What are his sisters' names, and what are they like?
 - What does he want, and what starts the adventure?
 - What is the glowing scroll tube?
 - What is his flaw?

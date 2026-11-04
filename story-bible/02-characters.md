@@ -11,10 +11,13 @@ Each character has their own doc in the `characters/` folder. Copy `characters/_
 | Nikki Sharon Legazpi | Friend of Jeff | [nikki-legazpi.md](characters/nikki-legazpi.md) | draft |
 
 ## Supporting cast
-OPEN
+Jeff's sisters, docs to be made once they have names:
+- Older sister, 23 (name OPEN)
+- Younger sister, 18 (name OPEN)
+- Youngest sister, 7 (name OPEN)
 
 ## Antagonists
 OPEN
 
 ## Relationship map
-Core group: Jeff, Hal, Mel, and Nikki are friends. Everything else OPEN.
+Core group: Jeff, Hal, Mel, and Nikki are friends. Jeff also has three sisters, aged 23, 18, and 7. Everything else OPEN.
