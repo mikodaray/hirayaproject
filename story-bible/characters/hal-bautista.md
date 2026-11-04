@@ -1,29 +1,28 @@
 # Hal Bautista
 
-Role: friend of the protagonist
-Status: draft, names only so far
+Role: Jeff's best friend
+Status: draft
 
 ## Basics
 - Full name and nicknames: Hal Bautista
 - Age: OPEN
-- Where they are from: OPEN
+- Where they are from: OPEN (school is in Durian City)
 - Social class or station: OPEN
-- Occupation or role in society: OPEN
+- Occupation or role in society: student at a school in Durian City (level, college or senior high: OPEN)
 
 ## Look (for the art)
-- Height and build: OPEN
-- Face and hair: OPEN
-- Clothing and signature items: OPEN
+- Height and build: 5'0" flat, lean, significantly shorter than Jeff (DECIDED)
+- Face and hair: brown hair, glasses, looks cute (DECIDED)
+- Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
 - Distinct marks or details: OPEN
-
-Cover concept notes: the cover shows three friends behind Jeff, a girl with long hair in a grey hoodie, a bigger guy in a green hoodie, and a guy with glasses and headphones. Which one is who: OPEN
 
 ## Personality
 - Core traits: OPEN
 - Habits and quirks: OPEN
-- How they speak: OPEN
+- How he speaks: OPEN
 - Fears: OPEN
 - Values and beliefs: OPEN
+- Known: Nikki bullies him more than she bullies Jeff (DECIDED)
 
 ## Drive
 - Want (what they chase): OPEN
@@ -41,16 +40,20 @@ Cover concept notes: the cover shows three friends behind Jeff, a girl with long
 - Key past events: OPEN
 
 ## Relationships
-- Jeff Victorio: friend
+- Jeff Victorio: best friend, defends Hal from Nikki
 - Mel Charlie Abaldado: friend
-- Nikki Sharon Legazpi: friend
+- Nikki Sharon Legazpi: bullies him, more than she bullies Jeff
+- Sir Archie: homeroom teacher
 
 ## Story arc
-- Start: OPEN
+- Start: the most bullied of the group (DECIDED), the rest OPEN
 - Turning points: OPEN
 - End: OPEN
 
+## Cover concept notes
+The first generated cover (art/01-cover-concept-vol1.png) no longer matches the cast designs below, so those cover looks are outdated. Regenerate the cover once the designs are final.
+
 ## Open questions
 - What is Hal like, and what does he bring to the group?
-- Is Hal male? (assumed from your note)
-- Does his full name have a middle name or nickname?
+- How does he handle Nikki, and does it change?
+- How old is he?

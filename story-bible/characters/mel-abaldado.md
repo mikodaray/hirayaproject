@@ -1,27 +1,25 @@
 # Mel Charlie Abaldado
 
-Role: friend of the protagonist
-Status: draft, names only so far
+Role: friend of Jeff and Hal, the musical genius
+Status: draft
 
 ## Basics
 - Full name and nicknames: Mel Charlie Abaldado, goes by Mel
 - Age: OPEN
-- Where they are from: OPEN
+- Where they are from: OPEN (school is in Durian City)
 - Social class or station: OPEN
-- Occupation or role in society: OPEN
+- Occupation or role in society: student at a school in Durian City (level, college or senior high: OPEN)
 
 ## Look (for the art)
-- Height and build: OPEN
-- Face and hair: OPEN
-- Clothing and signature items: OPEN
-- Distinct marks or details: OPEN
-
-Cover concept notes: the cover shows three friends behind Jeff, a girl with long hair in a grey hoodie, a bigger guy in a green hoodie, and a guy with glasses and headphones. Which one is who: OPEN
+- Height and build: 6'2", big and on the fat side, gentle looking (DECIDED)
+- Face and hair: long blonde hair (DECIDED)
+- Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
+- Signature item: a violin he carries with him all the time (DECIDED)
 
 ## Personality
-- Core traits: OPEN
-- Habits and quirks: OPEN
-- How they speak: OPEN
+- Core traits: a musical genius, gentle (DECIDED)
+- Habits and quirks: always carries his violin (DECIDED)
+- How he speaks: OPEN
 - Fears: OPEN
 - Values and beliefs: OPEN
 
@@ -32,8 +30,8 @@ Cover concept notes: the cover shows three friends behind Jeff, a girl with long
 - Secret: OPEN
 
 ## Skills and abilities
-- Strengths: OPEN
-- Weapons or tools: OPEN
+- Strengths: musical genius, plays the violin (DECIDED)
+- Weapons or tools: violin
 - Weaknesses: OPEN
 
 ## Background
@@ -43,13 +41,19 @@ Cover concept notes: the cover shows three friends behind Jeff, a girl with long
 ## Relationships
 - Jeff Victorio: friend
 - Hal Bautista: friend
-- Nikki Sharon Legazpi: friend
+- Nikki Sharon Legazpi: OPEN
+- Sir Archie: homeroom teacher
 
 ## Story arc
 - Start: OPEN
 - Turning points: OPEN
 - End: OPEN
 
+## Cover concept notes
+The first generated cover (art/01-cover-concept-vol1.png) no longer matches the cast designs below, so those cover looks are outdated. Regenerate the cover once the designs are final.
+
 ## Open questions
-- What is Mel like, and what does he bring to the group?
-- Is Mel male? (assumed from your note)
+- What is Mel's personality beyond gentle?
+- How does his music matter in the story?
+- Does the violin come along to Butuan?
+- How does he feel about Nikki's bullying?

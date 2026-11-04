@@ -1,31 +1,26 @@
 # Jefferson Victorio (Jeff)
 
 Role: main protagonist
-Status: draft, names only so far
+Status: draft
 
 ## Basics
 - Full name and nicknames: Jefferson Victorio, goes by Jeff
 - Age: 19
-- Where they are from: OPEN
+- Where they are from: Durian City, Mindanao (school is there, home to confirm)
 - Social class or station: OPEN
-- Occupation or role in society: OPEN
+- Occupation or role in society: student at a school in Durian City (level, college or senior high: OPEN)
 
 ## Look (for the art)
-- Height and build: OPEN
-- Face and hair: OPEN
-- Clothing and signature items: OPEN
+- Height and build: 5'10", tall and lean (DECIDED)
+- Face and hair: ube colored (purple) hair (DECIDED)
+- Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
 - Distinct marks or details: OPEN
 
-Cover concept notes (art/01-cover-concept-vol1.png):
-- Shown at the center front, holding a glowing bamboo scroll tube with golden writing swirling around it
-- Messy black hair, white shirt under a dark open jacket, a lanyard with an ID card
-- Modern campus on one side, an old ship and a Filipino coastal village on the other
-These are from the generated concept art. Confirm which parts are canon.
-
 ## Personality
-- Core traits: OPEN
+- Core traits: the cool guy of the group, but kind of nerdy (DECIDED)
+- Protective: defends Hal from Nikki (DECIDED)
 - Habits and quirks: OPEN
-- How they speak: OPEN
+- How he speaks: OPEN
 - Fears: OPEN
 - Values and beliefs: OPEN
 
@@ -49,21 +44,22 @@ These are from the generated concept art. Confirm which parts are canon.
 - Key past events: OPEN
 
 ## Relationships
-- Older sister (23): sibling, name OPEN
-- Younger sister (18): sibling, name OPEN
-- Youngest sister (7): sibling, name OPEN
-- Hal Bautista: friend
+- Hal Bautista: best friend, Jeff defends him
 - Mel Charlie Abaldado: friend
-- Nikki Sharon Legazpi: friend
+- Nikki Sharon Legazpi: bullies Jeff, and bullies Hal more, Jeff stands up to her
+- Sir Archie (Archibald Oronies): homeroom teacher
+- Three sisters: older (23), younger (18), youngest (7), names OPEN
 
 ## Story arc
-- Start: OPEN
+- Start: cool but nerdy student who protects his friends (DECIDED), the rest OPEN
 - Turning points: OPEN
 - End: OPEN
 
+## Cover concept notes
+The first generated cover (art/01-cover-concept-vol1.png) no longer matches the cast designs below, so those cover looks are outdated. Regenerate the cover once the designs are final.
+
 ## Open questions
-- Is Jeff a student? The cover shows a campus and an ID card.
+- Is the school college or senior high?
+- What does Jeff want, and what is his flaw?
 - What are his sisters' names, and what are they like?
-- What does he want, and what starts the adventure?
-- What is the glowing scroll tube?
-- What is his flaw?
+- What is the glowing bamboo tube, and where does he find it?

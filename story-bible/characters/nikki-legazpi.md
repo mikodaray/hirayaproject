@@ -1,27 +1,25 @@
 # Nikki Sharon Legazpi
 
-Role: friend of the protagonist
-Status: draft, names only so far
+Role: popular girl, bully of Jeff and Hal, part of the group in Butuan
+Status: draft
 
 ## Basics
 - Full name and nicknames: Nikki Sharon Legazpi, goes by Nikki
 - Age: OPEN
-- Where they are from: OPEN
+- Where they are from: OPEN (school is in Durian City)
 - Social class or station: OPEN
-- Occupation or role in society: OPEN
+- Occupation or role in society: student at a school in Durian City (level, college or senior high: OPEN)
 
 ## Look (for the art)
 - Height and build: OPEN
 - Face and hair: OPEN
-- Clothing and signature items: OPEN
+- Uniform: all white blouse and skirt (DECIDED)
 - Distinct marks or details: OPEN
 
-Cover concept notes: the cover shows three friends behind Jeff, a girl with long hair in a grey hoodie, a bigger guy in a green hoodie, and a guy with glasses and headphones. The girl is most likely Nikki. Confirm.
-
 ## Personality
-- Core traits: OPEN
+- Core traits: popular, always surrounded by other girls, bullies Jeff and Hal (DECIDED)
 - Habits and quirks: OPEN
-- How they speak: OPEN
+- How she speaks: OPEN
 - Fears: OPEN
 - Values and beliefs: OPEN
 
@@ -32,7 +30,7 @@ Cover concept notes: the cover shows three friends behind Jeff, a girl with long
 - Secret: OPEN
 
 ## Skills and abilities
-- Strengths: OPEN
+- Strengths: popularity, a social circle (DECIDED)
 - Weapons or tools: OPEN
 - Weaknesses: OPEN
 
@@ -41,15 +39,22 @@ Cover concept notes: the cover shows three friends behind Jeff, a girl with long
 - Key past events: OPEN
 
 ## Relationships
-- Jeff Victorio: friend
-- Hal Bautista: friend
-- Mel Charlie Abaldado: friend
+- Jeff Victorio: bullies him, but Jeff stands up to her
+- Hal Bautista: bullies him more than Jeff
+- Mel Charlie Abaldado: OPEN
+- Her group of girls: unnamed, OPEN
+- Sir Archie: homeroom teacher
 
 ## Story arc
-- Start: OPEN
+- Start: popular girl who bullies Jeff and Hal (DECIDED), the rest OPEN
 - Turning points: OPEN
 - End: OPEN
 
+## Cover concept notes
+The first generated cover (art/01-cover-concept-vol1.png) no longer matches the cast designs below, so those cover looks are outdated. Regenerate the cover once the designs are final.
+
 ## Open questions
-- What is Nikki like, and what does she bring to the group?
-- Is she only a friend, or does the story give her a bigger role?
+- Why does she bully Hal most?
+- How does she end up with the group in Butuan?
+- Does she change, and how?
+- Who are the girls who follow her?
