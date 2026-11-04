@@ -23,3 +23,15 @@ Generated manga pages go in the pages/ folder, named ch1-page-NN-vN.png.
 | 1 | pages/ch1-page-01-v1.png | First version, replaced by v2 (older style, old city), Canva media id MAHZ_F1hzqw | 2026-11-05 |
 | 1 | pages/ch1-page-01-v2.png | Version 2: hand drawn style, modern Makati like Durian City with jeepneys, Canva media id MAHZ_PojTv8 (small preview copy, full size in Canva) | 2026-11-05 |
 | 1 | pages/ch1-page-01-v3-bw.png | Version 3: black and white, hand drawn, read right to left layout (current version), Canva media id MAHZ_JQZKWc | 2026-11-05 |
+| 2 | pages/ch1-page-02-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_A3AvkE | 2026-11-05 |
+| 3 | pages/ch1-page-03-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_NBS7w0 | 2026-11-05 |
+| 4 | pages/ch1-page-04-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_G3KuMw | 2026-11-05 |
+| 5 | pages/ch1-page-05-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_JIkp_4 | 2026-11-05 |
+| 6 | pages/ch1-page-06-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_I_rF-Y | 2026-11-05 |
+| 7 | pages/ch1-page-07-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_NfAfJ8 | 2026-11-05 |
+| 8 | pages/ch1-page-08-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_KCDNr0 | 2026-11-05 |
+| 9 | pages/ch1-page-09-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_GoSWTM | 2026-11-05 |
+| 10 | pages/ch1-page-10-v1-bw.png | Version 1: black and white, hand drawn, right to left, no text in the art (preview copy), Canva media id MAHZ_IUTW7A | 2026-11-05 |
+
+## Lettering
+Dialogue, captions and sound effects are not burned into the images. They live in ../lettering.js and are drawn over the pages in the reader (the Lettering button turns them on or off). The text comes from story-bible/chapter-1/. Each entry has x, y and width in percent of the page, so a bubble can be moved by editing numbers.
