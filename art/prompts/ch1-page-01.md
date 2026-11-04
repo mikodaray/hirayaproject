@@ -1,6 +1,6 @@
 # Prompt: Chapter 1, Page 1
 
-Status: version 1 generated as art/pages/ch1-page-01-v1.png, version 2 saved as art/pages/ch1-page-01-v2.png (hand drawn, modern city). Reference image used for Jeff's design: art/03 and the cover scene in Canva (media id MAHZ-8y7fbM).
+Status: version 1 generated as art/pages/ch1-page-01-v1.png, version 2 saved as art/pages/ch1-page-01-v2.png (hand drawn, modern city, color). Version 3 saved as art/pages/ch1-page-01-v3-bw.png (black and white, right to left). Reference image used for Jeff's design: art/03 and the cover scene in Canva (media id MAHZ-8y7fbM).
 Aspect ratio: 2:3 portrait
 Storyboard: story-bible/chapter-1/pages-01-10.md, Page 1
 Text (captions) is added later in Canva, so the image has none.
@@ -13,3 +13,8 @@ Version 1 (replaced): hills with durian trees, tricycles, and tin roofs, and no 
 ## Captions to add in Canva
 - Panel 1: "Durian City, Mindanao. 6:42 AM."
 - Panel 4: "Jefferson Victorio. Nineteen. Everyone says he's the cool one." and "Nobody mentions he reads about ancient spirits for breakfast."
+
+## Version 3 changes (black and white, right to left)
+- Strictly black, white, and gray screentone, no color
+- Middle row mirrored for right to left reading: the school gate panel is on the right, the necklace close up is on the left
+- Jeff's hair is shown as a mid gray screentone. Real color: ube purple. Blue uniform shirt. Khaki pants.
