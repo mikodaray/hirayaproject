@@ -17,3 +17,10 @@ Drop any raw idea here, even half formed. We sort them into the other docs later
 - Beliefs and burial: Hindu, Buddhist, and spirit beliefs, coffins, death masks. Possible use: a spooky or sacred scene, anito spirits.
 - Hinterland peoples often in conflict with Butuan. Possible use: outside threat.
 - River and mangrove life: fish, turtles, deer. Possible use: survival scenes, first meals, the friends' first days.
+
+## 2026-11-05 Chapter 1 beats (DRAFT, not confirmed)
+- Morning at school in Durian City: Mel plays his violin, Jeff and Hal arrive. Their greetings show the friendship, and the height gap between Mel (6'2"), Jeff (5'10"), and Hal (5'0") gives a quick visual.
+- Nikki and her girls pick on Hal. Jeff steps in with a nerdy but cool comeback. Mel's gentle presence calms things down.
+- Homeroom with Sir Archie.
+- After school the three do a small routine together (snacks, a hangout spot) to show they are real friends.
+- Hook: the bamboo tube. Whether it appears at the end of chapter 1 or in chapter 2 is OPEN.

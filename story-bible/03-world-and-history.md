@@ -14,6 +14,12 @@ All TO CHECK unless marked. Details are in 05-research-notes.md.
 - Balangay boats and the river setting
 - The Golden Tara and Hindu Buddhist influence
 
+## Modern setting
+- DECIDED: the story starts in Durian City, a fictional city in Mindanao. It lies north of Davao City, past Tagum City.
+- DECIDED: the main characters attend a school there. Uniforms: blue short sleeved buttoned shirt and khakis for boys, all white blouse and skirt for girls.
+- Level of the school (college or senior high): OPEN
+- Real geography note: Davao City and Tagum City are real. Butuan is a real city in Agusan del Norte, to the north of this region. TO CHECK the distance if it matters.
+
 ## Places
 - Butuan, the kingdom and its river port: DECIDED as the main setting
 - Specific locations inside Butuan (palace, workshop village, docks, burial ground): OPEN

@@ -10,6 +10,7 @@ Ending: OPEN
 - Setting: DECIDED, ancient Butuan, 1001 to 1009 (history is flavor, story comes first)
 - Beginning: DECIDED, Jeff and his friends are transported to Butuan
 - Flavor ideas from the archaeology: see the DRAFT list in the ideas inbox
+- Opening: DECIDED, Arc 1 begins by introducing the characters and showing their friendship, before the transport
 - Goal:
 - Main conflict:
 - Chapters:
