@@ -54,3 +54,6 @@ Prompts with dialogue for all 50 pages: prompts/ch1-pages-all-with-dialogue.md (
 | 1 | pages/ch1-page-01-v4-bw-sfx.png | Version 4: black and white, right to left, sound effects and captions drawn into the art, made by the creator with Jeff's character sheet as reference (current version, full size 1024x1536) | 2026-11-06 |
 | 6 | characters/06-totet-sheet-v1.png | Totet Timla full color reference sheet, one character only, 18 year old proportions, chosen by the creator | 2026-11-06 |
 | 2 | characters/02-hal-sheet-v3.png | Hal full color reference sheet, 18 year old proportions, clean combed brown hair, approved by the creator (current version) | 2026-11-06 |
+
+## Logo
+art/logo/ holds the HIRAYA logo (transparent PNG plus a plain crop), taken from cover 1. See art/logo/README.md.
