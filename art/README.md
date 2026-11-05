@@ -45,9 +45,10 @@ Prompts with dialogue for all 50 pages: prompts/ch1-pages-all-with-dialogue.md (
 |---|------|------------|-------|
 | 1 | characters/01-jeff-sheet-v1.png | Jeff full color reference sheet (front, side, back, face, expressions, details), made by the creator from prompts/02-character-reference-sheets.md | 2026-11-05 |
 | 2 | characters/02-hal-sheet-v1.png | Hal first sheet, cropped from a two person image (replaced by v2) | 2026-11-05 |
-| 2 | characters/02-hal-sheet-v2.png | Hal full color reference sheet, one character only, approved by the creator (current version) | 2026-11-05 |
+| 2 | characters/02-hal-sheet-v2.png | Hal second sheet, looked too childlike with messy hair (replaced by v3) | 2026-11-05 |
 | 4 | characters/04-nikki-sheet-v1.png | Nikki full color reference sheet, one character only, chosen by the creator | 2026-11-05 |
 | 3 | characters/03-mel-sheet-v1.png | Mel full color reference sheet, one character only, chosen by the creator | 2026-11-06 |
 | 5 | characters/05-sir-archie-sheet-v1.png | Sir Archie full color reference sheet, one character only, chosen by the creator | 2026-11-06 |
 | 1 | pages/ch1-page-01-v4-bw-sfx.png | Version 4: black and white, right to left, sound effects and captions drawn into the art, made by the creator with Jeff's character sheet as reference (current version, full size 1024x1536) | 2026-11-06 |
 | 6 | characters/06-totet-sheet-v1.png | Totet Timla full color reference sheet, one character only, 18 year old proportions, chosen by the creator | 2026-11-06 |
+| 2 | characters/02-hal-sheet-v3.png | Hal full color reference sheet, 18 year old proportions, clean combed brown hair, approved by the creator (current version) | 2026-11-06 |
