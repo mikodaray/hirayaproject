@@ -13,6 +13,8 @@ Status: draft
 ## Look (for the art)
 - Height and build: 6'2", big and on the fat side, gentle looking (DECIDED)
 - Face and hair: long blonde hair (DECIDED)
+- Reference sheet (creator generated): art/characters/03-mel-sheet-v1.png. Use it as the image reference for all future art.
+- Colors on the sheet: long golden blonde wavy hair parted to the side, tan skin, dark brown calm eyes, school blue shirt with a chest pocket, khaki tan pants, black loafers, warm brown wooden violin with a dark bow
 - Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
 - Signature item: a violin he carries with him all the time (DECIDED)
 
