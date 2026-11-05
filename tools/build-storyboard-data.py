@@ -34,7 +34,7 @@ LAYOUTS = {
  24: [(22,"1"),(22,"1 1 1"),(56,"1")],
  25: [(36,"1"),(22,"1 1 1"),(42,"1")],
  26: [(24,"1"),(20,"1 1"),(56,"1")],
- 27: [(100,"1.1[1,1,1,1] 0.9")],
+ 27: [(100,"0.9 1.1[1,1,1,1]")],
  28: [(22,"1"),(22,"1 1 1"),(56,"1")],
  29: [(18,"1"),(16,"1 1"),(20,"1.3 0.7"),(46,"1")],
  30: [(24,"1 1 1"),(10,"1"),(66,"0.8 1.2")],
@@ -97,6 +97,10 @@ for f in sorted(glob.glob('story-bible/chapter-1/pages-*.md')):
             m=re.match(r'\*\*(\d+)\. ([^*]*?)\.\*\*\s*(.*)',ln)
             if m: cur={'n':int(m.group(1)),'size':re.sub(r'\s*\(.*','',m.group(2)).strip().title(),'desc':m.group(3),'lines':[]}; panels.append(cur); continue
             if cur is None: continue
+            th=re.match(r'^Then(?:,)?(?: ([a-z ]+))?: "(.*)"\.?$',ln)
+            prev=[x for x in cur['lines'] if x['k']=='say']
+            if th and prev:
+                cur['lines'].append({'k':'say','who':prev[-1]['who'],'mod':(th.group(1) or '').strip(),'t':'"'+th.group(2)+'"'}); continue
             d=dlg.match(ln)
             if d:
                 who,mod,t=d.groups(); k='say'
