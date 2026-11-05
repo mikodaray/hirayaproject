@@ -5,16 +5,16 @@ Status: draft
 
 ## Basics
 - Full name and nicknames: Hal Bautista
-- Age: OPEN
+- Age: looks 18, drawn with the body of an 18 year old, short but not childlike (DECIDED by the creator)
 - Where they are from: OPEN (attends Durian Public High School in Durian City)
 - Social class or station: OPEN
 - Occupation or role in society: student at Durian Public High School in Durian City (DECIDED)
 
 ## Look (for the art)
-- Height and build: 5'0" flat, lean, significantly shorter than Jeff (DECIDED)
+- Height and build: 5'0" flat, lean, significantly shorter than Jeff, with 18 year old proportions, not childlike (DECIDED)
 - Face and hair: brown hair, glasses, looks cute (DECIDED)
 - Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
-- Reference sheet (creator generated): art/characters/02-hal-sheet-v2.png. Use it as the image reference for all future art.
+- Reference sheet: art/characters/02-hal-sheet-v2.png looks too childlike per the creator, so it is being redone with 18 year old proportions. Do not use v2 as the final reference once the new one is saved.
 - Colors on the sheet: messy chestnut brown hair, big round thin black framed glasses, big brown eyes, tan skin, school blue shirt a little big on him, khaki tan pants, black loafers, big black backpack with zippers, clenched fist raised in the main pose
 - Distinct marks or details: OPEN
 
