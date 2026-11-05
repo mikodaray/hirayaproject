@@ -14,7 +14,7 @@ DECIDED by creator: the chapter pages are black and white like a real manga, wit
 Colors that matter in the story (Jeff's ube hair, blue uniforms) are shown with screentone shades. Keep a color note in the character docs so a colorist knows the real colors.
 
 ## Reading direction
-DECIDED by creator: the book reads from right to left, like a real manga. Panels and pages are ordered right to left, and the first panel of a row is the one on the right.
+DECIDED by creator: the panels inside each page read from right to left, like a real manga, so the first panel of a row is the one on the right. UPDATED 2026-11-06: in the web viewer the pages themselves scroll from left to right (page 1, then page 2 to the right), only the cells inside a page go right to left.
 
 ## Hand drawn rule
 DECIDED by creator: every image must look hand drawn, not realistic. Use ink pen linework, hatching, and flat cel style coloring. No photographic, 3D, or realistic rendering. If a generator gives a realistic or painted look, convert it to a drawing.

@@ -143,7 +143,6 @@
     <button id="btnReader" class="active" type="button">Reader</button>
     <button id="btnGrid" type="button">All pages</button>
     <button id="btnLt" type="button" aria-pressed="true" title="Show or hide the dialogue and captions">Lettering</button>
-    <button id="btnDir" type="button" aria-pressed="false" title="Hiraya reads from right to left, like a real manga. Press to switch to left to right.">Right to left</button>
   </div>
 </header>
 
@@ -156,12 +155,12 @@
     </div>
     <div class="meta" id="meta"></div>
     <div class="progress" aria-hidden="true"><div id="bar"></div></div>
-    <div class="hint">Reads right to left like a manga: press the left arrow or swipe right to go forward. Press G for all pages.</div>
+    <div class="hint">Scroll left to right: press the right arrow or swipe left to go forward. Panels inside each page read right to left, like a manga. Press G for all pages.</div>
   </section>
 
   <section id="grid" aria-label="All pages">
     <h2>All pages</h2>
-    <p>Cover first, then pages 1 to 50, ordered right to left. Pages that are not drawn yet show a placeholder.</p>
+    <p>Cover first, then pages 1 to 50, in order from left to right. Pages that are not drawn yet show a placeholder.</p>
     <div class="cards" id="cards"></div>
   </section>
 </main>
@@ -199,7 +198,7 @@
 
   var idx = 0;
   var showLt = true;
-  var rtl = true; // DECIDED: the book reads right to left, like a real manga
+  var rtl = false; // DECIDED: pages go left to right in the viewer, only the panels inside a page read right to left
   var sheet = document.getElementById("sheet");
   var meta = document.getElementById("meta");
   var bar = document.getElementById("bar");
@@ -209,10 +208,9 @@
   var grid = document.getElementById("grid");
   var btnReader = document.getElementById("btnReader");
   var btnGrid = document.getElementById("btnGrid");
-  var btnDir = document.getElementById("btnDir");
   var btnLt = document.getElementById("btnLt");
 
-  try { var saved = localStorage.getItem("hiraya-dir"); if (saved === "ltr") rtl = false; if (localStorage.getItem("hiraya-lt") === "off") showLt = false; } catch (e) {}
+  try { if (localStorage.getItem("hiraya-lt") === "off") showLt = false; } catch (e) {}
 
   function clamp(v) { return Math.max(0, Math.min(PAGES.length - 1, v)); }
 
@@ -268,8 +266,6 @@
     var stage = sheet.parentNode;
     order.forEach(function (el) { stage.appendChild(el); });
     btnLt.setAttribute("aria-pressed", showLt ? "true" : "false");
-    btnDir.setAttribute("aria-pressed", rtl ? "true" : "false");
-    btnDir.textContent = rtl ? "Right to left" : "Left to right";
     document.getElementById("cards").style.direction = rtl ? "rtl" : "ltr";
     document.title = p.label + " | Hiraya Reader";
     if (history.replaceState) history.replaceState(null, "", "#" + (idx === 0 ? "cover" : "p" + idx));
@@ -305,11 +301,6 @@
   btnLt.addEventListener("click", function () {
     showLt = !showLt;
     try { localStorage.setItem("hiraya-lt", showLt ? "on" : "off"); } catch (e) {}
-    render();
-  });
-  btnDir.addEventListener("click", function () {
-    rtl = !rtl;
-    try { localStorage.setItem("hiraya-dir", rtl ? "rtl" : "ltr"); } catch (e) {}
     render();
   });
 
