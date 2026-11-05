@@ -3,6 +3,7 @@
 Run from the repo root:
   python3 tools/make-prompt-bundle.py --page 2 --out /path/to/out
   python3 tools/make-prompt-bundle.py --cover --out /path/to/out
+  python3 tools/make-prompt-bundle.py --name X --prompt-md art/prompts/FILE.md --chars jeff,hal --out /path/to/out   (takes the block under ## Prompt)
   python3 tools/make-prompt-bundle.py --name my-image --prompt-file prompt.txt --chars jeff,hal --out /path/to/out
 Characters: jeff, hal, mel, nikki, archie, totet. The current sheet for each is listed in SHEETS.
 """
@@ -51,10 +52,12 @@ def build(name, prompt, chars, out):
 if __name__ == '__main__':
     a = argparse.ArgumentParser()
     a.add_argument('--page', type=int); a.add_argument('--cover', action='store_true')
-    a.add_argument('--name'); a.add_argument('--prompt-file'); a.add_argument('--chars')
+    a.add_argument('--name'); a.add_argument('--prompt-file'); a.add_argument('--prompt-md'); a.add_argument('--chars')
     a.add_argument('--out', default='.')
     x = a.parse_args()
     if x.page: p, ch = page_prompt(x.page); name = 'hiraya-ch1-page-%02d' % x.page
     elif x.cover: p, ch = cover_prompt(); name = 'hiraya-ch1-cover-warriors'
+    elif x.prompt_md:
+        p = re.search(r'## Prompt\n```\n(.*?)\n```', open(x.prompt_md).read(), re.S).group(1).strip(); ch = [c.strip() for c in x.chars.split(',')]; name = x.name
     else: p = open(x.prompt_file).read().strip(); ch = [c.strip() for c in x.chars.split(',')]; name = x.name
     print(build(name, p, ch, x.out))
