@@ -12,7 +12,7 @@ Status: draft
 
 ## Look (for the art)
 - Height and build: 5'0" flat, lean, significantly shorter than Jeff, with 18 year old proportions, not childlike (DECIDED)
-- Face and hair: brown hair, glasses, looks cute (DECIDED)
+- Face and hair: brown hair in a clean, neat, combed style (DECIDED by the creator, so it does not look like Jeff's messy hair), glasses, looks cute (DECIDED)
 - Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
 - Reference sheet: art/characters/02-hal-sheet-v2.png looks too childlike per the creator, so it is being redone with 18 year old proportions. Do not use v2 as the final reference once the new one is saved.
 - Colors on the sheet: messy chestnut brown hair, big round thin black framed glasses, big brown eyes, tan skin, school blue shirt a little big on him, khaki tan pants, black loafers, big black backpack with zippers, clenched fist raised in the main pose
