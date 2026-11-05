@@ -19,13 +19,13 @@ Nikki, with long wavy brown hair, a confident smirk and a hand on her hip. She w
 
 Background: a sunrise over the river port of Butuan, wooden plank boats with striped sails and stilt houses, with golden light. Rising behind the four, large and dramatic but not too scary, are Filipino folklore creatures: a giant bakunawa sea serpent coiling across the sky around a pale moon, a tikbalang with a horse head and long legs standing in the mist on the right, a tall kapre sitting in a big tree on the left, a diwata nature spirit with soft glowing butterfly wings floating near the top, a colorful sarimanok bird with long tail feathers flying above, and a faint flying manananggal silhouette in the clouds. Golden ribbons of Baybayin style script curl through the air around the characters, with no readable words.
 
-Text on the cover, spelled exactly: the title HIRAYA in large bold letters across the top, drawn in a style inspired by Baybayin script but spelled in English letters, reading exactly H I R A Y A. Directly under the title, a smaller subtitle line reading exactly Chapter 1: Read It Out Loud. At the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray. No other text.
+Text on the cover, spelled exactly: the title HIRAYA in large bold letters across the top, drawn in a style inspired by Baybayin script but spelled in English letters, reading exactly H I R A Y A. Directly under the title, a smaller subtitle line reading exactly Chapter 1: Banaag. At the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray. No other text.
 
 Avoid school uniforms, realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands that look like ninja headbands, scary gore, misspelled title text, and copies of any existing characters.
 ```
 
 ## Notes
 - If the creatures crowd the characters, ask for fewer creatures: keep the bakunawa, the tikbalang and the diwata.
-- The subtitle uses the working chapter title "Read It Out Loud" (DRAFT, change it if you pick another).
-- If the title comes out misspelled, use an edit: "Keep everything the same. Fix the text so the title reads exactly H I R A Y A, the subtitle reads exactly Chapter 1: Read It Out Loud, and the credit reads exactly Authored by Claude and Miko Daray."
+- The subtitle uses the chapter title "Banaag" (DECIDED by the creator, 2026-11-06). The cover image generated before that still says "Read It Out Loud", see the edit prompt below.
+- If the title comes out misspelled, use an edit: "Keep everything the same. Fix the text so the title reads exactly H I R A Y A, the subtitle reads exactly Chapter 1: Banaag, and the credit reads exactly Authored by Claude and Miko Daray."
 - If a character's face drifts, attach only that character's sheet and the first result, and ask for that character to be fixed.

@@ -19,7 +19,7 @@ The chalkboard behind Sir Archie curves in the fisheye view and is covered in ch
 
 A faint hint of magic: a bamboo tube sits on Jeff's desk with a soft golden glow, and a few thin golden ribbons of Baybayin style script float up from it, with no readable words.
 
-Text on the cover, spelled exactly: the title HIRAYA in large bold letters across the top, drawn in a style inspired by Baybayin script but spelled in English letters, reading exactly H I R A Y A. Directly under the title, a smaller subtitle line reading exactly Chapter 1: Read It Out Loud. At the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray. No other text except the chalkboard heading.
+Text on the cover, spelled exactly: the title HIRAYA in large bold letters across the top, drawn in a style inspired by Baybayin script but spelled in English letters, reading exactly H I R A Y A. Directly under the title, a smaller subtitle line reading exactly Chapter 1: Banaag. At the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray. No other text except the chalkboard heading.
 
 Avoid realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, misspelled text, any other readable words, and copies of any existing characters.
 ```

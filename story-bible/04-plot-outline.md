@@ -18,7 +18,7 @@ Ending: OPEN
 ## Chapter list
 | # | Working title | What happens | Status |
 |---|---------------|--------------|--------|
-| 1 | "Read It Out Loud" (DRAFT) | 50 pages, DECIDED length. Full draft storyboard in chapter-1/00-overview.md and the pages files | draft storyboard |
+| 1 | "Banaag" (title DECIDED) | 50 pages, DECIDED length. Full draft storyboard in chapter-1/00-overview.md and the pages files | draft storyboard |
 
 ## Key scenes and set pieces
 OPEN

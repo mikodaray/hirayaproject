@@ -4,7 +4,7 @@ Status: DRAFT storyboard, 50 pages, written for the creator to review. Nothing h
 DECIDED by the creator: Chapter 1 is 50 pages, black and white, panels inside each page read right to left (pages scroll left to right in the web viewer), the first pages introduce the four main characters, the layout should be dynamic with some panels bigger than others, and there should be a one page image for a point or a grand event.
 Everything else here is a DRAFT suggestion.
 
-Working title (DRAFT): "Read It Out Loud"
+Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the earlier draft working title "Read It Out Loud", which was invented by Claude.
 
 ## Files
 - pages-01-10.md: introductions, the bully conflict, Jeff's splash, start of homeroom
