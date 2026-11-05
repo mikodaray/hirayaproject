@@ -13,6 +13,8 @@ Status: draft
 ## Look (for the art)
 - Height and build: tall, muscular, athletic (DECIDED by the creator)
 - Face and hair: white hair even though he is young, rectangle shaped glasses (DECIDED by the creator)
+- Reference sheet (creator generated): art/characters/05-sir-archie-sheet-v1.png. Use it as the image reference for all future art.
+- Colors on the sheet: messy short pure white hair, thin dark rectangle glasses, tan skin, dark brown eyes, cream fitted buttoned shirt, long dark brown cardigan worn open with sleeves pushed up, black belt, dark slacks, brown leather shoes, ID lanyard, black coffee thermos
 - Clothing and signature items: tight muscular buttoned shirt with a cardigan (DECIDED by the creator). Draft extras: coffee thermos, ID lanyard
 - Distinct marks or details: OPEN
 
