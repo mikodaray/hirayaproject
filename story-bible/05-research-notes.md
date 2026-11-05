@@ -38,3 +38,7 @@ Clothing, architecture, weapons, ships, landscapes of the era: OPEN
 
 ## Experts or communities to ask
 OPEN
+
+## Chapter 1 title
+- "Banaag": believed to mean a faint light or glimmer in Tagalog. TO CHECK with a dictionary or a Tagalog speaker. Also the title of a well known Filipino novel, Banaag at Sikat, so check how the name is used before print.
+

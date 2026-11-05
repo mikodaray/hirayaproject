@@ -6,6 +6,15 @@ Everything else here is a DRAFT suggestion.
 
 Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the earlier draft working title "Read It Out Loud", which was invented by Claude.
 
+## About the title: Banaag
+- Meaning (TO CHECK with a Tagalog source before print): as far as I know, "banaag" means a faint light, a glimmer, or a first hint of light, and it is also used for a glimmer of hope. It sits next to "Hiraya" (a dream, an imagination) in the series title.
+- Where it shows up in the chapter (DRAFT ideas, not decided):
+  - Page 15 to 20: the faint warm glow of the necklace and the golden light in the tube's carvings, the first glimmer that something is real.
+  - Page 31: the first light of dawn on Butuan, the big reveal.
+  - Page 50: the necklace's light pouring out between Jeff's fingers in the ending hook.
+  - Jeff himself: the weird kid who is a small glimmer of something bigger.
+- Possible use: a short caption on page 31 or page 50, for example "Banaag." Not added to the storyboard yet.
+
 ## Files
 - pages-01-10.md: introductions, the bully conflict, Jeff's splash, start of homeroom
 - pages-11-20.md: detention, the cabinet, the bamboo tube, the reading
