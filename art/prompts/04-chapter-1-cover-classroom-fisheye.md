@@ -21,7 +21,7 @@ A faint hint of magic: a bamboo tube sits on Jeff's desk with a soft golden glow
 
 Text on the cover, spelled exactly: the title HIRAYA in large bold letters across the top, drawn in a style inspired by Baybayin script but spelled in English letters, reading exactly H I R A Y A. Directly under the title, a smaller subtitle line reading exactly Chapter 1: Banaag. At the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray. No other text except the chalkboard heading.
 
-Avoid realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, misspelled text, any other readable words, and copies of any existing characters.
+Anatomy must be correct: every person has exactly two arms and exactly two hands, each hand has exactly five fingers (four fingers and one thumb), and exactly two legs, with no extra, missing, merged, or duplicated arms, hands, fingers, or legs. Count the limbs and fingers of every person, including people in the background. Avoid realistic or photographic rendering, 3D rendering, extra or missing fingers, more than five fingers on a hand, more than two arms, a third arm, extra or duplicate arms, hands, or legs, merged limbs, deformed hands, blurry results, ninja outfits, headbands, misspelled text, any other readable words, and copies of any existing characters.
 ```
 
 ## Notes

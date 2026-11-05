@@ -20,7 +20,7 @@ Seated on the bench in the background, Mel: the tallest and biggest, about 6 fee
 
 Dynamics: Jeff stands between Hal and Nikki and protects Hal. Nikki is the one picking on Hal. Mel's music makes the tension look funny. Hal, Nikki, and Mel have exaggerated manga comedy expressions, while Jeff stays composed.
 
-Mood: funny, warm, friendship, cool. Leave clean empty space near the top or one side for the chapter title. Do not include any readable text, letters, watermark, or logo. Avoid extra fingers, deformed hands, blurry or low quality results, ninja outfits, headbands, anime sailor school uniforms, western fantasy, and copies of any existing characters or franchises.
+Mood: funny, warm, friendship, cool. Leave clean empty space near the top or one side for the chapter title. Do not include any readable text, letters, watermark, or logo. Anatomy must be correct: every person has exactly two arms and exactly two hands, each hand has exactly five fingers (four fingers and one thumb), and exactly two legs, with no extra, missing, merged, or duplicated arms, hands, fingers, or legs. Count the limbs and fingers of every person, including people in the background. Avoid extra or missing fingers, more than five fingers on a hand, more than two arms, a third arm, extra or duplicate arms, hands, or legs, merged limbs, deformed hands, blurry or low quality results, ninja outfits, headbands, anime sailor school uniforms, western fantasy, and copies of any existing characters or franchises.
 
 ## Variants
 - Black and white manga look: replace "vivid colors" with "black and white ink, screentone shading, high contrast".

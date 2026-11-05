@@ -42,7 +42,7 @@ def build(name, prompt, chars, out):
     lines = ['HIRAYA PROMPT BUNDLE: ' + name, '', 'HOW TO USE', '1. Attach the images in this bundle to your image generator, in this order:']
     for i, c in enumerate(chars, 1):
         lines.append('   %d. %s  (%s)' % (i, os.path.basename(SHEETS[c][1]), SHEETS[c][0]))
-    lines += ['2. Paste everything under the line PROMPT below.', '3. If a face drifts, attach that character sheet again with the result and ask for a fix on that character only.', '', '=== PROMPT ===', '', prompt, '']
+    lines += ['2. Paste everything under the line PROMPT below.', '3. CHECK THE RESULT: every person must have exactly 2 arms, 2 hands, and 5 fingers on each hand. If not, regenerate, or attach the result and ask: Keep everything the same, only fix the anatomy so every person has exactly two arms and two hands with five fingers each.', '4. If a face drifts, attach that character sheet again with the result and ask for a fix on that character only.', '', '=== PROMPT ===', '', prompt, '']
     with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + '/prompt.txt', '\n'.join(lines))
         for i, c in enumerate(chars, 1):

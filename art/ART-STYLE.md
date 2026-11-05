@@ -27,6 +27,10 @@ DECIDED by creator: every page includes onomatopoeia (SFX), written in English l
 - Gitaigo, feelings and atmosphere with no literal sound: sparkle, awkward silence, a racing heartbeat, gloom (KIRA, DOKI DOKI, ...)
 Draw them big and hand lettered, part of the art, often curving with the action. Gitaigo can use the Japanese manga sounds written in English letters or plain English words.
 
+## Anatomy rule (limbs and fingers)
+DECIDED by creator (2026-11-06): every person in every image must have exactly two arms and two hands, five fingers on each hand (four fingers and one thumb), and two legs. No extra, missing, merged, or duplicated limbs or fingers, also for people in the background and when hands overlap. This rule is written into every prompt, both as a positive instruction and in the avoid list. Always check the result, and if a hand or arm is wrong, regenerate or use the fix prompt below.
+Fix prompt: "Keep everything exactly the same. Only fix the anatomy: every person must have exactly two arms and two hands with five fingers on each hand, and remove any extra arms, hands, or fingers."
+
 ## School setting
 DECIDED by creator (2026-11-06): all the students are in high school (Durian Public High School), not college. Keep the looks from the approved character sheets. Some of them are 18 or 19, so draw them as older high school students in school uniforms.
 
