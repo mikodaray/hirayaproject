@@ -18,3 +18,24 @@ Version 1 (replaced): hills with durian trees, tricycles, and tin roofs, and no 
 - Strictly black, white, and gray screentone, no color
 - Middle row mirrored for right to left reading: the school gate panel is on the right, the necklace close up is on the left
 - Jeff's hair is shown as a mid gray screentone. Real color: ube purple. Blue uniform shirt. Khaki pants.
+
+## Version 4 (with sound effects and captions, uses Jeff's character sheet)
+Attach art/characters/01-jeff-sheet-v1.png as the reference image. Paste only what is inside the block.
+
+```
+A single vertical black and white manga page, aspect ratio 2:3, made to be read from right to left like a Japanese manga, with four comic panels separated by clean white gutters. Hand drawn manga illustration in black ink on white paper, bold varied ink linework, hatching, and gray screentone dot shading. Strictly black, white, and gray only, no color. It must clearly look like a drawing, not realistic, not 3D, not photographic. Bold shonen manga style close to classic Naruto manga artwork, expressive and dynamic perspective. Setting: Durian City, a state of the art modern Philippine city like Makati, with glass towers, wide avenues, and colorful jeepneys, and Durian Public High School.
+
+Character: Jeff, exactly as in the attached reference sheet, a tall lean 19 year old with messy ube purple hair falling over one eye (draw it in mid gray screentone), calm half lidded eyes, a small smirk, a blue short sleeved buttoned shirt with the top button open (light screentone), khaki pants, black loafers, a thin black backpack strap, and a small carved stone pendant necklace on a chain. Only Jeff appears as a main character on this page.
+
+Layout (read right to left, top to bottom): a wide strip across the top third, then a middle row with a tall panel on the right and a small panel on the left, then a large low angle panel across the bottom half.
+
+Panel 1 (wide strip, top): dawn over Durian City. Glass towers catching the golden sunrise, wide avenues, colorful jeepneys driving along them, a few palm trees and durian trees along the street. Lettering: a caption box reads "Durian City, Mindanao. 6:42 AM." Sound effects drawn big in hand lettered English letters as part of the art: "KIRA KIRA" next to the sparkling towers, and "VROOOM HONK" along the road with the jeepneys.
+
+Panel 2 (tall, middle right): the gate of Durian Public High School, with a flagpole and a painted sign with no readable letters, students trickling in through the gate, the modern skyline behind the school. Sound effects: "ZAWA ZAWA" for the chatter of the crowd, and "KRIIIK" along the gate.
+
+Panel 3 (small, middle left): extreme close up of the pendant necklace swinging against the blue uniform shirt, one tiny glint of light. Sound effects: "KIRA" at the glint and a tiny "DOKI" like a heartbeat.
+
+Panel 4 (large low angle, bottom): Jeff walks toward the camera. His hair blows in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless, cool, with a faint glow of light behind him. Lettering: a caption box reads "Jefferson Victorio. Nineteen. Everyone says he's the cool one." and a second caption box reads "Nobody mentions he reads about ancient spirits for breakfast." Sound effects: "SWISH" with the wind in his hair and "TAP TAP" for his footsteps.
+
+Draw all sound effects as big bold hand lettered comic lettering in English letters, curving with the action, spelled exactly as written, part of the drawing. Draw captions in clean rectangle boxes. Do not add any other text, no extra words, no watermark, no logo. Avoid color, realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
+```

@@ -11,12 +11,19 @@ Layout: wide strip on top, a tall panel and a small panel side by side in the mi
 
 **1. WIDE, top third.** Dawn over Durian City, a state of the art city like Makati. Glass towers catching the golden sunrise, wide avenues, colorful jeepneys driving along them, a few palm and durian trees along the street.
 CAPTION: "Durian City, Mindanao. 6:42 AM."
+SFX (giongo): VROOOM, HONK HONK
+SFX (gitaigo): KIRA KIRA (the towers sparkling in the sunrise)
 
 **2. TALL, middle right.** The gate of Durian Public High School. Flag, painted sign, students trickling in, the modern skyline behind the school.
+SFX (giseigo): ZAWA ZAWA (the chatter of the crowd)
+SFX (giongo): KRIIIK (the gate swinging)
 
 **3. SMALL, middle left.** Close up: a necklace swinging against a blue uniform shirt. One tiny glint. No explanation.
+SFX (gitaigo): KIRA, DOKI (a tiny heartbeat, like the necklace is alive)
 
 **4. LARGE LOW ANGLE, bottom half.** Jeff walks toward the camera. Ube colored hair in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless.
+SFX (giongo): SWISH (hair in the wind), TAP TAP (footsteps)
+SFX (gitaigo): SHINE (a cool glow around Jeff)
 CAPTION: "Jefferson Victorio. Nineteen. Everyone says he's the cool one."
 CAPTION: "Nobody mentions he reads about ancient spirits for breakfast."
 

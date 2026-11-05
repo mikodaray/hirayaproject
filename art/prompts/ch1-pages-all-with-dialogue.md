@@ -17,15 +17,7 @@ A single vertical black and white manga page, aspect ratio 2:3, made to be read 
 Draw speech bubbles, caption boxes, and sound effect lettering exactly as listed in each panel, spelled correctly, in a clean hand lettered comic style. Place each bubble inside or next to its panel without covering the speaker's face. Tails of the speech bubbles point to the speaker. Reading order of bubbles inside a panel is right to left, top to bottom. Do not add any other text, no extra words, no watermark, no logo. Avoid color, realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
 
 ## Page 1 (4 panels): Opening, meet Jeff
-Layout: wide strip on top, a tall panel and a small panel side by side in the middle, a large panel at the bottom. 
-
-Panel 1 (wide, top third): Dawn over Durian City, a state of the art city like Makati. Glass towers catching the golden sunrise, wide avenues, colorful jeepneys driving along them, a few palm and durian trees along the street. Lettering: caption box reads "Durian City, Mindanao. 6:42 AM."
-
-Panel 2 (tall, middle right): The gate of Durian Public High School. Flag, painted sign, students trickling in, the modern skyline behind the school.
-
-Panel 3 (small, middle left): Close up: a necklace swinging against a blue uniform shirt. One tiny glint. No explanation.
-
-Panel 4 (large low angle, bottom half): Jeff walks toward the camera. Ube colored hair in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless. Lettering: caption box reads "Jefferson Victorio. Nineteen. Everyone says he's the cool one."; caption box reads "Nobody mentions he reads about ancient spirits for breakfast."
+See the full ready to paste version in art/prompts/ch1-page-01.md, Version 4 (it includes the sound effects).
 
 ## Page 2 (5 panels): Meet Hal
 Layout: wide strip on top, two small panels, then a tall panel on the left and a large panel on the right. 

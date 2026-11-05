@@ -6,6 +6,11 @@
 var LETTERING = {
   1: [
     ["c", 4, 3, 42, "Durian City, Mindanao. 6:42 AM."],
+    ["x", 58, 4, 36, "KIRA KIRA"],
+    ["x", 8, 15, 30, "VROOOM HONK"],
+    ["x", 58, 36, 34, "ZAWA ZAWA"],
+    ["x", 10, 52, 22, "KIRA DOKI"],
+    ["x", 58, 70, 30, "SWISH"],
     ["c", 4, 78, 52, "Jefferson Victorio. Nineteen. Everyone says he's the cool one."],
     ["c", 4, 90, 52, "Nobody mentions he reads about ancient spirits for breakfast."]
   ],

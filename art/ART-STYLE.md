@@ -20,6 +20,13 @@ DECIDED by creator: the book reads from right to left, like a real manga. Panels
 DECIDED by creator: every image must look hand drawn, not realistic. Use ink pen linework, hatching, and flat cel style coloring. No photographic, 3D, or realistic rendering. If a generator gives a realistic or painted look, convert it to a drawing.
 Note: the first cover concept and the first cast scene were made before this rule and may look more rendered than drawn.
 
+## Sound effects (onomatopoeia)
+DECIDED by creator: every page includes onomatopoeia (SFX), written in English letters. Use all three kinds:
+- Giongo, real world sounds: crashes, thunder, footsteps, traffic (HONK, THUD, CLACK)
+- Giseigo, voices and living creatures: laughter, gasps, animal noises (HAHAHA, GASP, MEOW)
+- Gitaigo, feelings and atmosphere with no literal sound: sparkle, awkward silence, a racing heartbeat, gloom (KIRA, DOKI DOKI, ...)
+Draw them big and hand lettered, part of the art, often curving with the action. Gitaigo can use the Japanese manga sounds written in English letters or plain English words.
+
 ## Limits
 - The style is a direction only. Do not copy any existing character, costume, or design. Hiraya has its own cast, setting, and look.
 - Keep the Filipino setting, uniforms, and Butuan details accurate to our own story bible, not to the style reference.
