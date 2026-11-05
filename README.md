@@ -31,3 +31,6 @@ Open `index.html` through GitHub Pages to read the cover and the chapter 1 pages
 - summary.html: a short summary of Chapter 1.
 - Both are linked from the header of index.html.
 
+## Prompt bundles
+When a prompt is requested, it is sent as a zip: prompt.txt plus the character sheets needed. Make one with `python3 tools/make-prompt-bundle.py --page 2 --out <folder>` (or `--cover`, or `--name X --prompt-file F --chars jeff,hal`). The script lists which sheet is current for each character. When a new sheet replaces an old one, update SHEETS in that script.
+
