@@ -18,7 +18,7 @@ All TO CHECK unless marked. Details are in 05-research-notes.md.
 - DECIDED: the story starts in Durian City, a fictional city in Mindanao. It lies north of Davao City, past Tagum City.
 - DECIDED: Durian City is a state of the art modern city, like Makati, with glass towers and wide avenues, but it still has jeepneys on its streets.
 - DECIDED: the main characters attend Durian Public High School, in Durian City. Uniforms: blue short sleeved buttoned shirt and khakis for boys, all white blouse and skirt for girls.
-- Grade or year of the main characters: OPEN
+- The main characters are high school students at Durian Public High School, not college students (DECIDED by the creator, 2026-11-06). Their looks stay as the approved character sheets. Grade or year: OPEN
 - Real geography note: Davao City and Tagum City are real. Butuan is a real city in Agusan del Norte, to the north of this region. TO CHECK the distance if it matters.
 
 ## Places

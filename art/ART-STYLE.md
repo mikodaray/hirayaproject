@@ -27,6 +27,9 @@ DECIDED by creator: every page includes onomatopoeia (SFX), written in English l
 - Gitaigo, feelings and atmosphere with no literal sound: sparkle, awkward silence, a racing heartbeat, gloom (KIRA, DOKI DOKI, ...)
 Draw them big and hand lettered, part of the art, often curving with the action. Gitaigo can use the Japanese manga sounds written in English letters or plain English words.
 
+## School setting
+DECIDED by creator (2026-11-06): all the students are in high school (Durian Public High School), not college. Keep the looks from the approved character sheets. Some of them are 18 or 19, so draw them as older high school students in school uniforms.
+
 ## Limits
 - The style is a direction only. Do not copy any existing character, costume, or design. Hiraya has its own cast, setting, and look.
 - Keep the Filipino setting, uniforms, and Butuan details accurate to our own story bible, not to the style reference.
