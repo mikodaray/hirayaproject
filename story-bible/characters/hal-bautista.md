@@ -16,7 +16,6 @@ Status: draft
 - Uniform: blue short sleeved buttoned shirt and khakis (DECIDED)
 - Reference sheet (creator approved): art/characters/02-hal-sheet-v3.png. Use it as the image reference for all future art. Earlier v1 and v2 are replaced (too childlike).
 - Colors on the sheet: clean combed side parted chestnut brown hair, big round thin black framed glasses, brown eyes, light tan skin, school blue shirt with a chest pocket a little big on him, khaki tan pants, black loafers, black backpack with zippers
-- Colors on the sheet: messy chestnut brown hair, big round thin black framed glasses, big brown eyes, tan skin, school blue shirt a little big on him, khaki tan pants, black loafers, big black backpack with zippers, clenched fist raised in the main pose
 - Distinct marks or details: OPEN
 
 ## Personality
