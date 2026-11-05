@@ -50,5 +50,14 @@ Character: Archie, a cool, tall, muscular young man around 25 years old, a schoo
 Avoid a second person, old or tired looking face, thin or small proportions, height markings, realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
 ```
 
+## 6. Totet (Totet Timla), shy classmate with a crush on Jeff
+```
+Manga character reference sheet in full color, hand drawn with bold ink pen linework and flat cel style coloring with simple shading, in the style of a classic shonen manga like Naruto. Not realistic, not 3D, not painted. Plain white background. This sheet contains exactly ONE character, a single girl, and nobody else. Full body of this one girl shown three times in a row: front view, side view, back view, all standing straight at the same height. Next to them a large close up of her face. Below, a row of five small head studies showing shy looking down with a blush, a tiny hopeful smile, flustered with swirly eyes, quietly happy, and a small embarrassed panic. Small arrows pointing to key details. No height chart, no scale bar, no comparison silhouette, no color swatches, no readable text, no labels, no numbers, no logos. Setting of the story: modern Philippines. Use the exact colors given below.
+
+Character: Totet, a shy, cute teenage girl with a small, petite frame, shorter than most of her classmates, slim, with short legs. A neat black bob cut, chin length, with straight bangs, glossy black hair. Freckles scattered across both cheeks and over the nose. Big soft dark brown eyes that often look down, a small shy mouth, a round youthful face that blushes easily. School uniform: all white short sleeved blouse and a plain white skirt, neat, with a small white sock and white school shoes. Standing pose: shy, shoulders slightly in, both hands holding a school bag strap or clasped in front of her, looking slightly to the side.
+
+Avoid a second person, tall adult proportions, height markings, sexualized or exaggerated body proportions, revealing clothing, realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
+```
+
 ## Group height check (generate after the five sheets)
-Use all five sheets as references: "The four students and their teacher standing in a line facing the viewer on a plain white background, same manga style, full color. Heights from tallest to shortest: Mel 6'2", Jeff 5'10", Nikki 5'4", Hal 5'0". Sir Archie is average height, a little shorter than Jeff. Keep the exact faces, hair, and uniforms from the reference sheets."
+Use all five sheets as references: "The four students and their teacher standing in a line facing the viewer on a plain white background, same manga style, full color. Heights from tallest to shortest: Mel 6'2", Jeff 5'10", Nikki 5'4", Hal and Totet both 5'0". Sir Archie is average height, a little shorter than Jeff. Keep the exact faces, hair, and uniforms from the reference sheets."

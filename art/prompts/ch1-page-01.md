@@ -12,7 +12,7 @@ Version 1 (replaced): hills with durian trees, tricycles, and tin roofs, and no 
 
 ## Captions to add in Canva
 - Panel 1: "Durian City, Mindanao. 6:42 AM."
-- Panel 4: "Jefferson Victorio. Nineteen. Everyone says he's the cool one." and "Nobody mentions he reads about ancient spirits for breakfast."
+- Panel 4: "Jefferson Victorio. Nineteen. He looks like the cool one." and "His classmates call him weird. He reads about ancient spirits for breakfast."
 
 ## Version 3 changes (black and white, right to left)
 - Strictly black, white, and gray screentone, no color
@@ -20,6 +20,7 @@ Version 1 (replaced): hills with durian trees, tricycles, and tin roofs, and no 
 - Jeff's hair is shown as a mid gray screentone. Real color: ube purple. Blue uniform shirt. Khaki pants.
 
 ## Version 4 (with sound effects and captions, uses Jeff's character sheet)
+Updated 2026-11-06: Jeff is NOT the cool one at school, he only looks cool, and classmates think he is weird for loving folklore. Captions changed. The first generated v4 image has the old captions. To fix it without redrawing, use the edit prompt at the end of this file.
 Attach art/characters/01-jeff-sheet-v1.png as the reference image. Paste only what is inside the block.
 
 ```
@@ -31,11 +32,14 @@ Layout (read right to left, top to bottom): a wide strip across the top third, t
 
 Panel 1 (wide strip, top): dawn over Durian City. Glass towers catching the golden sunrise, wide avenues, colorful jeepneys driving along them, a few palm trees and durian trees along the street. Lettering: a caption box reads "Durian City, Mindanao. 6:42 AM." Sound effects drawn big in hand lettered English letters as part of the art: "KIRA KIRA" next to the sparkling towers, and "VROOOM HONK" along the road with the jeepneys.
 
-Panel 2 (tall, middle right): the gate of Durian Public High School, with a flagpole and a painted sign with no readable letters, students trickling in through the gate, the modern skyline behind the school. Sound effects: "ZAWA ZAWA" for the chatter of the crowd, and "KRIIIK" along the gate.
+Panel 2 (tall, middle right): the gate of Durian Public High School, with a flagpole and a painted sign with no readable letters, students trickling in through the gate, the modern skyline behind the school. Sound effects: "ZAWA ZAWA" for the chatter of the crowd, "HISO HISO" for a few students whispering, and "KRIIIK" along the gate.
 
 Panel 3 (small, middle left): extreme close up of the pendant necklace swinging against the blue uniform shirt, one tiny glint of light. Sound effects: "KIRA" at the glint and a tiny "DOKI" like a heartbeat.
 
-Panel 4 (large low angle, bottom): Jeff walks toward the camera. His hair blows in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless, cool, with a faint glow of light behind him. Lettering: a caption box reads "Jefferson Victorio. Nineteen. Everyone says he's the cool one." and a second caption box reads "Nobody mentions he reads about ancient spirits for breakfast." Sound effects: "SWISH" with the wind in his hair and "TAP TAP" for his footsteps.
+Panel 4 (large low angle, bottom): Jeff walks toward the camera. His hair blows in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless, cool, with a faint glow of light behind him. Lettering: a caption box reads "Jefferson Victorio. Nineteen. He looks like the cool one." and a second caption box reads "His classmates call him weird. He reads about ancient spirits for breakfast." Sound effects: "SWISH" with the wind in his hair and "TAP TAP" for his footsteps.
 
 Draw all sound effects as big bold hand lettered comic lettering in English letters, curving with the action, spelled exactly as written, part of the drawing. Draw captions in clean rectangle boxes. Do not add any other text, no extra words, no watermark, no logo. Avoid color, realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
 ```
+
+## Edit prompt for the existing v4 image (caption fix only)
+Attach art/pages/ch1-page-01-v4-bw-sfx.png and use: "Edit this manga page. Keep everything exactly the same, the art, the panels, and all the sound effects. Only change the two caption boxes in the bottom large panel. The first caption box must read exactly: Jefferson Victorio. Nineteen. He looks like the cool one. The second caption box must read exactly: His classmates call him weird. He reads about ancient spirits for breakfast. Keep the same box style and the same positions, make the boxes a little taller if the new text needs more room. Do not change anything else and do not add any other text."

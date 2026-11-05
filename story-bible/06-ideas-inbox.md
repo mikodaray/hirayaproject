@@ -32,4 +32,5 @@ Drop any raw idea here, even half formed. We sort them into the other docs later
 
 ## 2026-11-05
 - DECIDED: Hal is good at math and science, and he brings technology know how back to the past in Butuan. Ideas to try (DRAFT, not decided): clean water filtering, better boat or sail design, simple lenses, using trade goods and metals he sees in the market.
-
+- DECIDED (2026-11-06): Jeff is not the cool one at school. He only looks cool. His classmates think he is weird and a nerd because he is into Filipino folklore and history.
+- DECIDED (2026-11-06): New character Totet Timla, a shy girl, 5 feet flat, black bob cut, freckles on her cheeks, with a crush on Jeff. Details in story-bible/characters/totet-timla.md.

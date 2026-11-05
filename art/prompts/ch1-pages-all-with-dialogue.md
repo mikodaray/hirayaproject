@@ -93,7 +93,7 @@ Layout: Different layout: a single full page splash, one image, no panels, no gu
 
 Panel 1 (full page): Jeff catches Nikki's wrist without even looking at it, one hand, calm. Dramatic angle from slightly below. Behind him Hal's eyes are huge, Mel's bow is frozen mid air, the students are frozen. Leaves and dust float in a shaft of morning sun. Nikki's face is shocked. Lettering: speech bubble from Jeff reads "Not him."; caption box reads "Jeff Victorio never starts a fight. He just never lets his friends stand alone."
 
-Art note: this is the page that sells Jeff as the cool one. Everyone else in the frame is in comic shock, Jeff is the only calm face.
+Art note: this is the page that shows Jeff is more than the weird folklore kid. Everyone else in the frame is in comic shock, Jeff is the only calm face. He looks cool, and for one moment the school sees it.
 
 ## Page 8 (6 panels): Aftermath
 Layout: wide panel, two small panels, a medium panel, a small panel, and a wide panel at the bottom. 
@@ -251,7 +251,7 @@ Layout: medium panel, two small panels, a medium panel, a small panel, a large p
 
 Panel 1 (medium): All three look at Jeff.
 
-Panel 2 (small): Nikki, arms crossed. Lettering: speech bubble from Nikki reads "Go on. Unless the cool guy's scared."
+Panel 2 (small): Nikki, arms crossed. Lettering: speech bubble from Nikki reads "Go on. Unless the weirdo's scared."
 
 Panel 3 (small): Jeff. Lettering: speech bubble from Jeff reads "I'm not scared. I'm thorough."
 
@@ -424,7 +424,7 @@ Panel 3 (small): Jeff, nerd mode. Lettering: speech bubble from Jeff reads "Thos
 
 Panel 4 (small): Nikki. Then smaller: "..are we dead?" Lettering: speech bubble from Nikki reads "STOP explaining, nerd! Where are we?"
 
-Panel 5 (medium): Jeff, calm, the cool guy again. Lettering: speech bubble from Jeff reads "Not dead. Just very, very early."
+Panel 5 (medium): Jeff, calm and steady, for once the one who knows what is going on. Lettering: speech bubble from Jeff reads "Not dead. Just very, very early."
 
 Panel 6 (small): Hal. Lettering: speech bubble from Hal reads "BACK IN TIME?! I have a quiz tomorrow!"
 

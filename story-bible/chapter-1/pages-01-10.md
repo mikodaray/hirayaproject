@@ -16,6 +16,7 @@ SFX (gitaigo): KIRA KIRA (the towers sparkling in the sunrise)
 
 **2. TALL, middle right.** The gate of Durian Public High School. Flag, painted sign, students trickling in, the modern skyline behind the school.
 SFX (giseigo): ZAWA ZAWA (the chatter of the crowd)
+SFX (giseigo): HISO HISO (students whisper as Jeff walks by: "That's the folklore guy.")
 SFX (giongo): KRIIIK (the gate swinging)
 
 **3. SMALL, middle left.** Close up: a necklace swinging against a blue uniform shirt. One tiny glint. No explanation.
@@ -24,8 +25,8 @@ SFX (gitaigo): KIRA, DOKI (a tiny heartbeat, like the necklace is alive)
 **4. LARGE LOW ANGLE, bottom half.** Jeff walks toward the camera. Ube colored hair in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless.
 SFX (giongo): SWISH (hair in the wind), TAP TAP (footsteps)
 SFX (gitaigo): SHINE (a cool glow around Jeff)
-CAPTION: "Jefferson Victorio. Nineteen. Everyone says he's the cool one."
-CAPTION: "Nobody mentions he reads about ancient spirits for breakfast."
+CAPTION: "Jefferson Victorio. Nineteen. He looks like the cool one."
+CAPTION: "His classmates call him weird. He reads about ancient spirits for breakfast."
 
 ---
 
@@ -141,7 +142,7 @@ Layout: one full page image.
 JEFF: "Not him."
 CAPTION (tiny, bottom corner): "Jeff Victorio never starts a fight. He just never lets his friends stand alone."
 
-Art note: this is the page that sells Jeff as the cool one. Everyone else in the frame is in comic shock, Jeff is the only calm face.
+Art note: this is the page that shows Jeff is more than the weird folklore kid. Everyone else in the frame is in comic shock, Jeff is the only calm face. He looks cool, and for one moment the school sees it.
 
 ---
 

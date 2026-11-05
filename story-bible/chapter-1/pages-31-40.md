@@ -31,7 +31,7 @@ JEFF: "Those are balangay. Plank boats joined with wooden pegs. No nails."
 NIKKI: "STOP explaining, nerd! Where are we?"
 Then smaller: "...are we dead?"
 
-**5. MEDIUM.** Jeff, calm, the cool guy again.
+**5. MEDIUM.** Jeff, calm and steady, for once the one who knows what is going on.
 JEFF: "Not dead. Just very, very early."
 
 **6. SMALL.** Hal.

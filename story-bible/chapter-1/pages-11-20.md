@@ -180,7 +180,7 @@ Layout: medium panel, two small panels, a medium panel, a small panel, a large p
 **1. MEDIUM.** All three look at Jeff.
 
 **2. SMALL.** Nikki, arms crossed.
-NIKKI: "Go on. Unless the cool guy's scared."
+NIKKI: "Go on. Unless the weirdo's scared."
 
 **3. SMALL.** Jeff.
 JEFF: "I'm not scared. I'm thorough."

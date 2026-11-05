@@ -20,7 +20,7 @@ Status: draft
 - Distinct marks or details: a necklace his father gave him when he turned 18, one of the ten Agimats (DECIDED), design OPEN
 
 ## Personality
-- Core traits: the cool guy of the group, but kind of nerdy (DECIDED)
+- Core traits: he looks cool, but his classmates think he is weird and a nerd because he is into Filipino folklore and history (DECIDED by the creator, replaces the earlier 'cool guy of the group')
 - Protective: defends Hal from Nikki (DECIDED)
 - Habits and quirks: OPEN
 - How he speaks: OPEN
@@ -51,12 +51,13 @@ Status: draft
 - Hal Bautista: best friend, Jeff defends him
 - Mel Charlie Abaldado: friend
 - Nikki Sharon Legazpi: bullies Jeff, and bullies Hal more, Jeff stands up to her
+- Totet Timla: classmate with a crush on him (DECIDED)
 - Sir Archie (Archibald Oronies): homeroom teacher
 - Father: gave him the necklace at 18
 - Three sisters: older (23), younger (18), youngest (7), names OPEN
 
 ## Story arc
-- Start: cool but nerdy student who protects his friends (DECIDED), the rest OPEN
+- Start: looks cool, but is seen as a weird nerd for loving Filipino folklore and history, and he protects his friends (DECIDED), the rest OPEN
 - Turning points: OPEN
 - End: OPEN
 

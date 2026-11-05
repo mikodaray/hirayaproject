@@ -27,13 +27,13 @@ Working title (DRAFT): "Read It Out Loud"
 | 41 to 50 | Guests, night talk, the elder's warning, the demand, the hook |
 
 ## One page images
-- Page 7: Jeff catches Nikki's wrist. This proves the point that Jeff is the cool one who never lets his friends stand alone.
+- Page 7: Jeff catches Nikki's wrist. This proves Jeff is more than the weird folklore kid: he never lets his friends stand alone.
 - Page 31: Butuan at dawn. This is the grand event, the answer to the premise.
 If you only want one splash page, we can fold page 7 into a normal layout.
 
 ## Panel dynamics
 - Big panels for reveals, small panels for reactions and jokes, thin strips for silence and tension.
-- Jeff stays calm and cool in every scene. The other three have exaggerated, animated reactions.
+- Jeff looks cool and stays calm in every scene, even though his classmates think he is weird. The other three have exaggerated, animated reactions.
 - Page 49 repeats the stance from page 7, so the ending echoes Jeff's first big moment.
 - Reading direction is DECIDED: right to left. Layouts are written for right to left reading, so in each row the first panel is on the right.
 - Chapter pages are black and white with screentone (DECIDED).
