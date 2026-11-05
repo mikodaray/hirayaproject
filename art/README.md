@@ -14,6 +14,7 @@ Note: the cast designs changed after this cover (Jeff has ube colored hair, Mel 
 | 3 | 03-cast-group-scene-v1-title.png | Same scene with the title added in Latin letters styled like Baybayin (needs review, lettering may not read as Hiraya) | 2026-11-05 |
 | 4 | 04-cast-group-scene-v2-hiraya-title.png | Scene with the title reading Hiraya and Hal made a bit bigger in the frame, then a little smaller (current version, Canva media id MAHZ_AlKdYo) | 2026-11-05 |
 | 5 | 05-chapter-1-cover-v1.png | Chapter 1 cover, approved by creator as looking great, with the Hiraya title and Chapter 1 at the lower right (Canva media id MAHZ_ImCC6E) | 2026-11-05 |
+| 6 | 06-chapter-1-cover-1-warriors.png | Chapter 1 cover 1: the four main characters in ancient Filipino warrior costumes with folklore creatures behind them (bakunawa, tikbalang, kapre, diwata, sarimanok, manananggal), made by the creator from prompts/03-chapter-1-cover-warriors.md. Title HIRAYA, subtitle Chapter 1: Read It Out Loud, credit Authored by Claude and Miko Daray | 2026-11-06 |
 
 ## Chapter pages
 Generated manga pages go in the pages/ folder, named ch1-page-NN-vN.png.
