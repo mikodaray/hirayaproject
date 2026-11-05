@@ -15,7 +15,8 @@ Status: draft
 - Face and hair: black bob cut, freckles on her cheeks (DECIDED by the creator)
 - Uniform: all white blouse and skirt, like the other girls (DECIDED school rule)
 - Distinct marks or details: freckles on her cheeks
-- Reference sheet: not made yet. Prompt is in art/prompts/02-character-reference-sheets.md, number 6.
+- Reference sheet (creator generated): art/characters/06-totet-sheet-v1.png. Use it as the image reference for all future art. The prompt is in art/prompts/02-character-reference-sheets.md, number 6.
+- Colors on the sheet: glossy black bob cut with straight bangs, freckles on both cheeks and nose, big dark brown eyes, light tan skin, all white short sleeved blouse and pleated white skirt, white socks and loafers, white shoulder bag
 
 ## Personality
 - Core traits: shy (DECIDED by the creator)
