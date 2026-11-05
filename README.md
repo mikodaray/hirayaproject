@@ -25,3 +25,9 @@ Open `index.html` through GitHub Pages to read the cover and the chapter 1 pages
 ## Status
 - Stage: early concept
 - Last updated: 2026-11-04
+
+## Storyboard and summary pages
+- storyboard.html: the full 50 page storyboard with a box layout for every page. It reads from storyboard-data.js, which is built from the storyboard files. After you change the storyboard or a layout, run `python3 tools/build-storyboard-data.py` from the repo root. Layouts are listed in that script.
+- summary.html: a short summary of Chapter 1.
+- Both are linked from the header of index.html.
+

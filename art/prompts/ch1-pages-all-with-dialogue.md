@@ -20,7 +20,7 @@ Draw speech bubbles, caption boxes, and sound effect lettering exactly as listed
 See the full ready to paste version in art/prompts/ch1-page-01.md, Version 4 (it includes the sound effects).
 
 ## Page 2 (5 panels): Meet Hal
-Layout: wide strip on top, two small panels, then a tall panel on the left and a large panel on the right. 
+Layout: wide strip on top, two small panels, then a tall panel on the right and a large panel on the left. 
 
 Panel 1 (wide, top): Behind Jeff, a tiny figure sprints through the crowd, a backpack bigger than he is. Lettering: sound effect lettering reads "TAP TAP TAP TAP"
 
@@ -28,9 +28,9 @@ Panel 2 (small): Jeff does not turn around. Small smirk. Lettering: speech bubbl
 
 Panel 3 (small): Hal crashes into Jeff's back. Glasses slide down his nose. Lettering: sound effect lettering reads "THUD"; speech bubble from Hal reads "JEFF! Wait up!"
 
-Panel 4 (tall, left): Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended. Lettering: speech bubble from Hal reads "You walked past the bakery again! I texted you six times!"
+Panel 4 (tall, right): Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended. Lettering: speech bubble from Hal reads "You walked past the bakery again! I texted you six times!"
 
-Panel 5 (large, right): The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy. Lettering: speech bubble from Hal reads "I got your favorite."; speech bubble from Jeff reads "You're a legend."; caption box reads "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."
+Panel 5 (large, left): The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy. Lettering: speech bubble from Hal reads "I got your favorite."; speech bubble from Jeff reads "You're a legend."; caption box reads "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."
 
 ## Page 3 (6 panels): Meet Mel
 Layout: wide strip on top, a tall panel on the right, three stacked small panels in the middle, a large panel at the bottom. 

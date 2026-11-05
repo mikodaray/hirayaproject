@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hiraya Chapter 1 Storyboard</title>
+<style>
+  :root { --bg:#14110f; --panel:#1d1916; --panel-2:#26211d; --line:#3a322c; --text:#f3ece4; --muted:#a99d91; --accent:#e9b44c; --accent-ink:#1a1408; --focus:#7cc4ff; --radius:12px; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  a { color:var(--accent); }
+  .btn { font:inherit; color:var(--text); background:var(--panel-2); border:1px solid var(--line); border-radius:999px; padding:8px 16px; text-decoration:none; display:inline-flex; align-items:center; min-height:40px; }
+  .btn:hover { border-color:var(--accent); }
+  :focus-visible { outline:3px solid var(--focus); outline-offset:2px; }
+  header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; padding:12px 16px; border-bottom:1px solid var(--line); background:var(--panel); position:sticky; top:0; z-index:5; }
+  .brand { display:flex; align-items:baseline; gap:10px; }
+  .brand h1 { margin:0; font-size:1.35rem; letter-spacing:.08em; text-transform:uppercase; }
+  .brand span { color:var(--muted); font-size:.9rem; }
+  .controls { display:flex; flex-wrap:wrap; gap:8px; }
+  main { max-width:1100px; margin:0 auto; padding:16px; }
+  .intro { background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:14px 16px; color:var(--muted); }
+  .intro strong { color:var(--text); }
+  .jump { display:flex; flex-wrap:wrap; gap:6px; margin:16px 0; }
+  .jump a { min-width:38px; text-align:center; padding:4px 8px; border:1px solid var(--line); border-radius:8px; background:var(--panel-2); text-decoration:none; font-size:.9rem; color:var(--text); }
+  .jump a:hover { border-color:var(--accent); }
+  .jump a.splash { border-color:var(--accent); color:var(--accent); }
+  .pg { display:grid; grid-template-columns:260px 1fr; gap:20px; background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:16px; margin:0 0 18px; scroll-margin-top:80px; }
+  .pg h2 { margin:0 0 2px; font-size:1.15rem; }
+  .pg .tag { color:var(--accent); font-size:.8rem; font-weight:600; text-transform:uppercase; letter-spacing:.06em; }
+  .pg .lay { margin:2px 0 10px; color:var(--muted); font-size:.9rem; }
+  .diagram { position:relative; width:100%; aspect-ratio:2/3; background:#f4efe6; border-radius:6px; box-shadow:0 4px 18px rgba(0,0,0,.45); }
+  .box { position:absolute; background:#fffdf8; border:2px solid #1b1612; display:flex; align-items:center; justify-content:center; flex-direction:column; color:#1b1612; overflow:hidden; line-height:1.1; }
+  .box b { font-size:clamp(1rem,3.2vw,1.6rem); }
+  .box small { font-size:.62rem; text-transform:uppercase; letter-spacing:.05em; opacity:.7; }
+  .diagram-note { margin-top:6px; color:var(--muted); font-size:.78rem; text-align:center; }
+  .panels { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; }
+  .panels li { background:var(--panel-2); border-radius:8px; padding:8px 12px; }
+  .panels .ph { display:flex; align-items:baseline; gap:8px; }
+  .panels .num { background:var(--accent); color:var(--accent-ink); font-weight:700; border-radius:6px; min-width:26px; text-align:center; padding:0 6px; }
+  .panels .size { color:var(--muted); font-size:.8rem; text-transform:uppercase; letter-spacing:.05em; }
+  .panels p { margin:4px 0 0; }
+  .say, .cap, .sfx { margin:4px 0 0; padding-left:10px; border-left:3px solid var(--line); }
+  .say b { color:var(--accent); font-size:.85rem; margin-right:6px; letter-spacing:.03em; }
+  .cap { font-style:italic; color:#d9cfc4; border-left-color:#8a7a5c; }
+  .cap em { font-style:normal; color:var(--muted); font-size:.75rem; margin-right:6px; text-transform:uppercase; }
+  .sfx { font-weight:800; letter-spacing:.06em; border-left-color:var(--accent); }
+  .sfx em { font-style:normal; color:var(--muted); font-size:.75rem; margin-right:6px; font-weight:600; }
+  .note { margin-top:10px; padding:8px 12px; border:1px dashed var(--line); border-radius:8px; color:var(--muted); font-size:.9rem; }
+  .top { margin:24px 0; text-align:center; }
+  footer { padding:12px 16px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; text-align:center; background:var(--panel); }
+  @media (max-width:720px) { .pg { grid-template-columns:1fr; } .diagram { max-width:320px; margin:0 auto; } }
+</style>
+</head>
+<body>
+<header id="top">
+  <div class="brand"><h1>Hiraya</h1><span>Chapter 1 storyboard</span></div>
+  <div class="controls">
+    <a class="btn" href="index.html">Reader</a>
+    <a class="btn" href="summary.html">Chapter summary</a>
+  </div>
+</header>
+<main>
+  <div class="intro">
+    <strong>The full storyboard for Chapter 1, 50 pages.</strong> Each page shows the planned panels as boxes, so you can picture how the page will look, then the script for every panel. The book reads <strong>right to left</strong>, so panel 1 is at the top right of each row. Status: DRAFT, written for the creator to review. Sound effects (SFX) are tagged with their type when the storyboard gives one: giongo (sounds), giseigo (voices), gitaigo (feelings).
+  </div>
+  <nav class="jump" id="jump" aria-label="Jump to page"></nav>
+  <div id="pages"></div>
+  <div class="top"><a href="#top" class="btn">Back to the top</a></div>
+</main>
+<footer>Hiraya by Miko. The layouts here are plans, the final art may shift panels a little.</footer>
+<script src="storyboard-data.js"></script>
+<script>
+  var jump = document.getElementById("jump");
+  var root = document.getElementById("pages");
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
+
+  STORY.forEach(function (p) {
+    var a = el("a", p.splash ? "splash" : "", String(p.n)); a.href = "#p" + p.n; a.title = "Page " + p.n + ": " + p.title; jump.appendChild(a);
+
+    var sec = el("section", "pg"); sec.id = "p" + p.n;
+
+    var left = el("div");
+    var d = el("div", "diagram"); d.setAttribute("role", "img");
+    d.setAttribute("aria-label", "Planned layout of page " + p.n + " with " + p.panels.length + " panels");
+    p.panels.forEach(function (q) {
+      var b = el("div", "box");
+      b.style.left = q.rect[0] + "%"; b.style.top = q.rect[1] + "%"; b.style.width = q.rect[2] + "%"; b.style.height = q.rect[3] + "%";
+      var n = el("b", "", String(q.n)); b.appendChild(n);
+      if (q.rect[3] > 9) b.appendChild(el("small", "", q.size));
+      d.appendChild(b);
+    });
+    left.appendChild(d);
+    left.appendChild(el("div", "diagram-note", p.splash ? "Full page splash" : "Read right to left, panel 1 starts at the top right"));
+    sec.appendChild(left);
+
+    var right = el("div");
+    right.appendChild(el("div", "tag", p.splash ? "Page " + p.n + ", splash" : "Page " + p.n + ", " + p.panels.length + " panels"));
+    right.appendChild(el("h2", "", p.title));
+    right.appendChild(el("div", "lay", "Layout: " + p.layout));
+    var ul = el("ul", "panels");
+    p.panels.forEach(function (q) {
+      var li = el("li");
+      var h = el("div", "ph"); h.appendChild(el("span", "num", String(q.n))); h.appendChild(el("span", "size", q.size)); li.appendChild(h);
+      li.appendChild(el("p", "", q.desc));
+      q.lines.forEach(function (l) {
+        if (l.k === "say") {
+          var s = el("div", "say"); s.appendChild(el("b", "", (l.who + (l.mod ? " (" + l.mod + ")" : "")).toUpperCase())); s.appendChild(document.createTextNode(l.t)); li.appendChild(s);
+        } else if (l.k === "cap") {
+          var c = el("div", "cap"); c.appendChild(el("em", "", "Caption")); c.appendChild(document.createTextNode(l.t.replace(/^"|"$/g, ""))); li.appendChild(c);
+        } else {
+          var x = el("div", "sfx"); x.appendChild(el("em", "", l.mod ? "SFX " + l.mod : "SFX")); x.appendChild(document.createTextNode(l.t)); li.appendChild(x);
+        }
+      });
+      ul.appendChild(li);
+    });
+    right.appendChild(ul);
+    if (p.note) right.appendChild(el("div", "note", "Art note: " + p.note));
+    var link = el("a", "", "See this page in the reader"); link.href = "index.html#p" + p.n; link.style.display = "inline-block"; link.style.marginTop = "10px";
+    right.appendChild(link);
+    sec.appendChild(right);
+    root.appendChild(sec);
+  });
+</script>
+</body>
+</html>

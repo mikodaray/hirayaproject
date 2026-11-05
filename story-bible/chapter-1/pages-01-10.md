@@ -31,7 +31,7 @@ CAPTION: "His classmates call him weird. He reads about ancient spirits for brea
 ---
 
 ## Page 2 (5 panels): Meet Hal
-Layout: wide strip on top, two small panels, then a tall panel on the left and a large panel on the right.
+Layout: wide strip on top, two small panels, then a tall panel on the right and a large panel on the left.
 
 **1. WIDE, top.** Behind Jeff, a tiny figure sprints through the crowd, a backpack bigger than he is.
 SFX: TAP TAP TAP TAP
@@ -43,10 +43,10 @@ JEFF: "Three. Two. One."
 SFX: THUD
 HAL: "JEFF! Wait up!"
 
-**4. TALL, left.** Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended.
+**4. TALL, right.** Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended.
 HAL: "You walked past the bakery again! I texted you six times!"
 
-**5. LARGE, right.** The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy.
+**5. LARGE, left.** The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy.
 HAL: "I got your favorite."
 JEFF: "You're a legend."
 CAPTION: "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."
