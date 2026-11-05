@@ -49,3 +49,4 @@ Prompts with dialogue for all 50 pages: prompts/ch1-pages-all-with-dialogue.md (
 | 4 | characters/04-nikki-sheet-v1.png | Nikki full color reference sheet, one character only, chosen by the creator | 2026-11-05 |
 | 3 | characters/03-mel-sheet-v1.png | Mel full color reference sheet, one character only, chosen by the creator | 2026-11-06 |
 | 5 | characters/05-sir-archie-sheet-v1.png | Sir Archie full color reference sheet, one character only, chosen by the creator | 2026-11-06 |
+| 1 | pages/ch1-page-01-v4-bw-sfx.png | Version 4: black and white, right to left, sound effects and captions drawn into the art, made by the creator with Jeff's character sheet as reference (current version, full size 1024x1536) | 2026-11-06 |

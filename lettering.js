@@ -4,16 +4,7 @@
 // Positions are first pass guesses against the generated art. Nudge the numbers to move a bubble.
 // Reading order is right to left, so the first lines of a row sit on the right.
 var LETTERING = {
-  1: [
-    ["c", 4, 3, 42, "Durian City, Mindanao. 6:42 AM."],
-    ["x", 58, 4, 36, "KIRA KIRA"],
-    ["x", 8, 15, 30, "VROOOM HONK"],
-    ["x", 58, 36, 34, "ZAWA ZAWA"],
-    ["x", 10, 52, 22, "KIRA DOKI"],
-    ["x", 58, 70, 30, "SWISH"],
-    ["c", 4, 78, 52, "Jefferson Victorio. Nineteen. Everyone says he's the cool one."],
-    ["c", 4, 90, 52, "Nobody mentions he reads about ancient spirits for breakfast."]
-  ],
+  // Page 1 has its lettering drawn into the art (v4), so no overlay is needed.
   2: [
     ["x", 8, 3, 36, "TAP TAP TAP TAP"],
     ["w", 56, 25, 36, "Three. Two. One."],
