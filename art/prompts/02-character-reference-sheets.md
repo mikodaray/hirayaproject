@@ -15,8 +15,14 @@ Manga character reference sheet in full color, hand drawn with bold ink pen line
 Use the exact colors given in each character block.
 
 ## 1. Jeff (Jefferson Victorio), main protagonist
-Jefferson "Jeff" Victorio, 19 years old, tall and lean, 5 foot 10, the cool guy who is also a little nerdy. Ube purple hair (a soft violet purple like ube), messy and a bit spiky, falling over one eye. Relaxed half lidded confident eyes, a small calm smirk. Sharp but friendly face. School uniform: blue short sleeved buttoned shirt (school blue) with the top button open, khaki tan pants, plain black school shoes, a thin backpack strap on one shoulder. Under the collar he wears a small pendant necklace on a chain, a simple carved stone charm, drawn with a tiny glint. Standing pose: one hand in pocket, relaxed, effortless. Height reference: he is the second tallest of the four friends.
-Expression row: calm smirk, nerd excitement with sparkling eyes, serious protective glare, mild surprise, small shy smile.
+Approved sheet: art/characters/01-jeff-sheet-v1.png
+```
+Manga character reference sheet in full color, hand drawn with bold ink pen linework and flat cel style coloring with simple shading, in the style of a classic shonen manga like Naruto: bold confident line, varied line weight, expressive faces. Not realistic, not 3D, not painted. Plain white background. Full body character shown three times in a row: front view, side view, back view, all standing straight at the same height. Next to them a large close up of the face and a row of small head studies showing calm smirk, nerd excitement with sparkling eyes, serious protective glare, mild surprise, and small shy smile. Small arrows pointing to key details. No readable text, no labels, no logos. Setting of the story: modern Philippines, Durian Public High School. Use the exact colors given below.
+
+Character: Jefferson "Jeff" Victorio, a 19 year old high school student, tall and lean, 5 foot 10, who looks cool but is a little nerdy. Ube purple hair (a soft violet purple like ube), messy and a bit spiky, falling over one eye. Relaxed half lidded confident eyes, a small calm smirk. Sharp but friendly face. School uniform: blue short sleeved buttoned shirt (school blue) with the top button open, khaki tan pants, plain black school shoes, a thin backpack strap on one shoulder. Under the collar he wears a small pendant necklace on a chain, a simple carved stone charm, drawn with a tiny glint. Standing pose: one hand in pocket, relaxed, effortless.
+
+Anatomy must be correct: every person has exactly two arms and exactly two hands, each hand has exactly five fingers (four fingers and one thumb), and exactly two legs, with no extra, missing, merged, or duplicated arms, hands, fingers, or legs. Count the limbs and fingers of every person, including people in the background. Avoid realistic or photographic rendering, 3D rendering, extra or missing fingers, more than five fingers on a hand, more than two arms, a third arm, extra or duplicate arms, hands, or legs, merged limbs, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
+```
 
 ## 2. Hal (Hal Bautista), Jeff's best friend
 Lesson learned: do not mention Jeff, a height in feet, or a scale bar in the prompt. The generator then draws a second person and a height chart. Describe Hal's size by proportions only. Hal is 18, short but with young adult proportions, not a child. Add the group height check later using both sheets as references.
@@ -29,8 +35,14 @@ Anatomy must be correct: every person has exactly two arms and exactly two hands
 ```
 
 ## 3. Mel (Mel Charlie Abaldado), the musical genius
-Mel Charlie Abaldado, teenage boy, 6 foot 2, big and on the heavy side, but gentle looking with soft rounded features and a kind face. Long golden blonde hair past the shoulders, calm closed or soft eyes. School uniform: blue short sleeved buttoned shirt, khaki pants. He always carries a violin, with the bow, in the standing view tucked under his arm and in one view played under his chin. He is the tallest and widest of the four.
-Expression row: peaceful eyes closed while playing, shy smile, worried, startled, proud soft smile.
+Approved sheet: art/characters/03-mel-sheet-v1.png
+```
+Manga character reference sheet in full color, hand drawn with bold ink pen linework and flat cel style coloring with simple shading, in the style of a classic shonen manga like Naruto. Not realistic, not 3D, not painted. Plain white background. This sheet contains exactly ONE character, a single boy, and nobody else. Full body of this one boy shown three times in a row: front view, side view, back view, all standing straight at the same height, holding a violin and bow at his side. Next to them a large close up of his face, and one smaller pose of him playing the violin with the violin under his chin. Below, a row of five small head studies showing peaceful closed eyes while playing, shy smile, worried, startled, and proud soft smile. Small arrows pointing to key details. No height chart, no scale bar, no comparison silhouette, no color swatches, no readable text, no labels, no numbers, no logos. Setting of the story: modern Philippines. Use the exact colors given below.
+
+Character: Mel, a high school student who is very tall, big and heavy, with broad shoulders and a soft round belly, but gentle looking with soft rounded features, a round kind face, and a calm sleepy expression. Long golden blonde hair past the shoulders, smooth and a bit wavy, with the front parted to the side. Gentle dark brown eyes, often half closed. School uniform: school blue short sleeved buttoned shirt that fits snugly, khaki tan pants, plain black school shoes. He carries a wooden violin (warm brown wood) with a dark bow. Standing pose: relaxed, shoulders soft, violin held at his side.
+
+Anatomy must be correct: every person has exactly two arms and exactly two hands, each hand has exactly five fingers (four fingers and one thumb), and exactly two legs, with no extra, missing, merged, or duplicated arms, hands, fingers, or legs. Count the limbs and fingers of every person, including people in the background. Avoid a second person, thin or small proportions, height markings, realistic or photographic rendering, 3D rendering, extra or missing fingers, more than five fingers on a hand, more than two arms, a third arm, extra or duplicate arms, hands, or legs, merged limbs, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
+```
 
 ## 4. Nikki (Nikki Sharon Legazpi), the popular girl
 ```
