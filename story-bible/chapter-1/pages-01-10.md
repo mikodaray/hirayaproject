@@ -166,7 +166,7 @@ Layout: wide panel on top, small panel, medium panel, small panel, large panel a
 
 **1. WIDE.** Homeroom. Ceiling fans, chalk dust, open windows with a view of the courtyard.
 
-**2. SMALL.** Sir Archie at the front. Calm man, tired smile, a coffee thermos on the desk. (Look is DRAFT.)
+**2. SMALL.** Sir Archie at the front. Cool, tall, muscular young teacher with white hair and rectangle glasses, tight buttoned shirt and a cardigan, a coffee thermos on the desk.
 CAPTION: "Mr. Archibald Oronies. Everyone calls him Sir Archie."
 
 **3. MEDIUM.** Roll call, quick cuts of each of the four.

@@ -5,19 +5,19 @@ Status: draft
 
 ## Basics
 - Full name and nicknames: Archibald Oronies, the students call him Sir Archie
-- Age: OPEN
+- Age: around 25 (DECIDED by the creator). His white hair is not from age, why is OPEN (could connect to the Agimats)
 - Where they are from: OPEN
 - Social class or station: OPEN
 - Occupation or role in society: homeroom teacher at the school in Durian City (DECIDED)
 
 ## Look (for the art)
-- Height and build: OPEN
-- Face and hair: OPEN
-- Clothing and signature items: OPEN
+- Height and build: tall, muscular, athletic (DECIDED by the creator)
+- Face and hair: white hair even though he is young, rectangle shaped glasses (DECIDED by the creator)
+- Clothing and signature items: tight muscular buttoned shirt with a cardigan (DECIDED by the creator). Draft extras: coffee thermos, ID lanyard
 - Distinct marks or details: OPEN
 
 ## Personality
-- Core traits: OPEN
+- Core traits: cool (DECIDED by the creator), calm and knows more than he says (DRAFT)
 - Habits and quirks: OPEN
 - How he speaks: OPEN
 - Fears: OPEN

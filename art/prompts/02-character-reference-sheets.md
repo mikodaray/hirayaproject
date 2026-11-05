@@ -42,8 +42,13 @@ Avoid a second person, sexualized or exaggerated body proportions, revealing clo
 ```
 
 ## 5. Sir Archie (Archibald Oronies), homeroom teacher
-Archibald Oronies, "Sir Archie", homeroom teacher, around 40 years old. (DRAFT look) Average height, slim build, a calm man with a tired kind smile and slightly messy short black hair with a few gray streaks, light stubble, soft tired eyes with faint bags under them. Clothes: a plain light polo shirt with sleeves rolled to the elbow, dark slacks, an ID lace around the neck, chalk dust on one hand. Signature items: a coffee thermos. In one view show him writing on a board. A small detail: his eyes rest a little too long on things, he knows more than he says.
-Expression row: tired smile, stern warning look, amused, thoughtful, a quick worried glance.
+```
+Manga character reference sheet in full color, hand drawn with bold ink pen linework and flat cel style coloring with simple shading, in the style of a classic shonen manga like Naruto. Not realistic, not 3D, not painted. Plain white background. This sheet contains exactly ONE character, a single young man, and nobody else. Full body of this one man shown three times in a row: front view, side view, back view, all standing straight at the same height. Next to them a large close up of his face, and one smaller pose of him writing on a chalkboard with his back half turned. Below, a row of five small head studies showing a calm cool smile, a stern warning look, amused, thoughtful, and a quick worried glance. Small arrows pointing to key details. No height chart, no scale bar, no comparison silhouette, no color swatches, no readable text, no labels, no numbers, no logos. Setting of the story: modern Philippines. Use the exact colors given below.
+
+Character: Archie, a cool, tall, muscular young man around 25 years old, a school teacher with a calm, confident, slightly mysterious presence. Messy short white hair (pure white, not gray, even though he is young). Rectangle shaped glasses with thin dark frames, sharp calm eyes behind them. A handsome, relaxed face with a small knowing smile. Broad shoulders, a strong athletic build. Clothes: a fitted, tight buttoned shirt in soft cream that shows his muscular chest and arms, with a long dark brown cardigan over it, left open, dark slacks, plain brown leather shoes, and a lanyard ID around his neck. Standing pose: relaxed and cool, one hand holding a coffee thermos, the other in his cardigan pocket.
+
+Avoid a second person, old or tired looking face, thin or small proportions, height markings, realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
+```
 
 ## Group height check (generate after the five sheets)
 Use all five sheets as references: "The four students and their teacher standing in a line facing the viewer on a plain white background, same manga style, full color. Heights from tallest to shortest: Mel 6'2", Jeff 5'10", Nikki 5'4", Hal 5'0". Sir Archie is average height, a little shorter than Jeff. Keep the exact faces, hair, and uniforms from the reference sheets."

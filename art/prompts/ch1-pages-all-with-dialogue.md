@@ -123,7 +123,7 @@ Layout: wide panel on top, small panel, medium panel, small panel, large panel a
 
 Panel 1 (wide): Homeroom. Ceiling fans, chalk dust, open windows with a view of the courtyard.
 
-Panel 2 (small): Sir Archie at the front. Calm man, tired smile, a coffee thermos on the desk. (Look is DRAFT.) Lettering: caption box reads "Mr. Archibald Oronies. Everyone calls him Sir Archie."
+Panel 2 (small): Sir Archie at the front. Cool, tall, muscular young teacher with white hair and rectangle glasses, tight buttoned shirt and a cardigan, a coffee thermos on the desk. Lettering: caption box reads "Mr. Archibald Oronies. Everyone calls him Sir Archie."
 
 Panel 3 (medium): Roll call, quick cuts of each of the four. Lettering: speech bubble from Sir Archie reads "Victorio?"; speech bubble from Jeff reads "Present, sir."; speech bubble from Sir Archie reads "Bautista?"; speech bubble from Hal reads "Here, Sir! Alive!"; speech bubble from Sir Archie reads "Abaldado?" MEL: "Present."; speech bubble from Sir Archie reads "Legazpi?" NIKKI: "..Present.".
 
