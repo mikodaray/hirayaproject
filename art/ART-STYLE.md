@@ -27,6 +27,10 @@ DECIDED by creator: every page includes onomatopoeia (SFX), written in English l
 - Gitaigo, feelings and atmosphere with no literal sound: sparkle, awkward silence, a racing heartbeat, gloom (KIRA, DOKI DOKI, ...)
 Draw them big and hand lettered, part of the art, often curving with the action. Gitaigo can use the Japanese manga sounds written in English letters or plain English words.
 
+## Expressions rule (faces match the scene)
+
+Every prompt must give each character an expression that fits what is happening in that scene: animated, clear emotion, readable at a glance (shock, laughing, fear, determination, embarrassment, awe, and so on). Say where the head is turned and where the eyes look. Do not reuse the same resting face in every image (Jeff's smirk is only his default look). Tell the generator to use the character sheet for hair, face shape, clothes and build, but not to copy the sheet's pose or expression; the sheet's expression row shows the range.
+
 ## Anatomy rule (limbs and fingers)
 DECIDED by creator (2026-11-06): every person in every image must have exactly two arms and two hands, five fingers on each hand (four fingers and one thumb), and two legs. No extra, missing, merged, or duplicated limbs or fingers, also for people in the background and when hands overlap. This rule is written into every prompt, both as a positive instruction and in the avoid list. Always check the result, and if a hand or arm is wrong, regenerate or use the fix prompt below.
 Fix prompt: "Keep everything exactly the same. Only fix the anatomy: every person must have exactly two arms and two hands with five fingers on each hand, and remove any extra arms, hands, or fingers."
