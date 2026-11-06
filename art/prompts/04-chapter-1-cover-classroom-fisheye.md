@@ -34,4 +34,4 @@ Anatomy must be correct: every person has exactly two arms and exactly two hands
 ## Notes
 - If the logo gets redrawn badly, generate the cover with the title area left empty and paste art/logo/hiraya-logo-style2-brush.png on top.
 - If the chalkboard heading is misspelled, edit: "Keep everything the same, only fix the chalkboard heading to read exactly ANCIENT BUTUAN."
-- The saved cover 2 image still says Read It Out Loud until the creator replaces it with a result of this prompt.
+- Result approved by the creator on 2026-11-07 and saved as art/07-chapter-1-cover-2-classroom-fisheye.png.
