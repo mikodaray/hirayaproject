@@ -38,15 +38,20 @@ def cover_prompt():
     t = open('art/prompts/03-chapter-1-cover-warriors.md').read()
     return re.search(r'## Prompt\n```\n(.*?)\n```', t, re.S).group(1).strip(), ['jeff','hal','mel','nikki']
 
+JOINTS = (" Joints must be correct: every arm has exactly two segments, an upper arm and a forearm, joined at exactly ONE elbow, from a shoulder that sits right next to the neck and torso to the wrist, "
+          "with no extra bend, no second elbow, no third segment, and every leg has exactly one knee. Check every arm of every person, including folded arms, arms resting on desks and hands held to the face. "
+          "Avoid arms with three segments, two elbows, extra joints, extra bends, rubbery or too long arms, and arms attached in the wrong place.")
+
 def build(name, prompt, chars, out, extra=()):
     os.makedirs(out, exist_ok=True)
     zpath = os.path.join(out, name + '.zip')
+    if 'ONE elbow' not in prompt: prompt = prompt.rstrip() + JOINTS
     lines = ['HIRAYA PROMPT BUNDLE: ' + name, '', 'HOW TO USE', '1. Attach the images in this bundle to your image generator, in this order:']
     for k, f in enumerate(extra, 1):
         lines.append('   %d. %s  (extra reference)' % (k, os.path.basename(f)))
     for i, c in enumerate(chars, 1):
         lines.append('   %d. %s  (%s)' % (i + len(extra), os.path.basename(SHEETS[c][1]), SHEETS[c][0]))
-    lines += ['2. Paste everything under the line PROMPT below.', '3. CHECK THE RESULT: every person must have exactly 2 arms, 2 hands, and 5 fingers on each hand. If not, regenerate, or attach the result and ask: Keep everything the same, only fix the anatomy so every person has exactly two arms and two hands with five fingers each.', '4. If a face drifts, attach that character sheet again with the result and ask for a fix on that character only.', '5. Faces must match the scene: animated, clear emotion, not the same resting face as the character sheet. If a face looks flat or copied, ask: Keep everything the same, only redraw the face of NAME with an expression that fits the scene (describe the emotion), animated and clearly showing emotion.', '', '=== PROMPT ===', '', prompt, '']
+    lines += ['2. Paste everything under the line PROMPT below.', '3. CHECK THE RESULT: every person must have exactly 2 arms, each arm with exactly ONE elbow (two segments, never three), 2 hands, and 5 fingers on each hand. If not, regenerate, or attach the result and ask: Keep everything the same, only fix the anatomy so every person has exactly two arms and two hands with five fingers each.', '4. If a face drifts, attach that character sheet again with the result and ask for a fix on that character only.', '5. Faces must match the scene: animated, clear emotion, not the same resting face as the character sheet. If a face looks flat or copied, ask: Keep everything the same, only redraw the face of NAME with an expression that fits the scene (describe the emotion), animated and clearly showing emotion.', '', '=== PROMPT ===', '', prompt, '']
     with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + '/prompt.txt', '\n'.join(lines))
         for k, f in enumerate(extra, 1):
