@@ -5,7 +5,7 @@ Run from the repo root:
   python3 tools/make-prompt-bundle.py --cover --out /path/to/out
   python3 tools/make-prompt-bundle.py --name X --prompt-md art/prompts/FILE.md --chars jeff,hal --out /path/to/out   (takes the block under ## Prompt)
   python3 tools/make-prompt-bundle.py --name my-image --prompt-file prompt.txt --chars jeff,hal --out /path/to/out
-Characters: jeff, hal, mel, nikki, archie, totet. The current sheet for each is listed in SHEETS.
+Characters: jeff, hal, mel, nikki, archie, totet, procopio. The current sheet for each is listed in SHEETS.
 """
 import argparse, re, zipfile, os
 
@@ -16,9 +16,10 @@ SHEETS = {
  'nikki': ('Nikki',      'art/characters/04-nikki-sheet-v1.png'),
  'archie':('Sir Archie', 'art/characters/05-sir-archie-sheet-v1.png'),
  'totet': ('Totet',      'art/characters/06-totet-sheet-v1.png'),
+ 'procopio': ('Tandang Procopio', 'art/characters/07-tandang-procopio-sheet-v1.png'),
 }
-NAMES = {'jeff':r'\bJeff\b','hal':r'\bHal\b','mel':r'\bMel\b','nikki':r'\bNikki\b','archie':r'\b(Sir Archie|Archie)\b','totet':r'\bTotet\b'}
-ORDER = ['jeff','hal','mel','nikki','archie','totet']
+NAMES = {'jeff':r'\bJeff\b','hal':r'\bHal\b','mel':r'\bMel\b','nikki':r'\bNikki\b','archie':r'\b(Sir Archie|Archie)\b','totet':r'\bTotet\b','procopio':r'\b(Tandang Procopio|Procopio)\b'}
+ORDER = ['jeff','hal','mel','nikki','archie','totet','procopio']
 
 def page_prompt(n):
     t = open('art/prompts/ch1-pages-all-with-dialogue.md').read()
