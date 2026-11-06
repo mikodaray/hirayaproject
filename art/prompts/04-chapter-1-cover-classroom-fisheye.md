@@ -35,4 +35,4 @@ Anatomy must be correct: every person has exactly two arms, each arm with exactl
 - Joints fix prompt for a single arm is in art/ART-STYLE.md (Joints rule).
 - If the logo gets redrawn badly, generate the cover with the title area left empty and paste art/logo/hiraya-logo-style2-brush.png on top.
 - If the chalkboard heading is misspelled, edit: "Keep everything the same, only fix the chalkboard heading to read exactly ANCIENT BUTUAN."
-- Result approved by the creator on 2026-11-07 and saved as art/07-chapter-1-cover-2-classroom-fisheye.png.
+- v5 result approved by the creator on 2026-11-07 and saved as art/07-chapter-1-cover-2-classroom-fisheye.png (replaces the v4 image). The generator swapped Jeff and Hal in the layout, which the creator accepted.
