@@ -57,3 +57,8 @@ Prompts with dialogue for all 50 pages: prompts/ch1-pages-all-with-dialogue.md (
 
 ## Logo
 art/logo/ holds the HIRAYA logo (transparent PNG plus a plain crop), taken from cover 1. Style 2 (brush) comes from cover 2. See art/logo/README.md.
+
+## Places
+| File | What it is | Date |
+|---|---|---|
+| art/places/durian-city-high-school-v1.png | Durian City High School main building (colored), made by the creator from prompts/06-school-building.md. Current. Sign reads DURIAN CITY HIGH SCHOOL, durian emblem above it. Use as the reference for the school in later images | 2026-11-06 |

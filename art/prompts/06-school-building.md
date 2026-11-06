@@ -2,6 +2,8 @@
 
 Attach art/references/school-building-reference.png (the photo) with this prompt. It is only a guide for the shape of the building.
 
+Result saved as art/places/durian-city-high-school-v1.png (current, keep it).
+
 ```
 A colored manga style illustration of the main building of a school, hand drawn with bold ink linework and flat cel style coloring with simple shading, in the style of a classic shonen manga background like Naruto. It must clearly look like a drawing, not realistic, not 3D, not photographic. Aspect ratio 3:2, horizontal.
 
