@@ -6,9 +6,9 @@ Status: draft
 ## Basics
 - Full name and nicknames: Mel Charlie Abaldado, goes by Mel
 - Age: OPEN
-- Where they are from: OPEN (attends Durian Public High School in Durian City)
+- Where they are from: OPEN (attends Durian City High School in Durian City)
 - Social class or station: OPEN
-- Occupation or role in society: student at Durian Public High School in Durian City (DECIDED)
+- Occupation or role in society: student at Durian City High School in Durian City (DECIDED)
 
 ## Look (for the art)
 - Height and build: 6'2", big and on the fat side, gentle looking (DECIDED)

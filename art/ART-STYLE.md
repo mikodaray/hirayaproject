@@ -36,7 +36,7 @@ DECIDED by creator (2026-11-06): every person in every image must have exactly t
 Fix prompt: "Keep everything exactly the same. Only fix the anatomy: every person must have exactly two arms and two hands with five fingers on each hand, and remove any extra arms, hands, or fingers."
 
 ## School setting
-DECIDED by creator (2026-11-06): all the students are in high school (Durian Public High School), not college. Keep the looks from the approved character sheets. Some of them are 18 or 19, so draw them as older high school students in school uniforms.
+DECIDED by creator (2026-11-06): all the students are in high school (Durian City High School), not college. Keep the looks from the approved character sheets. Some of them are 18 or 19, so draw them as older high school students in school uniforms.
 
 ## Limits
 - The style is a direction only. Do not copy any existing character, costume, or design. Hiraya has its own cast, setting, and look.

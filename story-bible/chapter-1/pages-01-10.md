@@ -14,7 +14,7 @@ CAPTION: "Durian City, Mindanao. 6:42 AM."
 SFX (giongo): VROOOM, HONK HONK
 SFX (gitaigo): KIRA KIRA (the towers sparkling in the sunrise)
 
-**2. TALL, middle right.** The gate of Durian Public High School. Flag, painted sign, students trickling in, the modern skyline behind the school.
+**2. TALL, middle right.** The gate of Durian City High School. Flag, painted sign, students trickling in, the modern skyline behind the school.
 SFX (giseigo): ZAWA ZAWA (the chatter of the crowd)
 SFX (giseigo): HISO HISO (students whisper as Jeff walks by: "That's the folklore guy.")
 SFX (giongo): KRIIIK (the gate swinging)

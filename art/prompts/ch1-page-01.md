@@ -24,7 +24,7 @@ Updated 2026-11-06: Jeff is NOT the cool one at school, he only looks cool, and 
 Attach art/characters/01-jeff-sheet-v1.png as the reference image. Paste only what is inside the block.
 
 ```
-A single vertical black and white manga page, aspect ratio 2:3, made to be read from right to left like a Japanese manga, with four comic panels separated by clean white gutters. Hand drawn manga illustration in black ink on white paper, bold varied ink linework, hatching, and gray screentone dot shading. Strictly black, white, and gray only, no color. It must clearly look like a drawing, not realistic, not 3D, not photographic. Bold shonen manga style close to classic Naruto manga artwork, expressive and dynamic perspective. Setting: Durian City, a state of the art modern Philippine city like Makati, with glass towers, wide avenues, and colorful jeepneys, and Durian Public High School.
+A single vertical black and white manga page, aspect ratio 2:3, made to be read from right to left like a Japanese manga, with four comic panels separated by clean white gutters. Hand drawn manga illustration in black ink on white paper, bold varied ink linework, hatching, and gray screentone dot shading. Strictly black, white, and gray only, no color. It must clearly look like a drawing, not realistic, not 3D, not photographic. Bold shonen manga style close to classic Naruto manga artwork, expressive and dynamic perspective. Setting: Durian City, a state of the art modern Philippine city like Makati, with glass towers, wide avenues, and colorful jeepneys, and Durian City High School.
 
 Character: Jeff, exactly as in the attached reference sheet, a tall lean 19 year old with messy ube purple hair falling over one eye (draw it in mid gray screentone), calm half lidded eyes, a small smirk, a blue short sleeved buttoned shirt with the top button open (light screentone), khaki pants, black loafers, a thin black backpack strap, and a small carved stone pendant necklace on a chain. Only Jeff appears as a main character on this page.
 
@@ -32,7 +32,7 @@ Layout (read right to left, top to bottom): a wide strip across the top third, t
 
 Panel 1 (wide strip, top): dawn over Durian City. Glass towers catching the golden sunrise, wide avenues, colorful jeepneys driving along them, a few palm trees and durian trees along the street. Lettering: a caption box reads "Durian City, Mindanao. 6:42 AM." Sound effects drawn big in hand lettered English letters as part of the art: "KIRA KIRA" next to the sparkling towers, and "VROOOM HONK" along the road with the jeepneys.
 
-Panel 2 (tall, middle right): the gate of Durian Public High School, with a flagpole and a painted sign with no readable letters, students trickling in through the gate, the modern skyline behind the school. Sound effects: "ZAWA ZAWA" for the chatter of the crowd, "HISO HISO" for a few students whispering, and "KRIIIK" along the gate.
+Panel 2 (tall, middle right): the gate of Durian City High School, with a flagpole and a painted sign with no readable letters, students trickling in through the gate, the modern skyline behind the school. Sound effects: "ZAWA ZAWA" for the chatter of the crowd, "HISO HISO" for a few students whispering, and "KRIIIK" along the gate.
 
 Panel 3 (small, middle left): extreme close up of the pendant necklace swinging against the blue uniform shirt, one tiny glint of light. Sound effects: "KIRA" at the glint and a tiny "DOKI" like a heartbeat.
 

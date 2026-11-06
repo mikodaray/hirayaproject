@@ -6,9 +6,9 @@ Status: draft
 ## Basics
 - Full name and nicknames: Totet Timla (Totet may be a nickname, full first name OPEN)
 - Age: looks 18, drawn with the body of an 18 year old, not childlike (DECIDED by the creator)
-- Where they are from: OPEN (attends Durian Public High School in Durian City, assumed to be in the same class, OPEN)
+- Where they are from: OPEN (attends Durian City High School in Durian City, assumed to be in the same class, OPEN)
 - Social class or station: OPEN
-- Occupation or role in society: student at Durian Public High School (assumed, OPEN)
+- Occupation or role in society: student at Durian City High School (assumed, OPEN)
 
 ## Look (for the art)
 - Height and build: 5'0" flat, short and petite, the same height as Hal, with the proportions of an 18 year old (DECIDED by the creator)

@@ -8,7 +8,7 @@ Status: draft
 - Age: 19
 - Where they are from: Durian City, Mindanao (school is there, home to confirm)
 - Social class or station: OPEN
-- Occupation or role in society: student at Durian Public High School in Durian City (DECIDED)
+- Occupation or role in society: student at Durian City High School in Durian City (DECIDED)
 
 ## Look (for the art)
 - Height and build: 5'10", tall and lean (DECIDED)

@@ -6,9 +6,9 @@ Status: draft
 ## Basics
 - Full name and nicknames: Hal Bautista
 - Age: looks 18, drawn with the body of an 18 year old, short but not childlike (DECIDED by the creator)
-- Where they are from: OPEN (attends Durian Public High School in Durian City)
+- Where they are from: OPEN (attends Durian City High School in Durian City)
 - Social class or station: OPEN
-- Occupation or role in society: student at Durian Public High School in Durian City (DECIDED)
+- Occupation or role in society: student at Durian City High School in Durian City (DECIDED)
 
 ## Look (for the art)
 - Height and build: 5'0" flat, lean, significantly shorter than Jeff, with 18 year old proportions, not childlike (DECIDED)

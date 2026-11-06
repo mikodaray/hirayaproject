@@ -19,7 +19,7 @@ Drop any raw idea here, even half formed. We sort them into the other docs later
 - River and mangrove life: fish, turtles, deer. Possible use: survival scenes, first meals, the friends' first days.
 
 ## 2026-11-05 Chapter 1 beats (DRAFT, not confirmed)
-- Morning at Durian Public High School: Mel plays his violin, Jeff and Hal arrive. Their greetings show the friendship, and the height gap between Mel (6'2"), Jeff (5'10"), and Hal (5'0") gives a quick visual.
+- Morning at Durian City High School: Mel plays his violin, Jeff and Hal arrive. Their greetings show the friendship, and the height gap between Mel (6'2"), Jeff (5'10"), and Hal (5'0") gives a quick visual.
 - Nikki and her girls pick on Hal. Jeff steps in with a nerdy but cool comeback. Mel's gentle presence calms things down.
 - Homeroom with Sir Archie.
 - After school the three do a small routine together (snacks, a hangout spot) to show they are real friends.
@@ -34,3 +34,5 @@ Drop any raw idea here, even half formed. We sort them into the other docs later
 - DECIDED: Hal is good at math and science, and he brings technology know how back to the past in Butuan. Ideas to try (DRAFT, not decided): clean water filtering, better boat or sail design, simple lenses, using trade goods and metals he sees in the market.
 - DECIDED (2026-11-06): Jeff is not the cool one at school. He only looks cool. His classmates think he is weird and a nerd because he is into Filipino folklore and history.
 - DECIDED (2026-11-06): New character Totet Timla, a shy girl, 5 feet flat, black bob cut, freckles on her cheeks, with a crush on Jeff. Details in story-bible/characters/totet-timla.md.
+
+- DECIDED (2026-11-07): the school name is Durian City High School (was Durian Public High School). Old mentions above were updated to the new name.
