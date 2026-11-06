@@ -1,5 +1,7 @@
 # Edit prompt: fix the chapter title on cover 1
 
+NOT NEEDED ANYMORE: cover 1 was redone with the Banaag subtitle on 2026-11-07 (v3). Kept only as a reference for edit prompts.
+
 Use on art/06-chapter-1-cover-1-warriors.png after the chapter title changed to Banaag (2026-11-06).
 Attach the cover image, then paste:
 
