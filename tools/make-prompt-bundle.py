@@ -2,7 +2,8 @@
 """Makes a prompt bundle: a zip with prompt.txt plus the character reference images that the prompt needs.
 Run from the repo root:
   python3 tools/make-prompt-bundle.py --page 2 --out /path/to/out
-  python3 tools/make-prompt-bundle.py --cover --out /path/to/out
+  python3 tools/make-prompt-bundle.py --cover --out /path/to/out   (adds the logo automatically)
+  add --extra file1,file2 to attach any other reference images
   python3 tools/make-prompt-bundle.py --name X --prompt-md art/prompts/FILE.md --chars jeff,hal --out /path/to/out   (takes the block under ## Prompt)
   python3 tools/make-prompt-bundle.py --name my-image --prompt-file prompt.txt --chars jeff,hal --out /path/to/out
 Characters: jeff, hal, mel, nikki, archie, totet, procopio. The current sheet for each is listed in SHEETS.
@@ -37,28 +38,34 @@ def cover_prompt():
     t = open('art/prompts/03-chapter-1-cover-warriors.md').read()
     return re.search(r'## Prompt\n```\n(.*?)\n```', t, re.S).group(1).strip(), ['jeff','hal','mel','nikki']
 
-def build(name, prompt, chars, out):
+def build(name, prompt, chars, out, extra=()):
     os.makedirs(out, exist_ok=True)
     zpath = os.path.join(out, name + '.zip')
     lines = ['HIRAYA PROMPT BUNDLE: ' + name, '', 'HOW TO USE', '1. Attach the images in this bundle to your image generator, in this order:']
+    for k, f in enumerate(extra, 1):
+        lines.append('   %d. %s  (extra reference)' % (k, os.path.basename(f)))
     for i, c in enumerate(chars, 1):
-        lines.append('   %d. %s  (%s)' % (i, os.path.basename(SHEETS[c][1]), SHEETS[c][0]))
+        lines.append('   %d. %s  (%s)' % (i + len(extra), os.path.basename(SHEETS[c][1]), SHEETS[c][0]))
     lines += ['2. Paste everything under the line PROMPT below.', '3. CHECK THE RESULT: every person must have exactly 2 arms, 2 hands, and 5 fingers on each hand. If not, regenerate, or attach the result and ask: Keep everything the same, only fix the anatomy so every person has exactly two arms and two hands with five fingers each.', '4. If a face drifts, attach that character sheet again with the result and ask for a fix on that character only.', '5. Faces must match the scene: animated, clear emotion, not the same resting face as the character sheet. If a face looks flat or copied, ask: Keep everything the same, only redraw the face of NAME with an expression that fits the scene (describe the emotion), animated and clearly showing emotion.', '', '=== PROMPT ===', '', prompt, '']
     with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + '/prompt.txt', '\n'.join(lines))
+        for k, f in enumerate(extra, 1):
+            z.write(f, '%s/%d-%s' % (name, k, os.path.basename(f)))
         for i, c in enumerate(chars, 1):
-            z.write(SHEETS[c][1], '%s/%d-%s' % (name, i, os.path.basename(SHEETS[c][1])))
+            z.write(SHEETS[c][1], '%s/%d-%s' % (name, i + len(extra), os.path.basename(SHEETS[c][1])))
     return zpath, chars
 
 if __name__ == '__main__':
     a = argparse.ArgumentParser()
     a.add_argument('--page', type=int); a.add_argument('--cover', action='store_true')
     a.add_argument('--name'); a.add_argument('--prompt-file'); a.add_argument('--prompt-md'); a.add_argument('--chars')
-    a.add_argument('--out', default='.')
+    a.add_argument('--out', default='.'); a.add_argument('--extra', default='')
     x = a.parse_args()
     if x.page: p, ch = page_prompt(x.page); name = 'hiraya-ch1-page-%02d' % x.page
-    elif x.cover: p, ch = cover_prompt(); name = 'hiraya-ch1-cover-warriors'
+    elif x.cover: p, ch = cover_prompt(); name = 'hiraya-ch1-cover-1-v3'
     elif x.prompt_md:
         p = re.search(r'## Prompt\n```\n(.*?)\n```', open(x.prompt_md).read(), re.S).group(1).strip(); ch = [c.strip() for c in x.chars.split(',')]; name = x.name
     else: p = open(x.prompt_file).read().strip(); ch = [c.strip() for c in x.chars.split(',')]; name = x.name
-    print(build(name, p, ch, x.out))
+    ex = [e for e in x.extra.split(',') if e]
+    if x.cover and not ex: ex = ['art/logo/hiraya-logo.png']
+    print(build(name, p, ch, x.out, ex))
