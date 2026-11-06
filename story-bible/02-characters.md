@@ -11,6 +11,7 @@ Each character has their own doc in the `characters/` folder. Copy `characters/_
 | Nikki Sharon Legazpi | Popular girl who bullies Jeff and Hal | [nikki-legazpi.md](characters/nikki-legazpi.md) | draft |
 | Archibald Oronies (Sir Archie) | Homeroom teacher | [sir-archie-oronies.md](characters/sir-archie-oronies.md) | draft |
 | Totet Timla | Shy short classmate with a black bob cut and freckles, has a crush on Jeff | [totet-timla.md](characters/totet-timla.md) | draft |
+| Tandang Procopio | Old albularyo (village healer), scar over his left eye, tattoos on his right arm | [tandang-procopio.md](characters/tandang-procopio.md) | draft |
 
 ## Supporting cast
 - Jeff's sisters, docs to be made once they have names: older (23), younger (18), youngest (7)
