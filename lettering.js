@@ -6,14 +6,7 @@
 var LETTERING = {
   // Page 1 has its lettering drawn into the art (v4), so no overlay is needed.
   // Page 2 has its lettering drawn into the art (v2), so no overlay is needed.
-  3: [
-    ["x", 6, 3, 30, "~ ♪ ♫ ~"],
-    ["w", 38, 33, 36, "Good morning. I made something new."],
-    ["s", 54, 66, 40, "It sounds like sunrise."],
-    ["s", 6, 66, 40, "It sounds like pandesal."],
-    ["s", 30, 77, 36, "Both are correct."],
-    ["c", 4, 91, 66, "Mel Charlie Abaldado. The violin is the one thing that always makes sense to him."]
-  ],
+  // Page 3 has its lettering drawn into the art (v2), so no overlay is needed.
   4: [
     ["w", 36, 28, 22, "...No."],
     ["c", 6, 56, 44, "Nikki Sharon Legazpi. The most popular girl in school."],

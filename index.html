@@ -200,12 +200,14 @@
   (function fill() {
     for (var n = 2; n <= 50; n++) PAGES.push({ label: "Page " + n, title: "Page " + n, src: null });
     var UTM = "?utm_source=OC-AaBlKuT9h240&utm_campaign=agent_connector_create_image_asset_opened";
-    var DRAWN = {3: "MAHZ_NBS7w0", 4: "MAHZ_G3KuMw", 5: "MAHZ_JIkp_4", 6: "MAHZ_I_rF-Y", 7: "MAHZ_NfAfJ8", 8: "MAHZ_KCDNr0", 9: "MAHZ_GoSWTM", 10: "MAHZ_IUTW7A"};
+    var DRAWN = {4: "MAHZ_G3KuMw", 5: "MAHZ_JIkp_4", 6: "MAHZ_I_rF-Y", 7: "MAHZ_NfAfJ8", 8: "MAHZ_KCDNr0", 9: "MAHZ_GoSWTM", 10: "MAHZ_IUTW7A"};
     Object.keys(DRAWN).forEach(function (n) {
       PAGES[n] = { label: "Page " + n, title: "Page " + n, src: "art/pages/ch1-page-" + (n < 10 ? "0" : "") + n + "-v1-bw.png", full: "https://www.canva.com/M/" + DRAWN[n] + UTM };
     });
     // Page 2 version 2: lettering and captions are drawn into the art, left to right layout.
     PAGES[2] = { label: "Page 2", title: "Page 2, meet Hal", src: "art/pages/ch1-page-02-v2-bw-sfx.png" };
+    // Page 3 version 2: lettering and captions are drawn into the art, left to right layout.
+    PAGES[3] = { label: "Page 3", title: "Page 3, meet Mel", src: "art/pages/ch1-page-03-v2-bw-sfx.png" };
     for (var i = 1; i < PAGES.length; i++) {
       var n2 = i; // page number
       var start = Math.floor((n2 - 1) / 10) * 10 + 1;
