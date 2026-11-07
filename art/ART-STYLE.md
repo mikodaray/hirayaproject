@@ -42,6 +42,9 @@ Bundles no longer give many separate images. Both bundle scripts splice the char
 
 The combined images are saved in the repo at art/references/combined/ (page-NN-references.jpg for pages, NAME-references.jpg for covers and single prompts) every time a bundle is made, so they are kept and can be reused. Commit them after making a bundle.
 
+## Crowd staging and no extra text (DECIDED by creator 2026-11-08)
+Page 4 came back with cloned background crowds and a stray garbled caption for Mel that was not in the script. Bundles now add a CROWD STAGING block whenever a page has crowds or groups (unique silhouettes, no mirrored or repeated poses, stagger in depth, overlap), and a NO EXTRA TEXT block (no caption or label for anyone not listed, no text copied from the reference images). Pages with big crowd panels can also list specific poses in the CROWD dict in tools/make-pages-bundle.py (page 4 has them).
+
 ## Expressions rule (faces match the scene)
 
 Every prompt must give each character an expression that fits what is happening in that scene: animated, clear emotion, readable at a glance (shock, laughing, fear, determination, embarrassment, awe, and so on). Say where the head is turned and where the eyes look. Do not reuse the same resting face in every image (Jeff's smirk is only his default look). Tell the generator to use the character sheet for hair, face shape, clothes and build, but not to copy the sheet's pose or expression; the sheet's expression row shows the range.

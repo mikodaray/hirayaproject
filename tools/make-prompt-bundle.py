@@ -42,6 +42,17 @@ JOINTS = (" Joints must be correct: every arm has exactly two segments, an upper
           "with no extra bend, no second elbow, no third segment, and every leg has exactly one knee. Check every arm of every person, including folded arms, arms resting on desks and hands held to the face. "
           "Avoid arms with three segments, two elbows, extra joints, extra bends, rubbery or too long arms, and arms attached in the wrong place.")
 
+# Added 2026-11-08 after page 4 showed cloned crowds and a stray caption.
+CROWD_RULE = ("CROWD STAGING. Every visible background person must have a unique silhouette. No two people may share the same stride, arm position, head angle, shoulder angle, walking pose or stance. "
+              "No clone crowds, no mirrored poses, no copy-paste walking cycles, no repeated body language. Give each figure a different leg position, torso twist and head direction. "
+              "Do not line groups up in a straight row. Stagger them in depth, some slightly ahead, some behind, some partly hidden, with overlapping figures and varied spacing, so the group feels natural and not posed for a photo. ")
+NO_EXTRA_TEXT = ("NO EXTRA TEXT. Only the lettering listed in the panel descriptions may appear. A panel with no Lettering line has NO text of any kind. "
+                 "Do not add name captions, introductions, labels, signs with new words, or any caption for a character who is not listed in the CAPTIONS MUST READ EXACTLY block. "
+                 "Do not carry text over from the reference images. If a character has no caption on this page, draw no caption for them. ")
+CROWD_WORDS = re.compile(r'crowd|students|group of|classmates|flanking|friends|entourage|wave', re.I)
+def crowd_block(prompt):
+    return CROWD_RULE if CROWD_WORDS.search(prompt) else ''
+
 # Added 2026-11-08 at the creator's request: goes at the very end of EVERY image generation prompt.
 FINAL_PASS = "Final anatomy pass before rendering: inspect every visible character and remove any extra limbs, extra fingers, duplicate hands, merged hands, phantom hands, or malformed joints."
 
