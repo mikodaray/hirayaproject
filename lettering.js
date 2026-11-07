@@ -13,7 +13,7 @@ var LETTERING = {
     ["s", 5, 52, 40, "You walked past the bakery again! I texted you six times!"],
     ["s", 54, 66, 40, "I got your favorite."],
     ["s", 54, 76, 40, "You're a legend."],
-    ["c", 40, 91, 56, "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."]
+    ["c", 40, 91, 56, "Hal Bautista. Loudest voice in any room."]
   ],
   3: [
     ["x", 6, 3, 30, "~ ♪ ♫ ~"],
@@ -21,7 +21,7 @@ var LETTERING = {
     ["s", 54, 66, 40, "It sounds like sunrise."],
     ["s", 6, 66, 40, "It sounds like pandesal."],
     ["s", 30, 77, 36, "Both are correct."],
-    ["c", 4, 91, 66, "Mel Charlie Abaldado. Six foot two. The violin is the one thing that always makes sense to him."]
+    ["c", 4, 91, 66, "Mel Charlie Abaldado. The violin is the one thing that always makes sense to him."]
   ],
   4: [
     ["w", 36, 28, 22, "...No."],

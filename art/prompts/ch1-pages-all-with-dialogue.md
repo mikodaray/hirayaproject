@@ -30,7 +30,7 @@ Panel 3 (small): Hal crashes into Jeff's back. Glasses slide down his nose. Lett
 
 Panel 4 (tall, left): Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended. Lettering: speech bubble from Hal reads "You walked past the bakery again! I texted you six times!"
 
-Panel 5 (large, right): The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy. Lettering: speech bubble from Hal reads "I got your favorite."; speech bubble from Jeff reads "You're a legend."; caption box reads "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."
+Panel 5 (large, right): The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy. Lettering: speech bubble from Hal reads "I got your favorite."; speech bubble from Jeff reads "You're a legend."; caption box reads "Hal Bautista. Loudest voice in any room."
 
 ## Page 3 (6 panels): Meet Mel
 Layout: wide strip on top, a tall panel on the left, three stacked small panels in the middle, a large panel at the bottom. 
@@ -45,7 +45,7 @@ Panel 4 (small): Mel opens his eyes and smiles without stopping the music.
 
 Panel 5 (small): Mel's bow slows, then stops. Lettering: speech bubble from Mel reads "Good morning. I made something new."
 
-Panel 6 (large, bottom): The trio together. Hal has climbed two steps to reach Mel's shoulder height. Jeff leans on the railing with his book. Lettering: speech bubble from Jeff reads "It sounds like sunrise."; speech bubble from Hal reads "It sounds like pandesal."; speech bubble from Mel reads "Both are correct."; caption box reads "Mel Charlie Abaldado. Six foot two. The violin is the one thing that always makes sense to him."
+Panel 6 (large, bottom): The trio together. Hal has climbed two steps to reach Mel's shoulder height. Jeff leans on the railing with his book. Lettering: speech bubble from Jeff reads "It sounds like sunrise."; speech bubble from Hal reads "It sounds like pandesal."; speech bubble from Mel reads "Both are correct."; caption box reads "Mel Charlie Abaldado. The violin is the one thing that always makes sense to him."
 
 ## Page 4 (5 panels): Meet Nikki
 Layout: wide strip on top, a small panel and a tall panel, a large low angle panel in the middle, a medium panel at the bottom. 

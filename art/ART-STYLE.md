@@ -27,6 +27,9 @@ DECIDED by creator: every page includes onomatopoeia (SFX). UPDATED 2026-11-07: 
 - Gitaigo, feelings and atmosphere with no literal sound: sparkle, awkward silence, a racing heartbeat, gloom (KINANG, KISLAP, TIBOK, ...)
 Draw them big and hand lettered, part of the art, often curving with the action. For gitaigo use Filipino words: KINANG or KISLAP for sparkle, KINTAB for a glossy shine, TIBOK for a heartbeat, BULONG BULONG for whispers, DALDAL for chatter. Do not use Japanese manga sounds like KIRA KIRA, DOKI, ZAWA ZAWA, or HISO HISO.
 
+## Character introduction captions (DECIDED by creator 2026-11-08)
+When a character is introduced on a page, the caption has ONLY their name and one short, quirky description. Do not put the age, height, birthday, grade, job, relationships (such as best friend, teacher, classmate) or any other facts in the caption. Good: "Hal Bautista. Loudest voice in any room." Not good: "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room." Sizes and ages stay in the character sheets and story bible, and the drawings show the height gap. This applies to every page in every chapter, in the storyboard, the lettering, and the prompts.
+
 ## Expressions rule (faces match the scene)
 
 Every prompt must give each character an expression that fits what is happening in that scene: animated, clear emotion, readable at a glance (shock, laughing, fear, determination, embarrassment, awe, and so on). Say where the head is turned and where the eyes look. Do not reuse the same resting face in every image (Jeff's smirk is only his default look). Tell the generator to use the character sheet for hair, face shape, clothes and build, but not to copy the sheet's pose or expression; the sheet's expression row shows the range.

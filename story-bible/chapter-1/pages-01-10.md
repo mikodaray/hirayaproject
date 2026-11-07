@@ -25,7 +25,7 @@ SFX (gitaigo): KISLAP, TIBOK (a tiny glint and a tiny heartbeat, like the neckla
 **4. LARGE LOW ANGLE, bottom half.** Jeff walks toward the camera. Ube colored hair in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless.
 SFX (giongo): SWISH (hair in the wind), TAP TAP (footsteps)
 SFX (gitaigo): KINTAB (a cool glow around Jeff)
-CAPTION: "Jefferson Victorio. Nineteen. He looks like the cool one."
+CAPTION: "Jefferson Victorio. He looks like the cool one."
 CAPTION: "His classmates call him weird. He reads about ancient spirits for breakfast."
 
 ---
@@ -49,7 +49,7 @@ HAL: "You walked past the bakery again! I texted you six times!"
 **5. LARGE, right.** The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy.
 HAL: "I got your favorite."
 JEFF: "You're a legend."
-CAPTION: "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."
+CAPTION: "Hal Bautista. Loudest voice in any room."
 
 ---
 
@@ -71,7 +71,7 @@ MEL: "Good morning. I made something new."
 JEFF: "It sounds like sunrise."
 HAL: "It sounds like pandesal."
 MEL: "Both are correct."
-CAPTION: "Mel Charlie Abaldado. Six foot two. The violin is the one thing that always makes sense to him."
+CAPTION: "Mel Charlie Abaldado. The violin is the one thing that always makes sense to him."
 
 ---
 

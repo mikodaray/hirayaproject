@@ -46,6 +46,7 @@ If you only want one splash page, we can fold page 7 into a normal layout.
 - Page 49 repeats the stance from page 7, so the ending echoes Jeff's first big moment.
 - Reading direction is DECIDED (changed 2026-11-08): panels inside a page read left to right, so in each row the first panel is on the left. In the web viewer the pages also go left to right. The layouts below were mirrored on 2026-11-08 to match.
 - Chapter pages are black and white with screentone (DECIDED).
+- Introduction captions (DECIDED 2026-11-08): only the character's name plus one short quirky description. No age, height, relationships or other facts. Details like that live in the character sheets and story bible, not on the page.
 
 ## Story facts used here
 DECIDED by the creator:

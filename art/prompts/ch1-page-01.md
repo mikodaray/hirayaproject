@@ -12,7 +12,7 @@ Version 1 (replaced): hills with durian trees, tricycles, and tin roofs, and no 
 
 ## Captions to add in Canva
 - Panel 1: "Durian City, Mindanao. 6:42 AM."
-- Panel 4: "Jefferson Victorio. Nineteen. He looks like the cool one." and "His classmates call him weird. He reads about ancient spirits for breakfast."
+- Panel 4: "Jefferson Victorio. He looks like the cool one." and "His classmates call him weird. He reads about ancient spirits for breakfast."
 
 ## Version 3 changes (black and white, right to left)
 - Strictly black, white, and gray screentone, no color
@@ -36,13 +36,13 @@ Panel 2 (tall, middle left): the gate of Durian City High School, with a flagpol
 
 Panel 3 (small, middle right): extreme close up of the pendant necklace swinging against the blue uniform shirt, one tiny glint of light. Sound effects: "KISLAP" at the glint and a tiny "TIBOK" like a heartbeat.
 
-Panel 4 (large low angle, bottom): Jeff walks toward the camera. His hair blows in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless, cool, with a faint glow of light behind him. Lettering: a caption box reads "Jefferson Victorio. Nineteen. He looks like the cool one." and a second caption box reads "His classmates call him weird. He reads about ancient spirits for breakfast." Sound effects: "SWISH" with the wind in his hair and "TAP TAP" for his footsteps.
+Panel 4 (large low angle, bottom): Jeff walks toward the camera. His hair blows in the wind, one hand in his pocket, the other holding a thick book on Philippine folklore. Tall, lean, effortless, cool, with a faint glow of light behind him. Lettering: a caption box reads "Jefferson Victorio. He looks like the cool one." and a second caption box reads "His classmates call him weird. He reads about ancient spirits for breakfast." Sound effects: "SWISH" with the wind in his hair and "TAP TAP" for his footsteps.
 
 Draw all sound effects as big bold hand lettered comic lettering, curving with the action, spelled exactly as written, part of the drawing. Draw captions in clean rectangle boxes. Do not add any other text, no extra words, no watermark, no logo. Anatomy must be correct: every person has exactly two arms and exactly two hands, each hand has exactly five fingers (four fingers and one thumb), and exactly two legs, with no extra, missing, merged, or duplicated arms, hands, fingers, or legs. Count the limbs and fingers of every person, including people in the background. Avoid color, realistic or photographic rendering, 3D rendering, extra or missing fingers, more than five fingers on a hand, more than two arms, a third arm, extra or duplicate arms, hands, or legs, merged limbs, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
 ```
 
 ## Edit prompt for the existing v4 image (caption fix only)
-Attach art/pages/ch1-page-01-v4-bw-sfx.png and use: "Edit this manga page. Keep everything exactly the same, the art, the panels, and all the sound effects. Only change the two caption boxes in the bottom large panel. The first caption box must read exactly: Jefferson Victorio. Nineteen. He looks like the cool one. The second caption box must read exactly: His classmates call him weird. He reads about ancient spirits for breakfast. Keep the same box style and the same positions, make the boxes a little taller if the new text needs more room. Do not change anything else and do not add any other text."
+Attach art/pages/ch1-page-01-v4-bw-sfx.png and use: "Edit this manga page. Keep everything exactly the same, the art, the panels, and all the sound effects. Only change the two caption boxes in the bottom large panel. The first caption box must read exactly: Jefferson Victorio. He looks like the cool one. The second caption box must read exactly: His classmates call him weird. He reads about ancient spirits for breakfast. Keep the same box style and the same positions, make the boxes a little taller if the new text needs more room. Do not change anything else and do not add any other text."
 
 ## Edit prompt for the existing v4 image (Filipino sound effects only)
 Added 2026-11-07. The v4 image still has the old Japanese sound effects drawn in. Attach art/pages/ch1-page-01-v4-bw-sfx.png and use: "Edit this manga page. Keep everything exactly the same, the art, the panels, and the caption boxes. Only change the hand lettered sound effects. In the top wide panel, change KIRA KIRA to read exactly: KINANG. In the tall middle right panel, change ZAWA ZAWA to read exactly: DALDAL DALDAL, and change HISO HISO to read exactly: BULONG BULONG. In the small middle left panel, change KIRA to read exactly: KISLAP, and change DOKI to read exactly: TIBOK. Keep VROOOM HONK, KRIIIK, SWISH, and TAP TAP as they are. Keep the same big bold hand lettered style and the same positions. Do not change anything else and do not add any other text."
