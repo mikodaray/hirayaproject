@@ -30,6 +30,13 @@ Draw them big and hand lettered, part of the art, often curving with the action.
 ## Character introduction captions (DECIDED by creator 2026-11-08)
 When a character is introduced on a page, the caption has ONLY their name and one short, quirky description. Do not put the age, height, birthday, grade, job, relationships (such as best friend, teacher, classmate) or any other facts in the caption. Good: "Hal Bautista. Loudest voice in any room." Not good: "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room." Sizes and ages stay in the character sheets and story bible, and the drawings show the height gap. This applies to every page in every chapter, in the storyboard, the lettering, and the prompts.
 
+## Character lock and exact caption copy (DECIDED by creator 2026-11-08, after the page 2 generation problems)
+Problems seen on page 2: Hal was drawn in a girl's uniform, Jeff grew glasses in a close up with Hal, faces drifted between panels, and the page showed an old caption because the prompt still had the old wording.
+Fixes, added automatically by both bundle scripts (tools/make-prompt-bundle.py and tools/make-pages-bundle.py):
+- CHARACTER LOCK block at the very START of every prompt, before the page description. It opens with CHARACTER CONSISTENCY IS MORE IMPORTANT THAN STYLE, then lists only the characters on that page with gender, hair, glasses and signature items, plus ACCESSORY RULES (only Hal and Sir Archie wear glasses, never swap accessories) and UNIFORM RULES (boys always wear the boys uniform, never a skirt or blouse). The facts come from story-bible/characters/. No numeric heights or ages go in the lock.
+- CAPTIONS MUST READ EXACTLY block, built from the captions in the prompt itself, so the final copy is listed word for word with no extra lines.
+If you change a character's look, update the LOCKS table in tools/make-prompt-bundle.py. If you change a caption, change it in the storyboard and the prompt files first, then rebuild the bundle.
+
 ## Expressions rule (faces match the scene)
 
 Every prompt must give each character an expression that fits what is happening in that scene: animated, clear emotion, readable at a glance (shock, laughing, fear, determination, embarrassment, awe, and so on). Say where the head is turned and where the eyes look. Do not reuse the same resting face in every image (Jeff's smirk is only his default look). Tell the generator to use the character sheet for hair, face shape, clothes and build, but not to copy the sheet's pose or expression; the sheet's expression row shows the range.

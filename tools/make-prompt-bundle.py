@@ -45,9 +45,56 @@ JOINTS = (" Joints must be correct: every arm has exactly two segments, an upper
 # Added 2026-11-08 at the creator's request: goes at the very end of EVERY image generation prompt.
 FINAL_PASS = "Final anatomy pass before rendering: inspect every visible character and remove any extra limbs, extra fingers, duplicate hands, merged hands, phantom hands, or malformed joints."
 
+# ---- Character lock and exact caption copy (added 2026-11-08 after the page 2 generation problems) ----
+# Goes at the very START of every prompt, before the page description. Only decided facts from story-bible/characters/.
+# No numeric heights here on purpose, so the generator never letters them on the page.
+LOCKS = {
+ 'jeff':  ('JEFF', 'male', 'messy ube purple hair falling over one eye, narrow calm eyes, relaxed expression, small pendant necklace, tall and lean, calm demeanor. NEVER wears glasses.', 'boys'),
+ 'hal':   ('HAL BAUTISTA', 'male', 'neat combed chestnut brown hair, big round thin black framed glasses, loud and expressive, very short but with an 18 year old body, not childlike. ALWAYS wears round glasses.', 'boys'),
+ 'mel':   ('MEL', 'male', 'long wavy golden blonde hair, big, tall and gentle looking, carries a brown wooden violin. Never wears glasses.', 'boys'),
+ 'nikki': ('NIKKI', 'female', 'long wavy chestnut brown hair with a side part and a white hair clip, curvy fuller figure drawn naturally and modestly, playful smirk. Never wears glasses.', 'girls'),
+ 'archie':('SIR ARCHIE', 'male', 'messy short pure white hair, thin dark rectangle glasses, tall, muscular and athletic, cream fitted buttoned shirt with a long brown cardigan, ID lanyard, black coffee thermos. ALWAYS wears rectangle glasses.', None),
+ 'totet': ('TOTET', 'female', 'glossy black bob cut with straight bangs, freckles on both cheeks and nose, short and petite. Never wears glasses.', 'girls'),
+ 'procopio': ('TANDANG PROCOPIO', 'male', 'very old, short silver white hair, short white goatee and mustache, scar across the left eye, dense tattoos on the whole right arm, beige cloth vest or robe over a dark wrap skirt, barefoot, layered beaded necklaces. Never wears glasses.', None),
+}
+GLASSES = ('hal', 'archie')
+
+def _join(names):
+    return names[0] if len(names) == 1 else ', '.join(names[:-1]) + ' and ' + names[-1]
+
+def lock_block(chars):
+    cs = [c for c in ORDER if c in chars and c in LOCKS]
+    if not cs: return ''
+    out = ['CHARACTER LOCK. CHARACTER CONSISTENCY IS MORE IMPORTANT THAN STYLE.',
+           'These are recurring characters. Draw each one identically in every panel, exactly as on their attached character sheet. '
+           'Do not redesign faces, hair, clothing, proportions, or accessories between panels, including in close ups and when characters overlap or stand close together.']
+    for c in cs:
+        n, g, d, _ = LOCKS[c]; out.append('%s: %s. %s' % (n, g, d))
+    gl = [SHEETS[c][0] for c in cs if c in GLASSES]
+    if gl:
+        out.append('ACCESSORY RULES: Only %s %s glasses on this page. Everyone else never wears glasses.' % (_join(gl), 'wears' if len(gl) == 1 else 'wear'))
+    else:
+        out.append('ACCESSORY RULES: No named character wears glasses on this page.')
+    out.append('Do not transfer accessories, hair, or clothing from one character to another.')
+    boys = [SHEETS[c][0] for c in cs if LOCKS[c][3] == 'boys']
+    girls = [SHEETS[c][0] for c in cs if LOCKS[c][3] == 'girls']
+    u = []
+    if boys: u.append('%s %s male and %s the boys school uniform (blue short sleeved buttoned shirt, khaki pants, black shoes) in every panel. Never draw %s in a skirt, blouse, dress, or any female uniform.' % (_join(boys), 'is' if len(boys) == 1 else 'are', 'wears' if len(boys) == 1 else 'wear', _join(boys)))
+    if girls: u.append('%s %s female and %s the girls school uniform (white short sleeved blouse and white skirt) in every panel.' % (_join(girls), 'is' if len(girls) == 1 else 'are', 'wears' if len(girls) == 1 else 'wear'))
+    if u: out.append('UNIFORM RULES: ' + ' '.join(u))
+    return '\n'.join(out)
+
+def caption_block(prompt):
+    caps = re.findall(r'caption box reads "([^"]+)"', prompt)
+    if not caps: return ''
+    return ('CAPTIONS MUST READ EXACTLY as written here, nothing added and nothing removed. No extra lines, no extra facts, no ages, no heights, no relationships, and no leftover wording from earlier versions:\n'
+            + '\n'.join('- "%s"' % c for c in caps))
+
 def build(name, prompt, chars, out, extra=()):
     os.makedirs(out, exist_ok=True)
     zpath = os.path.join(out, name + '.zip')
+    if 'CHARACTER LOCK' not in prompt and lock_block(chars): prompt = lock_block(chars) + '\n\n' + prompt
+    if 'CAPTIONS MUST READ EXACTLY' not in prompt and caption_block(prompt): prompt = prompt.rstrip() + '\n\n' + caption_block(prompt)
     if 'ONE elbow' not in prompt: prompt = prompt.rstrip() + JOINTS
     if FINAL_PASS not in prompt: prompt = prompt.rstrip() + '\n\n' + FINAL_PASS
     lines = ['HIRAYA PROMPT BUNDLE: ' + name, '', 'HOW TO USE', '1. Attach the images in this bundle to your image generator, in this order:']
