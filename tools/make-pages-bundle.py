@@ -20,6 +20,9 @@ def intro_block(n, chars):
     if not done: return ''
     return ('ALREADY INTRODUCED. ' + ', '.join(done) + (' were' if len(done) > 1 else ' was') + ' introduced with a name caption on an earlier page. '
             'On this page draw NO name caption, NO introduction and NO description for ' + ('them' if len(done) > 1 else 'him or her') + ', even when they stand in the scene, unless the CAPTIONS MUST READ EXACTLY block lists one. ')
+PAGE_NOTES = {5: ("PAGE 5 NOTES. GLASSES EXCEPTION: in panels 2, 3 and 4 Nikki has taken Hal's round glasses off his face, so Hal is drawn WITHOUT glasses in those panels, squinting, and Nikki holds his glasses up high. In panels 1, 5 and 6 Hal wears his round glasses if he is visible. "
+                  "Panel 3 is Hal's blurry point of view, so draw only soft blurred shapes and smears, no faces in focus. "
+                  "FOCUS: panel 1 Hal, panel 2 Nikki, panel 4 Hal, panel 5 Mel, panel 6 Jeff. Darken the others and the background in those panels. ")}
 CROWD = {4: ("Page 4 poses. Panel 1, the girls entering the gate all move differently: one holds a bag strap, one talks while turning toward a friend, one brushes hair from her face, one carries books against her chest, one swings her arms, one checks her phone while walking. "
              "Panel 3, the crowd parts like a wave and every student reacts differently: one steps backward, one pivots sideways, one leans away, one turns to watch Nikki, one pulls a friend aside, one pauses mid step, one looks over a shoulder. Nikki stays centered. "
              "Panel 4, Nikki's friends have unique poses: one laughs with a hand over her mouth, one adjusts her hair, one carries a shoulder bag, one walks with hands behind her back, one looks toward Nikki, and they are staggered in depth around her, not in a line. "
@@ -78,7 +81,7 @@ if __name__ == '__main__':
         if n == 1 or 'FACES:' not in p:
             p = p.replace('\n\nLayout', '\n\nLayout', 1)
         cb = mpb.caption_block(p)
-        p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + mpb.NO_EXTRA_TEXT + intro_block(n, chars) + mpb.VARIED_POSES + mpb.FOCUS_RULE + mpb.crowd_block(p) + CROWD.get(n, '') + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
+        p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + mpb.NO_EXTRA_TEXT + intro_block(n, chars) + mpb.VARIED_POSES + mpb.FOCUS_RULE + mpb.crowd_block(p) + CROWD.get(n, '') + PAGE_NOTES.get(n, '') + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
         lk = mpb.lock_block(chars)
         if lk: p = lk + '\n\n' + p
         items = mpb.ref_items(chars, [SCHOOL] if n in SCHOOL_PAGES else [])
