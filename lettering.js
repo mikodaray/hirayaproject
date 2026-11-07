@@ -5,16 +5,7 @@
 // Reading order is left to right, so the first lines of a row sit on the left. NOTE (2026-11-08): the positions below were guessed for the old right to left art, so mirror x (100 - x - w) or redo them after the pages are redrawn.
 var LETTERING = {
   // Page 1 has its lettering drawn into the art (v4), so no overlay is needed.
-  2: [
-    ["x", 8, 3, 36, "TAP TAP TAP TAP"],
-    ["w", 56, 25, 36, "Three. Two. One."],
-    ["x", 10, 26, 24, "THUD"],
-    ["s", 5, 33, 40, "JEFF! Wait up!"],
-    ["s", 5, 52, 40, "You walked past the bakery again! I texted you six times!"],
-    ["s", 54, 66, 40, "I got your favorite."],
-    ["s", 54, 76, 40, "You're a legend."],
-    ["c", 40, 91, 56, "Hal Bautista. Loudest voice in any room."]
-  ],
+  // Page 2 has its lettering drawn into the art (v2), so no overlay is needed.
   3: [
     ["x", 6, 3, 30, "~ ♪ ♫ ~"],
     ["w", 38, 33, 36, "Good morning. I made something new."],
