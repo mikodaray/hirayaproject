@@ -51,7 +51,7 @@ Prompts with dialogue for all 50 pages: prompts/ch1-pages-all-with-dialogue.md (
 | 4 | characters/04-nikki-sheet-v1.png | Nikki full color reference sheet, one character only, chosen by the creator | 2026-11-05 |
 | 3 | characters/03-mel-sheet-v1.png | Mel full color reference sheet, one character only, chosen by the creator | 2026-11-06 |
 | 5 | characters/05-sir-archie-sheet-v1.png | Sir Archie full color reference sheet, one character only, chosen by the creator | 2026-11-06 |
-| 1 | pages/ch1-page-01-v4-bw-sfx.png | Version 4: black and white, right to left, sound effects and captions drawn into the art, made by the creator with Jeff's character sheet as reference (current version, full size 1024x1536) | 2026-11-06 |
+| 1 | pages/ch1-page-01-v4-bw-sfx.png | Version 4: black and white, right to left, sound effects and captions drawn into the art, made by the creator with Jeff's character sheet as reference (replaced by v5, full size 1024x1536) | 2026-11-06 |
 | 6 | characters/06-totet-sheet-v1.png | Totet Timla full color reference sheet, one character only, 18 year old proportions, chosen by the creator | 2026-11-06 |
 | 7 | characters/07-tandang-procopio-sheet-v1.png | Tandang Procopio (albularyo) full color reference sheet, one character only, scar on his left eye, tattoos on his right arm, made from prompts/02-character-reference-sheets.md number 7, chosen by the creator | 2026-11-07 |
 | 2 | characters/02-hal-sheet-v3.png | Hal full color reference sheet, 18 year old proportions, clean combed brown hair, approved by the creator (current version) | 2026-11-06 |
@@ -63,3 +63,4 @@ art/logo/ holds the HIRAYA logo (transparent PNG plus a plain crop), taken from 
 | File | What it is | Date |
 |---|---|---|
 | art/places/durian-city-high-school-v1.png | Durian City High School main building (colored), made by the creator from prompts/06-school-building.md. Current. Sign reads DURIAN CITY HIGH SCHOOL, durian emblem above it. Use as the reference for the school in later images | 2026-11-06 |
+| 1 | pages/ch1-page-01-v5-filipino-sfx.png | Version 5: same as v4 but with Filipino sound effects (KINANG, BULONG BULONG, DALDAL DALDAL not drawn, KISLAP, TIBOK), made by the creator from the page 1 prompt bundle (current version, full size 1024x1536). Known flaws: the whispering effect is spelled BUCONG BULONG, a small garbled word under the gate sign, and an accent mark in the word classmates in the last caption | 2026-11-08 |
