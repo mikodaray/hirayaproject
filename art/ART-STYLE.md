@@ -33,6 +33,7 @@ Every prompt must give each character an expression that fits what is happening 
 
 ## Anatomy rule (limbs and fingers)
 DECIDED by creator (2026-11-06): every person in every image must have exactly two arms and two hands, five fingers on each hand (four fingers and one thumb), and two legs. No extra, missing, merged, or duplicated limbs or fingers, also for people in the background and when hands overlap. This rule is written into every prompt, both as a positive instruction and in the avoid list. Always check the result, and if a hand or arm is wrong, regenerate or use the fix prompt below.
+Final pass line (DECIDED by creator 2026-11-08): every image generation prompt ends with this exact line, and both bundle scripts add it automatically: "Final anatomy pass before rendering: inspect every visible character and remove any extra limbs, extra fingers, duplicate hands, merged hands, phantom hands, or malformed joints." If you write a prompt by hand or paste one from art/prompts/ without a bundle, add this line at the very end.
 Fix prompt: "Keep everything exactly the same. Only fix the anatomy: every person must have exactly two arms and two hands with five fingers on each hand, and remove any extra arms, hands, or fingers."
 
 ### Joints rule (added 2026-11-07 after the cover 2 mistake)

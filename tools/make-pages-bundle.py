@@ -66,7 +66,7 @@ if __name__ == '__main__':
         p, chars = prompt_for(n)
         if n == 1 or 'FACES:' not in p:
             p = p.replace('\n\nLayout', '\n\nLayout', 1)
-        p = p.rstrip() + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS
+        p = p.rstrip() + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
         refs = ['references/' + os.path.basename(mpb.SHEETS[c][1]) for c in chars]
         names = [mpb.SHEETS[c][0] for c in chars]
         if n in SCHOOL_PAGES: refs.append('references/' + os.path.basename(SCHOOL)); names.append('school building')

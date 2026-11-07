@@ -42,10 +42,14 @@ JOINTS = (" Joints must be correct: every arm has exactly two segments, an upper
           "with no extra bend, no second elbow, no third segment, and every leg has exactly one knee. Check every arm of every person, including folded arms, arms resting on desks and hands held to the face. "
           "Avoid arms with three segments, two elbows, extra joints, extra bends, rubbery or too long arms, and arms attached in the wrong place.")
 
+# Added 2026-11-08 at the creator's request: goes at the very end of EVERY image generation prompt.
+FINAL_PASS = "Final anatomy pass before rendering: inspect every visible character and remove any extra limbs, extra fingers, duplicate hands, merged hands, phantom hands, or malformed joints."
+
 def build(name, prompt, chars, out, extra=()):
     os.makedirs(out, exist_ok=True)
     zpath = os.path.join(out, name + '.zip')
     if 'ONE elbow' not in prompt: prompt = prompt.rstrip() + JOINTS
+    if FINAL_PASS not in prompt: prompt = prompt.rstrip() + '\n\n' + FINAL_PASS
     lines = ['HIRAYA PROMPT BUNDLE: ' + name, '', 'HOW TO USE', '1. Attach the images in this bundle to your image generator, in this order:']
     for k, f in enumerate(extra, 1):
         lines.append('   %d. %s  (extra reference)' % (k, os.path.basename(f)))
