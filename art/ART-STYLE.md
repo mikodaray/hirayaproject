@@ -37,6 +37,9 @@ Fixes, added automatically by both bundle scripts (tools/make-prompt-bundle.py a
 - CAPTIONS MUST READ EXACTLY block, built from the captions in the prompt itself, so the final copy is listed word for word with no extra lines.
 If you change a character's look, update the LOCKS table in tools/make-prompt-bundle.py. If you change a caption, change it in the storyboard and the prompt files first, then rebuild the bundle.
 
+## One combined reference image per prompt (DECIDED by creator 2026-11-08)
+Bundles no longer give many separate images. Both bundle scripts splice the character sheets for the page (plus the location, or the logo for covers) into ONE labeled image, with the character or location name written on a label bar above each panel. The prompt starts with a REFERENCE IMAGE note that tells the generator to match each name to its panel and never draw the labels or the layout. 'The trio' in a page script means Jeff, Hal and Mel, so all three are included. If the generator copies words from inside a reference image (the school image still has the old KIRA KIRA and ZAWA ZAWA lettering drawn in), regenerate that reference with the Filipino sound effects.
+
 ## Expressions rule (faces match the scene)
 
 Every prompt must give each character an expression that fits what is happening in that scene: animated, clear emotion, readable at a glance (shock, laughing, fear, determination, embarrassment, awe, and so on). Say where the head is turned and where the eyes look. Do not reuse the same resting face in every image (Jeff's smirk is only his default look). Tell the generator to use the character sheet for hair, face shape, clothes and build, but not to copy the sheet's pose or expression; the sheet's expression row shows the range.

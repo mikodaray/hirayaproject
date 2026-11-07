@@ -53,7 +53,7 @@ def prompt_for(n):
     prefix = re.sub(r'Characters, same designs as the reference image but in black and white:.*?(?=Boys wear)', LOOK, pre.group(1), flags=re.S)
     m = re.search(r'## Page %d .*?(?=\n## Page %d |\Z)' % (n, n + 1), t, re.S)
     block = PAGE10 if n == 10 else m.group(0).strip()
-    chars = [c for c in mpb.ORDER if re.search(mpb.NAMES[c], block)]
+    chars = [c for c in mpb.ORDER if re.search(mpb.NAMES[c], block) or (c in ('jeff', 'hal', 'mel') and re.search(r'\bthe trio\b', block, re.I))]  # 'the trio' means Jeff, Hal and Mel
     return prefix.strip() + '\n\n' + block + '\n\n' + pre.group(2).strip(), chars
 
 if __name__ == '__main__':
@@ -61,7 +61,7 @@ if __name__ == '__main__':
     x = a.parse_args()
     name = 'hiraya-ch1-pages-%02d-%02d' % (x.first, x.last)
     os.makedirs(x.out, exist_ok=True); zpath = os.path.join(x.out, name + '.zip')
-    needed, files = set(), {}
+    needed, files, composites = set(), {}, {}
     for n in range(x.first, x.last + 1):
         p, chars = prompt_for(n)
         if n == 1 or 'FACES:' not in p:
@@ -70,21 +70,20 @@ if __name__ == '__main__':
         p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
         lk = mpb.lock_block(chars)
         if lk: p = lk + '\n\n' + p
-        refs = ['references/' + os.path.basename(mpb.SHEETS[c][1]) for c in chars]
-        names = [mpb.SHEETS[c][0] for c in chars]
-        if n in SCHOOL_PAGES: refs.append('references/' + os.path.basename(SCHOOL)); names.append('school building')
+        items = mpb.ref_items(chars, [SCHOOL] if n in SCHOOL_PAGES else [])
+        p = mpb.ref_note(items) + '\n\n' + p
         needed.update(chars)
-        head = ['HIRAYA PAGE PROMPT: Chapter 1, page %d' % n, '', 'ATTACH THESE IMAGES (from the references folder), in this order:']
-        head += ['  %d. %s  (%s)' % (i, r.split('/')[1], nm) for i, (r, nm) in enumerate(zip(refs, names), 1)]
+        head = ['HIRAYA PAGE PROMPT: Chapter 1, page %d' % n, '', 'ATTACH THIS ONE IMAGE (from the references folder): page-%02d-references.jpg' % n,
+                'It combines these labeled panels, with the name written above each one: ' + ', '.join('%s (%s)' % (l, k.lower()) for l, k, _ in items) + '.']
+        composites['references/page-%02d-references.jpg' % n] = items
         head += ['', 'Then paste everything under the line PROMPT.',
                  'CHECK THE RESULT: every person has exactly 2 arms, each arm with exactly ONE elbow (two segments, never three), 2 hands, 5 fingers on each hand; faces show the right emotion for the panel; sound effects and captions spelled exactly. If something is wrong, regenerate or ask for a fix on that one thing only.', '', '=== PROMPT ===', '']
         files['prompts/page-%02d.txt' % n] = '\n'.join(head) + p + '\n'
-    readme = ('HIRAYA CHAPTER 1, PAGES %d TO %d\n\nprompts/ has one text file per page. references/ has the character sheets and the school image. '
-              'Each page file lists exactly which reference images to attach for that page. Generate the pages in order and save each result.\n' % (x.first, x.last))
+    readme = ('HIRAYA CHAPTER 1, PAGES %d TO %d\n\nprompts/ has one text file per page. references/ has ONE combined image per page, with the character and location names written on it. '
+              'Each page file says which combined image to attach for that page. Generate the pages in order and save each result.\n' % (x.first, x.last))
     with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + '/README.txt', readme)
         for k, v in files.items(): z.writestr(name + '/' + k, v)
-        for c in mpb.ORDER:
-            if c in needed: z.write(mpb.SHEETS[c][1], name + '/references/' + os.path.basename(mpb.SHEETS[c][1]))
-        z.write(SCHOOL, name + '/references/' + os.path.basename(SCHOOL))
+        for path, its in composites.items():
+            tmp = os.path.join(x.out, os.path.basename(path)); mpb.compose_refs(its, tmp); z.write(tmp, name + '/' + path); os.remove(tmp)
     print(zpath, sorted(needed))

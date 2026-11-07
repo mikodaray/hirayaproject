@@ -31,7 +31,7 @@ def page_prompt(n):
     pre = re.search(r'## COMMON PREFIX\n(.*?)\n\n## COMMON ENDING\n(.*?)\n\n## Page', t, re.S)
     m = re.search(r'## Page %d .*?(?=\n## Page %d |\Z)' % (n, n + 1), t, re.S)
     block = m.group(0).strip()
-    chars = [c for c in ORDER if re.search(NAMES[c], block)]
+    chars = [c for c in ORDER if re.search(NAMES[c], block) or (c in ('jeff', 'hal', 'mel') and re.search(r'\bthe trio\b', block, re.I))]  # 'the trio' means Jeff, Hal and Mel
     return pre.group(1).strip() + '\n\n' + block + '\n\n' + pre.group(2).strip(), chars
 
 def cover_prompt():
@@ -90,25 +90,77 @@ def caption_block(prompt):
     return ('CAPTIONS MUST READ EXACTLY as written here, nothing added and nothing removed. No extra lines, no extra facts, no ages, no heights, no relationships, and no leftover wording from earlier versions:\n'
             + '\n'.join('- "%s"' % c for c in caps))
 
+# ---- One combined, labeled reference image per prompt (added 2026-11-08) ----
+# The creator wants ONE image to attach instead of many. Each character sheet (and the location, and the logo for covers)
+# is placed side by side, with the character or location name written on a label bar above it.
+LABELS = {'jeff': 'JEFF', 'hal': 'HAL BAUTISTA', 'mel': 'MEL', 'nikki': 'NIKKI', 'archie': 'SIR ARCHIE', 'totet': 'TOTET', 'procopio': 'TANDANG PROCOPIO'}
+PLACE_LABELS = {'durian-city-high-school-v1.png': 'DURIAN CITY HIGH SCHOOL', 'hiraya-logo.png': 'HIRAYA LOGO'}
+
+def ref_items(chars, extra=()):
+    """List of (label, kind, path): extras first (location or logo), then the characters in cast order."""
+    items = []
+    for f in extra:
+        base = os.path.basename(f)
+        kind = 'LOGO' if 'logo' in base else 'LOCATION'
+        items.append((PLACE_LABELS.get(base, os.path.splitext(base)[0].upper()), kind, f))
+    for c in ORDER:
+        if c in chars: items.append((LABELS[c], 'CHARACTER', SHEETS[c][1]))
+    return items
+
+def compose_refs(items, out_path):
+    """Splice the images into one JPEG with a name label above each one. Returns out_path."""
+    from PIL import Image, ImageDraw, ImageFont
+    n = len(items); cols = n if n <= 5 else (n + 1) // 2; rows = (n + cols - 1) // cols
+    W = min(1024, 4096 // cols); BAR = int(W * 0.13); GAP = max(6, W // 100)
+    font_path = '/usr/share/fonts/opentype/inter/Inter-Bold.otf'
+    if not os.path.exists(font_path): font_path = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+    cells = []
+    for label, kind, path in items:
+        im = Image.open(path).convert('RGB'); h = round(im.height * W / im.width)
+        cells.append((label, kind, im.resize((W, h), Image.LANCZOS)))
+    rowh = [max(c[2].height for c in cells[r * cols:(r + 1) * cols]) + BAR for r in range(rows)]
+    canvas = Image.new('RGB', (cols * W + (cols + 1) * GAP, sum(rowh) + (rows + 1) * GAP), (255, 255, 255))
+    d = ImageDraw.Draw(canvas)
+    small = ImageFont.truetype(font_path, max(14, int(W * 0.03)))
+    y = GAP
+    for r in range(rows):
+        for k, (label, kind, im) in enumerate(cells[r * cols:(r + 1) * cols]):
+            x = GAP + k * (W + GAP)
+            d.rectangle([x, y, x + W - 1, y + BAR - 1], fill=(20, 20, 20))
+            size = int(W * 0.075)
+            while size > 12:
+                big = ImageFont.truetype(font_path, size)
+                if d.textlength(label, font=big) <= W - 2 * GAP: break
+                size -= 2
+            d.text((x + W // 2, y + int(BAR * 0.40)), label, font=big, fill=(255, 255, 255), anchor='mm')
+            d.text((x + W // 2, y + int(BAR * 0.82)), kind, font=small, fill=(190, 190, 190), anchor='mm')
+            canvas.paste(im, (x, y + BAR))
+        y += rowh[r] + GAP
+    canvas.save(out_path, 'JPEG', quality=92)
+    return out_path
+
+def ref_note(items):
+    labels = ', '.join('%s (%s)' % (l, k.lower()) for l, k, _ in items)
+    return ('REFERENCE IMAGE: the ONE attached image combines labeled reference panels: ' + labels + '. '
+            'Match each character or place to the panel with that name above it. Use the labels only to identify who is who. '
+            'Do NOT draw the label bars, the label text, the panel borders, or the sheet layout anywhere in the page. '
+            'Ignore any words or sound effect lettering that appear inside the reference panels, and do not copy them onto the page.')
+
 def build(name, prompt, chars, out, extra=()):
     os.makedirs(out, exist_ok=True)
     zpath = os.path.join(out, name + '.zip')
+    items = ref_items(chars, extra)
     if 'CHARACTER LOCK' not in prompt and lock_block(chars): prompt = lock_block(chars) + '\n\n' + prompt
+    if 'REFERENCE IMAGE:' not in prompt and items: prompt = ref_note(items) + '\n\n' + prompt
     if 'CAPTIONS MUST READ EXACTLY' not in prompt and caption_block(prompt): prompt = prompt.rstrip() + '\n\n' + caption_block(prompt)
     if 'ONE elbow' not in prompt: prompt = prompt.rstrip() + JOINTS
     if FINAL_PASS not in prompt: prompt = prompt.rstrip() + '\n\n' + FINAL_PASS
-    lines = ['HIRAYA PROMPT BUNDLE: ' + name, '', 'HOW TO USE', '1. Attach the images in this bundle to your image generator, in this order:']
-    for k, f in enumerate(extra, 1):
-        lines.append('   %d. %s  (extra reference)' % (k, os.path.basename(f)))
-    for i, c in enumerate(chars, 1):
-        lines.append('   %d. %s  (%s)' % (i + len(extra), os.path.basename(SHEETS[c][1]), SHEETS[c][0]))
+    lines = ['HIRAYA PROMPT BUNDLE: ' + name, '', 'HOW TO USE', '1. Attach the ONE image in this bundle (references.jpg) to your image generator. It combines these labeled panels: ' + ', '.join('%s (%s)' % (l, k.lower()) for l, k, _ in items) + '.']
     lines += ['2. Paste everything under the line PROMPT below.', '3. CHECK THE RESULT: every person must have exactly 2 arms, each arm with exactly ONE elbow (two segments, never three), 2 hands, and 5 fingers on each hand. If not, regenerate, or attach the result and ask: Keep everything the same, only fix the anatomy so every person has exactly two arms and two hands with five fingers each.', '4. If a face drifts, attach that character sheet again with the result and ask for a fix on that character only.', '5. Faces must match the scene: animated, clear emotion, not the same resting face as the character sheet. If a face looks flat or copied, ask: Keep everything the same, only redraw the face of NAME with an expression that fits the scene (describe the emotion), animated and clearly showing emotion.', '', '=== PROMPT ===', '', prompt, '']
     with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + '/prompt.txt', '\n'.join(lines))
-        for k, f in enumerate(extra, 1):
-            z.write(f, '%s/%d-%s' % (name, k, os.path.basename(f)))
-        for i, c in enumerate(chars, 1):
-            z.write(SHEETS[c][1], '%s/%d-%s' % (name, i + len(extra), os.path.basename(SHEETS[c][1])))
+        if items:
+            tmp = os.path.join(out, name + '-references.jpg'); compose_refs(items, tmp); z.write(tmp, name + '/references.jpg'); os.remove(tmp)
     return zpath, chars
 
 if __name__ == '__main__':
