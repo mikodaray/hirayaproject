@@ -139,6 +139,11 @@ def compose_refs(items, out_path):
     canvas.save(out_path, 'JPEG', quality=92)
     return out_path
 
+COMBINED_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'art', 'references', 'combined')
+def save_combined(items, filename):
+    # Combined labeled reference images are saved in the repo so they never need to be rebuilt by hand.
+    os.makedirs(COMBINED_DIR, exist_ok=True)
+    path = os.path.join(COMBINED_DIR, filename); compose_refs(items, path); return path
 def ref_note(items):
     labels = ', '.join('%s (%s)' % (l, k.lower()) for l, k, _ in items)
     return ('REFERENCE IMAGE: the ONE attached image combines labeled reference panels: ' + labels + '. '
@@ -160,7 +165,7 @@ def build(name, prompt, chars, out, extra=()):
     with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + '/prompt.txt', '\n'.join(lines))
         if items:
-            tmp = os.path.join(out, name + '-references.jpg'); compose_refs(items, tmp); z.write(tmp, name + '/references.jpg'); os.remove(tmp)
+            saved = save_combined(items, name + '-references.jpg'); z.write(saved, name + '/references.jpg')
     return zpath, chars
 
 if __name__ == '__main__':

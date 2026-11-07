@@ -85,5 +85,5 @@ if __name__ == '__main__':
         z.writestr(name + '/README.txt', readme)
         for k, v in files.items(): z.writestr(name + '/' + k, v)
         for path, its in composites.items():
-            tmp = os.path.join(x.out, os.path.basename(path)); mpb.compose_refs(its, tmp); z.write(tmp, name + '/' + path); os.remove(tmp)
+            saved = mpb.save_combined(its, os.path.basename(path)); z.write(saved, name + '/' + path)
     print(zpath, sorted(needed))

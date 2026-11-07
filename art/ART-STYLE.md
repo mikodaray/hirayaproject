@@ -40,6 +40,8 @@ If you change a character's look, update the LOCKS table in tools/make-prompt-bu
 ## One combined reference image per prompt (DECIDED by creator 2026-11-08)
 Bundles no longer give many separate images. Both bundle scripts splice the character sheets for the page (plus the location, or the logo for covers) into ONE labeled image, with the character or location name written on a label bar above each panel. The prompt starts with a REFERENCE IMAGE note that tells the generator to match each name to its panel and never draw the labels or the layout. 'The trio' in a page script means Jeff, Hal and Mel, so all three are included. If the generator copies words from inside a reference image (the school image still has the old KIRA KIRA and ZAWA ZAWA lettering drawn in), regenerate that reference with the Filipino sound effects.
 
+The combined images are saved in the repo at art/references/combined/ (page-NN-references.jpg for pages, NAME-references.jpg for covers and single prompts) every time a bundle is made, so they are kept and can be reused. Commit them after making a bundle.
+
 ## Expressions rule (faces match the scene)
 
 Every prompt must give each character an expression that fits what is happening in that scene: animated, clear emotion, readable at a glance (shock, laughing, fear, determination, embarrassment, awe, and so on). Say where the head is turned and where the eyes look. Do not reuse the same resting face in every image (Jeff's smirk is only his default look). Tell the generator to use the character sheet for hair, face shape, clothes and build, but not to copy the sheet's pose or expression; the sheet's expression row shows the range.
