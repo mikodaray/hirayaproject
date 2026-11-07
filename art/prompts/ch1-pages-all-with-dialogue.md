@@ -1,7 +1,7 @@
 # Prompts with dialogue: Chapter 1, Pages 1 to 50
 
 Status: DRAFT. Built from the storyboard in story-bible/chapter-1/. Every page prompt now includes the dialogue, captions, and sound effects so the generator can letter them.
-Aspect ratio: 2:3 portrait. Black and white, hand drawn, read right to left (all DECIDED).
+Aspect ratio: 2:3 portrait. Black and white, hand drawn, read left to right (all DECIDED, changed 2026-11-08).
 Attach as references: the character sheets in art/characters/ (see prompts/02-character-reference-sheets.md) and one approved page for the style.
 
 ## How to use
@@ -11,16 +11,16 @@ Attach as references: the character sheets in art/characters/ (see prompts/02-ch
 4. Quoted text must be copied exactly. If the generator keeps failing on long lines, shorten the line in lettering.js and the storyboard together.
 
 ## COMMON PREFIX
-A single vertical black and white manga page, aspect ratio 2:3, made to be read from right to left like a Japanese manga, with clean white gutters between panels. Hand drawn manga illustration in black ink on white paper, bold varied ink linework, hatching, and gray screentone dot shading. Strictly black, white, and gray only, no color. It must clearly look like a drawing, not realistic, not 3D, not photographic. Bold shonen manga style close to classic Naruto manga artwork, expressive faces and dynamic perspective. Setting: Durian City High School in Durian City, a modern Makati like Philippine city. Characters, same designs as the reference image but in black and white: Jeff is a tall lean 19 year old with messy hair in mid gray screentone, calm and cool; Hal is an 18 year old who is very short, about 5 feet, lean, with young adult proportions (not childlike), neatly combed brown hair in light gray screentone, round glasses, cute; Mel is very tall and big, soft and gentle looking, with long blonde hair in light screentone, and always carries a violin; Nikki is a pretty, popular girl with long brown hair, curvy figure, and a comedian streak. Boys wear a short sleeved buttoned shirt and khaki pants, girls wear a white short sleeved blouse and a white skirt. Panels read right to left, top to bottom.
+A single vertical black and white manga page, aspect ratio 2:3, made to be read from left to right, top to bottom, with clean white gutters between panels. Hand drawn manga illustration in black ink on white paper, bold varied ink linework, hatching, and gray screentone dot shading. Strictly black, white, and gray only, no color. It must clearly look like a drawing, not realistic, not 3D, not photographic. Bold shonen manga style close to classic Naruto manga artwork, expressive faces and dynamic perspective. Setting: Durian City High School in Durian City, a modern Makati like Philippine city. Characters, same designs as the reference image but in black and white: Jeff is a tall lean 19 year old with messy hair in mid gray screentone, calm and cool; Hal is an 18 year old who is very short, about 5 feet, lean, with young adult proportions (not childlike), neatly combed brown hair in light gray screentone, round glasses, cute; Mel is very tall and big, soft and gentle looking, with long blonde hair in light screentone, and always carries a violin; Nikki is a pretty, popular girl with long brown hair, curvy figure, and a comedian streak. Boys wear a short sleeved buttoned shirt and khaki pants, girls wear a white short sleeved blouse and a white skirt. Panels read left to right, top to bottom.
 
 ## COMMON ENDING
-Draw speech bubbles, caption boxes, and sound effect lettering exactly as listed in each panel, spelled correctly, in a clean hand lettered comic style. Place each bubble inside or next to its panel without covering the speaker's face. Tails of the speech bubbles point to the speaker. Reading order of bubbles inside a panel is right to left, top to bottom. Do not add any other text, no extra words, no watermark, no logo. Anatomy must be correct: every person has exactly two arms and exactly two hands, each hand has exactly five fingers (four fingers and one thumb), and exactly two legs, with no extra, missing, merged, or duplicated arms, hands, fingers, or legs. Count the limbs and fingers of every person, including people in the background. Avoid color, realistic or photographic rendering, 3D rendering, extra or missing fingers, more than five fingers on a hand, more than two arms, a third arm, extra or duplicate arms, hands, or legs, merged limbs, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
+Draw speech bubbles, caption boxes, and sound effect lettering exactly as listed in each panel, spelled correctly, in a clean hand lettered comic style. Place each bubble inside or next to its panel without covering the speaker's face. Tails of the speech bubbles point to the speaker. Reading order of bubbles inside a panel is left to right, top to bottom. Do not add any other text, no extra words, no watermark, no logo. Anatomy must be correct: every person has exactly two arms and exactly two hands, each hand has exactly five fingers (four fingers and one thumb), and exactly two legs, with no extra, missing, merged, or duplicated arms, hands, fingers, or legs. Count the limbs and fingers of every person, including people in the background. Avoid color, realistic or photographic rendering, 3D rendering, extra or missing fingers, more than five fingers on a hand, more than two arms, a third arm, extra or duplicate arms, hands, or legs, merged limbs, deformed hands, blurry results, ninja outfits, headbands, and copies of any existing characters.
 
 ## Page 1 (4 panels): Opening, meet Jeff
 See the full ready to paste version in art/prompts/ch1-page-01.md, Version 4 (it includes the sound effects).
 
 ## Page 2 (5 panels): Meet Hal
-Layout: wide strip on top, two small panels, then a tall panel on the right and a large panel on the left. 
+Layout: wide strip on top, two small panels, then a tall panel on the left and a large panel on the right. 
 
 Panel 1 (wide, top): Behind Jeff, a tiny figure sprints through the crowd, a backpack bigger than he is. Lettering: sound effect lettering reads "TAP TAP TAP TAP"
 
@@ -28,16 +28,16 @@ Panel 2 (small): Jeff does not turn around. Small smirk. Lettering: speech bubbl
 
 Panel 3 (small): Hal crashes into Jeff's back. Glasses slide down his nose. Lettering: sound effect lettering reads "THUD"; speech bubble from Hal reads "JEFF! Wait up!"
 
-Panel 4 (tall, right): Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended. Lettering: speech bubble from Hal reads "You walked past the bakery again! I texted you six times!"
+Panel 4 (tall, left): Hal's face close up. Brown hair, round glasses, big eyes. He is very cute and very offended. Lettering: speech bubble from Hal reads "You walked past the bakery again! I texted you six times!"
 
-Panel 5 (large, left): The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy. Lettering: speech bubble from Hal reads "I got your favorite."; speech bubble from Jeff reads "You're a legend."; caption box reads "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."
+Panel 5 (large, right): The height gap. Jeff looks down, Hal looks up, a paper bag of pandesal held high like a trophy. Lettering: speech bubble from Hal reads "I got your favorite."; speech bubble from Jeff reads "You're a legend."; caption box reads "Hal Bautista. Five feet flat. Jeff's best friend. Loudest voice in any room."
 
 ## Page 3 (6 panels): Meet Mel
-Layout: wide strip on top, a tall panel on the right, three stacked small panels in the middle, a large panel at the bottom. 
+Layout: wide strip on top, a tall panel on the left, three stacked small panels in the middle, a large panel at the bottom. 
 
 Panel 1 (wide, top): Violin music drifts across the school grounds. Students stop on the stairs. Glowing musical notes weave through the air.
 
-Panel 2 (tall, right): Mel on the school steps, eyes closed, long blonde hair over his shoulder, violin tucked under his chin. A very big, very gentle guy.
+Panel 2 (tall, left): Mel on the school steps, eyes closed, long blonde hair over his shoulder, violin tucked under his chin. A very big, very gentle guy.
 
 Panel 3 (small): Jeff and Hal arrive at the bottom of the steps. Hal waves with the pandesal bag.
 
@@ -351,7 +351,7 @@ Panel 3 (small): Nikki. Lettering: speech bubble from Nikki reads "THERE'S WATER
 Panel 4 (large): Jeff dives to catch Hal and grabs his hand.
 
 ## Page 27 (5 panels): Splash
-Layout: one tall panel on the right, four stacked small panels on the left. 
+Layout: one tall panel on the left, four stacked small panels on the right. 
 
 Panel 1 (tall): The impact. A huge splash on the river. Birds scatter. Lettering: sound effect lettering reads "SPLOOOSH"
 

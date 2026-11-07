@@ -19,7 +19,7 @@ OPEN
 OPEN
 
 ## Target audience and format
-Manga format. Reading direction: panels inside a page read right to left (DECIDED). In the web viewer the pages scroll left to right (DECIDED 2026-11-06). Planned volume count: OPEN. Chapter 1 is 50 pages (DECIDED).
+Manga format. Reading direction: panels inside a page read left to right (DECIDED, changed 2026-11-08 from right to left). In the web viewer the pages also go left to right. Planned volume count: OPEN. Chapter 1 is 50 pages (DECIDED).
 
 ## Art style
 DECIDED: close to how the Naruto manga looks. Details in art/ART-STYLE.md.

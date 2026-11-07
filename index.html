@@ -168,7 +168,7 @@
     </div>
     <div class="meta" id="meta"></div>
     <div class="progress" aria-hidden="true"><div id="bar"></div></div>
-    <div class="hint">Scroll left to right: press the right arrow or swipe left to go forward. Panels inside each page read right to left, like a manga. Press G for all pages.</div>
+    <div class="hint">Scroll left to right: press the right arrow or swipe left to go forward. Panels inside each page read left to right. Press G for all pages.</div>
   </section>
 
   <section id="grid" aria-label="All pages">
@@ -219,7 +219,7 @@
 
   var idx = 0;
   var showLt = true;
-  var rtl = false; // DECIDED: pages go left to right in the viewer, only the panels inside a page read right to left
+  var rtl = false; // DECIDED: pages go left to right in the viewer, and the panels inside a page also read left to right (changed 2026-11-08)
   var sheet = document.getElementById("sheet");
   var meta = document.getElementById("meta");
   var bar = document.getElementById("bar");

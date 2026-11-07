@@ -1,7 +1,7 @@
 # Chapter 1: Overview and Page Plan
 
 Status: DRAFT storyboard, 50 pages, written for the creator to review. Nothing here is final until the creator confirms it.
-DECIDED by the creator: Chapter 1 is 50 pages, black and white, panels inside each page read right to left (pages scroll left to right in the web viewer), the first pages introduce the four main characters, the layout should be dynamic with some panels bigger than others, and there should be a one page image for a point or a grand event.
+DECIDED by the creator: Chapter 1 is 50 pages, black and white, panels inside each page read left to right (changed 2026-11-08 from right to left, and the pages also go left to right in the web viewer), the first pages introduce the four main characters, the layout should be dynamic with some panels bigger than others, and there should be a one page image for a point or a grand event.
 Everything else here is a DRAFT suggestion.
 
 Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the earlier draft working title "Read It Out Loud", which was invented by Claude.
@@ -44,7 +44,7 @@ If you only want one splash page, we can fold page 7 into a normal layout.
 - Big panels for reveals, small panels for reactions and jokes, thin strips for silence and tension.
 - Jeff looks cool and stays calm in every scene, even though his classmates think he is weird. The other three have exaggerated, animated reactions.
 - Page 49 repeats the stance from page 7, so the ending echoes Jeff's first big moment.
-- Reading direction is DECIDED: panels inside a page read right to left, so in each row the first panel is on the right. In the web viewer the pages go left to right.
+- Reading direction is DECIDED (changed 2026-11-08): panels inside a page read left to right, so in each row the first panel is on the left. In the web viewer the pages also go left to right. The layouts below were mirrored on 2026-11-08 to match.
 - Chapter pages are black and white with screentone (DECIDED).
 
 ## Story facts used here

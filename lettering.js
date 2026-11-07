@@ -2,7 +2,7 @@
 // Each entry: [kind, x, y, w, text]  (x, y = top left corner, w = width, all in % of the page)
 // kind: "s" speech bubble, "w" whisper or small bubble, "c" caption box, "x" sound effect, "t" tiny caption
 // Positions are first pass guesses against the generated art. Nudge the numbers to move a bubble.
-// Reading order is right to left, so the first lines of a row sit on the right.
+// Reading order is left to right, so the first lines of a row sit on the left. NOTE (2026-11-08): the positions below were guessed for the old right to left art, so mirror x (100 - x - w) or redo them after the pages are redrawn.
 var LETTERING = {
   // Page 1 has its lettering drawn into the art (v4), so no overlay is needed.
   2: [

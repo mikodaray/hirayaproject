@@ -61,7 +61,7 @@
 </header>
 <main>
   <div class="intro">
-    <strong>The full storyboard for Chapter 1, 50 pages.</strong> Each page shows the planned panels as boxes, so you can picture how the page will look, then the script for every panel. The book reads <strong>right to left</strong>, so panel 1 is at the top right of each row. Status: DRAFT, written for the creator to review. Sound effects (SFX) are tagged with their type when the storyboard gives one: giongo (sounds), giseigo (voices), gitaigo (feelings).
+    <strong>The full storyboard for Chapter 1, 50 pages.</strong> Each page shows the planned panels as boxes, so you can picture how the page will look, then the script for every panel. The book reads <strong>left to right</strong>, so panel 1 is at the top left of each row. Status: DRAFT, written for the creator to review. Sound effects (SFX) are tagged with their type when the storyboard gives one: giongo (sounds), giseigo (voices), gitaigo (feelings).
   </div>
   <nav class="jump" id="jump" aria-label="Jump to page"></nav>
   <div id="pages"></div>
@@ -90,7 +90,7 @@
       d.appendChild(b);
     });
     left.appendChild(d);
-    left.appendChild(el("div", "diagram-note", p.splash ? "Full page splash" : "Read right to left, panel 1 starts at the top right"));
+    left.appendChild(el("div", "diagram-note", p.splash ? "Full page splash" : "Read left to right, panel 1 starts at the top left"));
     sec.appendChild(left);
 
     var right = el("div");

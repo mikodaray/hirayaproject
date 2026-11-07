@@ -2,7 +2,7 @@
 """Builds storyboard-data.js from story-bible/chapter-1/pages-*.md plus the panel layouts below.
 Run from the repo root:  python3 tools/build-storyboard-data.py
 Layouts: rows from top to bottom. Each row is (height weight, "cells"). Cells are listed in READING ORDER,
-so the first cell sits on the RIGHT (the book reads right to left). A cell is a width weight, like 1.2,
+so the first cell sits on the LEFT (the book reads left to right, changed 2026-11-08). A cell is a width weight, like 1.2,
 or a vertical stack, like 1.1[1,1,1] (width 1.1, three panels stacked). Panels are numbered in the order listed.
 """
 import glob, json, re
@@ -69,16 +69,16 @@ def rects(layout):
         for c in cells.split():
             m=re.match(r'([\d.]+)(?:\[([\d.,]+)\])?$',c)
             parsed.append((float(m.group(1)), [float(v) for v in m.group(2).split(',')] if m.group(2) else None))
-        W=100-2*PAD-GX*(len(parsed)-1); wt=sum(w for w,_ in parsed); x=100-PAD  # start at the right edge
+        W=100-2*PAD-GX*(len(parsed)-1); wt=sum(w for w,_ in parsed); x=PAD  # start at the left edge
         for w,stack in parsed:
-            cw=W*w/wt; x0=x-cw
+            cw=W*w/wt; x0=x
             if stack:
                 sh=(rh-GY*(len(stack)-1)); st=sum(stack); yy=y
                 for s in stack:
                     hh=sh*s/st; out.append([round(x0,2),round(yy,2),round(cw,2),round(hh,2)]); yy+=hh+GY
             else:
                 out.append([round(x0,2),round(y,2),round(cw,2),round(rh,2)])
-            x=x0-GX
+            x=x0+cw+GX
         y+=rh+GY
     return out
 
