@@ -45,6 +45,8 @@ The combined images are saved in the repo at art/references/combined/ (page-NN-r
 ## Crowd staging and no extra text (DECIDED by creator 2026-11-08)
 Page 4 came back with cloned background crowds and a stray garbled caption for Mel that was not in the script. Bundles now add a CROWD STAGING block whenever a page has crowds or groups (unique silhouettes, no mirrored or repeated poses, stagger in depth, overlap), and a NO EXTRA TEXT block (no caption or label for anyone not listed, no text copied from the reference images). Pages with big crowd panels can also list specific poses in the CROWD dict in tools/make-pages-bundle.py (page 4 has them).
 
+Intro captions appear only once. Page 4 repeated Mel's intro caption from page 3 in the last panel. Bundles now add an ALREADY INTRODUCED line naming every character introduced on an earlier page (Jeff page 1, Hal page 2, Mel page 3, Nikki page 4), telling the generator to draw no name caption for them. Update INTRO_PAGE in tools/make-pages-bundle.py when new characters are introduced.
+
 ## Expressions rule (faces match the scene)
 
 Every prompt must give each character an expression that fits what is happening in that scene: animated, clear emotion, readable at a glance (shock, laughing, fear, determination, embarrassment, awe, and so on). Say where the head is turned and where the eyes look. Do not reuse the same resting face in every image (Jeff's smirk is only his default look). Tell the generator to use the character sheet for hair, face shape, clothes and build, but not to copy the sheet's pose or expression; the sheet's expression row shows the range.

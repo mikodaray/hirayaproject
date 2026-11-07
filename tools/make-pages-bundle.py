@@ -13,6 +13,13 @@ LOOK = ("Characters: draw every named character exactly as on their attached cha
         "Use the sheets for the look only, do not copy the sheet poses or the sheet expressions. Sizes: Mel is the tallest and biggest (6'2\"), Jeff is second tallest (5'10\"), Nikki is shorter (5'4\"), Hal is the shortest (5'0\"), Sir Archie is a little shorter than Jeff. ")
 EXPR_RULE = ("FACES: every face must be animated and show a clear emotion that matches its panel, with the head turned and the eyes looking where the story needs. "
              "Do not give everyone the same resting face. Use these emotions for this page:\n")
+INTRO_PAGE = {'jeff': 1, 'hal': 2, 'mel': 3, 'nikki': 4}
+NAMES = {'jeff': 'Jeff', 'hal': 'Hal', 'mel': 'Mel', 'nikki': 'Nikki'}
+def intro_block(n, chars):
+    done = [NAMES[c] for c in INTRO_PAGE if INTRO_PAGE[c] < n and c in chars]
+    if not done: return ''
+    return ('ALREADY INTRODUCED. ' + ', '.join(done) + (' were' if len(done) > 1 else ' was') + ' introduced with a name caption on an earlier page. '
+            'On this page draw NO name caption, NO introduction and NO description for ' + ('them' if len(done) > 1 else 'him or her') + ', even when they stand in the scene, unless the CAPTIONS MUST READ EXACTLY block lists one. ')
 CROWD = {4: ("Page 4 poses. Panel 1, the girls entering the gate all move differently: one holds a bag strap, one talks while turning toward a friend, one brushes hair from her face, one carries books against her chest, one swings her arms, one checks her phone while walking. "
              "Panel 3, the crowd parts like a wave and every student reacts differently: one steps backward, one pivots sideways, one leans away, one turns to watch Nikki, one pulls a friend aside, one pauses mid step, one looks over a shoulder. Nikki stays centered. "
              "Panel 4, Nikki's friends have unique poses: one laughs with a hand over her mouth, one adjusts her hair, one carries a shoulder bag, one walks with hands behind her back, one looks toward Nikki, and they are staggered in depth around her, not in a line. "
@@ -71,7 +78,7 @@ if __name__ == '__main__':
         if n == 1 or 'FACES:' not in p:
             p = p.replace('\n\nLayout', '\n\nLayout', 1)
         cb = mpb.caption_block(p)
-        p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + mpb.NO_EXTRA_TEXT + mpb.crowd_block(p) + CROWD.get(n, '') + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
+        p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + mpb.NO_EXTRA_TEXT + intro_block(n, chars) + mpb.crowd_block(p) + CROWD.get(n, '') + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
         lk = mpb.lock_block(chars)
         if lk: p = lk + '\n\n' + p
         items = mpb.ref_items(chars, [SCHOOL] if n in SCHOOL_PAGES else [])
