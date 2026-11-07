@@ -49,6 +49,9 @@ CROWD_RULE = ("CROWD STAGING. Every visible background person must have a unique
 NO_EXTRA_TEXT = ("NO EXTRA TEXT. Only the lettering listed in the panel descriptions may appear. A panel with no Lettering line has NO text of any kind. "
                  "Do not add name captions, introductions, labels, signs with new words, or any caption for a character who is not listed in the CAPTIONS MUST READ EXACTLY block. "
                  "Do not carry text over from the reference images. If a character has no caption on this page, draw no caption for them. ")
+VARIED_POSES = ("VARIED POSES AND ANGLES. When the same character appears in more than one panel, draw them with a different pose, a different body position and a different camera angle in each panel "
+                "(front, three quarter, side, from behind, high angle, low angle, close up, wide). Do not repeat the same stance, the same gesture or the same head angle twice, and do not reuse the same drawing of a character in two panels. "
+                "Vary the distance too, so the page feels dynamic and not like copy pasted figures. ")
 CROWD_WORDS = re.compile(r'crowd|students|group of|classmates|flanking|friends|entourage|wave', re.I)
 def crowd_block(prompt):
     return CROWD_RULE if CROWD_WORDS.search(prompt) else ''

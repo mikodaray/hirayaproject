@@ -78,7 +78,7 @@ if __name__ == '__main__':
         if n == 1 or 'FACES:' not in p:
             p = p.replace('\n\nLayout', '\n\nLayout', 1)
         cb = mpb.caption_block(p)
-        p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + mpb.NO_EXTRA_TEXT + intro_block(n, chars) + mpb.crowd_block(p) + CROWD.get(n, '') + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
+        p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + mpb.NO_EXTRA_TEXT + intro_block(n, chars) + mpb.VARIED_POSES + mpb.crowd_block(p) + CROWD.get(n, '') + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
         lk = mpb.lock_block(chars)
         if lk: p = lk + '\n\n' + p
         items = mpb.ref_items(chars, [SCHOOL] if n in SCHOOL_PAGES else [])

@@ -47,6 +47,9 @@ Page 4 came back with cloned background crowds and a stray garbled caption for M
 
 Intro captions appear only once. Page 4 repeated Mel's intro caption from page 3 in the last panel. Bundles now add an ALREADY INTRODUCED line naming every character introduced on an earlier page (Jeff page 1, Hal page 2, Mel page 3, Nikki page 4), telling the generator to draw no name caption for them. Update INTRO_PAGE in tools/make-pages-bundle.py when new characters are introduced.
 
+## Varied poses and angles (DECIDED by creator 2026-11-08)
+When a character shows up in several panels, each panel gives them a different pose, body position and camera angle (front, three quarter, side, behind, high, low, close up, wide), so the page feels dynamic. No repeated stance, gesture or head angle, and no reusing the same drawing in two panels. Bundles add a VARIED POSES AND ANGLES block to every page prompt (VARIED_POSES in tools/make-prompt-bundle.py).
+
 ## Expressions rule (faces match the scene)
 
 Every prompt must give each character an expression that fits what is happening in that scene: animated, clear emotion, readable at a glance (shock, laughing, fear, determination, embarrassment, awe, and so on). Say where the head is turned and where the eyes look. Do not reuse the same resting face in every image (Jeff's smirk is only his default look). Tell the generator to use the character sheet for hair, face shape, clothes and build, but not to copy the sheet's pose or expression; the sheet's expression row shows the range.
