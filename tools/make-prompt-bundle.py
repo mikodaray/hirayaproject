@@ -52,6 +52,9 @@ NO_EXTRA_TEXT = ("NO EXTRA TEXT. Only the lettering listed in the panel descript
 VARIED_POSES = ("VARIED POSES AND ANGLES. When the same character appears in more than one panel, draw them with a different pose, a different body position and a different camera angle in each panel "
                 "(front, three quarter, side, from behind, high angle, low angle, close up, wide). Do not repeat the same stance, the same gesture or the same head angle twice, and do not reuse the same drawing of a character in two panels. "
                 "Vary the distance too, so the page feels dynamic and not like copy pasted figures. ")
+FOCUS_RULE = ("FOCUS ON THE MAIN CHARACTER. In a panel that shows a group or crowd where one character is meant to be the focus, make the main character stand out by darkening everyone else and the surroundings: "
+              "heavier gray screentone, deeper hatching and shadow on the background and on the other people, while the main character stays lighter, cleaner and sharper. "
+              "If a panel has no single main character, such as a group shot where everyone matters equally, do NOT darken anyone, keep the tones even. ")
 CROWD_WORDS = re.compile(r'crowd|students|group of|classmates|flanking|friends|entourage|wave', re.I)
 def crowd_block(prompt):
     return CROWD_RULE if CROWD_WORDS.search(prompt) else ''
