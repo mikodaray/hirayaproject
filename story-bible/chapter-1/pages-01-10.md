@@ -102,6 +102,7 @@ HAL: "I am NOT a pocket edition!"
 **2. WIDE.** Nikki plucks his glasses off his face and holds them high. Her friends laugh.
 
 **3. SMALL.** Hal's blurry point of view: smears of color and shapes.
+HAL (thought bubble): "I can't see anything"
 
 **4. SMALL.** Hal jumping, fingertips short of the glasses.
 NIKKI: "Aww. He can't even jump."

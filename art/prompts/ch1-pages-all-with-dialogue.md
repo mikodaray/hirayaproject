@@ -67,7 +67,7 @@ Panel 1 (small): Hal bristles, finger raised. Lettering: speech bubble from Hal 
 
 Panel 2 (wide): Nikki plucks his glasses off his face and holds them high. Her friends laugh.
 
-Panel 3 (small): Hal's blurry point of view: smears of color and shapes.
+Panel 3 (small): Hal's blurry point of view: smears of color and shapes. Lettering: thought bubble from Hal reads "I can't see anything"
 
 Panel 4 (small): Hal jumping, fingertips short of the glasses. Lettering: speech bubble from Nikki reads "Aww. He can't even jump."
 
