@@ -21,11 +21,11 @@ DECIDED by creator: every image must look hand drawn, not realistic. Use ink pen
 Note: the first cover concept and the first cast scene were made before this rule and may look more rendered than drawn.
 
 ## Sound effects (onomatopoeia)
-DECIDED by creator: every page includes onomatopoeia (SFX), written in English letters. Use all three kinds:
+DECIDED by creator: every page includes onomatopoeia (SFX). UPDATED 2026-11-07: use Filipino words for the sound effects instead of the Japanese manga sounds. Plain English is fine for real world sounds that have no common Filipino word (HONK, THUD, SWISH). Use all three kinds:
 - Giongo, real world sounds: crashes, thunder, footsteps, traffic (HONK, THUD, CLACK)
 - Giseigo, voices and living creatures: laughter, gasps, animal noises (HAHAHA, GASP, MEOW)
-- Gitaigo, feelings and atmosphere with no literal sound: sparkle, awkward silence, a racing heartbeat, gloom (KIRA, DOKI DOKI, ...)
-Draw them big and hand lettered, part of the art, often curving with the action. Gitaigo can use the Japanese manga sounds written in English letters or plain English words.
+- Gitaigo, feelings and atmosphere with no literal sound: sparkle, awkward silence, a racing heartbeat, gloom (KINANG, KISLAP, TIBOK, ...)
+Draw them big and hand lettered, part of the art, often curving with the action. For gitaigo use Filipino words: KINANG or KISLAP for sparkle, KINTAB for a glossy shine, TIBOK for a heartbeat, BULONG BULONG for whispers, DALDAL for chatter. Do not use Japanese manga sounds like KIRA KIRA, DOKI, ZAWA ZAWA, or HISO HISO.
 
 ## Expressions rule (faces match the scene)
 

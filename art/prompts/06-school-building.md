@@ -13,7 +13,7 @@ The school name on the long wall band, in raised metal capital letters, reads ex
 
 Surroundings: big leafy tropical trees framing both sides of the picture, a bright blue morning sky with a few soft clouds, a street in front with a pedestrian crossing, a couple of parked jeepneys and motorcycles, and a few small students in blue and white uniforms walking to the gate. In the far background, glass towers of a modern city (Durian City), so it feels like a state of the art Philippine city like Makati. Warm sunlight, long soft shadows, fresh morning mood.
 
-Sound effects in hand lettered English letters as part of the art, small and few: "KIRA KIRA" near the glass windows catching the sun, and "ZAWA ZAWA" near the students. No other text except the school name.
+Sound effects in hand lettered letters as part of the art, small and few: "KINANG" near the glass windows catching the sun, and "DALDAL DALDAL" near the students. No other text except the school name.
 
 Anatomy must be correct for every student: exactly two arms, two hands, five fingers on each hand, two legs. Avoid realistic or photographic rendering, 3D rendering, extra fingers, deformed hands, blurry results, misspelled text, the real school's name or seal, and any other readable words.
 ```
