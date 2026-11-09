@@ -20,7 +20,9 @@ def intro_block(n, chars):
     if not done: return ''
     return ('ALREADY INTRODUCED. ' + ', '.join(done) + (' were' if len(done) > 1 else ' was') + ' introduced with a name caption on an earlier page. '
             'On this page draw NO name caption, NO introduction and NO description for ' + ('them' if len(done) > 1 else 'him or her') + ', even when they stand in the scene, unless the CAPTIONS MUST READ EXACTLY block lists one. ')
-PAGE_NOTES = {5: ("PAGE 5 NOTES. GLASSES EXCEPTION: in panels 2, 3 and 4 Nikki has taken Hal's round glasses off his face, so Hal is drawn WITHOUT glasses in those panels, squinting, and Nikki holds his glasses up high. In panels 1, 5 and 6 Hal wears his round glasses if he is visible. "
+PAGE_NOTES = {6: ("PAGE 6 NOTES. GLASSES EXCEPTION: Nikki still holds Hal's round glasses in one hand, so on this page Hal is drawn WITHOUT glasses, squinting, and Nikki's hand holding his glasses stays visible when she is in frame. "
+                  "FOCUS: panels 1, 2 and 3 Jeff, panel 4 Hal, panel 5 Nikki. Darken the others and the background in those panels. "),
+               5: ("PAGE 5 NOTES. GLASSES EXCEPTION: in panels 2, 3 and 4 Nikki has taken Hal's round glasses off his face, so Hal is drawn WITHOUT glasses in those panels, squinting, and Nikki holds his glasses up high. In panels 1, 5 and 6 Hal wears his round glasses if he is visible. "
                   "Panel 3 is Hal's blurry point of view, so draw only soft blurred shapes and smears, no faces in focus, and a cloud shaped thought bubble with small trailing circles that reads \"I can't see anything\". "
                   "FOCUS: panel 1 Hal, panel 2 Nikki, panel 4 Hal, panel 5 Mel, panel 6 Jeff. Darken the others and the background in those panels. ")}
 CROWD = {4: ("Page 4 poses. Panel 1, the girls entering the gate all move differently: one holds a bag strap, one talks while turning toward a friend, one brushes hair from her face, one carries books against her chest, one swings her arms, one checks her phone while walking. "
