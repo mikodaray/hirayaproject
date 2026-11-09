@@ -1,6 +1,8 @@
 # Creation stories used as the base of the mythos
 
 Source: https://sites.pitt.edu/~dash/creation-phil.html (a page of Philippine creation stories). Summaries below follow that page. Names are spelled the way the page spells them.
+REFERENCE ONLY (decided 2026-11-10): everything in this file except story 1 is kept as reference for now and is not canon. Any idea from stories 2 to 8 only becomes canon if the creator picks it.
+
 Story 1, How the World Was Made, is the MAIN creation story of this universe (DECIDED 2026-11-10), with Maguayan and Captan as the main gods. See 06-the-gods-and-creation.md. The other stories are supporting material from regions and peoples, used for details.
 
 Rule: we use the shapes and images of these stories as the base, and we change them for Hiraya. Every change is marked as our own.
@@ -33,7 +35,7 @@ Before people, the limokon, a dove like bird that could speak, laid two eggs, on
 ### 8. The Creation Story (Tagalog)
 Only sea and sky, with a kite bird between them. The tired kite stirred the sea until it struck the sky, and the sky dropped islands to hold the sea back. The land breeze and sea breeze had a bamboo child. The bamboo drifted to shore and the angry kite pecked it open, and a man and a woman came out. Their children scattered to different hiding places.
 
-## What each story gives Hiraya (our own adaptations, all DRAFT)
+## What each story could give Hiraya (REFERENCE ONLY, none of these are used unless the creator picks them)
 
 | Story | Image or idea | How we can use it |
 |-------|---------------|-------------------|

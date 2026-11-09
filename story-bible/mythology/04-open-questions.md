@@ -2,7 +2,7 @@
 
 Answer these in order. The first few shape everything else.
 
-1. Where do the ten Agimats come from? The draft in 01-core-truths.md (C2, The First Wish) says ten things carried away from the first home, each holding a piece of the First Wish. Other options are the ten pieces of Licalibutan, or ten gifts from Captan and Maguayan. Confirm, change, or pick another.
+1. Where do the ten Agimats come from? Four options built from the main story are in 06-the-gods-and-creation.md (joints of the first bamboo, sparks of Licalibutan, stars of Lisuga, or a mix). Pick one or write your own.
 2. What does an Agimat cost to use? Without a limit, nothing is at stake.
 3. Is the bamboo tube an Agimat, or something an Agimat made?
 4. Why was Jeff's necklace in Butuan in 1003, and how did it reach Jeff's father?
@@ -17,5 +17,7 @@ Answer these in order. The first few shape everything else.
 13. DECIDED: the names Maguayan and Captan are kept as the main gods. Still open: do we also keep the names of their descendants (Licalibutan, Liadlao, Libulan, Lisuga, Sicalac, Sicabay) as they are?
 16. What do Maguayan and Captan look like, and are they still awake? Do they speak to people, or only act through spirits and Agimats?
 17. Do the people of Butuan in 1003 use these names for the gods, or others?
-14. Where is the first home? The Bagobo story puts it at Cibolan on Mount Apo, which is near Durian City. Use that, or invent a place?
+14. Do the lightning marks on Pandaguan's line connect to Tandang Procopio's scar and tattoos?
 15. Is the bamboo tube a piece of the first bamboo (draft), and who put the Baybayin on it?
+18. Do you want to expand any part of the main creation story first? The expanded telling in 06-the-gods-and-creation.md has seven parts, and every new detail there is a draft.
+19. Is the main motive I gave Licalibutan (he does not want to live between two powers, he wants to be a power too) right?

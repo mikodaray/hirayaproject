@@ -17,7 +17,7 @@ Fill one slot at a time. Everything marked OPEN is waiting for the creator.
 | 10 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
 
 ## Ways to organize the ten (OPEN, pick one)
-- By the first home (new, from the creation stories, see 05-creation-stories.md): ten things were carried away from the first home when the people scattered, and each one named a people. Each Agimat belongs to one people and one place, so the story can travel from people to people.
+- By the origin option picked in 06-the-gods-and-creation.md (joints of the bamboo, sparks of Licalibutan, stars of Lisuga, or a mix). The other creation stories in 05-creation-stories.md are reference only.
 - By place: the Sangkapuluan has three big regions, Luzon, Visayas, and Mindanao. Spread the ten across them so the story can travel.
 - By hope: each Agimat holds a different kind of hope (protection, home, voice, sight, courage, mercy, memory, and so on). This keeps each one distinct.
 - By element and sense: sea, river, mountain, fire, wind, earth, sky, forest, and so on. This is easy to draw and easy for readers to remember.
