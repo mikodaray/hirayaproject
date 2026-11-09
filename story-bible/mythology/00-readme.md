@@ -13,6 +13,7 @@ Status: first draft started 2026-11-10. Only the facts marked DECIDED are locked
 ## Files
 - 01-core-truths.md: the rules of the mythos, what is decided and what is a draft
 - 02-the-ten-agimats.md: the ten Agimats of the Sangkapuluan, one slot each
+- 05-creation-stories.md: the creation stories the mythos is based on, and how each one is used
 - 03-folklore-sources.md: real Philippine folklore we can draw from, with sources
 - 04-open-questions.md: what the creator needs to decide next
 

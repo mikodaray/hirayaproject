@@ -2,7 +2,7 @@
 
 Answer these in order. The first few shape everything else.
 
-1. Where do the ten Agimats come from? (Option 1 the wishes of the first people, Option 2 a gift from the sky or sea, Option 3 the islands themselves, or your own idea.)
+1. Where do the ten Agimats come from? The draft in 01-core-truths.md (C2, The First Wish) says ten things carried away from the first home, each holding a piece of the First Wish. Other options are the ten pieces of Licalibutan, or ten gifts from Captan and Maguayan. Confirm, change, or pick another.
 2. What does an Agimat cost to use? Without a limit, nothing is at stake.
 3. Is the bamboo tube an Agimat, or something an Agimat made?
 4. Why was Jeff's necklace in Butuan in 1003, and how did it reach Jeff's father?
@@ -14,3 +14,6 @@ Answer these in order. The first few shape everything else.
 10. Who or what is the main opposing force of the mythos? A person who wants the Agimats, a dark Agimat, or something older?
 11. Is there a supreme being or a creation story in this mythos, and do we name it from real folklore?
 12. What is the full Baybayin inscription on the tube, and what does it say?
+13. Do you want the real names from the creation stories (Maguayan, Captan, Licalibutan, Liadlao, Libulan, Lisuga, Sicalac, Sicabay) used as they are, or changed for the story?
+14. Where is the first home? The Bagobo story puts it at Cibolan on Mount Apo, which is near Durian City. Use that, or invent a place?
+15. Is the bamboo tube a piece of the first bamboo (draft), and who put the Baybayin on it?

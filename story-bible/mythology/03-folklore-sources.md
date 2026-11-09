@@ -14,6 +14,8 @@ Purpose: ground the mythos in real beliefs so it feels Filipino, then bend it fo
 - VERIFIED: carved figures (taotao, larawan, ladaw) became sacred only during a ritual (pag-anito).
 - The article does not mention Agusan, Butuan, or agimat.
 
+The creation stories used as the base of the mythos are in 05-creation-stories.md.
+
 ## Things in the story that this folklore can support
 | Story idea | Folklore link | Status |
 |------------|---------------|--------|
