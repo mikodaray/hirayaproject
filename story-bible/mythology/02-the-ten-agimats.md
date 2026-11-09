@@ -1,32 +1,44 @@
 # The ten Agimats of the Sangkapuluan
 
-Rule from C1 in 01-core-truths.md: each Agimat holds one hope, and its power is the shape of that hope.
-Fill one slot at a time. Everything marked OPEN is waiting for the creator.
+## DECIDED by the creator (2026-11-10)
+The gods of the main creation story (06-the-gods-and-creation.md) are the patrons of the Agimats. The two strongest Agimats come from Maguayan and Captan. Their children have the next strongest Agimats, and so on down the family line.
 
-| # | Name | Form | Hope it holds | Power | Where it sleeps or who holds it | Friendly? | Status |
-|---|------|------|---------------|-------|----------------------------------|-----------|--------|
-| 1 | OPEN | A necklace with a pendant | OPEN | OPEN (warms, glows gold, hums, recognized by the court) | Jeff Victorio | OPEN, appears friendly | DECIDED that it exists |
-| 2 | OPEN | OPEN, maybe the bamboo tube | OPEN | OPEN | OPEN | OPEN | OPEN |
-| 3 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
-| 4 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
-| 5 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
-| 6 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
-| 7 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
-| 8 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
-| 9 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
-| 10 | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN | OPEN |
+## The ten, by patron (DRAFT mapping, creator to confirm)
+The family line in the main story has exactly ten names that fit this rule: the two gods, their two children, their four grandchildren, and the two first people. Counting them gives 2 + 2 + 4 + 2 = 10, which matches the ten Agimats of the Sangkapuluan.
 
-## Ways to organize the ten (OPEN, pick one)
-- By the origin option picked in 06-the-gods-and-creation.md (joints of the bamboo, sparks of Licalibutan, stars of Lisuga, or a mix). The other creation stories in 05-creation-stories.md are reference only.
-- By place: the Sangkapuluan has three big regions, Luzon, Visayas, and Mindanao. Spread the ten across them so the story can travel.
-- By hope: each Agimat holds a different kind of hope (protection, home, voice, sight, courage, mercy, memory, and so on). This keeps each one distinct.
-- By element and sense: sea, river, mountain, fire, wind, earth, sky, forest, and so on. This is easy to draw and easy for readers to remember.
+| Rank | Patron | Who they are in the main story | Domain (DRAFT) | Agimat hope (DRAFT) | Friendly? (DRAFT) |
+|------|--------|-------------------------------|----------------|---------------------|-------------------|
+| 1 | Maguayan | God of the sea, planted the seed of the first people | Sea, depth, renewal, growth | A hope that what is broken can live again | Friendly, but the strongest in the world |
+| 1 | Captan | God of the sky, struck the rebels with lightning | Sky, lightning, judgment, order | A promise that the sky will be defended | Neither, a judge. Dangerous in the wrong hands |
+| 2 | Lidagat | Child of the gods, the sea | Tides, rivers, travel, passage | A way home for the lost | Friendly |
+| 2 | Lihangin | Child of the gods, the wind | Wind, voice, words that carry | A word that is heard | Friendly |
+| 3 | Licalibutan | The proud one, became the land | Land, strength, stone, pride | The wish to stand on one's own | Dangerous, born from pride |
+| 3 | Liadlao | Became the sun | Sun, light, warmth, dawn | The light that begins again | Friendly |
+| 3 | Libulan | Became the moon | Moon, night, dreams, quiet | The watch kept for those asleep | Friendly, but moody |
+| 3 | Lisuga | Scattered as the stars | Stars, silver, guidance | A light to find the way | Friendly |
+| 4 | Sicalac | The first man, from the bamboo | Life, bonds, people, bamboo | The wish to belong | Friendly |
+| 4 | Sicabay | The first woman, from the bamboo | Life, bonds, people, bamboo | The wish to belong | Friendly |
 
-My suggestion is to combine by hope and by place, so each Agimat has both a meaning and a home. Then we can plan arcs by travelling to them.
+Power rank order inside the table: rank 1 is strongest, rank 4 weakest of the ten. Inside a rank, the order is OPEN. The weaker ones are still real Agimats. Rank 4 is the weakest because its patrons are the youngest and are people, not gods, yet it is the one the story's four humans are most like.
 
-## What we know about Agimat 1 (the necklace)
+## Which Agimat is Jeff's necklace? (OPEN, DRAFT suggestion)
+Facts already in the chapter 1 draft: it glows gold, it hums, it is warm, a thread of light moves inside it, and the court recognizes it as one of the ten, and it "woke in my land" (Butuan).
+- Suggestion: Liadlao, the sun. Gold light, dawn, and the banaag, the first glimmer. It is a middle rank, which keeps Jeff strong enough to matter and weak enough to need his friends. Butuan was known for gold work, so a sun Agimat fits the place.
+- Other options: Lisuga (the silver and the stars, gold light does not fit as well), Lihangin (the wind and words, fits reading aloud), or a first people Agimat (Sicalac or Sicabay, most human, but the weakest).
+Pick one, or choose another patron.
+
+## Which Agimat is the bamboo tube? (OPEN)
+In the main story the first people came out of bamboo grown from Maguayan's seed. So the tube fits Maguayan, or Sicalac and Sicabay. Options: the tube is not an Agimat but a piece of the first bamboo, it is Maguayan's Agimat, or it is the Agimat of Sicalac and Sicabay together.
+
+## What we know about Agimat 1, the necklace
 - Given by Jeff's father on Jeff's 18th birthday, with the words "Keep this close, anak. Never take it off." (DRAFT line from the chapter 1 plan)
 - Warms and glows when near the tube, hums the same way the tube does.
 - A thread of gold light moves inside it when the court sees it.
 - Recognized in Butuan as "one of the ten."
-- Its hope and its power are OPEN. A good question to answer: what did Jeff's father wish for when he passed it on?
+- Its power and its patron are OPEN (see the suggestion above). A good question: what did Jeff's father wish for when he passed it on?
+
+## Agimat rules that follow from the patron system (DRAFT)
+- An Agimat's power is in its patron's domain. A sea Agimat commands water, a sky Agimat commands lightning and storms, and so on.
+- The higher the patron, the more power, and the greater the cost and the danger (see C8 in 01-core-truths.md).
+- A patron god may watch the Agimat and its bearer. How involved they are is OPEN.
+- Licalibutan's Agimat is the one that can corrupt, because it holds the wish to stand alone and above.

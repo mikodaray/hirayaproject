@@ -12,7 +12,8 @@ Status: first draft started 2026-11-10. Only the facts marked DECIDED are locked
 
 ## Files
 - 01-core-truths.md: the rules of the mythos, what is decided and what is a draft
-- 02-the-ten-agimats.md: the ten Agimats of the Sangkapuluan, one slot each
+- 02-the-ten-agimats.md: the ten Agimats, by patron god and rank
+- 07-beings-and-demigods.md: the children of the gods who became creatures, beings, and demigods
 - 06-the-gods-and-creation.md: the main creation story (decided), Maguayan and Captan, and their descendants
 - 05-creation-stories.md: the creation stories the mythos is based on, and how each one is used
 - 03-folklore-sources.md: real Philippine folklore we can draw from, with sources

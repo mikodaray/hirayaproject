@@ -55,11 +55,10 @@ DRAFT: the end of the first age. The gods step back from the world and leave it 
 - The Sangkapuluan, the islands, are pieces of Licalibutan, so the land the story walks on remembers pride and the lightning.
 - The bamboo tube is a piece of the bamboo that gave the first people, a possible link to the First Wish.
 
-## Where could the ten Agimats come from? (OPEN, choose one, all built from the main story)
-- Option A, ten joints of the first bamboo. The bamboo that carried the First Wish had ten joints, and each became an Agimat. They are pieces of hope, and the bamboo tube is a joint or a sibling to them.
-- Option B, ten sparks of Licalibutan. When he broke into land, ten sparks of him stayed alive inside ten islands. The Agimats are tied to pride and to place, and each one must decide what to become.
-- Option C, ten stars of Lisuga. Ten of the silver stars fell to earth and each one became an Agimat. This ties them to Lisuga and to light, and explains the gold glow (banaag).
-- Option D, a mix: ten Agimats that are a mix of hope and pride, built from the joints of the bamboo and the sparks of the broken one together.
+## The gods are the patrons of the Agimats (DECIDED 2026-11-10)
+The gods in this story are the patrons of the Agimats. The two strongest Agimats come from Maguayan and Captan. Their children have the next strongest, and so on. The full list of the ten, by patron and by rank, is in 02-the-ten-agimats.md (DRAFT mapping: Maguayan and Captan, then Lidagat and Lihangin, then Licalibutan, Liadlao, Libulan, and Lisuga, then Sicalac and Sicabay).
+
+The children of the first gods also became mythical creatures and beings, and some became demigods with powers (DECIDED). See 07-beings-and-demigods.md.
 
 ## Ideas to consider (DRAFT, not decided)
 - Lightning marks: Pandaguan's line carries a lightning mark. Tandang Procopio already has a scar on his left eye and tattoos on his right arm, which could connect to this line. Needs a decision.
@@ -92,6 +91,6 @@ DRAFT: the end of the first age. The gods step back from the world and leave it 
 | Libo, Saman, Pandaguan, Arion | Descendants | Ancestors of peoples. Pandaguan is the warning about defying the gods |
 
 ## How the gods fit with the rest of the mythos
-- Agimats come from wishes that echo Maguayan's seed (hope) or Licalibutan's attack (pride). Captan's lightning is judgment on pride.
+- Agimats are patroned by the gods and their family, and carry wishes that echo Maguayan's seed (hope) or Licalibutan's attack (pride). Captan's lightning is judgment on pride.
 - The diwata and anito from folklore (see 03-folklore-sources.md) can be the spirits that carry out the gods' will and answer wishes. How they relate to the main gods is OPEN.
 - Butuan, the Rajah, and the elder (1003) may or may not know these gods by these names. In real history, Butuan blended Hindu, Buddhist, and spirit beliefs (see 03-world-and-history.md). OPEN: whether the people of Butuan call the sky and sea gods Captan and Maguayan, or other names.

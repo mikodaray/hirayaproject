@@ -2,7 +2,7 @@
 
 Answer these in order. The first few shape everything else.
 
-1. Where do the ten Agimats come from? Four options built from the main story are in 06-the-gods-and-creation.md (joints of the first bamboo, sparks of Licalibutan, stars of Lisuga, or a mix). Pick one or write your own.
+1. DECIDED: the gods are the patrons of the Agimats, the strongest two from Maguayan and Captan, then their children, and so on. Still open: confirm the DRAFT mapping of the ten (2 + 2 + 4 + 2) in 02-the-ten-agimats.md.
 2. What does an Agimat cost to use? Without a limit, nothing is at stake.
 3. Is the bamboo tube an Agimat, or something an Agimat made?
 4. Why was Jeff's necklace in Butuan in 1003, and how did it reach Jeff's father?
@@ -21,3 +21,7 @@ Answer these in order. The first few shape everything else.
 15. Is the bamboo tube a piece of the first bamboo (draft), and who put the Baybayin on it?
 18. Do you want to expand any part of the main creation story first? The expanded telling in 06-the-gods-and-creation.md has seven parts, and every new detail there is a draft.
 19. Is the main motive I gave Licalibutan (he does not want to live between two powers, he wants to be a power too) right?
+20. Which Agimat is Jeff's necklace? My suggestion is Liadlao, the sun, for the gold light and dawn. See 02-the-ten-agimats.md.
+21. Which Agimat is the bamboo tube, if any?
+22. Do I read correctly that the unnamed children of the gods became the creatures and beings? See 07-beings-and-demigods.md.
+23. Which demigods do you want first, and are they friends or enemies?

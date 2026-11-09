@@ -8,7 +8,9 @@
 5. The words read at the end of the chapter 1 reading are "Hiraya manawari", the wish that your dreams come true.
 6. The four arrive in Butuan in the year 1003 (arc 1 covers 1001 to 1009). History is used as flavor, the story comes first.
 7. The main creation story of this universe is "How the World Was Made", with Maguayan (sea) and Captan (sky) as the main gods (decided 2026-11-10). See 06-the-gods-and-creation.md.
-8. The people of Butuan speak an older Bisaya. The four speak Bisaya at home. All dialogue on the page is English.
+8. The gods of the main story are the patrons of the Agimats. The two strongest Agimats come from Maguayan and Captan, their children have the next strongest, and so on (decided 2026-11-10). See 02-the-ten-agimats.md.
+9. The children of the first gods became mythical creatures and beings, and some became demigods with powers (decided 2026-11-10). See 07-beings-and-demigods.md.
+10. The people of Butuan speak an older Bisaya. The four speak Bisaya at home. All dialogue on the page is English.
 
 ## B. Facts already shown in the chapter 1 draft (DRAFT, need confirmation)
 - The necklace warms, glows, and hums when it is near the tube.
@@ -26,10 +28,10 @@ An Agimat is a wish made real. It is hiraya, an imagination or dream held so str
 
 Why this fits: the series title is Hiraya, and the chapter title is Banaag, a first glimmer of light. An Agimat is the first glimmer of a dream becoming real.
 
-### C2. Where the ten come from (OPEN, built only from the main creation story)
-The main creation story is DECIDED (see 06-the-gods-and-creation.md). The ten Agimats must grow out of it. Four options are laid out in 06-the-gods-and-creation.md: ten joints of the first bamboo, ten sparks of Licalibutan, ten stars of Lisuga, or a mix. Pick one, or write your own.
+### C2. Where the ten come from (DECIDED in principle, mapping is DRAFT)
+The ten Agimats are patroned by the gods and their family from the main creation story. The two strongest come from Maguayan and Captan, the next strongest from their children, then the grandchildren, then the first people. See 02-the-ten-agimats.md for the ten, by patron and rank.
 
-The core idea that works with all four: an Agimat holds a wish, and a wish echoes either Maguayan's seed (hope) or Licalibutan's attack on the sky (pride).
+The core idea: an Agimat holds a wish, and a wish echoes either Maguayan's seed (hope) or Licalibutan's attack on the sky (pride).
 
 ### C3. How an Agimat wakes
 An Agimat sleeps until two things meet: a bearer whose heart matches its hope, and a moment when that hope is needed. Waking is marked by warmth, a hum, and a faint gold light (the banaag). A sleeping Agimat can be carried for years without anyone knowing, which is why Jeff has worn his without feeling anything until chapter 1.
@@ -40,7 +42,7 @@ Baybayin is the language the spirits listen to. Words read aloud in it, with rea
 - Lihangin, the wind, is the child of the gods who could carry spoken words (DRAFT idea from the main story).
 
 ### C5. The tube
-In the main creation story the first people came out of a bamboo tree that grew from Maguayan's seed. So the bamboo tube is a piece of that bamboo, the cradle of the first people, and it carries the first words in Baybayin. Whether the tube is itself one of the ten is OPEN (see the options in 06-the-gods-and-creation.md).
+In the main creation story the first people came out of a bamboo tree that grew from Maguayan's seed. So the bamboo tube is a piece of that bamboo, the cradle of the first people, and it carries the first words in Baybayin. Whether the tube is itself one of the ten is OPEN (see 02-the-ten-agimats.md for the options).
 
 ### C6. The necklace and Butuan
 The necklace was woken in Butuan long ago. Someone carried it out of that time and it passed down the years to Jeff's father. The four were pulled back to its birthplace because its hope is needed there again in 1003. Jeff follows a thread of light to the cabinet and the people he needs. This also explains why the court recognizes it.
