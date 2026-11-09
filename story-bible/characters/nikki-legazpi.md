@@ -41,7 +41,7 @@ Status: draft
 - Key past events: OPEN
 
 ## Relationships
-- Jeff Victorio: bullies him, but Jeff stands up to her
+- Jeff Victorio: bullies him, but Jeff stands up to her. On page 6 she flings Hal's glasses to show off (never violent, DECIDED 2026-11-10), Jeff catches them with style, her friends all fall for him, and she answers with a backhanded joke ("Nice catch, Jeff. Finally, a use for all that ghost reading.")
 - Hal Bautista: bullies him more than Jeff
 - Mel Charlie Abaldado: OPEN
 - Her group of girls: unnamed, OPEN
@@ -49,6 +49,7 @@ Status: draft
 
 ## Story arc
 - Start: popular girl who bullies Jeff and Hal (DECIDED), the rest OPEN
+- Chapter 1 (DECIDED 2026-11-10): she is a showy comedian, not violent. Her own friends crush on Jeff after page 7, which stings her pride and makes her throw a backhanded joke. Page 8 ends with her glancing back for half a second.
 - Turning points: OPEN
 - End: OPEN
 

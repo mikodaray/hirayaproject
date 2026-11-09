@@ -86,29 +86,29 @@ Panel 3 (medium): Jeff's smirk. Lettering: speech bubble from Jeff reads "Do you
 
 Panel 4 (small): Hal, from behind Jeff. Lettering: speech bubble from Hal reads "They're not ghosts. It's folklore!"; speech bubble from Mel reads "It's technically mythology."
 
-Panel 5 (large): Nikki, furious. Her hand snaps toward Jeff's face, with speed lines. Lettering: sound effect lettering reads "WHIP"
+Panel 5 (large): Nikki, smug and annoyed, flings Hal's glasses high over Jeff's head in a big arc, her arm swung out in a showy throw, with speed lines and a glint on the lenses. Her friends gasp. Lettering: speech bubble from Nikki reads "Fine. Go fetch."; sound effect lettering reads "FLING"
 
 ## Page 7 (full page splash): Jeff proves the point
 Layout: Different layout: a single full page splash, one image, no panels, no gutters. 
 
-Panel 1 (full page): Jeff catches Nikki's wrist without even looking at it, one hand, calm. Dramatic angle from slightly below. Behind him Hal's eyes are huge, Mel's bow is frozen mid air, the students are frozen. Leaves and dust float in a shaft of morning sun. Nikki's face is shocked. Lettering: speech bubble from Jeff reads "Not him."; caption box reads "Jeff Victorio never starts a fight. He just never lets his friends stand alone."
+Panel 1 (full page): Jeff, without even turning around, reaches up and catches the glasses between two fingers, calm and stylish. Dramatic angle from slightly below. Behind him Hal's eyes are huge, Mel's bow is frozen mid air, the students are frozen. Nikki's friends have their hands over their mouths and small hearts in their eyes. Leaves and dust float in a shaft of morning sun. Nikki's face is shocked. Lettering: speech bubble from Jeff reads "Careful. Those are his."; caption box reads "Jeff Victorio never starts a fight. He just never lets his friends stand alone."
 
-Art note: this is the page that shows Jeff is more than the weird folklore kid. Everyone else in the frame is in comic shock, Jeff is the only calm face. He looks cool, and for one moment the school sees it.
+Art note: this is the page that shows Jeff is more than the weird folklore kid. Everyone else in the frame is in comic shock, Jeff is the only calm face. He looks cool, and for one moment the school sees it. Nikki's girls fall for him on the spot.
 
 ## Page 8 (6 panels): Aftermath
 Layout: wide panel, two small panels, a medium panel, a small panel, and a wide panel at the bottom. 
 
-Panel 1 (wide): Silence. The school bell rings. Lettering: sound effect lettering reads "KRIIIIING"
+Panel 1 (wide): Silence. Then a long dreamy sigh from Nikki's friends, with tiny hearts floating up. The school bell rings. Lettering: sound effect lettering reads "KRIIIIING"
 
-Panel 2 (small): Nikki yanks her hand free and tosses the glasses to Jeff. Lettering: speech bubble from Nikki reads "Whatever. Come on, girls."
+Panel 2 (small): Nikki's friends crowd around Jeff, starry eyed. Lettering: speech bubble from Nikki's Friend reads "He caught it without even looking."; speech bubble from Nikki's other Friend reads "Okay, who knew?"
 
-Panel 3 (small): Her friends scurry after her.
+Panel 3 (small): Nikki, jaw tight, a stiff smile, snatches up her bag. Lettering: speech bubble from Nikki reads "Nice catch, Jeff. Finally, a use for all that ghost reading."
 
 Panel 4 (medium): Jeff gently puts the glasses back on Hal and straightens them. Lettering: speech bubble from Hal reads "Thanks, Jeff."; speech bubble from Jeff reads "Don't mention it. Actually, mention it. I want credit."
 
 Panel 5 (small): Hal laughs through wet eyes.
 
-Panel 6 (wide, bottom): The three walk toward the school, Mel playing softly. Far behind them, Nikki glances back for half a second. Lettering: speech bubble from Nikki's Friend reads "Nik?"; speech bubble from Nikki reads "Nothing."
+Panel 6 (wide, bottom): The three walk toward the school, Mel playing softly. Far behind them, Nikki drags her friends along, and the friends keep looking back at Jeff. Nikki glances back for half a second. Lettering: speech bubble from Nikki reads "Whatever. Come on, girls."; speech bubble from Nikki's Friend reads "Nik?"; speech bubble from Nikki reads "Nothing."
 
 ## Page 9 (5 panels): Homeroom, meet Sir Archie
 Layout: wide panel on top, small panel, medium panel, small panel, large panel at the bottom. 

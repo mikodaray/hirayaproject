@@ -131,32 +131,35 @@ NIKKI: "Do you ever get tired of reading about ghosts?"
 HAL: "They're not ghosts. It's folklore!"
 MEL (off panel): "It's technically mythology."
 
-**5. LARGE.** Nikki, furious. Her hand snaps toward Jeff's face, with speed lines.
-SFX: WHIP
+**5. LARGE.** Nikki, smug and annoyed, flings Hal's glasses high over Jeff's head in a big arc, her arm swung out in a showy throw, with speed lines and a glint on the lenses. Her friends gasp.
+NIKKI: "Fine. Go fetch."
+SFX: FLING
 
 ---
 
 ## Page 7 (SPLASH, full page): Jeff proves the point
 Layout: one full page image.
 
-**1. FULL PAGE.** Jeff catches Nikki's wrist without even looking at it, one hand, calm. Dramatic angle from slightly below. Behind him Hal's eyes are huge, Mel's bow is frozen mid air, the students are frozen. Leaves and dust float in a shaft of morning sun. Nikki's face is shocked.
-JEFF: "Not him."
+**1. FULL PAGE.** Jeff, without even turning around, reaches up and catches the glasses between two fingers, calm and stylish. Dramatic angle from slightly below. Behind him Hal's eyes are huge, Mel's bow is frozen mid air, the students are frozen. Nikki's friends have their hands over their mouths and small hearts in their eyes. Leaves and dust float in a shaft of morning sun. Nikki's face is shocked.
+JEFF: "Careful. Those are his."
 CAPTION (tiny, bottom corner): "Jeff Victorio never starts a fight. He just never lets his friends stand alone."
 
-Art note: this is the page that shows Jeff is more than the weird folklore kid. Everyone else in the frame is in comic shock, Jeff is the only calm face. He looks cool, and for one moment the school sees it.
+Art note: this is the page that shows Jeff is more than the weird folklore kid. Everyone else in the frame is in comic shock, Jeff is the only calm face. He looks cool, and for one moment the school sees it. Nikki's girls fall for him on the spot.
 
 ---
 
 ## Page 8 (6 panels): Aftermath
 Layout: wide panel, two small panels, a medium panel, a small panel, and a wide panel at the bottom.
 
-**1. WIDE.** Silence. The school bell rings.
+**1. WIDE.** Silence. Then a long dreamy sigh from Nikki's friends, with tiny hearts floating up. The school bell rings.
 SFX: KRIIIIING
 
-**2. SMALL.** Nikki yanks her hand free and tosses the glasses to Jeff.
-NIKKI: "Whatever. Come on, girls."
+**2. SMALL.** Nikki's friends crowd around Jeff, starry eyed.
+NIKKI'S FRIEND: "He caught it without even looking."
+NIKKI'S OTHER FRIEND: "Okay, who knew?"
 
-**3. SMALL.** Her friends scurry after her.
+**3. SMALL.** Nikki, jaw tight, a stiff smile, snatches up her bag.
+NIKKI: "Nice catch, Jeff. Finally, a use for all that ghost reading."
 
 **4. MEDIUM.** Jeff gently puts the glasses back on Hal and straightens them.
 HAL: "Thanks, Jeff."
@@ -164,7 +167,8 @@ JEFF: "Don't mention it. Actually, mention it. I want credit."
 
 **5. SMALL.** Hal laughs through wet eyes.
 
-**6. WIDE, bottom.** The three walk toward the school, Mel playing softly. Far behind them, Nikki glances back for half a second.
+**6. WIDE, bottom.** The three walk toward the school, Mel playing softly. Far behind them, Nikki drags her friends along, and the friends keep looking back at Jeff. Nikki glances back for half a second.
+NIKKI: "Whatever. Come on, girls."
 NIKKI'S FRIEND: "Nik?"
 NIKKI: "Nothing."
 

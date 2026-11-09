@@ -36,7 +36,7 @@ Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the ea
 | 41 to 50 | Guests, night talk, the elder's warning, the demand, the hook |
 
 ## One page images
-- Page 7: Jeff catches Nikki's wrist. This proves Jeff is more than the weird folklore kid: he never lets his friends stand alone.
+- Page 7: Jeff catches Hal's glasses, tossed by Nikki, without turning around. This proves Jeff is more than the weird folklore kid: he never lets his friends stand alone.
 - Page 31: Butuan at dawn. This is the grand event, the answer to the premise.
 If you only want one splash page, we can fold page 7 into a normal layout.
 
