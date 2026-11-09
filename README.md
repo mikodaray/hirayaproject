@@ -29,6 +29,7 @@ Open `index.html` through GitHub Pages to read the cover and the chapter 1 pages
 ## Storyboard and summary pages
 - storyboard.html: the full 50 page storyboard with a box layout for every page. It reads from storyboard-data.js, which is built from the storyboard files. After you change the storyboard or a layout, run `python3 tools/build-storyboard-data.py` from the repo root. Layouts are listed in that script.
 - summary.html: a short summary of Chapter 1.
+- wiki.html: the story wiki. Entry 1 is the full Mythos writeup and entry 2 is a searchable glossary of every god, name, demigod, creature and monster. The glossary reads from wiki-data.js, which is built from story-bible/mythology/08 and 09. After you change those files, run `python3 tools/build-wiki-data.py` from the repo root.
 - Both are linked from the header of index.html.
 
 ## Prompt bundles

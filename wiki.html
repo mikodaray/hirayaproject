@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hiraya Wiki</title>
+<style>
+  :root { --bg:#14110f; --panel:#1d1916; --panel-2:#26211d; --line:#3a322c; --text:#f3ece4; --muted:#a99d91; --accent:#e9b44c; --accent-ink:#1a1408; --focus:#7cc4ff; --radius:12px;
+          --canon:#7fd1a0; --draft:#e9b44c; --open:#e58a8a; --sea:#6fb7d9; --sky:#b9a6ff; --land:#c2956b; --sun:#ffd166; --moon:#cbd5e1; --star:#a5f3fc; --people:#f4a6c0; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  a { color:var(--accent); }
+  .btn { font:inherit; color:var(--text); background:var(--panel-2); border:1px solid var(--line); border-radius:999px; padding:8px 16px; text-decoration:none; display:inline-flex; align-items:center; min-height:40px; cursor:pointer; }
+  .btn:hover { border-color:var(--accent); }
+  .btn.active { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+  :focus-visible { outline:3px solid var(--focus); outline-offset:2px; }
+  header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; padding:12px 16px; border-bottom:1px solid var(--line); background:var(--panel); position:sticky; top:0; z-index:5; }
+  .brand { display:flex; align-items:baseline; gap:10px; }
+  .brand h1 { margin:0; font-size:1.35rem; letter-spacing:.08em; text-transform:uppercase; }
+  .brand span { color:var(--muted); font-size:.9rem; }
+  .controls { display:flex; flex-wrap:wrap; gap:8px; }
+  .layout { max-width:1180px; margin:0 auto; padding:16px; display:grid; grid-template-columns:260px minmax(0,1fr); gap:28px; }
+  main { min-width:0; }
+  nav.side { position:sticky; top:76px; align-self:start; max-height:calc(100vh - 92px); overflow:auto; padding-right:6px; }
+  nav.side h2 { font-size:.8rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin:0 0 8px; }
+  nav.side a { display:block; color:var(--text); text-decoration:none; padding:5px 10px; border-radius:8px; font-size:.95rem; }
+  nav.side a:hover { background:var(--panel-2); }
+  nav.side a.cur { background:var(--panel-2); color:var(--accent); }
+  nav.side .entry { font-weight:600; margin-top:8px; }
+  nav.side .sub a { padding-left:22px; color:var(--muted); font-size:.88rem; }
+  nav.side .sub a:hover { color:var(--text); }
+  .navtoggle { display:none; }
+  article h2 { font-size:1.7rem; margin:2.2rem 0 .4rem; padding-top:.6rem; border-top:1px solid var(--line); line-height:1.25; }
+  article h2:first-of-type { border-top:0; margin-top:0; }
+  article h3 { font-size:1.2rem; margin:1.6rem 0 .3rem; color:var(--accent); }
+  article p { margin:.6rem 0; max-width:72ch; }
+  article ul, article ol { max-width:72ch; padding-left:1.3rem; }
+  article li { margin:.25rem 0; }
+  .lede { font-size:1.12rem; color:var(--text); }
+  .tag { display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; padding:2px 8px; border-radius:999px; border:1px solid currentColor; vertical-align:middle; margin-left:6px; }
+  .tag.canon { color:var(--canon); } .tag.draft { color:var(--draft); } .tag.open { color:var(--open); }
+  .callout { background:var(--panel); border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:var(--radius); padding:12px 16px; margin:14px 0; max-width:78ch; }
+  .callout p { margin:.3rem 0; }
+  .quote { border-left:3px solid var(--line); padding:2px 14px; color:var(--muted); font-style:italic; max-width:70ch; }
+  .tblwrap { overflow-x:auto; margin:12px 0; border:1px solid var(--line); border-radius:var(--radius); }
+  table { border-collapse:collapse; width:100%; font-size:.93rem; min-width:620px; }
+  th, td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { background:var(--panel-2); color:var(--muted); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; }
+  tr:last-child td { border-bottom:0; }
+  .tree { background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:10px; margin:14px 0; overflow-x:auto; }
+  .tree svg { width:100%; min-width:640px; height:auto; display:block; }
+  .tree text { fill:var(--text); font:13px system-ui,sans-serif; }
+  .tree .sub { fill:var(--muted); font-size:11px; }
+  .tree line, .tree path { stroke:var(--line); stroke-width:2; fill:none; }
+  .legend { display:flex; flex-wrap:wrap; gap:10px; margin:8px 0; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px; margin:12px 0; }
+  .card { background:var(--panel); border:1px solid var(--line); border-top:4px solid var(--c,var(--line)); border-radius:var(--radius); padding:12px 14px; }
+  .card h4 { margin:0 0 2px; font-size:1.05rem; }
+  .card .d { color:var(--muted); font-size:.88rem; margin:2px 0 6px; }
+  .card a.more { font-size:.85rem; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+  .chip { font:inherit; font-size:.85rem; color:var(--text); background:var(--panel-2); border:1px solid var(--line); border-radius:999px; padding:5px 12px; cursor:pointer; min-height:34px; }
+  .chip:hover { border-color:var(--accent); }
+  .chip[aria-pressed="true"] { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+  .tools { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:10px 0; }
+  .tools input, .tools select { font:inherit; color:var(--text); background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:9px 12px; min-height:42px; }
+  .tools input { flex:1 1 260px; min-width:0; }
+  #gcount { color:var(--muted); font-size:.92rem; margin:6px 0; }
+  .gitem { background:var(--panel); border:1px solid var(--line); border-left:5px solid var(--c,var(--line)); border-radius:10px; padding:10px 14px; margin:8px 0; max-width:880px; }
+  .gitem h3 { margin:0; font-size:1.05rem; color:var(--text); display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; }
+  .gitem .pill { font-size:.72rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase; padding:1px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .gitem .pill.line { cursor:pointer; color:var(--text); background:var(--panel-2); }
+  .gitem .pill.line:hover { border-color:var(--accent); }
+  .gitem .meta { color:var(--muted); font-size:.88rem; margin:2px 0; }
+  .gitem p { margin:.35rem 0; max-width:none; }
+  .gitem .why { color:var(--muted); font-size:.9rem; }
+  .letter { margin:18px 0 4px; font-size:1.3rem; color:var(--accent); border-bottom:1px solid var(--line); }
+  [hidden] { display:none !important; }
+  @media (max-width:860px) {
+    .layout { grid-template-columns:minmax(0,1fr); gap:10px; }
+    nav.side { position:static; max-height:none; }
+    .navtoggle { display:block; }
+    nav.side .links { display:none; }
+    nav.side.open .links { display:block; }
+    article h2 { font-size:1.45rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><h1>Hiraya</h1><span>Wiki</span></div>
+  <div class="controls">
+    <a class="btn" href="index.html">Reader</a>
+    <a class="btn" href="storyboard.html">Storyboard</a>
+    <a class="btn" href="summary.html">Chapter summary</a>
+  </div>
+</header>
+<div class="layout">
+  <nav class="side" id="side" aria-label="Wiki contents">
+    <button class="btn navtoggle" id="navtoggle" type="button" aria-expanded="false">Contents</button>
+    <div class="links">
+      <h2>Entries</h2>
+      <a class="entry" href="#mythos" data-entry="mythos">1. The Mythos</a>
+      <div class="sub" id="mythosToc">
+        <a href="#m-overview">Overview</a>
+        <a href="#m-ideas">The big ideas</a>
+        <a href="#m-beginning">The age before</a>
+        <a href="#m-family">The family</a>
+        <a href="#m-rebellion">The rebellion and the lightning</a>
+        <a href="#m-seed">The seed and the first people</a>
+        <a href="#m-scatter">The scattering</a>
+        <a href="#m-agimats">The Agimats</a>
+        <a href="#m-ten">The ten Agimats</a>
+        <a href="#m-beings">Beings and demigods</a>
+        <a href="#m-lineages">The nine lineages</a>
+        <a href="#m-names">Many names, one family</a>
+        <a href="#m-threats">The Swallowers and other threats</a>
+        <a href="#m-rules">Rules of the magic</a>
+        <a href="#m-open">What is still open</a>
+        <a href="#m-sources">Sources</a>
+      </div>
+      <a class="entry" href="#glossary" data-entry="glossary">2. Glossary</a>
+      <p style="color:var(--muted);font-size:.85rem;padding:0 10px;margin-top:14px">More entries will be added here as the story grows. This wiki does not include the main characters yet.</p>
+    </div>
+  </nav>
+
+  <main>
+  <!-- ============================ ENTRY 1: THE MYTHOS ============================ -->
+  <article id="entry-mythos" aria-label="The Mythos">
+    <h2 id="m-overview">The Mythos of Hiraya</h2>
+    <p class="lede">Long before there were people, there was only the sea beneath the sky. This is the story of the two gods who ruled them, the children who rebelled, the seed that grew into the first people, and the ten charms, the Agimats, that still carry the wishes of that first age.</p>
+    <div class="callout">
+      <p><strong>How to read this page.</strong> Every part is marked with how settled it is.</p>
+      <div class="legend">
+        <span><span class="tag canon">Canon</span> decided by the creator</span>
+        <span><span class="tag draft">Draft</span> proposed, not confirmed</span>
+        <span><span class="tag open">Open</span> not decided yet</span>
+      </div>
+      <p>This entry does not include the main characters. It is about the world they will walk into. Names of the people of the islands are spelled the way the source stories spell them.</p>
+    </div>
+
+    <h2 id="m-ideas">The big ideas</h2>
+    <ul>
+      <li><strong>Two forces run through everything.</strong> The hope of Maguayan's seed, called hiraya, and the pride of Licalibutan, who attacked the sky. Every wish echoes one or the other. <span class="tag draft">Draft</span></li>
+      <li><strong>The gods are the patrons of the Agimats.</strong> The two strongest Agimats come from Maguayan and Captan. Their children hold the next strongest, then their grandchildren, then the first people. <span class="tag canon">Canon</span></li>
+      <li><strong>The gods' other children became the world's spirits and monsters.</strong> The mythical creatures and beings of Philippine folklore are descendants of the first gods, and some became demigods with powers of their own. <span class="tag canon">Canon</span></li>
+      <li><strong>Many names, one family.</strong> The peoples of the islands each learned one face of this family and gave it their own name. Bathala, Kabunian, and Magbabaya are all names for the sky god. <span class="tag draft">Draft</span></li>
+      <li><strong>The words matter.</strong> Baybayin, the old script, is the language the spirits listen to. Words read aloud in it with real intent are heard. <span class="tag canon">Canon</span></li>
+    </ul>
+
+    <h2 id="m-beginning">The age before <span class="tag canon">Canon</span></h2>
+    <p>Long ago there was only the sea beneath the sky. Maguayan ruled the sea. Captan ruled the sky. There was nothing between them, only empty air, and the two gods faced each other across it. This is the main creation story of the world, "How the World Was Made."</p>
+    <p><span class="tag draft">Draft</span> The two are not enemies. The sea reflects the sky and the sky waters the sea. But the space between them is empty and silent, and that emptiness is the problem the story begins with.</p>
+
+    <h2 id="m-family">The family</h2>
+    <p>Maguayan and Captan had children, Lidagat (the sea) and Lihangin (the wind), who married and had four children of their own: Licalibutan, Liadlao, Libulan, and Lisuga. <span class="tag canon">Canon</span></p>
+    <div class="tree" role="img" aria-label="Family tree: Maguayan and Captan, their children Lidagat and Lihangin, their four children Licalibutan, Liadlao, Libulan and Lisuga, and the first people Sicalac and Sicabay, who came from the bamboo.">
+      <svg viewBox="0 0 760 380">
+        <text x="190" y="24" text-anchor="middle" font-weight="700">Maguayan</text><text x="190" y="40" text-anchor="middle" class="sub">sea</text>
+        <text x="570" y="24" text-anchor="middle" font-weight="700">Captan</text><text x="570" y="40" text-anchor="middle" class="sub">sky</text>
+        <line x1="260" y1="30" x2="500" y2="30"/>
+        <path d="M380 30 V80"/>
+        <text x="270" y="100" text-anchor="middle" font-weight="700">Lidagat</text><text x="270" y="116" text-anchor="middle" class="sub">the sea</text>
+        <text x="490" y="100" text-anchor="middle" font-weight="700">Lihangin</text><text x="490" y="116" text-anchor="middle" class="sub">the wind</text>
+        <line x1="320" y1="96" x2="440" y2="96"/>
+        <path d="M380 96 V150"/>
+        <path d="M120 150 H640"/>
+        <path d="M120 150 V176 M290 150 V176 M470 150 V176 M640 150 V176"/>
+        <text x="120" y="196" text-anchor="middle" font-weight="700">Licalibutan</text><text x="120" y="212" text-anchor="middle" class="sub">the land</text>
+        <text x="290" y="196" text-anchor="middle" font-weight="700">Liadlao</text><text x="290" y="212" text-anchor="middle" class="sub">the sun</text>
+        <text x="470" y="196" text-anchor="middle" font-weight="700">Libulan</text><text x="470" y="212" text-anchor="middle" class="sub">the moon</text>
+        <text x="640" y="196" text-anchor="middle" font-weight="700">Lisuga</text><text x="640" y="212" text-anchor="middle" class="sub">the stars</text>
+        <path d="M150 46 C14 110 14 290 236 322" stroke-dasharray="6 5"/>
+        <text x="26" y="250" class="sub">the seed</text>
+        <text x="340" y="326" text-anchor="middle" font-weight="700">Sicalac and Sicabay</text><text x="340" y="342" text-anchor="middle" class="sub">the first people, from the bamboo of Maguayan's seed</text>
+        <text x="660" y="326" text-anchor="middle" class="sub">then Libo, Saman,</text><text x="660" y="342" text-anchor="middle" class="sub">Pandaguan, Arion</text>
+        <line x1="520" y1="322" x2="580" y2="322"/>
+      </svg>
+    </div>
+    <p>Draft personalities, so each can carry meaning later: <span class="tag draft">Draft</span></p>
+    <ul>
+      <li><strong>Licalibutan</strong> was the strongest and the proudest. He wanted a place of his own, not just the space between sea and sky.</li>
+      <li><strong>Liadlao</strong> was warm and bright, loyal to his brother, and followed with a warm heart and no plan.</li>
+      <li><strong>Libulan</strong> was quiet and watchful. He saw where this was going and went anyway, out of loyalty.</li>
+      <li><strong>Lisuga</strong> was the silver one, the youngest. She did not want war and was swept up in it.</li>
+    </ul>
+
+    <h2 id="m-rebellion">The rebellion and the lightning <span class="tag canon">Canon</span></h2>
+    <p>Licalibutan persuaded his brothers to attack Captan's sky. <span class="tag draft">Draft</span> His reasoning was that something that lives between two powers will always be ruled by them, and he wanted to be a power too. His argument was half true, which is why the others listened.</p>
+    <p>Captan struck them with lightning. Libulan became the moon. Liadlao became the sun. Lisuga's silver body scattered across the sky as the stars. Licalibutan's rocky body broke apart and became the land. The islands of the Sangkapuluan are his pieces.</p>
+    <p><span class="tag draft">Draft</span> Captan did not want to destroy his grandchildren. He struck to stop the fall of his sky, and the lightning could not be taken back. What was left was beautiful and broken at once: light, a moon, a field of stars, and wreckage that became land. His judgment is real, and so is his grief.</p>
+
+    <h2 id="m-seed">The seed and the first people <span class="tag canon">Canon</span></h2>
+    <p>Maguayan planted a seed on Licalibutan's broken body. From a bamboo tree that grew from it came the first people, Sicalac and Sicabay.</p>
+    <div class="callout">
+      <p><strong>The First Wish.</strong> <span class="tag draft">Draft</span> The seed was a wish. Maguayan had just lost his grandchildren, and his answer was a hope, not a revenge: that the broken thing could become a home for someone. That hope is hiraya, and the words "hiraya manawari," the wish that your dreams come true, are the first words of that wish. The bamboo is the place where the wish took a body.</p>
+    </div>
+    <p>Their descendants include Libo, Saman, Pandaguan, and Arion.</p>
+
+    <h2 id="m-scatter">The scattering</h2>
+    <p>Pandaguan mistook a huge shark for a god, and then defied the gods. Captan struck him with lightning. <span class="tag canon">Canon</span> <span class="tag draft">Draft</span> Pandaguan's story repeats Licalibutan's pride on a smaller scale. The world now has two paths: the hope of the seed, and the pride of the rebel. The source also says the lightning changed the color of Pandaguan's line. This wiki does not use that part, since it was an old explanation of skin color and does not fit this story. Instead, <span class="tag open">Open</span> the lightning could leave his line with another kind of mark, such as a scar, a burn, or a streak.</p>
+    <p>The gods then scattered the peoples across the earth. <span class="tag canon">Canon</span> <span class="tag draft">Draft</span> This is the end of the first age. The gods step back and leave the world to the people. What remains of them is the sun, the moon, the stars, the land, the sea, the sky, and the hope in the seed.</p>
+
+    <h2 id="m-agimats">The Agimats <span class="tag canon">Canon</span></h2>
+    <p>Agimats exist all around the world. They are protective charms with powers of their own. In the Philippines there are ten, and the ancient Filipinos called the islands the Sangkapuluan.</p>
+    <h3>What an Agimat is <span class="tag draft">Draft</span></h3>
+    <p>An Agimat is a wish made real. It is hiraya, a dream held so strongly by a person or a people that the spirits gave it a body. The body can be a necklace, a tube, a blade, a cloth, a stone, or anything the maker held when they wished. Each Agimat holds exactly one hope, and its power is the shape of that hope.</p>
+    <h3>Who stands behind each one <span class="tag canon">Canon</span></h3>
+    <p>The gods of the main story are the patrons of the Agimats. The two strongest Agimats come from Maguayan and Captan. Their children, Lidagat and Lihangin, have the next strongest, and so on down the family. A patron god may watch the Agimat and its bearer. How involved they are is <span class="tag open">Open</span>.</p>
+    <h3>How an Agimat wakes <span class="tag draft">Draft</span></h3>
+    <p>An Agimat sleeps until two things meet: a bearer whose heart matches its hope, and a moment when that hope is needed. Waking is marked by warmth, a hum, and a faint gold light called the banaag. A sleeping Agimat can be carried for years without anyone knowing.</p>
+    <h3>Hope and pride <span class="tag draft">Draft</span></h3>
+    <p>An Agimat reflects the wish it was born from. A wish made from love, protection, or hope makes a helper. A wish made from fear, greed, or the wish to rule the sky makes something dangerous, like Licalibutan's pride, and may draw Captan's lightning. The ten are not good or evil by nature, they are shaped by what was wished. This is why not every Agimat is a friend.</p>
+
+    <h2 id="m-ten">The ten Agimats <span class="tag draft">Draft</span></h2>
+    <p>The family line in the main story has exactly ten names that fit the rule: the two gods, their two children, their four grandchildren, and the two first people. That is 2 + 2 + 4 + 2, and it matches the ten. Rank 1 is the strongest. The order inside a rank is <span class="tag open">Open</span>.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Rank</th><th>Patron</th><th>Domain</th><th>The hope it holds</th><th>Nature</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><a href="#g-maguayan" data-gl="Maguayan">Maguayan</a></td><td>Sea, depth, renewal, growth</td><td>What is broken can live again</td><td>Friendly, but the strongest in the world</td></tr>
+        <tr><td>1</td><td><a href="#g-captan" data-gl="Captan">Captan</a></td><td>Sky, lightning, judgment, order</td><td>A promise that the sky will be defended</td><td>A judge. Dangerous in the wrong hands</td></tr>
+        <tr><td>2</td><td><a href="#g-lidagat" data-gl="Lidagat">Lidagat</a></td><td>Tides, rivers, travel, passage</td><td>A way home for the lost</td><td>Friendly</td></tr>
+        <tr><td>2</td><td><a href="#g-lihangin" data-gl="Lihangin">Lihangin</a></td><td>Wind, voice, words that carry</td><td>A word that is heard</td><td>Friendly</td></tr>
+        <tr><td>3</td><td><a href="#g-licalibutan" data-gl="Licalibutan">Licalibutan</a></td><td>Land, strength, stone, pride</td><td>The wish to stand on one's own</td><td>Dangerous, born from pride</td></tr>
+        <tr><td>3</td><td><a href="#g-liadlao" data-gl="Liadlao">Liadlao</a></td><td>Sun, light, warmth, dawn</td><td>The light that begins again</td><td>Friendly. <strong>Has awoken</strong> <span class="tag canon">Canon</span></td></tr>
+        <tr><td>3</td><td><a href="#g-libulan" data-gl="Libulan">Libulan</a></td><td>Moon, night, dreams, quiet</td><td>The watch kept for those asleep</td><td>Friendly, but moody</td></tr>
+        <tr><td>3</td><td><a href="#g-lisuga" data-gl="Lisuga">Lisuga</a></td><td>Stars, silver, guidance</td><td>A light to find the way</td><td>Friendly</td></tr>
+        <tr><td>4</td><td><a href="#g-sicalac" data-gl="Sicalac">Sicalac</a> and <a href="#g-sicabay" data-gl="Sicabay">Sicabay</a></td><td>Life, bonds, people, bamboo</td><td>The wish to belong</td><td>Friendly</td></tr>
+      </tbody></table></div>
+    <p>Rank 4 is the weakest because its patrons are the youngest and are people, not gods. The weaker ones are still real Agimats.</p>
+    <div class="callout"><p><strong>The bamboo tube.</strong> <span class="tag open">Open</span> In the main story the first people grew from bamboo, so a carved bamboo tube of Baybayin fits Maguayan's seed. Options: it is not an Agimat but a piece of the first bamboo, it is Maguayan's Agimat, or it belongs to Sicalac and Sicabay together.</p></div>
+
+    <h2 id="m-beings">Beings and demigods <span class="tag canon">Canon</span></h2>
+    <p>The children of the first gods became mythical creatures and beings, and some of them became demigods with powers of their own. <span class="tag canon">Canon</span> The folklore names only a few children of the gods. <span class="tag canon">Canon</span> The gods and their children had many more, and those unnamed children became the creatures and spirits of the islands, with a few growing into demigods.</p>
+    <h3>The ladder of power <span class="tag draft">Draft</span></h3>
+    <ol>
+      <li><strong>The gods:</strong> Maguayan and Captan, and their Agimats.</li>
+      <li><strong>Their children:</strong> Lidagat and Lihangin, and their Agimats.</li>
+      <li><strong>The grandchildren:</strong> Licalibutan, Liadlao, Libulan, Lisuga, and their Agimats.</li>
+      <li><strong>The first people:</strong> Sicalac and Sicabay, and their Agimat.</li>
+      <li><strong>The demigods:</strong> strong children of the gods and their children, with powers but not one of the ten Agimats.</li>
+      <li><strong>The creatures and beings:</strong> the many other children, spread through the sea, land, sky, and the places between.</li>
+      <li><strong>People:</strong> descendants of the first people, who can bear an Agimat when it chooses them.</li>
+    </ol>
+    <h3>Three kinds of children <span class="tag draft">Draft</span></h3>
+    <p>Folklore describes three kinds of diwata: nature spirits bound to places, humanlike spirits who are not bound (the engkanto), and harmful beings such as the aswang. That fits the two forces of the mythos.</p>
+    <ul>
+      <li><strong>The bound ones</strong> stayed with their place and became its guardian: a river spirit, a mountain spirit, a tree spirit. They follow hope and care.</li>
+      <li><strong>The unbound ones</strong> walked among people and took human shape or voice. They are neither good nor evil and can help or harm.</li>
+      <li><strong>The dark kin</strong> followed pride, like Licalibutan, and turned into things that prey on people.</li>
+    </ul>
+
+    <h2 id="m-lineages">The nine lineages <span class="tag draft">Draft</span></h2>
+    <p>Every being in Philippine folklore is placed under the god it descends from, by domain first, then by any tie the folklore already states, then by behavior. Select a lineage to see its beings in the glossary. The counts update from the glossary data.</p>
+    <div class="cards" id="lineageCards"></div>
+    <p>A few beings sit between two lines, such as Apung Malyari (moon and mountain), Aring Sinukuan (sun and mountain), Oryol (river and pride), and Manaul (sky and the bamboo). These cross line beings are the places for conflict or marriage inside the family. Beings from later religions, such as angels and jinn, are not placed in the family. <span class="tag open">Open</span></p>
+
+    <h2 id="m-names">Many names, one family <span class="tag draft">Draft</span></h2>
+    <p>Across the islands, peoples named the same gods in different ways. In this universe that is literally true. The Tagalog, Ilocano, Bisaya, and other peoples each learned one face of the same family and gave it their own name. The Bisaya story is the one that already names the whole family.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Our god</th><th>Other names in folklore</th></tr></thead>
+      <tbody id="aliasRows"></tbody></table></div>
+    <p>Real folklore calls many of these figures supreme gods in their own right. In this universe they are the local faces of the same family, and the gods' children are the demigods such as Makiling, Lumawig, and the Hinilawod heroes. How the people in each age and place see the gods is <span class="tag open">Open</span>.</p>
+
+    <h2 id="m-threats">The Swallowers and other threats <span class="tag draft">Draft</span></h2>
+    <p>Several folklore beings hunger for the sun and the moon. <a href="#glossary" data-gl="The Swallowers">The Swallowers</a> are the sea and sky serpents, dragons, and birds that try to eat what the lightning made.</p>
+    <ul>
+      <li><strong>Bakunawa</strong>, the sea serpent that swallows the moons. In Bicolano and Panay myth it is a spurned sea goddess.</li>
+      <li><strong>Sawa</strong> and <strong>Olimaw</strong>, serpents that try to swallow the moon. <strong>Arimaonga</strong>, the lion behind lunar eclipses. <strong>Samal Naga</strong>, a dragon trapped in the Milky Way.</li>
+      <li><strong>Minokawa</strong>, the giant bird with a steel beak that devours the sun and the moon.</li>
+    </ul>
+    <p>The moon swallowers are placed in Lidagat's line, because the tides answer to the moon and some of Lidagat's children hunger for it. A possible largest threat is someone gathering Agimats to repeat Licalibutan's attack on the sky.</p>
+
+    <h2 id="m-rules">Rules of the magic</h2>
+    <h3>Baybayin and speech <span class="tag canon">Canon</span></h3>
+    <p>Baybayin is the old Filipino script and the key to the mythos. <span class="tag draft">Draft</span> It is the language the spirits listen to. Words read aloud in it, with real intent, are heard, like a wish said to someone who is actually there. Writing alone does nothing. Reading aloud is the trigger, and the intent of the reader matters. Music can join the reading, because voice and music are both ways of being heard. Lihangin, the wind, is the child of the gods who could carry spoken words.</p>
+    <h3>The cost <span class="tag open">Open</span></h3>
+    <p>Magic with no cost makes a weak story. Options still on the table: the more the bearer uses an Agimat, the more of the hope's price they pay (memory, warmth, time); an Agimat only works when the bearer acts for someone else; or using one too long pulls the bearer toward the beginning of the world.</p>
+    <h3>Respect <span class="tag draft">Draft</span></h3>
+    <p>In folklore people said "tabi po" to ask a spirit's permission when passing its place. A possible rule: Agimats are asked, not taken.</p>
+    <h3>Home and return <span class="tag open">Open</span></h3>
+    <p>A natural answer inside this mythos is that the way back opens only when the hope an Agimat was born from is answered. That would give a long story a clear goal.</p>
+    <h3>Other lands <span class="tag canon">Canon</span></h3>
+    <p>Agimats exist all around the world. Every land can have its own first story and its own first wish, so other countries can have their own creation stories and Agimats later without breaking this one.</p>
+
+    <h2 id="m-open">What is still open</h2>
+    <ol>
+      <li>What does an Agimat cost to use?</li>
+      <li>Is the bamboo tube an Agimat, or the first bamboo itself?</li>
+      <li>What do Maguayan and Captan look like, and are they still awake? Do they speak to people?</li>
+      <li>Are Maguayan and Captan reconciled, or still divided after the rebellion?</li>
+      <li>Which demigods come first, and which are friends or enemies?</li>
+      <li>Do the creatures speak, or are they only felt and seen?</li>
+      <li>How do the Agusan Manobo and Tausug beliefs fit in? They are not read yet.</li>
+      <li>Are the later religions (angels, jinn) part of this universe?</li>
+      <li>What is the exact power of each Agimat, and what does each cost?</li>
+      <li>Do any demigods want an Agimat, and would any of them bear one?</li>
+    </ol>
+
+    <h2 id="m-sources">Sources</h2>
+    <ul>
+      <li>Main creation story, "How the World Was Made": <a href="https://sites.pitt.edu/~dash/creation-phil.html">sites.pitt.edu/~dash/creation-phil.html</a>. The other stories on that page (Igorot, Bukidnon, Bagobo, Bilaan, Mandaya, Tagalog) are kept as reference only and are not part of this mythos unless the creator picks them.</li>
+      <li>Creatures: Wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_Philippine_mythological_creatures">List of Philippine mythological creatures</a>.</li>
+      <li>Gods and heroes: Wikipedia, List of Philippine mythological figures (read through a mirror of the page).</li>
+      <li>Anito, diwata, babaylan: Wikipedia, <a href="https://en.wikipedia.org/wiki/Anito">Anito</a>.</li>
+    </ul>
+    <p style="color:var(--muted)">The placement of beings under gods, the ten Agimats mapping, and every draft detail on this page are our own work. Folklore details need a check before they go into the manga.</p>
+  </article>
+
+  <!-- ============================ ENTRY 2: GLOSSARY ============================ -->
+  <article id="entry-glossary" aria-label="Glossary" hidden>
+    <h2 id="g-top" style="margin-top:0">Glossary</h2>
+    <p class="lede">Every god, name, demigod, creature, monster, and term in the mythos. Search by name, or filter by kind and lineage. Another name for a god, such as Bathala, links back to the god it belongs to.</p>
+    <div class="tools">
+      <input id="gq" type="search" placeholder="Search names, places, descriptions" aria-label="Search the glossary">
+      <select id="gline" aria-label="Filter by lineage"></select>
+      <select id="gsort" aria-label="Sort"><option value="az">A to Z</option><option value="line">By lineage</option></select>
+    </div>
+    <div class="chips" id="gtypes" role="group" aria-label="Filter by kind"></div>
+    <div id="gcount" role="status" aria-live="polite"></div>
+    <div id="glist"></div>
+  </article>
+  </main>
+</div>
+
+<script src="wiki-data.js"></script>
+<script>
+(function () {
+  var DATA = (typeof WIKI_GLOSSARY !== 'undefined') ? WIKI_GLOSSARY : [];
+  var LINES = ['Maguayan','Captan','Lidagat','Lihangin','Licalibutan','Liadlao','Libulan','Lisuga','Sicalac and Sicabay'];
+  var LCOLOR = {'Maguayan':'var(--sea)','Captan':'var(--sky)','Lidagat':'var(--sea)','Lihangin':'var(--star)','Licalibutan':'var(--land)','Liadlao':'var(--sun)','Libulan':'var(--moon)','Lisuga':'var(--star)','Sicalac and Sicabay':'var(--people)'};
+  var LDOMAIN = {
+    'Maguayan':'Deep sea, renewal, the first life','Captan':'Sky, lightning, judgment, messengers','Lidagat':'Shore, tides, rivers, the pull of the moon','Lihangin':'Wind, voice, unseen spirits',
+    'Licalibutan':'Land, stone, giants, caves, and the children of pride','Liadlao':'Sun, fire, light','Libulan':'Moon, night, dreams','Lisuga':'Stars, silver, beauty, guidance','Sicalac and Sicabay':'First people, ancestors, spirits of the dead'
+  };
+  var TYPES = ['God','Another name','Divine child','Messenger','Demigod','Demigod candidate','Being','Creature','Concept'];
+  var ORDER = {}; LINES.forEach(function (l, i) { ORDER[l] = i; });
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function slug(s) { return 'g-' + s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+  function lcolor(e) { return e.lines && e.lines.length ? (LCOLOR[e.lines[0]] || 'var(--line)') : 'var(--line)'; }
+  function byName(n) { for (var i = 0; i < DATA.length; i++) if (DATA[i].name.toLowerCase() === String(n).toLowerCase()) return DATA[i]; return null; }
+
+  // ---------- router
+  var entries = { mythos: document.getElementById('entry-mythos'), glossary: document.getElementById('entry-glossary') };
+  var navLinks = document.querySelectorAll('nav.side a.entry');
+  var current = '';
+  function show(entry) {
+    if (current === entry) return;
+    current = entry;
+    entries.mythos.hidden = entry !== 'mythos';
+    entries.glossary.hidden = entry !== 'glossary';
+    Array.prototype.forEach.call(navLinks, function (a) { a.classList.toggle('cur', a.getAttribute('data-entry') === entry); });
+    document.getElementById('mythosToc').hidden = entry !== 'mythos';
+  }
+  function route() {
+    var h = decodeURIComponent((location.hash || '#mythos').slice(1));
+    if (h === 'glossary' || h.indexOf('g-') === 0) { show('glossary'); if (h !== 'glossary') focusEntry(h); else window.scrollTo(0, 0); }
+    else { show('mythos'); if (h && h !== 'mythos') { var el = document.getElementById(h); if (el) el.scrollIntoView(); } else window.scrollTo(0, 0); }
+  }
+  function focusEntry(id) {
+    var el = document.getElementById(id);
+    if (!el) { var name = id.slice(2).replace(/-/g, ' '); var e = byName(name); if (e) { filter.q = e.name; document.getElementById('gq').value = e.name; render(); } return; }
+    el.scrollIntoView(); el.style.outline = '3px solid var(--accent)'; setTimeout(function () { el.style.outline = ''; }, 1600);
+  }
+  window.addEventListener('hashchange', route);
+
+  // mobile contents toggle
+  var side = document.getElementById('side'), tog = document.getElementById('navtoggle');
+  tog.addEventListener('click', function () { var o = side.classList.toggle('open'); tog.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+
+  // ---------- glossary
+  var filter = { q: '', type: '', line: '', sort: 'az' };
+  var gq = document.getElementById('gq'), gline = document.getElementById('gline'), gsort = document.getElementById('gsort'), gtypes = document.getElementById('gtypes'), glist = document.getElementById('glist'), gcount = document.getElementById('gcount');
+  gline.innerHTML = '<option value="">All lineages</option>' + LINES.map(function (l) { return '<option>' + esc(l) + '</option>'; }).join('');
+  function mkTypes() {
+    var counts = {}; DATA.forEach(function (e) { counts[e.type] = (counts[e.type] || 0) + 1; });
+    var chips = [['', 'All (' + DATA.length + ')']].concat(TYPES.filter(function (t) { return counts[t]; }).map(function (t) { return [t, t + ' (' + counts[t] + ')']; }));
+    gtypes.innerHTML = chips.map(function (c) { return '<button type="button" class="chip" data-t="' + esc(c[0]) + '" aria-pressed="' + (filter.type === c[0]) + '">' + esc(c[1]) + '</button>'; }).join('');
+  }
+  gtypes.addEventListener('click', function (ev) { var b = ev.target.closest('.chip'); if (!b) return; filter.type = b.getAttribute('data-t'); mkTypes(); render(); });
+  gq.addEventListener('input', function () { filter.q = gq.value; render(); });
+  gline.addEventListener('change', function () { filter.line = gline.value; render(); });
+  gsort.addEventListener('change', function () { filter.sort = gsort.value; render(); });
+  glist.addEventListener('click', function (ev) {
+    var p = ev.target.closest('.pill.line'); if (p) { filter.line = p.getAttribute('data-l'); gline.value = filter.line; render(); window.scrollTo(0, 0); return; }
+    var a = ev.target.closest('a[data-gl]'); if (a) { ev.preventDefault(); openGl(a.getAttribute('data-gl')); }
+  });
+  function openGl(name) {
+    var e = byName(name); location.hash = '#glossary';
+    filter = { q: name, type: '', line: '', sort: filter.sort }; gq.value = name; gline.value = ''; mkTypes(); render();
+    if (e) { var el = document.getElementById(slug(e.name)); if (el) el.scrollIntoView(); }
+  }
+  function matches(e) {
+    if (filter.type && e.type !== filter.type) return false;
+    if (filter.line && e.lines.indexOf(filter.line) < 0) return false;
+    var q = filter.q.trim().toLowerCase(); if (!q) return true;
+    var hay = (e.name + ' ' + e.aliases.join(' ') + ' ' + e.group + ' ' + e.desc + ' ' + e.why + ' ' + e.lines.join(' ') + ' ' + e.type).toLowerCase();
+    return hay.indexOf(q) >= 0;
+  }
+  function card(e) {
+    var lines = e.lines.map(function (l) { return '<button type="button" class="pill line" data-l="' + esc(l) + '" title="Show this lineage">' + esc(l) + '</button>'; }).join(' ');
+    var meta = [];
+    if (e.group) meta.push(esc(e.group));
+    if (e.aliases && e.aliases.length) meta.push('Also known as: ' + e.aliases.map(esc).join(', '));
+    return '<div class="gitem" id="' + slug(e.name) + '" style="--c:' + lcolor(e) + '"><h3>' + esc(e.name) + ' <span class="pill">' + esc(e.type) + '</span> ' + lines + '</h3>' +
+      (meta.length ? '<div class="meta">' + meta.join(' | ') + '</div>' : '') +
+      (e.desc ? '<p>' + esc(e.desc) + '</p>' : '') + (e.why ? '<p class="why">' + esc(e.why) + '</p>' : '') + '</div>';
+  }
+  function render() {
+    var list = DATA.filter(matches);
+    if (filter.sort === 'line') list.sort(function (a, b) { var oa = a.lines.length ? ORDER[a.lines[0]] : 99, ob = b.lines.length ? ORDER[b.lines[0]] : 99; return oa - ob || a.name.localeCompare(b.name); });
+    else list.sort(function (a, b) { return a.name.localeCompare(b.name); });
+    gcount.textContent = list.length + (list.length === 1 ? ' entry' : ' entries') + (filter.q || filter.type || filter.line ? ' match your filters' : '');
+    var out = '', last = '';
+    list.forEach(function (e) {
+      var head = filter.sort === 'line' ? (e.lines[0] || 'No lineage') : e.name.charAt(0).toUpperCase();
+      if (head !== last) { out += '<div class="letter">' + esc(head) + '</div>'; last = head; }
+      out += card(e);
+    });
+    glist.innerHTML = out || '<p>No entries match. Try a shorter search.</p>';
+  }
+
+  // ---------- mythos: lineage cards and alias table from the data
+  function buildLineages() {
+    var host = document.getElementById('lineageCards'); if (!host) return;
+    host.innerHTML = LINES.map(function (l) {
+      var members = DATA.filter(function (e) { return e.lines.indexOf(l) >= 0 && ['Demigod','Demigod candidate','Being','Creature','Divine child','Messenger'].indexOf(e.type) >= 0; });
+      var demi = members.filter(function (e) { return e.type === 'Demigod'; }).concat(members.filter(function (e) { return e.type === 'Demigod candidate'; })).map(function (e) { return e.name.split(',')[0]; }).slice(0, 5);
+      return '<div class="card" style="--c:' + LCOLOR[l] + '"><h4>' + esc(l) + '</h4><p class="d">' + esc(LDOMAIN[l]) + '</p><p style="margin:.3rem 0;font-size:.9rem">' + members.length + ' beings and children' + (demi.length ? '. Demigods and candidates: ' + demi.map(esc).join(', ') : '') + '.</p><a class="more" href="#glossary" data-line="' + esc(l) + '">See them in the glossary</a></div>';
+    }).join('');
+    host.addEventListener('click', function (ev) { var a = ev.target.closest('a[data-line]'); if (!a) return; ev.preventDefault(); location.hash = '#glossary'; filter = { q: '', type: '', line: a.getAttribute('data-line'), sort: filter.sort }; gq.value = ''; gline.value = filter.line; mkTypes(); render(); });
+  }
+  function buildAliases() {
+    var host = document.getElementById('aliasRows'); if (!host) return;
+    host.innerHTML = ['Captan','Maguayan','Liadlao','Libulan','Lisuga','Lihangin'].map(function (g) {
+      var e = byName(g); var al = e && e.aliases ? e.aliases : [];
+      return '<tr><td><a href="#glossary" data-gl="' + esc(g) + '">' + esc(g) + '</a></td><td>' + (al.length ? al.map(esc).join(', ') : 'None listed') + '</td></tr>';
+    }).join('');
+    host.addEventListener('click', function (ev) { var a = ev.target.closest('a[data-gl]'); if (a) { ev.preventDefault(); openGl(a.getAttribute('data-gl')); } });
+  }
+  // god links in the Agimat table and threats
+  document.querySelectorAll('article#entry-mythos a[data-gl]').forEach(function (a) {
+    if (a.closest('#aliasRows')) return;
+    a.addEventListener('click', function (ev) { ev.preventDefault(); openGl(a.getAttribute('data-gl')); });
+  });
+
+  mkTypes(); render(); buildLineages(); buildAliases(); route();
+})();
+</script>
+</body>
+</html>
