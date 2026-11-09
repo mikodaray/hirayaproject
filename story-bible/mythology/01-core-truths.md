@@ -7,7 +7,8 @@
 4. Baybayin, the old Filipino script, is the portal key. Reading the inscription on the bamboo tube aloud sends the four to Butuan.
 5. The words read at the end of the chapter 1 reading are "Hiraya manawari", the wish that your dreams come true.
 6. The four arrive in Butuan in the year 1003 (arc 1 covers 1001 to 1009). History is used as flavor, the story comes first.
-7. The people of Butuan speak an older Bisaya. The four speak Bisaya at home. All dialogue on the page is English.
+7. The main creation story of this universe is "How the World Was Made", with Maguayan (sea) and Captan (sky) as the main gods (decided 2026-11-10). See 06-the-gods-and-creation.md.
+8. The people of Butuan speak an older Bisaya. The four speak Bisaya at home. All dialogue on the page is English.
 
 ## B. Facts already shown in the chapter 1 draft (DRAFT, need confirmation)
 - The necklace warms, glows, and hums when it is near the tube.
@@ -26,8 +27,8 @@ An Agimat is a wish made real. It is hiraya, an imagination or dream held so str
 Why this fits: the series title is Hiraya, and the chapter title is Banaag, a first glimmer of light. An Agimat is the first glimmer of a dream becoming real.
 
 ### C2. The First Wish (the origin of the ten, DRAFT, creator to confirm)
-This follows the creation stories. Beats marked with a story number come from that story. Everything else is our own addition.
-1. In the beginning there was only sea and sky. Maguayan ruled the sea and Captan ruled the sky. (story 1)
+The base is the main creation story, "How the World Was Made" (DECIDED, see 06-the-gods-and-creation.md). Beats marked with a story number come from the stories in 05-creation-stories.md. Everything else is our own addition.
+1. In the beginning there was only sea and sky. Maguayan is the main god of the sea and Captan is the main god of the sky. (story 1, DECIDED)
 2. Their grandchildren rebelled. Proud Licalibutan led the others against the sky, and Captan answered with lightning. The sun, the moon, the stars, and the land came from the wreckage. The land is the broken body of Licalibutan, and the islands are his pieces, the Sangkapuluan. (story 1)
 3. Maguayan planted a seed in the broken land, and from a bamboo tree came the first people, Sicalac and Sicabay. (story 1) Our addition: the seed was a wish, the First Wish, that the broken world would live again. This first hope is hiraya, and "hiraya manawari" is its first words.
 4. The first people lived together at a first home, like Cibolan on Mount Apo. When hard times came (a drought in story 4), the children had to scatter, and each pair carried one thing from the first home. (story 4) Our addition: each of those things held a piece of the First Wish. Ten of them became the ten Agimats of the Sangkapuluan, and each shaped the people who carried it.
@@ -35,7 +36,8 @@ This follows the creation stories. Beats marked with a story number come from th
 
 Other options for the ten, if you do not like step 4 (OPEN):
 - Option B, the ten pieces of Licalibutan. When he broke apart, ten pieces kept a spark of him, which means the ten Agimats are tied to pride and to the land itself.
-- Option C, ten gifts from Captan and Maguayan after the lightning, as an apology or a promise.
+- Option C, ten gifts from Maguayan and Captan after the lightning, as an apology or a promise.
+All three options keep Maguayan and Captan as the main gods.
 
 ### C3. How an Agimat wakes
 An Agimat sleeps until two things meet: a bearer whose heart matches its hope, and a moment when that hope is needed. Waking is marked by warmth, a hum, and a faint gold light (the banaag). A sleeping Agimat can be carried for years without anyone knowing, which is why Jeff has worn his without feeling anything until chapter 1.

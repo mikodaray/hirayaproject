@@ -1,6 +1,8 @@
 # Creation stories used as the base of the mythos
 
 Source: https://sites.pitt.edu/~dash/creation-phil.html (a page of Philippine creation stories). Summaries below follow that page. Names are spelled the way the page spells them.
+Story 1, How the World Was Made, is the MAIN creation story of this universe (DECIDED 2026-11-10), with Maguayan and Captan as the main gods. See 06-the-gods-and-creation.md. The other stories are supporting material from regions and peoples, used for details.
+
 Rule: we use the shapes and images of these stories as the base, and we change them for Hiraya. Every change is marked as our own.
 
 Warning about the source: two of these stories (1 and 8) end by explaining the skin colors and social classes of peoples. Do not use those parts. They are outdated, unfair, and do not fit this story. We only use the beginnings of those stories.

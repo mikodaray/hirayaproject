@@ -14,6 +14,8 @@ Answer these in order. The first few shape everything else.
 10. Who or what is the main opposing force of the mythos? A person who wants the Agimats, a dark Agimat, or something older?
 11. Is there a supreme being or a creation story in this mythos, and do we name it from real folklore?
 12. What is the full Baybayin inscription on the tube, and what does it say?
-13. Do you want the real names from the creation stories (Maguayan, Captan, Licalibutan, Liadlao, Libulan, Lisuga, Sicalac, Sicabay) used as they are, or changed for the story?
+13. DECIDED: the names Maguayan and Captan are kept as the main gods. Still open: do we also keep the names of their descendants (Licalibutan, Liadlao, Libulan, Lisuga, Sicalac, Sicabay) as they are?
+16. What do Maguayan and Captan look like, and are they still awake? Do they speak to people, or only act through spirits and Agimats?
+17. Do the people of Butuan in 1003 use these names for the gods, or others?
 14. Where is the first home? The Bagobo story puts it at Cibolan on Mount Apo, which is near Durian City. Use that, or invent a place?
 15. Is the bamboo tube a piece of the first bamboo (draft), and who put the Baybayin on it?
