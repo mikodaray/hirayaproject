@@ -10,7 +10,8 @@
 7. The main creation story of this universe is "How the World Was Made", with Maguayan (sea) and Captan (sky) as the main gods (decided 2026-11-10). See 06-the-gods-and-creation.md.
 8. The gods of the main story are the patrons of the Agimats. The two strongest Agimats come from Maguayan and Captan, their children have the next strongest, and so on (decided 2026-11-10). See 02-the-ten-agimats.md.
 9. The children of the first gods became mythical creatures and beings, and some became demigods with powers (decided 2026-11-10). See 07-beings-and-demigods.md.
-10. The people of Butuan speak an older Bisaya. The four speak Bisaya at home. All dialogue on the page is English.
+10. Jeff's necklace is the Agimat of Liadlao, the sun (decided 2026-11-10). See 02-the-ten-agimats.md.
+11. The people of Butuan speak an older Bisaya. The four speak Bisaya at home. All dialogue on the page is English.
 
 ## B. Facts already shown in the chapter 1 draft (DRAFT, need confirmation)
 - The necklace warms, glows, and hums when it is near the tube.

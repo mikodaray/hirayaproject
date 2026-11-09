@@ -21,7 +21,7 @@ Answer these in order. The first few shape everything else.
 15. Is the bamboo tube a piece of the first bamboo (draft), and who put the Baybayin on it?
 18. Do you want to expand any part of the main creation story first? The expanded telling in 06-the-gods-and-creation.md has seven parts, and every new detail there is a draft.
 19. Is the main motive I gave Licalibutan (he does not want to live between two powers, he wants to be a power too) right?
-20. Which Agimat is Jeff's necklace? My suggestion is Liadlao, the sun, for the gold light and dawn. See 02-the-ten-agimats.md.
+20. DECIDED: Jeff's necklace is Liadlao's Agimat. Still open: its exact power.
 21. Which Agimat is the bamboo tube, if any?
-22. Do I read correctly that the unnamed children of the gods became the creatures and beings? See 07-beings-and-demigods.md.
+22. DECIDED: the unnamed children of the gods became the creatures and beings, and a few became demigods. The sorting is in 08 and 09.
 23. Which demigods do you want first, and are they friends or enemies?

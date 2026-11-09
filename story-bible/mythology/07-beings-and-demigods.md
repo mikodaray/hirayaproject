@@ -3,12 +3,12 @@
 ## DECIDED by the creator (2026-11-10)
 The children of the first gods become mythical creatures and beings. Some of them have become demigods and have powers.
 
-## How I read that (DRAFT, creator to confirm)
+## How it works (DECIDED reading, confirmed by the creator 2026-11-10)
 The source names only two children of Maguayan and Captan (Lidagat and Lihangin), and four grandchildren (Licalibutan, Liadlao, Libulan, Lisuga). My reading is:
 - The named children carry the ten Agimats (see 02-the-ten-agimats.md), along with the gods and the first people.
 - The gods and the named children also had many other children, whom the source does not name. These are the ones who became mythical creatures and beings.
 - A few of those children grew so strong that they became demigods with powers of their own.
-If you meant something different, such as only the named children becoming creatures, tell me and I will change it.
+The folklore beings and gods are now sorted under these lineages in 08-bestiary-by-lineage.md and 09-folk-deities-by-lineage.md.
 
 ## The ladder of power (DRAFT)
 1. The gods: Maguayan and Captan, and their Agimats.

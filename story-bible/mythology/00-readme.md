@@ -13,6 +13,8 @@ Status: first draft started 2026-11-10. Only the facts marked DECIDED are locked
 ## Files
 - 01-core-truths.md: the rules of the mythos, what is decided and what is a draft
 - 02-the-ten-agimats.md: the ten Agimats, by patron god and rank
+- 08-bestiary-by-lineage.md: every folklore creature sorted under the god whose line it belongs to
+- 09-folk-deities-by-lineage.md: the folklore gods and heroes sorted under the same lines
 - 07-beings-and-demigods.md: the children of the gods who became creatures, beings, and demigods
 - 06-the-gods-and-creation.md: the main creation story (decided), Maguayan and Captan, and their descendants
 - 05-creation-stories.md: the creation stories the mythos is based on, and how each one is used
