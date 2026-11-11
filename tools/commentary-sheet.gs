@@ -4,11 +4,13 @@
 var TAB = 'Commentary';
 function tab_() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
+  if (!ss) throw new Error('Script is not attached to a sheet. Create it from Extensions, Apps Script inside the sheet.');
   var sh = ss.getSheetByName(TAB);
   if (!sh) { sh = ss.insertSheet(TAB); sh.appendRow(['Key', 'Pages', 'Title', 'Commentary', 'Updated']); sh.setFrozenRows(1); }
   return sh;
 }
 function doPost(e) {
+  try {
   var d = JSON.parse(e.postData.contents), sh = tab_();
   var lock = LockService.getScriptLock(); lock.waitLock(10000);
   (d.groups || []).forEach(function (g) {
@@ -19,6 +21,7 @@ function doPost(e) {
   });
   lock.releaseLock();
   return ContentService.createTextOutput('ok');
+  } catch (err) { return ContentService.createTextOutput('error: ' + err); }
 }
 function doGet() {
   var rows = tab_().getDataRange().getValues(), out = {};

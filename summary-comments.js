@@ -85,15 +85,27 @@
     return fetch(url, opts);
   }
 
-  function pushSheet(gs) {
+  function pushSheet(gs, report) {
     var u = sheetUrl(); if (!u) return;
     var stamp = now();
-    fetch(u, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" },
-      body: JSON.stringify({ groups: gs.map(function (g) { return { key: g.key, pages: g.pages, title: g.title, text: g.ta.value, updated: stamp }; }) }) }).catch(function () {});
+    var body = JSON.stringify({ groups: gs.map(function (g) { return { key: g.key, pages: g.pages, title: g.title, text: g.ta.value, updated: stamp }; }) });
+    fetch(u, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: body })
+      .then(function (r) { return r.text(); })
+      .then(function (t) { report(t.trim() === "ok" ? "ok" : "bad:" + t.slice(0, 120)); })
+      .catch(function () {
+        fetch(u, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: body })
+          .then(function () { report("unknown"); }, function () { report("fail"); });
+      });
+  }
+  var sheetMsg = { ok: "Saved to the Google Sheet.", unknown: "Sent to the Google Sheet, but Google did not confirm. Check the sheet.", fail: "Could not reach the Google Sheet." };
+  function sheetSay(gs, r) {
+    var t = r.indexOf("bad:") === 0 ? "The sheet script replied with an error: " + r.slice(4) : sheetMsg[r];
+    gs.forEach(function (g) { g.st.textContent = t; }); if (gs.length > 1) barStatus.textContent = t;
   }
   function saveToRepo(gs, attempt) {
     attempt = attempt || 0;
-    if (attempt === 0) pushSheet(gs);
+    var sheetOn = !!sheetUrl(); if (attempt === 0 && sheetOn && !token()) { pushSheet(gs, function (r) { if (r === "ok") gs.forEach(function (g) { local[g.key] = { text: g.ta.value, updated: now(), dirty: false }; }); persist(); sheetSay(gs, r); }); return; }
+    if (attempt === 0 && sheetOn) pushSheet(gs, function () {});
     var statusNodes = gs.map(function (g) { return g.st; }).concat(gs.length > 1 ? [barStatus] : []);
     function say(t) { statusNodes.forEach(function (n) { n.textContent = t; }); }
     if (!token()) {
