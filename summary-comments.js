@@ -1,9 +1,9 @@
 // Comment boxes for each page group on summary.html.
-// Drafts autosave in this browser. "Save to repo" writes story-bible/commentary.json in the GitHub repo
+// Drafts autosave in this browser. "Save" writes story-bible/commentary.json in the GitHub repo
 // (needs a one time access token, see the Set up saving panel), so Claude can read the commentary there.
 (function () {
   var REPO = "mikodaray/hirayaproject", PATH = "story-bible/commentary.json", BRANCH = "main";
-  var LS = "hirayaCommentsV1", TK = "hirayaGhToken";
+  var LS = "hirayaCommentsV1", TK = "hirayaGhToken", SK = "hirayaSheetUrl";
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); return true; } catch (e) { return false; } }
   function lsDel(k) { try { localStorage.removeItem(k); } catch (e) {} }
@@ -24,7 +24,7 @@
   var bar = el("div", "cm-bar");
   bar.innerHTML = '<p><strong>Your commentary.</strong> Write notes under any part of the story. Claude will read them from the repo and use them as input when you ask it to act on them.</p>';
   var btns = el("div", "cm-btns");
-  var bAll = el("button", "btn", "Save all to repo"), bCopy = el("button", "btn", "Copy all"), bDl = el("button", "btn", "Download"), bSet = el("button", "btn", "Set up saving");
+  var bAll = el("button", "btn", "Save all"), bCopy = el("button", "btn", "Copy all"), bDl = el("button", "btn", "Download"), bSet = el("button", "btn", "Set up saving");
   [bAll, bCopy, bDl, bSet].forEach(function (b) { b.type = "button"; btns.appendChild(b); });
   bar.appendChild(btns);
   var barStatus = el("p", "cm-status"); barStatus.setAttribute("aria-live", "polite"); bar.appendChild(barStatus);
@@ -38,6 +38,11 @@
   var bSave = el("button", "btn", "Save token"), bDel = el("button", "btn", "Remove token");
   bSave.type = bDel.type = "button";
   var row = el("div", "cm-row"); row.appendChild(inp); row.appendChild(bSave); row.appendChild(bDel); setup.appendChild(row);
+  var sp = el("p"); sp.innerHTML = "<strong>Optional, Google Sheet.</strong> Paste the Web app URL from the Apps Script in tools/commentary-sheet.gs. Each save then also updates a row per page group in your sheet.";
+  setup.appendChild(sp);
+  var sinp = el("input"); sinp.type = "url"; sinp.placeholder = "https://script.google.com/macros/s/.../exec"; sinp.setAttribute("aria-label", "Google Sheet web app URL"); sinp.value = lsGet(SK) || "";
+  var sBtn = el("button", "btn", "Save sheet URL"), sDel = el("button", "btn", "Remove sheet URL"); sBtn.type = sDel.type = "button";
+  var srow = el("div", "cm-row"); srow.appendChild(sinp); srow.appendChild(sBtn); srow.appendChild(sDel); setup.appendChild(srow);
   var setupStatus = el("p", "cm-status"); setup.appendChild(setupStatus);
   bar.appendChild(setup);
   list.parentNode.insertBefore(bar, list);
@@ -53,7 +58,7 @@
     var label = el("label", "", "Your commentary on " + g.pages.toLowerCase() + ": " + g.title); label.setAttribute("for", id);
     var ta = el("textarea"); ta.id = id; ta.rows = 3; ta.placeholder = "Add your notes, changes or ideas for this part of the story.";
     var r = el("div", "cm-row");
-    var b = el("button", "btn", "Save to repo"); b.type = "button";
+    var b = el("button", "btn", "Save"); b.type = "button";
     var st = el("span", "cm-status"); st.setAttribute("aria-live", "polite");
     r.appendChild(b); r.appendChild(st);
     box.appendChild(label); box.appendChild(ta); box.appendChild(r); li.appendChild(box);
@@ -79,11 +84,21 @@
     return fetch(url, opts);
   }
 
+  function pushSheet(gs) {
+    var u = lsGet(SK); if (!u) return;
+    var stamp = now();
+    fetch(u, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ groups: gs.map(function (g) { return { key: g.key, pages: g.pages, title: g.title, text: g.ta.value, updated: stamp }; }) }) }).catch(function () {});
+  }
   function saveToRepo(gs, attempt) {
     attempt = attempt || 0;
+    if (attempt === 0) pushSheet(gs);
     var statusNodes = gs.map(function (g) { return g.st; }).concat(gs.length > 1 ? [barStatus] : []);
     function say(t) { statusNodes.forEach(function (n) { n.textContent = t; }); }
-    if (!token()) { say("Saving needs a one time setup. Open Set up saving."); setup.hidden = false; return; }
+    if (!token()) {
+      if (lsGet(SK)) { gs.forEach(function (g) { local[g.key] = { text: g.ta.value, updated: now(), dirty: false }; }); persist(); say("Sent to the Google Sheet. Not saved to the repo, no token set."); return; }
+      say("Saving needs a one time setup. Open Set up saving."); setup.hidden = false; return;
+    }
     say("Saving to the repo...");
     api("GET").then(function (res) {
       if (res.status === 404) return { sha: null, data: { version: 1, groups: {} } };
@@ -104,7 +119,7 @@
         gs.forEach(function (g) { remote[g.key] = cur.data.groups[g.key]; local[g.key] = { text: g.ta.value, updated: stamp, dirty: false }; });
         persist();
         var t = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-        say("Saved to the repo at " + t + ".");
+        say("Saved to the repo at " + t + (lsGet(SK) ? " and sent to the sheet." : "."));
       });
     }).catch(function (e) {
       say(e.message === "auth" ? "GitHub did not accept the token. Check it in Set up saving." : "Could not save (" + e.message + "). Your draft is still in this browser.");
@@ -114,6 +129,8 @@
   bAll.addEventListener("click", function () { var gs = allDirtyOrFilled(); if (!gs.length) { barStatus.textContent = "Nothing to save yet."; return; } saveToRepo(gs); });
   bSet.addEventListener("click", function () { setup.hidden = !setup.hidden; });
   bSave.addEventListener("click", function () { var v = inp.value.trim(); if (!v) { setupStatus.textContent = "Paste the token first."; return; } if (lsSet(TK, v)) { inp.value = ""; setupStatus.textContent = "Token saved in this browser. You can now use Save to repo."; } else { setupStatus.textContent = "This browser would not store the token."; } });
+  sBtn.addEventListener("click", function () { var v = sinp.value.trim(); if (!/^https:\/\/script\.google\.com\//.test(v)) { setupStatus.textContent = "That does not look like an Apps Script Web app URL."; return; } lsSet(SK, v); setupStatus.textContent = "Sheet URL saved in this browser."; });
+  sDel.addEventListener("click", function () { lsDel(SK); sinp.value = ""; setupStatus.textContent = "Sheet URL removed."; });
   bDel.addEventListener("click", function () { lsDel(TK); setupStatus.textContent = "Token removed from this browser."; });
 
   function asText() {
