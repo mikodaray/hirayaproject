@@ -7,8 +7,8 @@ Ending: OPEN
 
 ## Arcs
 ### Arc 1
-- Setting: DECIDED, ancient Butuan, 1001 to 1009 (history is flavor, story comes first)
-- Beginning: DECIDED, Jeff and his friends are transported to Butuan
+- Setting: OPEN. CHANGED 2026-11-12: Arc 1 now starts in modern Durian City and pulls the characters into the spiritual world of Filipino mythology. The earlier plan (transport to ancient Butuan 1001 to 1009 by a bamboo tube) is taken out for now. Whether Butuan comes back later is OPEN.
+- Beginning: DECIDED (2026-11-12), the arc introduces the characters, then they are sucked into the spiritual world of Filipino mythology. The first step is Dan Macabebe bullying Hal, Hal waking an Agta, and the Agta merging with Hal's shadow, then a dream sequence.
 - Flavor ideas from the archaeology: see the DRAFT list in the ideas inbox
 - Opening: DECIDED, Arc 1 begins by introducing the characters and showing their friendship, before the transport
 - Goal:
@@ -18,7 +18,7 @@ Ending: OPEN
 ## Chapter list
 | # | Working title | What happens | Status |
 |---|---------------|--------------|--------|
-| 1 | "Banaag" (title DECIDED) | 50 pages, DECIDED length. Full draft storyboard in chapter-1/00-overview.md and the pages files | draft storyboard |
+| 1 | "Banaag" (title DECIDED) | 50 pages planned. Pages 1 to 10 approved, 11 to 28 new draft, 29 to 50 to be added. See chapter-1/00-overview.md | work in progress |
 
 ## Key scenes and set pieces
 OPEN

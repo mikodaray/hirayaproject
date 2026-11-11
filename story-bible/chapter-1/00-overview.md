@@ -1,6 +1,8 @@
 # Chapter 1: Overview and Page Plan
 
-Status: DRAFT storyboard, 50 pages, written for the creator to review. Nothing here is final until the creator confirms it.
+Status: WORK IN PROGRESS. Pages 1 to 10 are the approved introduction. Pages 11 to 28 are a new draft (2026-11-12) from the creator's outline of the first arc. Pages 29 to 50 are placeholders the creator will fill in a few details at a time. Nothing here is final until the creator confirms it.
+
+CHANGED 2026-11-12: the bamboo tube and the fall into ancient Butuan are taken out of chapter 1. Chapter 1 now introduces the characters and pulls them into the spiritual world of Filipino mythology, starting with Dan Macabebe bullying Hal, Hal waking an Agta, and Jeff's family. The old Butuan draft for pages 11 to 50 is saved in archive-butuan-draft/. Whether Butuan comes back later is OPEN.
 DECIDED by the creator: Chapter 1 is 50 pages, black and white, panels inside each page read left to right (changed 2026-11-08 from right to left, and the pages also go left to right in the web viewer), the first pages introduce the four main characters, the layout should be dynamic with some panels bigger than others, and there should be a one page image for a point or a grand event.
 Everything else here is a DRAFT suggestion.
 
@@ -9,36 +11,33 @@ Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the ea
 ## About the title: Banaag
 - Meaning (TO CHECK with a Tagalog source before print): as far as I know, "banaag" means a faint light, a glimmer, or a first hint of light, and it is also used for a glimmer of hope. It sits next to "Hiraya" (a dream, an imagination) in the series title.
 - Where it shows up in the chapter (DRAFT ideas, not decided):
-  - Page 15 to 20: the faint warm glow of the necklace and the golden light in the tube's carvings, the first glimmer that something is real.
-  - Page 31: the first light of dawn on Butuan, the big reveal.
-  - Page 50: the necklace's light pouring out between Jeff's fingers in the ending hook.
+  - OUTDATED (old Butuan draft): the glow in the tube and dawn on Butuan. New idea, DRAFT: page 28 ends with one tiny light growing in the dark as Hal's dream starts, the banaag.
   - Jeff himself: the weird kid who is a small glimmer of something bigger.
 - Possible use: a short caption on page 31 or page 50, for example "Banaag." Not added to the storyboard yet.
 
 ## Files
-- pages-01-10.md: introductions, the bully conflict, Jeff's splash, start of homeroom
-- pages-11-20.md: detention, the cabinet, the bamboo tube, the reading
-- pages-21-30.md: the portal, the fall, the river, the first look at Butuan
-- pages-31-40.md: the Butuan splash, first contact, Mel's music, the court, the necklace
-- pages-41-50.md: guests of the Rajah, the quiet night, the elder, the hook
+- pages-01-10.md: the introduction (approved): meet the four, the bully conflict, Jeff's splash, homeroom
+- pages-11-20.md: DRAFT new arc. After school, Dan Macabebe bullies Hal, Hal throws a stone and wakes the Agta, Jeff comes home to his family
+- pages-21-30.md: DRAFT. Dinner, Papa and the jeepney, Hal can't focus, the Agta watches and merges with Hal's shadow, Hal dreams (pages 29 and 30 are placeholders)
+- pages-31-40.md and pages-41-50.md: placeholders, to be added
+- archive-butuan-draft/: the old pages 11 to 50 (detention, bamboo tube, Butuan). Kept for reference only
 
-## Page budget
+## Page budget (DRAFT)
 | Pages | What happens |
 |-------|--------------|
-| 1 to 4 | Meet Jeff, Hal, Mel, and Nikki |
-| 5 to 8 | Nikki picks on Hal, Jeff steps in (splash on page 7) |
-| 9 to 10 | Homeroom with Sir Archie, the Sangkapuluan and the Agimats |
-| 11 to 14 | Detention and cleaning, friendship scenes |
-| 15 to 20 | The necklace reacts, the cabinet, the tube, the reading |
-| 21 to 30 | The portal and arrival |
-| 31 | Splash, the reveal of Butuan |
-| 32 to 40 | First contact, Mel's music, the Rajah, the necklace is recognized |
-| 41 to 50 | Guests, night talk, the elder's warning, the demand, the hook |
+| 1 to 10 | Introduction (approved) |
+| 11 to 13 | Dan Macabebe bullies Hal, nobody helps |
+| 14 to 15 | Hal walks home, throws a stone, wakes the Agta |
+| 16 to 19 | Jeff comes home, the twins, dinner with Mama |
+| 20 to 22 | Papa, the jeepney, high marks and Arnis |
+| 23 to 24 | Hal can't focus, what he tells himself |
+| 25 to 27 | The Agta watches, lights out, it merges with Hal's shadow |
+| 28 | Hal sleeps, the dream begins |
+| 29 to 50 | TO BE ADDED by the creator |
 
 ## One page images
-- Page 7: Jeff catches Hal's glasses, tossed by Nikki, without turning around. This proves Jeff is more than the weird folklore kid: he never lets his friends stand alone.
-- Page 31: Butuan at dawn. This is the grand event, the answer to the premise.
-If you only want one splash page, we can fold page 7 into a normal layout.
+- Page 7: Jeff catches Nikki's wrist without looking. This proves Jeff is more than the weird folklore kid.
+- The old page 31 splash (Butuan at dawn) is gone with the old draft. A new splash is OPEN.
 
 ## Panel dynamics
 - Big panels for reveals, small panels for reactions and jokes, thin strips for silence and tension.
@@ -52,11 +51,12 @@ If you only want one splash page, we can fold page 7 into a normal layout.
 DECIDED by the creator:
 - Agimats exist all over the world. There are 10 in the Philippines, which ancient Filipinos called the Sangkapuluan.
 - Jeff's father gave him a necklace when Jeff turned 18, and the necklace is one of the ten Agimats.
-- The story is set in Butuan, 1001 to 1009, with history as flavor.
-- The four are put in the storage room as detention.
+- (Changed 2026-11-12: the move to Butuan 1001 to 1009 is out of chapter 1. Whether it comes back is OPEN.)
+- (Removed 2026-11-12: the four in detention in the storage room.)
 - The four speak Bisaya at home. The people of Butuan speak an older Bisaya, with words the future no longer uses, so it is hard to understand. This causes funny misunderstandings. All dialogue is written in English.
 
-Still OPEN: whether the bamboo tube is also an Agimat.
+The bamboo tube is out of the story (2026-11-12).
+New DECIDED facts (2026-11-12): Jeff's father was a Babaylan and retired to raise his kids with his wife, and he is a jeepney driver now. He teaches Jeff Arnis. Jeff has younger twin sisters, Gail and Janelle, age 5, and an older sister who is mentioned later. Dan Macabebe bullies Hal. Hal throws a stone at a tree, wakes an Agta (a mean spirited, demon like entity that preys on hatred and amplifies it), and the Agta merges with Hal's shadow when he goes to bed. Then Hal dreams.
 
 ## Language rule used in the pages
 - Dialogue is always written in English.

@@ -4,7 +4,7 @@ Answer these in order. The first few shape everything else.
 
 1. DECIDED: the gods are the patrons of the Agimats, the strongest two from Maguayan and Captan, then their children, and so on. Still open: confirm the DRAFT mapping of the ten (2 + 2 + 4 + 2) in 02-the-ten-agimats.md.
 2. What does an Agimat cost to use? Without a limit, nothing is at stake.
-3. Is the bamboo tube an Agimat, or something an Agimat made?
+3. (The bamboo tube was taken out of the story on 2026-11-12, so this question is closed for now.)
 4. Why was Jeff's necklace in Butuan in 1003, and how did it reach Jeff's father?
 5. What is the necklace's hope and its power?
 6. How do the four go home? (Suggested: when the necklace's hope is fulfilled.)
@@ -13,7 +13,7 @@ Answer these in order. The first few shape everything else.
 9. How do we organize the ten: by place, by hope, by element, or a mix?
 10. Who or what is the main opposing force of the mythos? A person who wants the Agimats, a dark Agimat, or something older?
 11. Is there a supreme being or a creation story in this mythos, and do we name it from real folklore?
-12. What is the full Baybayin inscription on the tube, and what does it say?
+12. (The tube is out of the story, closed for now.)
 13. DECIDED: the names Maguayan and Captan are kept as the main gods. Still open: do we also keep the names of their descendants (Licalibutan, Liadlao, Libulan, Lisuga, Sicalac, Sicabay) as they are?
 16. What do Maguayan and Captan look like, and are they still awake? Do they speak to people, or only act through spirits and Agimats?
 17. Do the people of Butuan in 1003 use these names for the gods, or others?
@@ -25,3 +25,5 @@ Answer these in order. The first few shape everything else.
 21. Which Agimat is the bamboo tube, if any?
 22. DECIDED: the unnamed children of the gods became the creatures and beings, and a few became demigods. The sorting is in 08 and 09.
 23. Which demigods do you want first, and are they friends or enemies?
+18. The Agta (DECIDED 2026-11-12): a mean spirited, demon like entity that preys on hatred and amplifies it, found in a tree. Open: is it a kapre (also called Agta in the folklore list), a dark kin of Licalibutan's pride, or something else? What does it want? How does it relate to the Agimats? See characters/the-agta.md.
+19. Jeff's father was a Babaylan (DECIDED 2026-11-12). Open: what a Babaylan can do in this world, and how it ties to the necklace (Liadlao's Agimat) that he gave Jeff.

@@ -36,3 +36,11 @@ Drop any raw idea here, even half formed. We sort them into the other docs later
 - DECIDED (2026-11-06): New character Totet Timla, a shy girl, 5 feet flat, black bob cut, freckles on her cheeks, with a crush on Jeff. Details in story-bible/characters/totet-timla.md.
 
 - DECIDED (2026-11-07): the school name is Durian City High School (was Durian Public High School). Old mentions above were updated to the new name.
+
+## 2026-11-12 New direction for arc 1 (DECIDED by the creator, details in chapter-1/)
+- The bamboo tube and the fall into ancient Butuan are taken out. Arc 1 introduces the characters and gets them into the spiritual world of Filipino mythology.
+- New characters: Dan Macabebe (bully), Jeff's father (retired Babaylan, jeepney driver), Jeff's mother, the twins Gail and Janelle (age 5), and the Agta. Designs for the new characters are on the todo list (07-todo.md).
+- Jeff's family: younger twin sisters and one older sister who is mentioned later (the earlier 18 and 7 year old sisters are dropped).
+- Jeff's father teaches him Arnis, which is why Jeff studies hard: to be free afterwards.
+- Dan beats up Hal when no one is there. Hal throws a stone at a tree and wakes an Agta that preys on hatred. It merges with Hal's shadow. Hal dreams.
+- Pages 11 to 28 are drafted from this. Pages 29 to 50 are for the creator to add.

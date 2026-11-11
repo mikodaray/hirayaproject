@@ -39,12 +39,9 @@ Status: draft
 - Weaknesses: OPEN
 
 ## Background
-- Family: three sisters, Jeff is the second oldest of four siblings
-  - Older sister, 23 (name OPEN)
-  - Younger sister, 18 (name OPEN)
-  - Youngest sister, 7 (name OPEN)
-- Father: gave Jeff a necklace when Jeff turned 18 (DECIDED). Name, look, and what he knows about it: OPEN
-- Mother: OPEN
+- Family (DECIDED 2026-11-12): Jeff is the second oldest of four siblings. He has younger twin sisters, Gail and Janelle, age 5 (see gail-and-janelle-victorio.md), and one older sister who will be mentioned later (name and age OPEN; an earlier draft said 23). The earlier draft sisters aged 18 and 7 are removed.
+- Father (Papa): a retired Babaylan and now a jeepney driver, gave Jeff the necklace when Jeff turned 18, and teaches him Arnis (DECIDED). See jeff-father.md.
+- Mother (Mama): see jeff-mother.md.
 - Key past events: OPEN
 
 ## Relationships
@@ -53,8 +50,11 @@ Status: draft
 - Nikki Sharon Legazpi: bullies Jeff, and bullies Hal more, Jeff stands up to her
 - Totet Timla: classmate with a crush on him (DECIDED)
 - Sir Archie (Archibald Oronies): homeroom teacher
-- Father: gave him the necklace at 18
-- Three sisters: older (23), younger (18), youngest (7), names OPEN
+- Father: gave him the necklace at 18, teaches him Arnis
+- Mother: teases him about school and girlfriends
+- Twin sisters Gail and Janelle (5): hug him the moment he gets home
+- One older sister, to be mentioned later
+- Dan Macabebe: school bully of Hal (Jeff is not there when it happens)
 
 ## Story arc
 - Start: looks cool, but is seen as a weird nerd for loving Filipino folklore and history, and he protects his friends (DECIDED), the rest OPEN
@@ -67,6 +67,6 @@ The first generated cover (art/01-cover-concept-vol1.png) no longer matches the 
 ## Open questions
 - Which grade or year are they in? Jeff is 19 and it is a high school, so is that senior high?
 - What does Jeff want, and what is his flaw?
-- What are his sisters' names, and what are they like?
+- What is his older sister's name, and when is she mentioned?
 - What does the necklace do, and what is its name? (It is one of the ten Agimats of the Sangkapuluan, DECIDED.)
-- What is the glowing bamboo tube, and where does he find it?
+- (The bamboo tube was taken out of the story on 2026-11-12.)
