@@ -3,7 +3,7 @@
 // (needs a one time access token, see the Set up saving panel), so Claude can read the commentary there.
 (function () {
   var REPO = "mikodaray/hirayaproject", PATH = "story-bible/commentary.json", BRANCH = "main";
-  var LS = "hirayaCommentsV1", TK = "hirayaGhToken", SK = "hirayaSheetUrl";
+  var LS = "hirayaCommentsV1", TK = "hirayaGhToken", SK = "hirayaSheetUrl", SHEET_URL = "https://script.google.com/macros/s/AKfycbz1Bih-S2BRZ2eWDeDN5bn8z2ptBj1MGFRVkvRL_3xRhywsCCWX1RQrIRefNwn3t5ps/exec";
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); return true; } catch (e) { return false; } }
   function lsDel(k) { try { localStorage.removeItem(k); } catch (e) {} }
@@ -13,6 +13,7 @@
   var list = document.querySelector("ol.beats");
   if (!list) return;
 
+  function sheetUrl() { return lsGet(SK) || SHEET_URL; }
   function persist() { lsSet(LS, JSON.stringify(local)); }
   function now() { return new Date().toISOString(); }
   function b64enc(s) { return btoa(unescape(encodeURIComponent(s))); }
@@ -38,9 +39,9 @@
   var bSave = el("button", "btn", "Save token"), bDel = el("button", "btn", "Remove token");
   bSave.type = bDel.type = "button";
   var row = el("div", "cm-row"); row.appendChild(inp); row.appendChild(bSave); row.appendChild(bDel); setup.appendChild(row);
-  var sp = el("p"); sp.innerHTML = "<strong>Optional, Google Sheet.</strong> Paste the Web app URL from the Apps Script in tools/commentary-sheet.gs. Each save then also updates a row per page group in your sheet.";
+  var sp = el("p"); sp.innerHTML = "<strong>Google Sheet.</strong> Already built in, every save updates a row per page group in the sheet. You can override the Web app URL below if you ever redeploy.";
   setup.appendChild(sp);
-  var sinp = el("input"); sinp.type = "url"; sinp.placeholder = "https://script.google.com/macros/s/.../exec"; sinp.setAttribute("aria-label", "Google Sheet web app URL"); sinp.value = lsGet(SK) || "";
+  var sinp = el("input"); sinp.type = "url"; sinp.placeholder = "https://script.google.com/macros/s/.../exec"; sinp.setAttribute("aria-label", "Google Sheet web app URL"); sinp.value = sheetUrl() || "";
   var sBtn = el("button", "btn", "Save sheet URL"), sDel = el("button", "btn", "Remove sheet URL"); sBtn.type = sDel.type = "button";
   var srow = el("div", "cm-row"); srow.appendChild(sinp); srow.appendChild(sBtn); srow.appendChild(sDel); setup.appendChild(srow);
   var setupStatus = el("p", "cm-status"); setup.appendChild(setupStatus);
@@ -85,7 +86,7 @@
   }
 
   function pushSheet(gs) {
-    var u = lsGet(SK); if (!u) return;
+    var u = sheetUrl(); if (!u) return;
     var stamp = now();
     fetch(u, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" },
       body: JSON.stringify({ groups: gs.map(function (g) { return { key: g.key, pages: g.pages, title: g.title, text: g.ta.value, updated: stamp }; }) }) }).catch(function () {});
@@ -96,7 +97,7 @@
     var statusNodes = gs.map(function (g) { return g.st; }).concat(gs.length > 1 ? [barStatus] : []);
     function say(t) { statusNodes.forEach(function (n) { n.textContent = t; }); }
     if (!token()) {
-      if (lsGet(SK)) { gs.forEach(function (g) { local[g.key] = { text: g.ta.value, updated: now(), dirty: false }; }); persist(); say("Sent to the Google Sheet. Not saved to the repo, no token set."); return; }
+      if (sheetUrl()) { gs.forEach(function (g) { local[g.key] = { text: g.ta.value, updated: now(), dirty: false }; }); persist(); say("Sent to the Google Sheet. Not saved to the repo, no token set."); return; }
       say("Saving needs a one time setup. Open Set up saving."); setup.hidden = false; return;
     }
     say("Saving to the repo...");
@@ -119,7 +120,7 @@
         gs.forEach(function (g) { remote[g.key] = cur.data.groups[g.key]; local[g.key] = { text: g.ta.value, updated: stamp, dirty: false }; });
         persist();
         var t = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-        say("Saved to the repo at " + t + (lsGet(SK) ? " and sent to the sheet." : "."));
+        say("Saved to the repo at " + t + (sheetUrl() ? " and sent to the sheet." : "."));
       });
     }).catch(function (e) {
       say(e.message === "auth" ? "GitHub did not accept the token. Check it in Set up saving." : "Could not save (" + e.message + "). Your draft is still in this browser.");
