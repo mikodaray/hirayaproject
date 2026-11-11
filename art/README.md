@@ -71,3 +71,6 @@ art/logo/ holds the HIRAYA logo (transparent PNG plus a plain crop), taken from 
 
 ## Combined reference images
 art/references/combined/ holds the labeled combined reference images made by the bundle scripts (one per page, one per cover). They are saved here every time a bundle is made, so reuse them instead of building them again. Made 2026-11-08.
+
+## Summary page commentary
+summary.html has a comment box for every page group. Drafts autosave in the browser. "Save to repo" writes story-bible/commentary.json (needs a one time fine-grained token with Contents read and write on this repo only). Copy all and Download work without a token.
