@@ -8,7 +8,7 @@ Ending: OPEN
 ## Arcs
 ### Arc 1
 - Setting: OPEN. CHANGED 2026-11-12: Arc 1 now starts in modern Durian City and pulls the characters into the spiritual world of Filipino mythology. The earlier plan (transport to ancient Butuan 1001 to 1009 by a bamboo tube) is taken out for now. Whether Butuan comes back later is OPEN.
-- Beginning: DECIDED (2026-11-12), the arc introduces the characters, then they are sucked into the spiritual world of Filipino mythology. The first step is Dan Macabebe bullying Hal, Hal waking an Agta, and the Agta merging with Hal's shadow, then a dream sequence.
+- Beginning: DECIDED (2026-11-12), the arc introduces the characters, then they are sucked into the spiritual world of Filipino mythology. The first step is Dan Macabebe bullying Jared Callao, Jared waking an Agta, and the Agta merging with Jared's shadow, then a dream sequence.
 - Flavor ideas from the archaeology: see the DRAFT list in the ideas inbox
 - Opening: DECIDED, Arc 1 begins by introducing the characters and showing their friendship, before the transport
 - Goal:

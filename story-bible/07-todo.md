@@ -6,6 +6,8 @@ Updated 2026-11-12. Tick things off as they get done. Items marked (Claude added
 - [ ] Jeff's father, Papa (retired Babaylan, jeepney driver). Doc: characters/jeff-father.md
 - [ ] Jeff's mother, Mama. Doc: characters/jeff-mother.md
 - [ ] Dan Macabebe (the bully). Doc: characters/dan-macabebe.md
+- [ ] Jared Callao (tall, slender, emo long hair, tattoos on his right arm, punk uniform, nose piercing). Doc: characters/jared-callao.md
+- [ ] Jared's father and mother, only if they become characters (Claude added, they are only implied now)
 - [ ] Gail and Janelle, the 5 year old twins (Claude added, they appear on pages 16 to 19). Doc: characters/gail-and-janelle-victorio.md
 - [ ] The Agta, the hatred feeding tree spirit (Claude added, it appears on pages 15 and 25 to 27). Doc: characters/the-agta.md
 - [ ] Jeff's older sister (later, when she is mentioned)
@@ -13,10 +15,11 @@ Updated 2026-11-12. Tick things off as they get done. Items marked (Claude added
 ## Story to write
 - [ ] Pages 29 to 50 of chapter 1: the dream sequence and the rest of the arc (placeholders now)
 - [ ] Arc 1 goal, main conflict and ending (see plot-outline)
-- [ ] Details of Hal's dream, what the Agta wants, how it is beaten
+- [ ] Details of Jared's dream, what the Agta wants, how it is beaten, and how Jared meets the main four
 - [ ] Jeff's older sister
 - [ ] When Jeff's father's Babaylan past is revealed
-- [ ] Confirm the reason nobody is with Hal on page 11 (draft: Jeff goes home early, Mel has violin lessons)
+- [ ] Confirm page 11 (draft: Jeff goes home early, Mel has violin lessons, Hal has science club, Jared is a loner)
+- [ ] Confirm that Jared is the one who throws the stone at the tree
 - [ ] Where Totet and Tandang Procopio fit into the new arc
 
 ## Art and files

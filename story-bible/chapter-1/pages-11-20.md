@@ -10,60 +10,59 @@ Dialogue is spoken in Bisaya, shown in English. Page counts, jokes and exact lin
 
 ## Page 11 (5 panels): After school
 Layout: wide panel, two small panels, a medium panel, a large panel at the bottom.
-Why nobody is with Hal: DRAFT, TO CONFIRM. Jeff goes home early because his mother needs him, Mel has violin lessons, and Nikki's group has already left.
+Why nobody is with Jared: he is a loner. Jeff goes home early because his mother needs him, Mel has violin lessons, and Hal has science club. DRAFT, TO CONFIRM.
 
-**1. WIDE.** The school gate in the golden afternoon light. The bell has rung. Students stream out. The three split at the gate.
+**1. WIDE.** The school gate in the golden afternoon light. The bell has rung. Students stream out. The three friends split at the gate.
 JEFF: "I have to get home early. Mama needs me."
 MEL: "Violin lesson. See you tomorrow."
+HAL: "Science club. I'm building a robot. It's going to be taller than me."
 
-**2. SMALL.** Hal, waving them off with a big grin.
-HAL: "Go, go. I'm a grown man. I can walk home alone."
-
-**3. SMALL.** Jeff and Mel glance back at him once, then leave.
+**2. SMALL.** The three wave and head off in different directions.
 SFX: "TAP TAP"
 
-**4. MEDIUM.** Hal, alone, walking down the side path behind the school, humming and swinging his bag. The street is almost empty.
+**3. SMALL.** Far down the school wall, a tall, slender boy leans alone with his hands in his pockets and earbuds in. Nobody looks at him.
 
-**5. LARGE.** A huge shadow falls over Hal. He turns and looks up, up, up. A very big senior student blocks the whole path.
+**4. MEDIUM.** Close up on him. Long dark emo hair over one eye, a small nose piercing, tattoos down his right arm, a spiked belt and stacks of bracelets. He wears the same blue school shirt and khaki pants as everyone else, but worn the punk way.
+CAPTION: "Jared Callao. Spikes outside, quiet inside."
+
+**5. LARGE.** A huge shadow falls over Jared. He pulls out one earbud and looks up. Dan Macabebe stands in front of him, blocking the whole path.
 CAPTION: "Dan Macabebe. Big. Loud. Allergic to being told no."
-DAN: "Well, well. The pocket edition. Alone."
+DAN: "Well, well. Still wearing your costume, freak?"
 
 ---
 
 ## Page 12 (5 panels): The bully
 Layout: a large panel and a tall panel, two small panels, a wide panel at the bottom.
 
-**1. LARGE.** Dan grabs Hal by the collar and lifts him off the ground. Hal's feet kick in the air.
-HAL: "Put me DOWN!"
-DAN: "Where's your bodyguard? Where's the weird one?"
+**1. LARGE.** Dan shoves Jared back against the wall with one hand on his chest.
+DAN: "Nice hair. Nice nose ring. Who are you trying to scare?"
+JARED: "Get off me."
 
-**2. TALL.** Hal's face close up. Fear, but his jaw is set.
-HAL: "I don't need a bodyguard!"
+**2. TALL.** Jared's face close up. Cold, calm eyes behind the hair. His jaw is set. He does not fight back.
 
-**3. SMALL.** Hal swings a wild punch. Dan holds him at arm's length with one hand, and the punch hits only air.
-SFX: "WHIFF"
+**3. SMALL.** Jared tries to walk away. Dan grabs his bag strap and yanks him back.
+SFX: "YANK"
 
-**4. SMALL.** Dan laughs and shoves Hal against the wall. Hal's books spill out of his bag.
-SFX: "WHAM"
-
-**5. WIDE.** Wide shot of the path. Dan towering over a small Hal pinned to the wall. A few students walk past in the background, look the other way, and keep walking. No one stops.
+**4. SMALL.** Dan shoves Jared down. Jared catches himself on his arm and scrapes it on the ground.
 SFX: "THUD"
-Art note: show the shoving and the cruelty, but nothing graphic. The point is that Hal is alone and nobody helps.
+
+**5. WIDE.** Wide shot of the path. Dan towering over Jared on the ground. A few students walk past in the background, look the other way, and keep walking. No one stops.
+Art note: show the shoving and the cruelty, but nothing graphic. Jared only gets slight bruises. The point is that he is alone and nobody helps.
 
 ---
 
 ## Page 13 (4 panels): No one helps
 Layout: two small panels, a wide panel, a large panel at the bottom.
 
-**1. SMALL.** Dan stomps on one of Hal's notebooks and kicks his glasses away.
-SFX: "CRUNCH"
+**1. SMALL.** Dan rips one of Jared's bracelets off his wrist.
+SFX: "SNAP"
 
-**2. SMALL.** Hal on his hands and knees, patting the ground blindly for his glasses.
+**2. SMALL.** Jared on the ground, still. He does not cry out. He just stares.
 
-**3. WIDE.** Dan walks away with his arms behind his head, laughing. His laughter fills the empty street.
-DAN: "Go home and cry to your mommy, shorty!"
+**3. WIDE.** Dan walks away with his arms behind his head, laughing. The laughter fills the empty street.
+DAN: "Go cry about it, freak!"
 
-**4. LARGE.** Hal alone on the ground, glasses back on, one lens cracked. He gathers his books slowly. His fists shake. His eyes are wet, but he refuses to let them fall.
+**4. LARGE.** Jared alone on the ground. He picks up the broken bracelet. A small scrape on his cheek, a fresh bruise on his forearm. His hands shake, but he says nothing and does not look around for help.
 SFX: "SHAKE SHAKE"
 
 ---
@@ -71,20 +70,22 @@ SFX: "SHAKE SHAKE"
 ## Page 14 (5 panels): The walk home
 Layout: wide panel, two small panels, a medium panel, a large panel at the bottom.
 
-**1. WIDE.** Hal walks home along a quiet road at dusk, bag over his shoulder, muttering. The road is lined with old trees.
-HAL: "Big dumb gorilla! Muscle-brained, banana-eating @#$%!"
+**1. WIDE.** Jared walks home along a quiet road at dusk, earbuds in, bag over his shoulder, his long shadow stretched behind him. The road is lined with old trees.
 
-**2. SMALL.** Hal, fuming, stomping, hands in fists.
-HAL: "I'll show him. I'll learn karate. Tonight. In one night!"
+**2. SMALL.** Jared touches the scrape on his cheek and looks at his fingers.
+JARED (thinking): "It doesn't even hurt."
 
-**3. SMALL.** Hal's face flat, as he thinks it through.
-HAL: "...No. I'll be dead by morning."
+**3. SMALL.** Jared slows down. His steps get heavier, and he stares at the road.
+JARED (thinking): "Not like what's waiting at home."
 
-**4. MEDIUM.** Hal stops, spots a stone on the road, and picks it up. His hand trembles.
+**4. MEDIUM.** A memory panel, drawn in washed gray tones: a dark kitchen, a table crowded with empty bottles, a man's shadow on the wall, and a woman's trembling hands gripping the edge of a sink. Nothing violent is shown, only fear.
+CAPTION: "At home there is a father who drinks, and a mother who is afraid."
+DAD (from the memory, muffled): "WHERE'S MY DINNER?!"
 
-**5. LARGE.** Hal throws the stone as hard as he can, with a shout and a wild, angry swing. The stone flies toward the side of the road, toward a huge old balete tree.
-HAL: "AAAAARGH!"
+**5. LARGE.** Jared stops, picks up a stone, and throws it as hard as he can toward a huge old balete tree at the side of the road, with a long, silent, angry shout.
+JARED: "AAAAARGH!"
 SFX: "FWOOSH"
+Art note: do not show any violence at home, ever, on these pages. Fear, sound and shadow only.
 
 ---
 
@@ -94,13 +95,13 @@ Layout: wide panel, two small panels, a large panel at the bottom.
 **1. WIDE.** The stone hits the trunk of the old balete tree.
 SFX: "TOK!"
 
-**2. SMALL.** Hal, already walking away, dusting off his hands.
-HAL: "Feels a little better."
+**2. SMALL.** Jared, already walking away, staring at his empty hand. He does not feel better.
+JARED: "...That didn't help."
 
 **3. SMALL.** Behind him, the tree is still. Then the dark between the roots seems to breathe. A leaf falls. The wind stops. The air turns cold.
 SFX: "...DOKI"
 
-**4. LARGE.** High in the branches, two red eyes open. A long, thin, shadowy figure curls around the branch, a crooked grin full of teeth. It looks down at Hal's back as he walks away.
+**4. LARGE.** High in the branches, two red eyes open. A long, thin, shadowy figure curls around the branch, a crooked grin full of teeth. It looks down at Jared's back as he walks away.
 CAPTION: "The Agta. A hundred years of sleep, and a very bad mood."
 AGTA: "Oh... what a delicious little hate."
 Art note: DRAFT. The Agta is a mean spirited demon like spirit that preys on hatred and amplifies it. The design is a to do (see the todo list). Keep it a dark shape with red eyes for now.

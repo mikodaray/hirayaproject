@@ -44,3 +44,9 @@ Drop any raw idea here, even half formed. We sort them into the other docs later
 - Jeff's father teaches him Arnis, which is why Jeff studies hard: to be free afterwards.
 - Dan beats up Hal when no one is there. Hal throws a stone at a tree and wakes an Agta that preys on hatred. It merges with Hal's shadow. Hal dreams.
 - Pages 11 to 28 are drafted from this. Pages 29 to 50 are for the creator to add.
+
+## 2026-11-12 Change: the victim is now Jared Callao (DECIDED by the creator)
+- Hal is no longer the victim. The bullied student is Jared Callao, tall and slender with long emo hair, tattoos on his right arm, a nose piercing, and a punk version of the school uniform (spiked belts, bracelets). His father is a drunkard who beats his mother.
+- Dan Macabebe bullies him at school. He walks home with slight bruises and thinks about going home to his father and his terrified mother.
+- The scenes of Hal in his room with the Agta are replaced with Jared (the Agta watches, merges with his shadow, Jared dreams).
+- The home abuse is only implied (sound, shadow, fear). Nothing violent is drawn. The creator can change that.

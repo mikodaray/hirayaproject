@@ -47,42 +47,42 @@ Art note: optional beat, TO CONFIRM. Papa pauses for a second and looks out towa
 
 ---
 
-## Page 23 (5 panels): Hal can't focus
+## Page 23 (5 panels): Jared at home
 Layout: wide panel, two small panels, two medium panels at the bottom.
 
-**1. WIDE.** Night. Hal's room, one desk lamp, a stack of math and science books, a poster of the periodic table on the wall. A cracked pair of glasses sits next to him.
-CAPTION: "Hal's house."
+**1. WIDE.** Night. A small, narrow house with one dim upstairs window. Inside, Jared's room: band posters, a desk lamp, a notebook, a cracked mirror. The broken bracelet lies on the desk.
+CAPTION: "Jared's house."
 
-**2. SMALL.** Hal opens a thick math book and cracks his knuckles.
-HAL: "Calculus. My old friend."
+**2. SMALL.** Jared sits at the desk with headphones around his neck, opens the notebook, and tries to draw.
 
-**3. SMALL.** Hal's pencil races across the page.
-SFX: "SCRIBBLE SCRIBBLE"
+**3. SMALL.** From downstairs, the muffled sound of a TV and a man's slurred shouting. We only see the floor and a thin line of light under the door.
+DAD (muffled, from downstairs): "WHERE'S MY DINNER?!"
+SFX: "CRASH"
 
-**4. MEDIUM.** The pencil lead snaps. Hal stares at it.
-SFX: "SNAP"
-HAL: "...Why can't I focus?"
-
-**5. MEDIUM.** Hal presses both hands to his temples, eyes squeezed shut.
+**4. MEDIUM.** Jared puts the headphones on and presses them against his ears, eyes squeezed shut, the veins in his temples showing.
 SFX: "THROB THROB"
-HAL: "My head... it's pounding."
+
+**5. MEDIUM.** Through the headphones, a small, frightened voice from downstairs. Jared's fist closes on the pencil and it snaps.
+MAMA (muffled, from downstairs): "Please... lower your voice..."
+SFX: "SNAP"
+Art note: nothing violent is shown here either. Sound, shadow and Jared's face only.
 
 ---
 
-## Page 24 (4 panels): What Hal tells himself
+## Page 24 (4 panels): What Jared tells himself
 Layout: large panel, two small panels, a wide panel at the bottom.
 
-**1. LARGE.** Hal slumps at the desk and stares at the cracked lens in his hand. His reflection is split in two.
-HAL (muttering): "I could have asked Jeff. He'd have come in two seconds."
+**1. LARGE.** Jared sits on the edge of his bed, staring at the broken bracelet in his palm. His reflection in the cracked mirror is split in two.
+JARED (muttering): "I'm taller than him now. I could stop him."
 
-**2. SMALL.** Hal, looking away.
-HAL: "But I didn't want him to."
+**2. SMALL.** Jared, looking away.
+JARED: "But every time, I just... stand there."
 
-**3. SMALL.** Hal, jaw tight.
-HAL: "I wanted to stand up for myself. Just once."
+**3. SMALL.** Jared, jaw tight.
+JARED: "I can't even stand up to Dan. How am I supposed to stand up to him?"
 
-**4. WIDE.** Hal slams his small fist on the desk. The lamp trembles. Behind him, the curtain stirs, though the window is closed.
-HAL: "And I couldn't. Because I'm small."
+**4. WIDE.** Jared clenches his fist on his knee. The lamp flickers. Behind him, the curtain stirs, though the window is closed.
+JARED: "I hate this. I hate him. I hate that I can't do anything."
 SFX: "THROB"
 
 ---
@@ -90,15 +90,15 @@ SFX: "THROB"
 ## Page 25 (4 panels): The watcher
 Layout: wide panel, two small panels, a large panel at the bottom.
 
-**1. WIDE.** Hal's house from outside at night, one window lit. A huge old tree stands beside it, its branches reaching toward the roof.
+**1. WIDE.** Jared's house from outside at night, one window lit. A huge old tree stands beside it, its branches reaching toward the roof.
 
 **2. SMALL.** A branch bends. Two red eyes open in the leaves.
 
-**3. SMALL.** The Agta, crouched on the branch outside Hal's window, tilts its head and sniffs the air.
+**3. SMALL.** The Agta, crouched on the branch outside Jared's window, tilts its head and sniffs the air.
 SFX: "SNIFF"
 
-**4. LARGE.** Close up of the Agta's grin, with the lit window of Hal's room reflected in its red eyes. Through the glass, Hal is a tiny figure at his desk.
-AGTA: "I can feel it from here. The anger. The shame. So much hate, for something so small."
+**4. LARGE.** Close up of the Agta's grin, with the lit window of Jared's room reflected in its red eyes. Through the glass, Jared is a tiny figure on the edge of his bed.
+AGTA: "I can feel it from here. The anger. The shame. So much hate, for a boy who has so little."
 Then, softly: "Let me help you with that."
 
 ---
@@ -106,22 +106,22 @@ Then, softly: "Let me help you with that."
 ## Page 26 (4 panels): Lights out
 Layout: two small panels, a wide panel, a large panel at the bottom.
 
-**1. SMALL.** Hal rubs his eyes and closes the book.
-HAL: "Enough. Sleep first. Tomorrow is another day."
+**1. SMALL.** Jared rubs his eyes and closes the notebook.
+JARED: "Just sleep. Tomorrow's the same anyway."
 
-**2. SMALL.** Hal changes into his pajamas, which are covered in tiny cartoon planets.
+**2. SMALL.** He takes off his spiked belt and bracelets and sets them on the desk one by one. Without them, he looks a lot younger.
 
-**3. WIDE.** Hal crosses the room and stops by the door, next to the light switch. The room is warm and bright.
+**3. WIDE.** Jared crosses the room and stops by the door, next to the light switch. Downstairs, the shouting has stopped. The house is quiet.
 
-**4. LARGE.** Hal, standing by the switch with one hand raised. His shadow stretches long across the wall behind him. In the dark window, behind his reflection, two red eyes.
-HAL: "Good night, room."
+**4. LARGE.** Jared, standing by the switch with one hand raised. His shadow stretches long across the wall behind him. In the dark window, behind his reflection, two red eyes.
+JARED (quietly, toward the floor): "Good night, Ma."
 
 ---
 
 ## Page 27 (5 panels): The merge
 Layout: wide panel, three small panels, a large panel at the bottom.
 
-**1. WIDE.** Hal's hand flips the switch. The room goes black. Hal stands in the dark, not moving yet.
+**1. WIDE.** Jared's hand flips the switch. The room goes black. Jared stands in the dark, not moving yet.
 SFX: "CLICK"
 
 **2. SMALL.** Moonlight through the window. The curtain waves.
@@ -131,7 +131,7 @@ SFX: "CLICK"
 **4. SMALL.** A dark shape launches from the branch, arms wide.
 SFX: "SWOOSH"
 
-**5. LARGE.** The Agta flies through the window like smoke, the glass stays whole, and dives into the long shadow on the floor behind Hal. The shadow ripples. For one second, the shadow has red eyes. Hal, still standing in the dark, notices nothing.
+**5. LARGE.** The Agta flies through the window like smoke, the glass stays whole, and dives into the long shadow on the floor behind Jared. The shadow ripples. For one second, the shadow has red eyes. Jared, still standing in the dark, notices nothing.
 SFX: "ZUUUUM"
 Art note: DRAFT. This is the scary beat of the chapter, so use a lot of black.
 
@@ -140,10 +140,10 @@ Art note: DRAFT. This is the scary beat of the chapter, so use a lot of black.
 ## Page 28 (5 panels): Sleep
 Layout: wide panel, two small panels, a wide panel, a large panel at the bottom.
 
-**1. WIDE.** Hal's shadow on the floor, in the moonlight. It is a little too long and a little too dark, and its shape does not quite match Hal's.
+**1. WIDE.** Jared's shadow on the floor, in the moonlight. It is a little too long and a little too dark, and its shape does not quite match Jared's.
 
-**2. SMALL.** Hal climbs into bed, yawning.
-HAL: "Why am I so tired all of a sudden..."
+**2. SMALL.** Jared lies down on the bed, tired.
+JARED: "Why am I so tired all of a sudden..."
 
 **3. SMALL.** He pulls the blanket up to his chin.
 
@@ -151,7 +151,7 @@ HAL: "Why am I so tired all of a sudden..."
 SFX: "ZZZ"
 
 **5. LARGE.** A pure black panel. Far in the center, one tiny faint light, a glimmer of dawn, grows slowly brighter.
-CAPTION: "And so Hal dreamed."
+CAPTION: "And so Jared dreamed."
 Art note: the light is the banaag, the first glimmer (the chapter title). The dream sequence starts here. DRAFT, the creator will add the details.
 
 ---

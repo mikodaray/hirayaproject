@@ -2,7 +2,7 @@
 
 Status: WORK IN PROGRESS. Pages 1 to 10 are the approved introduction. Pages 11 to 28 are a new draft (2026-11-12) from the creator's outline of the first arc. Pages 29 to 50 are placeholders the creator will fill in a few details at a time. Nothing here is final until the creator confirms it.
 
-CHANGED 2026-11-12: the bamboo tube and the fall into ancient Butuan are taken out of chapter 1. Chapter 1 now introduces the characters and pulls them into the spiritual world of Filipino mythology, starting with Dan Macabebe bullying Hal, Hal waking an Agta, and Jeff's family. The old Butuan draft for pages 11 to 50 is saved in archive-butuan-draft/. Whether Butuan comes back later is OPEN.
+CHANGED 2026-11-12: the bamboo tube and the fall into ancient Butuan are taken out of chapter 1. Chapter 1 now introduces the characters and pulls them into the spiritual world of Filipino mythology, starting with Dan Macabebe bullying Jared Callao, Jared waking an Agta, and Jeff's family. (Changed 2026-11-12: the victim was Hal in the first draft and is now Jared.) The old Butuan draft for pages 11 to 50 is saved in archive-butuan-draft/. Whether Butuan comes back later is OPEN.
 DECIDED by the creator: Chapter 1 is 50 pages, black and white, panels inside each page read left to right (changed 2026-11-08 from right to left, and the pages also go left to right in the web viewer), the first pages introduce the four main characters, the layout should be dynamic with some panels bigger than others, and there should be a one page image for a point or a grand event.
 Everything else here is a DRAFT suggestion.
 
@@ -17,8 +17,8 @@ Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the ea
 
 ## Files
 - pages-01-10.md: the introduction (approved): meet the four, the bully conflict, Jeff's splash, homeroom
-- pages-11-20.md: DRAFT new arc. After school, Dan Macabebe bullies Hal, Hal throws a stone and wakes the Agta, Jeff comes home to his family
-- pages-21-30.md: DRAFT. Dinner, Papa and the jeepney, Hal can't focus, the Agta watches and merges with Hal's shadow, Hal dreams (pages 29 and 30 are placeholders)
+- pages-11-20.md: DRAFT new arc. After school, Dan Macabebe bullies Jared, Jared walks home thinking of his father and throws a stone that wakes the Agta, Jeff comes home to his family
+- pages-21-30.md: DRAFT. Dinner, Papa and the jeepney, Jared at home, the Agta watches and merges with Jared's shadow, Jared dreams (pages 29 and 30 are placeholders)
 - pages-31-40.md and pages-41-50.md: placeholders, to be added
 - archive-butuan-draft/: the old pages 11 to 50 (detention, bamboo tube, Butuan). Kept for reference only
 
@@ -26,13 +26,13 @@ Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the ea
 | Pages | What happens |
 |-------|--------------|
 | 1 to 10 | Introduction (approved) |
-| 11 to 13 | Dan Macabebe bullies Hal, nobody helps |
-| 14 to 15 | Hal walks home, throws a stone, wakes the Agta |
+| 11 to 13 | Dan Macabebe bullies Jared, nobody helps |
+| 14 to 15 | Jared walks home thinking of his father, throws a stone, wakes the Agta |
 | 16 to 19 | Jeff comes home, the twins, dinner with Mama |
 | 20 to 22 | Papa, the jeepney, high marks and Arnis |
-| 23 to 24 | Hal can't focus, what he tells himself |
-| 25 to 27 | The Agta watches, lights out, it merges with Hal's shadow |
-| 28 | Hal sleeps, the dream begins |
+| 23 to 24 | Jared at home, what he tells himself |
+| 25 to 27 | The Agta watches, lights out, it merges with Jared's shadow |
+| 28 | Jared sleeps, the dream begins |
 | 29 to 50 | TO BE ADDED by the creator |
 
 ## One page images
@@ -56,7 +56,7 @@ DECIDED by the creator:
 - The four speak Bisaya at home. The people of Butuan speak an older Bisaya, with words the future no longer uses, so it is hard to understand. This causes funny misunderstandings. All dialogue is written in English.
 
 The bamboo tube is out of the story (2026-11-12).
-New DECIDED facts (2026-11-12): Jeff's father was a Babaylan and retired to raise his kids with his wife, and he is a jeepney driver now. He teaches Jeff Arnis. Jeff has younger twin sisters, Gail and Janelle, age 5, and an older sister who is mentioned later. Dan Macabebe bullies Hal. Hal throws a stone at a tree, wakes an Agta (a mean spirited, demon like entity that preys on hatred and amplifies it), and the Agta merges with Hal's shadow when he goes to bed. Then Hal dreams.
+New DECIDED facts (2026-11-12): Jeff's father was a Babaylan and retired to raise his kids with his wife, and he is a jeepney driver now. He teaches Jeff Arnis. Jeff has younger twin sisters, Gail and Janelle, age 5, and an older sister who is mentioned later. Dan Macabebe bullies Jared Callao, a tall, slender punk student whose father is a drunkard who beats his mother (Jared replaced Hal as the victim on 2026-11-12). Jared walks home with slight bruises, thinks of going home, and throws a stone at a tree (DRAFT) that wakes an Agta (a mean spirited, demon like entity that preys on hatred and amplifies it). The Agta merges with Jared's shadow when he goes to bed. Then Jared dreams.
 
 ## Language rule used in the pages
 - Dialogue is always written in English.

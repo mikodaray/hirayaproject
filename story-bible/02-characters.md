@@ -14,8 +14,9 @@ Each character has their own doc in the `characters/` folder. Copy `characters/_
 | Papa (Jeff's father) | Retired Babaylan, jeepney driver, teaches Jeff Arnis | [jeff-father.md](characters/jeff-father.md) | draft, design to do |
 | Mama (Jeff's mother) | Warm, funny, runs the house | [jeff-mother.md](characters/jeff-mother.md) | draft, design to do |
 | Gail and Janelle | Jeff's 5 year old twin sisters, professional huggers | [gail-and-janelle-victorio.md](characters/gail-and-janelle-victorio.md) | draft, design to do |
-| Dan Macabebe | Big school bully who beats up Hal | [dan-macabebe.md](characters/dan-macabebe.md) | draft, design to do |
-| The Agta | Hatred feeding tree spirit, merges with Hal's shadow | [the-agta.md](characters/the-agta.md) | draft, design to do |
+| Jared Callao | Tall, slender punk student with a hard home life, the Agta moves in on him | [jared-callao.md](characters/jared-callao.md) | draft, design to do |
+| Dan Macabebe | Big school bully who beats up Jared | [dan-macabebe.md](characters/dan-macabebe.md) | draft, design to do |
+| The Agta | Hatred feeding tree spirit, merges with Jared's shadow | [the-agta.md](characters/the-agta.md) | draft, design to do |
 | Tandang Procopio | Old albularyo (village healer), scar over his left eye, tattoos on his right arm | [tandang-procopio.md](characters/tandang-procopio.md) | draft |
 
 ## Supporting cast
@@ -32,5 +33,5 @@ OPEN
 - Nikki: popular, bullies Jeff and Hal, Hal more. Jeff stands up to her.
 - Sir Archie: homeroom teacher of all four.
 - Jeff's family: Papa, Mama, older sister (later), twins Gail and Janelle.
-- Dan Macabebe bullies Hal. The Agta feeds on Hal's hatred.
+- Dan Macabebe bullies Jared Callao. The Agta feeds on Jared's hatred.
 Everything else OPEN.
