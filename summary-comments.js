@@ -3,7 +3,7 @@
 // (needs a one time access token, see the Set up saving panel), so Claude can read the commentary there.
 (function () {
   var REPO = "mikodaray/hirayaproject", PATH = "story-bible/commentary.json", BRANCH = "main";
-  var LS = "hirayaCommentsV1", TK = "hirayaGhToken", SK = "hirayaSheetUrl", SHEET_URL = "https://script.google.com/macros/s/AKfycbz1Bih-S2BRZ2eWDeDN5bn8z2ptBj1MGFRVkvRL_3xRhywsCCWX1RQrIRefNwn3t5ps/exec";
+  var LS = "hirayaCommentsV1", TK = "hirayaGhToken", SK = "hirayaSheetUrl", SHEET_URL = "https://script.google.com/macros/s/AKfycbxMolnJb_KGMV4DEVwlMdUDw5rBy7B6AJNlXcRl-SCYNIx_5ESQcKn5AjxPFNgLYD52/exec";
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); return true; } catch (e) { return false; } }
   function lsDel(k) { try { localStorage.removeItem(k); } catch (e) {} }
