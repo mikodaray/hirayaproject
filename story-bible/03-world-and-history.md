@@ -48,3 +48,4 @@ How names, titles, and terms will be written: OPEN
 - OPEN: whether the bamboo tube is also an Agimat.
 - The full mythos lives in story-bible/mythology/ (rules, the ten Agimats, folklore sources, open questions). Start at story-bible/mythology/00-readme.md.
 - DECIDED: the four main characters speak Bisaya at home. The people of Butuan speak an older Bisaya with words that have since changed or disappeared, so the four only partly understand them and funny misunderstandings happen. All dialogue is written in English.
+- Jeff's family home is LOCKED (creator, 2026-11-12). Full details: story-bible/places/jeff-family-home.md. Reference image: art/places/jeff-family-home-v1.png. Use it for every shot of Jeff's home.
