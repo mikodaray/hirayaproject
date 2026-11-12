@@ -1,7 +1,9 @@
 # Jeff's family home (Victorio house)
 
-Status: LOCKED LOOK. Reference image: art/places/jeff-family-home-v1.png (made by the creator, 2026-11-12). Use it as the image reference for every shot of Jeff's home, inside or out.
-Black and white manga style in the reference. For color pages, keep the same shapes and materials.
+Status: LOCKED LOOK. Two reference images, both made by the creator:
+- Color: art/places/jeff-family-home-color-v1.png (2026-11-13). Use for any color shot, covers and color pages.
+- Black and white: art/places/jeff-family-home-v1.png (2026-11-12). Use for black and white manga pages.
+Both show the same house. See the color section below for the differences between them.
 
 ## What it is
 - The home of Jeff, Mama, Papa, the younger twins Gail and Janelle, and the older sister mentioned later.
@@ -43,3 +45,18 @@ Black and white manga style in the reference. For color pages, keep the same sha
 - Jeepney name and plate confirmed? Jeepney color (the image is black and white).
 - Where is Papa's workshop, the carport only?
 - Interior layout and Jeff's room.
+
+## Color version (art/places/jeff-family-home-color-v1.png)
+Soft anime style, warm late afternoon light, blue sky with white clouds.
+- Colors: warm honey brown timber frame and posts, golden woven bamboo (sawali) wall panels, capiz style shutters with a grid of small panes, red brown roof tiles with wooden eaves and rafters, grey concrete ground floor, dark brown double front door with carved panels, black iron lanterns.
+- Balcony: the covered balcony is on the LEFT of the upper floor, with a wooden baluster railing and a lattice frieze above. Hanging lanterns, hanging and potted plants, light curtains in the doorway. A Philippine flag hangs from the left balcony post.
+- Upper floor right: wide window with open capiz shutters and white curtains.
+- Ground floor: arched concrete porch on the left with the front door and steps, carport on the RIGHT with the jeepney parked inside.
+- Gate and fence: concrete gate pillars, house number 128 on the left pillar, black iron gate with bamboo slats, bamboo fence panel with a wooden sign that reads "Mas Magandang Buhay Dito" with a small heart. Lantern on the right pillar.
+- Garden: banana plants, flowering shrubs (red and pink), potted plants by the steps, coconut palm on the upper right, green mountains behind, a power pole, neighbors' roofs, shade from trees on the concrete driveway. A paved street in front.
+- Jeepney: chrome grille and bumper, colorful painted front with the name PILIPINAS above the windshield, yellow plate reading MANILA.
+
+## Differences between the two images (decide which wins)
+- The color image is not a repaint of the black and white one. The layout is mirrored: balcony and porch on the left, carport on the right in color. In black and white the carport is on the left.
+- Details that only exist in one: color has the flag, the number 128, the bamboo sign "Mas Magandang Buhay Dito" and the jeepney name PILIPINAS with plate MANILA. Black and white has the EST. 2020 sun plaque and the jeepney name BIYAHE TAYO with plate MNL 0724.
+- Suggested rule (OPEN, for the creator to confirm): the COLOR image is the main reference from now on, since it is the finished look. For black and white pages, redraw the color house in black and white, with the carport on the right, number 128, the flag and the sign. Jeepney name PILIPINAS, plate MANILA. The old black and white details (EST. 2020, BIYAHE TAYO, MNL 0724) are dropped unless the creator wants them back.
