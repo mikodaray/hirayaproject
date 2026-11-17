@@ -205,6 +205,9 @@
     for (var n = 2; n <= 50; n++) PAGES.push({ label: "Page " + n, title: "Page " + n, src: null });
     var UTM = "?utm_source=OC-AaBlKuT9h240&utm_campaign=agent_connector_create_image_asset_opened";
     var DRAWN = {4: "MAHZ_G3KuMw", 5: "MAHZ_JIkp_4", 6: "MAHZ_I_rF-Y", 7: "MAHZ_NfAfJ8", 8: "MAHZ_KCDNr0", 9: "MAHZ_GoSWTM", 10: "MAHZ_IUTW7A"};
+    // Pages 11 to 28: generated in Canva on 2026-11-17 from the storyboard. Small preview copies, full size in Canva.
+    var DRAWN2 = {11: "MAHbIi0rS3o", 12: "MAHbIsWiRHQ", 13: "MAHbIql_e5A", 14: "MAHbInh_qRc", 15: "MAHbIgUx1-g", 16: "MAHbIuqjeWg", 17: "MAHbIswXeD0", 18: "MAHbIvOUg2U", 19: "MAHbIrLAOfE", 20: "MAHbIjQkyVU", 21: "MAHbIgUFTg4", 22: "MAHbIriWrqM", 23: "MAHbIny-HUY", 24: "MAHbIo3NN1o", 25: "MAHbIkZMYnA", 26: "MAHbIoLUhyI", 27: "MAHbItWzfoM", 28: "MAHbIvITM2Y"};
+    Object.keys(DRAWN2).forEach(function (n) { DRAWN[n] = DRAWN2[n]; });
     Object.keys(DRAWN).forEach(function (n) {
       PAGES[n] = { label: "Page " + n, title: "Page " + n, src: "art/pages/ch1-page-" + (n < 10 ? "0" : "") + n + "-v1-bw.png", full: "https://www.canva.com/M/" + DRAWN[n] + UTM };
     });

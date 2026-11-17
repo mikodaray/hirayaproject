@@ -79,3 +79,40 @@ summary.html has a comment box for every page group. Drafts autosave in the brow
 
 ## Page prompts for the new arc
 Pages 11 to 28 in art/prompts/ch1-pages-all-with-dialogue.md are generated from the storyboard by tools/build-page-prompts.py. Run it again after the storyboard changes, then run tools/make-pages-bundle.py 1 28. New characters with no sheet (Jared, Dan, the Agta, Papa, Mama, the twins) use a written draft look inside tools/make-pages-bundle.py (NEWCAST) until their sheets exist.
+
+## Generated in Canva on 2026-11-17 (small preview copies here, full size in Canva)
+Draft character sheets, looks by Claude except Jared (the creator's description). Not approved yet.
+
+| File | What | Canva media id |
+|---|---|---|
+| characters/08-jared-callao-sheet-v1-preview.png | Jared Callao sheet, draft | MAHbImL5BfU |
+| characters/09-dan-macabebe-sheet-v1-preview.png | Dan Macabebe sheet, draft | MAHbIjFj3G8 |
+| characters/10-the-agta-sheet-v1-preview.png | The Agta sheet, draft | MAHbIomiYZI |
+| characters/11-papa-sheet-v1-preview.png | Papa sheet, draft | MAHbImGqmuo |
+| characters/12-mama-sheet-v1-preview.png | Mama sheet, draft | MAHbIvSRHo0 |
+| characters/13-gail-and-janelle-sheet-v1-preview.png | Gail and Janelle sheet, draft | MAHbIq7LC-o |
+
+Chapter 1 pages 11 to 28, version 1, black and white, with lettering in the art:
+
+| Page | File | Canva media id |
+|---|---|---|
+| 11 | pages/ch1-page-11-v1-bw.png | MAHbIi0rS3o |
+| 12 | pages/ch1-page-12-v1-bw.png | MAHbIsWiRHQ |
+| 13 | pages/ch1-page-13-v1-bw.png | MAHbIql_e5A |
+| 14 | pages/ch1-page-14-v1-bw.png | MAHbInh_qRc |
+| 15 | pages/ch1-page-15-v1-bw.png | MAHbIgUx1-g |
+| 16 | pages/ch1-page-16-v1-bw.png | MAHbIuqjeWg |
+| 17 | pages/ch1-page-17-v1-bw.png | MAHbIswXeD0 |
+| 18 | pages/ch1-page-18-v1-bw.png | MAHbIvOUg2U |
+| 19 | pages/ch1-page-19-v1-bw.png | MAHbIrLAOfE |
+| 20 | pages/ch1-page-20-v1-bw.png | MAHbIjQkyVU |
+| 21 | pages/ch1-page-21-v1-bw.png | MAHbIgUFTg4 |
+| 22 | pages/ch1-page-22-v1-bw.png | MAHbIriWrqM |
+| 23 | pages/ch1-page-23-v1-bw.png | MAHbIny-HUY |
+| 24 | pages/ch1-page-24-v1-bw.png | MAHbIo3NN1o |
+| 25 | pages/ch1-page-25-v1-bw.png | MAHbIkZMYnA |
+| 26 | pages/ch1-page-26-v1-bw.png | MAHbIoLUhyI |
+| 27 | pages/ch1-page-27-v1-bw.png | MAHbItWzfoM |
+| 28 | pages/ch1-page-28-v1-bw.png | MAHbIvITM2Y |
+
+Reference uploads in Canva: Jeff sheet MAHbIq_IHbQ, page 11 combined MAHbIrPGAj0, school MAHbItXihOY, home plus Jeff MAHbIjudlTg. Page 12 needed gentler wording to pass Canva's content filter.
