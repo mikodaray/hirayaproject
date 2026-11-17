@@ -116,3 +116,8 @@ Chapter 1 pages 11 to 28, version 1, black and white, with lettering in the art:
 | 28 | pages/ch1-page-28-v1-bw.png | MAHbIvITM2Y |
 
 Reference uploads in Canva: Jeff sheet MAHbIq_IHbQ, page 11 combined MAHbIrPGAj0, school MAHbItXihOY, home plus Jeff MAHbIjudlTg. Page 12 needed gentler wording to pass Canva's content filter.
+
+## Image resolution, important
+Canva's image generator returns only a 133x200 thumbnail to Claude in the tool result. The real file in Claude's Canva uploads is 1024x1536. Claude cannot download it, because canva.com is blocked from Claude's shell.
+So any page Claude generates lands here as a blurry 133x200 preview. To get the real file into the repo, the creator downloads it from Canva uploads and sends it to Claude, who then replaces the preview.
+Full size right now: the cover and pages 1 to 5. Previews only: pages 6 to 10, pages 11 to 28, and the six new character sheets.
