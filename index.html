@@ -124,6 +124,17 @@
   .card .todo { color: var(--muted); }
 
 
+  /* Script page: shown for pages that are not drawn yet, built from the storyboard */
+  .script { position: relative; width: min(100%, calc((100vh - 250px) * 2 / 3), 667px); aspect-ratio: 2 / 3; background: #fffdf8; border-radius: 6px; box-shadow: 0 8px 30px rgba(0,0,0,.5); container-type: inline-size; line-height: 1.25; cursor: zoom-in; }
+  body.zoom .script { width: min(100vw, calc(100vh * 2 / 3)); border-radius: 0; cursor: zoom-out; }
+  .script .box { position: absolute; border: 2px solid #1b1612; color: #1b1612; overflow: auto; padding: 1.2cqw 1.5cqw; font-size: max(9px, 2.05cqw); text-align: left; background: #fff; }
+  .script .box b.pn { display: inline-block; background: #1b1612; color: #fff; border-radius: 3px; padding: 0 .5em; margin-right: .4em; font-size: .9em; }
+  .script .box p { margin: 0 0 .35em; }
+  .script .box .say { margin: .25em 0 0; padding: .15em .5em; border: 1px solid #1b1612; border-radius: .8em; background: #fff; }
+  .script .box .cap { margin: .25em 0 0; padding: .15em .4em; border: 1px solid #1b1612; background: #f1e9d8; font-style: italic; }
+  .script .box .sfx { margin: .25em 0 0; font-weight: 800; letter-spacing: .04em; }
+  .script .stamp { position: absolute; right: 1cqw; bottom: .4cqw; font-size: max(8px, 1.6cqw); color: #8a7f72; line-height: 1; }
+  @media (max-width: 640px) { .script { width: min(100%, calc((100vh - 330px) * 2 / 3)); } }
   /* Page frame */
   .page { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
   .page img { display: block; }
@@ -166,7 +177,7 @@
 
   <section id="grid" aria-label="All pages">
     <h2>All pages</h2>
-    <p>Cover first, then pages 1 to 50, in order from left to right. Pages that are not drawn yet show a placeholder.</p>
+    <p>Cover first, then pages 1 to 50, in order from left to right. Pages that are not drawn yet show the storyboard script in the planned panel layout.</p>
     <div class="cards" id="cards"></div>
   </section>
 </main>
@@ -179,6 +190,7 @@
 <button class="zctl" id="zNext" type="button" aria-label="Next page">&#8594;</button>
 <button class="zctl" id="zClose" type="button" aria-label="Close full screen">&#10005;</button>
 <div id="zCount"></div>
+<script src="storyboard-data.js?v=20261117"></script>
 <script>
   // To add or replace an image, edit its entry below, then commit.
   // src: path to the image in this repo, or null if the page is not drawn yet.
@@ -248,7 +260,28 @@
     } else {
       var ph = document.createElement("div");
       ph.className = "placeholder";
-      ph.innerHTML = "<strong>" + p.n + "</strong><div>" + p.label + " is not drawn yet.</div><div>The script for this page is in the storyboard.</div>";
+      var sp = (window.STORY || [])[p.n - 1];
+      if (sp && sp.panels && sp.panels.length) {
+        ph.className = "script";
+        ph.setAttribute("aria-label", p.label + ", storyboard script, not drawn yet");
+        sp.panels.forEach(function (q) {
+          var bx = document.createElement("div"); bx.className = "box"; bx.tabIndex = 0;
+          bx.style.left = q.rect[0] + "%"; bx.style.top = q.rect[1] + "%"; bx.style.width = q.rect[2] + "%"; bx.style.height = q.rect[3] + "%";
+          var d = document.createElement("p"); var nb = document.createElement("b"); nb.className = "pn"; nb.textContent = q.n;
+          d.appendChild(nb); d.appendChild(document.createTextNode(q.desc)); bx.appendChild(d);
+          q.lines.forEach(function (l) {
+            var e = document.createElement("div"); e.className = l.k;
+            var t = l.t.replace(/^"|"$/g, "");
+            e.textContent = l.k === "say" ? l.who + (l.mod ? " (" + l.mod + ")" : "") + ": " + t : l.k === "sfx" ? t : t;
+            bx.appendChild(e);
+          });
+          ph.appendChild(bx);
+        });
+        var stp = document.createElement("div"); stp.className = "stamp"; stp.textContent = "Page " + p.n + ", " + sp.title + ". Storyboard script, not drawn yet.";
+        ph.appendChild(stp);
+      } else {
+        ph.innerHTML = "<strong>" + p.n + "</strong><div>" + p.label + " is not drawn yet.</div><div>The script for this page is in the storyboard.</div>";
+      }
       sheet.appendChild(ph);
     }
     meta.innerHTML = "";
@@ -296,7 +329,7 @@
       c.type = "button"; c.className = "card";
       var t = document.createElement("div"); t.className = "thumb";
       if (p.src) { var im = document.createElement("img"); im.src = p.src; im.alt = ""; im.loading = "lazy"; t.appendChild(im); }
-      else t.textContent = "Not drawn yet";
+      else t.textContent = (window.STORY && STORY[p.n - 1]) ? "Script: " + STORY[p.n - 1].title : "Not drawn yet";
       var s = document.createElement("span"); s.textContent = p.label; if (!p.src) s.className = "todo";
       c.appendChild(t); c.appendChild(s);
       c.addEventListener("click", function () { showGrid(false); go(i); });

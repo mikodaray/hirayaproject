@@ -29,3 +29,8 @@ Updated 2026-11-12. Tick things off as they get done. Items marked (Claude added
 - [ ] Page 1 caption wording (the old one says Nineteen and cool)
 - [ ] Baybayin lines to verify before print
 - [ ] Turn on GitHub Pages (Settings, Pages, branch main, root)
+
+## Added 2026-11-17
+- Review Claude's draft of pages 29 to 50 (dream, the deal, Dan again, Jeff with Arnis, the four pulled into the spirit world). Nothing in it is confirmed.
+- Generate sheets for Jared, Dan, the Agta, Papa, Mama and the twins from art/prompts/02-character-reference-sheets.md (sections 8 to 13), then add them to SHEETS in tools/make-prompt-bundle.py.
+- Open from the draft: the name of the spirit world, what Sir Archie knows, Jared's mother's design, new splash pages 31 and 49.

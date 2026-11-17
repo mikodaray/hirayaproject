@@ -1,6 +1,6 @@
 # Chapter 1 Storyboard: Pages 21 to 30
 
-Status: DRAFT, work in progress (new arc written 2026-11-12 from the creator's outline). Pages 21 to 28 are drafted. Pages 29 and 30 are placeholders for the dream sequence, which the creator will add.
+Status: DRAFT, work in progress (new arc written 2026-11-12 from the creator's outline). Pages 21 to 28 are drafted from the creator's outline. Pages 29 and 30 (the dream) are a DRAFT written by Claude on 2026-11-17 to fill the gap, not confirmed by the creator.
 Panel sizes: WIDE = full width strip, LARGE = about half the page, TALL = vertical strip, SMALL = about one sixth, INSET = tiny panel on top of another.
 Panels inside a page read left to right. Dialogue is spoken in Bisaya, shown in English. Exact lines and page counts are DRAFT suggestions by Claude.
 
@@ -156,14 +156,37 @@ Art note: the light is the banaag, the first glimmer (the chapter title). The dr
 
 ---
 
-## Page 29 (1 panel): Dream sequence, to be added
-Layout: a single panel.
+## Page 29 (4 panels): The dream
+Layout: wide panel, two small panels, a large panel at the bottom.
 
-**1. LARGE.** TO BE ADDED by the creator. Dream sequence.
+**1. WIDE.** Jared opens his eyes inside the dream. He stands in his own kitchen, but everything is gray and stretched, the ceiling too high, the table too long. Empty bottles cover the table.
+CAPTION: "In the dream, the house was bigger. Or he was smaller."
+
+**2. SMALL.** Jared looks at his hands. They are a child's hands. He is seven years old again, in pajamas.
+
+**3. SMALL.** A huge man's shadow fills the wall above him. No face, only the shadow and a bottle in its hand.
+SFX: "THUD THUD"
+
+**4. LARGE.** Little Jared backs into a corner under the giant shadow, arms over his head. The floor behind him is cracking open into pure black.
+JARED: "Stop... please stop..."
+Art note: no violence is shown. The father is only a shadow. This is a memory turned into a nightmare.
 
 ---
 
-## Page 30 (1 panel): To be added
-Layout: a single panel.
+## Page 30 (5 panels): The offer
+Layout: two small panels, a wide panel, two medium panels at the bottom.
 
-**1. LARGE.** TO BE ADDED by the creator.
+**1. SMALL.** A long thin hand reaches out of the black crack in the floor and rests on little Jared's shoulder.
+
+**2. SMALL.** Little Jared turns. Two glowing eyes and a crooked grin float in the dark behind him.
+AGTA: "Poor little thing. Always the small one."
+
+**3. WIDE.** The Agta rises behind him, long and thin, its arms wrapping the corner like smoke. The giant shadow of the father freezes on the wall.
+AGTA: "You hate him. You hate the big boy at school. You hate yourself most of all. I can taste it."
+
+**4. MEDIUM.** Little Jared, trembling, but looking up at the Agta.
+JARED: "Who are you?"
+AGTA: "A friend who was asleep. You woke me with a stone."
+
+**5. MEDIUM.** The Agta holds out its long hand, palm up. A small black flame burns in it.
+AGTA: "Give me the hate. I will make you tall."

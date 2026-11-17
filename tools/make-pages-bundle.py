@@ -115,6 +115,29 @@ PAGE_NOTES.update({
  27: "PAGE 27 NOTES. Jared has no spiked belt and no bracelets. The window glass does not break. ",
  28: "PAGE 28 NOTES. Jared has no spiked belt and no bracelets. Panel 5 is solid black with one tiny point of light in the center. ",
 })
+# ---- Pages 29 to 50: draft by Claude (2026-11-17) ----
+SCHOOL_PAGES |= {34, 37, 38, 39, 40, 41, 42, 43, 44, 45, 50}
+HOME_PAGES |= {33}
+PAGE_CAST.update({29: ['jared'], 30: ['jared','agta'], 31: ['jared','agta'], 32: ['jared'], 33: ['jeff','papa','twins'], 34: ['jeff','hal','mel','nikki','jared'],
+ 35: ['jeff','nikki','archie','jared'], 36: ['hal','archie','jared'], 37: ['jared','dan'], 38: ['jared','dan','agta'], 39: ['jeff','hal','mel','jared','dan','agta'],
+ 40: ['jeff','hal','mel','nikki','jared','dan','agta'], 41: ['jeff','nikki','jared','dan','agta'], 42: ['jeff','agta'], 43: ['jeff','hal','mel','jared','agta'],
+ 44: ['jeff','hal','mel','nikki','jared','agta'], 45: ['jeff','hal','mel','nikki','jared','agta'], 46: ['jeff','hal','mel','nikki'], 47: ['jeff','hal','mel','nikki'],
+ 48: ['jeff','hal','mel','nikki'], 49: ['jeff','hal','mel','nikki'], 50: ['jeff','archie','papa','jared','agta']})
+_path = "the path along the outside wall of Durian City High School, after class, bright afternoon sun"
+SETTING.update({29: "a nightmare version of Jared's kitchen, gray, stretched and too big, with heavy black shadows",
+ 30: "the same nightmare kitchen, with a black crack in the floor", 31: "the nightmare, almost all solid black",
+ 32: "Jared's bedroom in the morning light, then the small kitchen downstairs", 33: "Jeff's family home in the morning, the carport and the front gate, like the attached home reference",
+ 34: "the road to school and the front gate of Durian City High School in the morning", 35: "the homeroom classroom of Durian City High School, with ceiling fans, a blackboard and open windows",
+ 36: "the homeroom classroom of Durian City High School", 37: _path, 38: _path, 39: _path, 40: _path, 41: _path, 42: _path, 43: _path,
+ 44: _path + ", with a pool of black shadow spreading over the ground", 45: _path + ", with a pool of black shadow on the ground",
+ 46: "an endless black void with giant roots, firefly lanterns and one huge eye drifting past", 47: "the black void, then a ceiling of giant leaves, lit by one soft light",
+ 48: "a forest floor of thick glowing moss and giant roots in the spirit world", 49: "the spirit world: a balete tree as big as a mountain under a sky with two low suns and stars",
+ 50: "three places: the empty path by the school wall, the carport of Jeff's family home, and a giant root in the spirit world"})
+PAGE_NOTES.update({29: "PAGE 29 NOTES. In panels 2 to 4 Jared is a seven year old boy in pajamas, with the same long black hair but no nose ring, no tattoos and no spikes. The father is ONLY a shadow on the wall. Show no violence. ",
+ 30: "PAGE 30 NOTES. Jared is the seven year old boy from the dream, with no nose ring, no tattoos and no spikes. ",
+ 32: "PAGE 32 NOTES. Jared's mother is seen only from behind. The father is never seen. ",
+ 38: "PAGE 38 NOTES. No blood and no injury. Dan is scared, not hurt. ", 39: "PAGE 39 NOTES. No blood and no injury. ",
+ 46: "PAGE 46 NOTES. Hal's scream is one long speech bubble. ", 50: "PAGE 50 NOTES. The uniform rule does not apply to Sir Archie or Papa. "})
 PAGE10 = """## Page 10 (6 panels): The lesson
 Layout: medium panel, wide illustrated panel, small panel, medium panel, small panel, small panel.
 
@@ -164,7 +187,7 @@ if __name__ == '__main__':
         if n == 1 or 'FACES:' not in p:
             p = p.replace('\n\nLayout', '\n\nLayout', 1)
         cb = mpb.caption_block(p)
-        p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + mpb.NO_EXTRA_TEXT + intro_block(n, chars) + mpb.VARIED_POSES + mpb.FOCUS_RULE + mpb.crowd_block(p) + CROWD.get(n, '') + PAGE_NOTES.get(n, '') + '\n\n' + EXPR_RULE + EXPR.get(n, '') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
+        p = p.rstrip() + '\n\n' + (cb + '\n\n' if cb else '') + mpb.NO_EXTRA_TEXT + intro_block(n, chars) + mpb.VARIED_POSES + mpb.FOCUS_RULE + mpb.crowd_block(p) + CROWD.get(n, '') + PAGE_NOTES.get(n, '') + '\n\n' + EXPR_RULE + EXPR.get(n, 'Take the emotion of each face from its panel description and its dialogue.') + mpb.JOINTS + '\n\n' + mpb.FINAL_PASS
         lk = mpb.lock_block(chars)
         if lk: p = lk + '\n\n' + p
         items = mpb.ref_items(chars, [SCHOOL] if n in SCHOOL_PAGES else [HOME] if n in HOME_PAGES else [])

@@ -1,6 +1,6 @@
 # Chapter 1: Overview and Page Plan
 
-Status: WORK IN PROGRESS. Pages 1 to 10 are the approved introduction. Pages 11 to 28 are a new draft (2026-11-12) from the creator's outline of the first arc. Pages 29 to 50 are placeholders the creator will fill in a few details at a time. Nothing here is final until the creator confirms it.
+Status: WORK IN PROGRESS. Pages 1 to 10 are the approved introduction. Pages 11 to 28 are a new draft (2026-11-12) from the creator's outline of the first arc. Pages 29 to 50 are a DRAFT written by Claude on 2026-11-17 to fill the empty pages, not confirmed by the creator. Nothing here is final until the creator confirms it.
 
 CHANGED 2026-11-12: the bamboo tube and the fall into ancient Butuan are taken out of chapter 1. Chapter 1 now introduces the characters and pulls them into the spiritual world of Filipino mythology, starting with Dan Macabebe bullying Jared Callao, Jared waking an Agta, and Jeff's family. (Changed 2026-11-12: the victim was Hal in the first draft and is now Jared.) The old Butuan draft for pages 11 to 50 is saved in archive-butuan-draft/. Whether Butuan comes back later is OPEN.
 DECIDED by the creator: Chapter 1 is 50 pages, black and white, panels inside each page read left to right (changed 2026-11-08 from right to left, and the pages also go left to right in the web viewer), the first pages introduce the four main characters, the layout should be dynamic with some panels bigger than others, and there should be a one page image for a point or a grand event.
@@ -33,7 +33,10 @@ Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the ea
 | 23 to 24 | Jared at home, what he tells himself |
 | 25 to 27 | The Agta watches, lights out, it merges with Jared's shadow |
 | 28 | Jared sleeps, the dream begins |
-| 29 to 50 | TO BE ADDED by the creator |
+| 29 to 31 | DRAFT by Claude (2026-11-17): the dream, the Agta's offer, splash of the deal |
+| 32 to 36 | DRAFT by Claude: next morning, the necklace glints, Sir Archie's lesson on tree spirits |
+| 37 to 45 | DRAFT by Claude: Dan again, Jared lifts him, Jeff steps in with Arnis, the shadow pulls the four under |
+| 46 to 50 | DRAFT by Claude: the fall, the banaag light, splash of the spirit world, the hook |
 
 ## One page images
 - Page 7: Jeff catches Nikki's wrist without looking. This proves Jeff is more than the weird folklore kid.
