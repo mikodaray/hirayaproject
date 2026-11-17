@@ -111,7 +111,7 @@ def caption_block(prompt):
 # The creator wants ONE image to attach instead of many. Each character sheet (and the location, and the logo for covers)
 # is placed side by side, with the character or location name written on a label bar above it.
 LABELS = {'jeff': 'JEFF', 'hal': 'HAL BAUTISTA', 'mel': 'MEL', 'nikki': 'NIKKI', 'archie': 'SIR ARCHIE', 'totet': 'TOTET', 'procopio': 'TANDANG PROCOPIO'}
-PLACE_LABELS = {'durian-city-high-school-v1.png': 'DURIAN CITY HIGH SCHOOL', 'hiraya-logo.png': 'HIRAYA LOGO'}
+PLACE_LABELS = {'durian-city-high-school-v1.png': 'DURIAN CITY HIGH SCHOOL', 'jeff-family-home-color-v1.png': "JEFF'S FAMILY HOME", 'hiraya-logo.png': 'HIRAYA LOGO'}
 
 def ref_items(chars, extra=()):
     """List of (label, kind, path): extras first (location or logo), then the characters in cast order."""

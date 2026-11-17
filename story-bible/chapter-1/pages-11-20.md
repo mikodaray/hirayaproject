@@ -99,7 +99,7 @@ SFX: "TOK!"
 JARED: "...That didn't help."
 
 **3. SMALL.** Behind him, the tree is still. Then the dark between the roots seems to breathe. A leaf falls. The wind stops. The air turns cold.
-SFX: "...DOKI"
+SFX: "...TIBOK"
 
 **4. LARGE.** High in the branches, two red eyes open. A long, thin, shadowy figure curls around the branch, a crooked grin full of teeth. It looks down at Jared's back as he walks away.
 CAPTION: "The Agta. A hundred years of sleep, and a very bad mood."
@@ -111,7 +111,7 @@ Art note: DRAFT. The Agta is a mean spirited demon like spirit that preys on hat
 ## Page 16 (5 panels): Jeff comes home
 Layout: wide panel, two small panels, two medium panels at the bottom.
 
-**1. WIDE.** A small house at evening, windows glowing. A jeepney is parked outside with its hood open. A painted slogan on the side reads GOD IS GOOD.
+**1. WIDE.** Jeff's family home at evening, drawn from the home reference: a two storey house with a concrete ground floor, a woven bamboo upper floor, a wooden balcony and a tile gable roof, its windows glowing. Papa's jeepney is parked in the carport with its hood open. The sign above its windshield reads PILIPINAS.
 CAPTION: "Meanwhile."
 
 **2. SMALL.** Jeff opens the door and steps in, bag on his shoulder.
@@ -205,16 +205,16 @@ SFX: "COUGH COUGH"
 ## Page 20 (5 panels): Papa
 Layout: wide panel, two small panels, a large panel and a medium panel at the bottom.
 
-**1. WIDE.** The door at the back of the kitchen swings open. A tall man stands in the doorway, backlit by the yard light, a grease stained towel over his shoulder.
+**1. WIDE.** The door at the back of the kitchen swings open. A tall man stands in the doorway, backlit by the carport light, a grease stained towel over his shoulder.
 SFX: "CREAK"
 
 **2. SMALL.** The man's face: tired eyes, a faint smile, grease smudged on his cheek. A small carved wooden charm hangs from a cord around his neck.
 CAPTION: "Papa. Jeepney driver. Grease is his cologne."
 
-**3. SMALL.** Papa, with a nod toward the yard.
+**3. SMALL.** Papa, with a nod toward the carport.
 PAPA: "Jeff. The jeepney is coughing again. Come help me."
 
-**4. LARGE.** The yard. The jeepney sits with its hood open, a work lamp hanging over the engine. Jeff and Papa lean over the engine side by side, in the same posture, with the same frown.
+**4. LARGE.** The carport of the house. The jeepney sits with its hood open, a work lamp hanging over the engine. Jeff and Papa lean over the engine side by side, in the same posture, with the same frown.
 SFX: "COUGH SPUTTER"
 
 **5. MEDIUM.** Papa hands Jeff a wrench.

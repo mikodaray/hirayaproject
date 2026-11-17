@@ -76,3 +76,6 @@ art/references/combined/ holds the labeled combined reference images made by the
 
 ## Summary page commentary
 summary.html has a comment box for every page group. Drafts autosave in the browser. "Save to repo" writes story-bible/commentary.json (needs a one time fine-grained token with Contents read and write on this repo only). Copy all and Download work without a token.
+
+## Page prompts for the new arc
+Pages 11 to 28 in art/prompts/ch1-pages-all-with-dialogue.md are generated from the storyboard by tools/build-page-prompts.py. Run it again after the storyboard changes, then run tools/make-pages-bundle.py 1 28. New characters with no sheet (Jared, Dan, the Agta, Papa, Mama, the twins) use a written draft look inside tools/make-pages-bundle.py (NEWCAST) until their sheets exist.

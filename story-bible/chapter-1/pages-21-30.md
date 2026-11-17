@@ -30,7 +30,7 @@ PAPA: "Free for what?"
 ## Page 22 (4 panels): Arnis
 Layout: wide panel, two small panels, a large panel at the bottom.
 
-**1. WIDE.** The garage wall. Two worn rattan sticks hang on hooks above a tool bench. Jeff glances at them, then back at his father.
+**1. WIDE.** The back wall of the carport. Two worn rattan sticks hang on hooks above a tool bench. Jeff glances at them, then back at his father.
 JEFF: "Arnis. You promised to teach me the next form."
 
 **2. SMALL.** Papa chuckles and shakes his head.
