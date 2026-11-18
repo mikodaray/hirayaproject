@@ -57,7 +57,7 @@ MAMA, immediately to Papa's right and tucked under his arm, waist up, a middle a
 NIKKI, to Mama's right and a full step apart from her, half a step behind Jeff, a teenager in the white girls uniform with loose wavy hair down her back. Laughing with her head tilted back, one eye winking at the viewer. Her right hand rests on her hip with that arm bent at ONE elbow. Her left arm hangs straight down.
 HAL, on Jeff's right, the shortest, his head at Jeff's chest. Terrified and thrilled at once, eyes huge behind his glasses, mouth open in a shout, looking up at the Agta. Both of his hands are up beside his own face at shoulder height, fingers spread, elbows bent and tucked in, each arm clearly joined to his own shoulder. His hands never rise above the top of his own head. They are ordinary human hands, five fingers each, never metal or mechanical.
 MEL, standing to the right of Hal and NOT behind him, the tallest of the four friends, serene, a soft smile, half closed eyes, his violin under his chin, his left hand on its neck and his right hand drawing the bow. Faint gold music notes drift up. Mel is the ONLY blonde person on the whole cover and appears exactly once, with no second blonde anywhere.
-GAIL, at the bottom left of centre, both arms around Jeff's left leg, cheek against it, grinning up.
+GAIL, at the bottom left, both arms around Jeff's left leg, cheek against it, grinning up.
 JANELLE, at the bottom right of centre, holding up a crayon drawing of a purple haired stick figure in both hands, beaming.
 
 FACES: every face animated, showing the emotion described, head turned and eyes looking where it says. No two characters share an expression. Do not copy the resting faces from the reference sheets.
