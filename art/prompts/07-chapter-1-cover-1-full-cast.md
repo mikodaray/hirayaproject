@@ -11,60 +11,60 @@ Sheets: only Jeff, Hal, Mel, Nikki, Sir Archie, Totet and Tandang Procopio have 
 
 ## Prompt
 ```
-REFERENCE IMAGE: the one attached image has labeled panels: HIRAYA LOGO, JEFF, HAL BAUTISTA, MEL, NIKKI, SIR ARCHIE, TOTET, TANDANG PROCOPIO. Match each name to its panel. Use them for looks only, never for pose or expression. Never draw the labels, borders or sheet layout.
+REFERENCE IMAGE: the attached image has labeled panels: HIRAYA LOGO, JEFF, HAL BAUTISTA, MEL, NIKKI, SIR ARCHIE, TOTET, TANDANG PROCOPIO. Match each name to its panel. Use them for looks only, never for pose or expression. Never draw the labels, borders or sheet layout.
 
 A vertical manga chapter cover, aspect ratio 2:3, full color, hand drawn with bold ink linework and flat cel shading, classic shonen manga cover style like Naruto. Clearly a drawing, not realistic, not 3D. ONE single full bleed illustration, NOT a comic page: no panel borders, no gutters, no inset boxes. Full cast cover: each character below appears exactly once.
 
 CHARACTER LOCK, the seven in the reference image:
-JEFF: messy ube purple hair over one eye, narrow calm eyes, small stone pendant necklace, tall and lean. No glasses.
+JEFF: messy ube purple hair over one eye, narrow calm eyes, small stone pendant necklace, tall and lean.
 HAL BAUTISTA: neat chestnut brown hair, big round black framed glasses, shortest of the friends, an 18 year old body, not childlike.
-MEL: long wavy golden blonde hair, tall and big, gentle looking, brown wooden violin. No glasses.
-NIKKI: long wavy chestnut hair with a side part and a white hair clip, curvy figure drawn naturally and modestly. No glasses.
+MEL: long wavy golden blonde hair, tall, gentle looking, brown wooden violin.
+NIKKI: long wavy chestnut hair, side part, white hair clip, curvy figure drawn naturally and modestly.
 SIR ARCHIE: a teacher. Messy short white hair, thin rectangle glasses, tall, cream shirt under a long brown cardigan, ID lanyard.
-TOTET: glossy black bob with straight bangs, freckles on cheeks and nose, short and petite. No glasses.
-TANDANG PROCOPIO: a very old healer. Short silver hair, white goatee, a scar across his left eye, dense tattoos on his whole right arm only, a beige vest over a dark wrap skirt, barefoot, beaded necklaces.
+TOTET: glossy black bob with straight bangs, freckles, short and petite.
+TANDANG PROCOPIO: very old healer. Short silver hair, white goatee, scar across his left eye, dense tattoos on his right arm only, beige vest over a dark wrap skirt, barefoot, beaded necklaces.
 
 SIX WITH NO PANEL, draw these from the text:
 JARED CALLAO: student, 18, tall and thin. Jet black emo hair to the jaw, heavy fringe over his right eye, pale tired face, dark circles, a small silver ring in his left nostril. Black punk tattoos over his whole RIGHT arm only, left arm bare. Uniform worn punk: untucked, top button open, a spiked black belt, stacks of bracelets.
 DAN MACABEBE: student, the biggest human here, a head taller and twice as wide as Mel, thick neck, round belly, huge hands. Black buzz cut with a shaved line, small mean eyes, wide jaw. Uniform too tight, shirt open over a white undershirt.
-THE AGTA: a folklore spirit, not human. Twice a man's height, extremely long and thin, arms past its knees, long pointed fingers. Its body is one solid matte black shape like a living shadow with smoky edges. No clothes, no nose, no skin detail. Only two features: two round glowing red eyes with no pupils, and a very wide crooked grin of small white pointed teeth. Thin root strands for hair.
-PAPA VICTORIO: Jeff's father, late forties, tall, lean, sun browned. Jeff's face but older: the same narrow calm eyes, short black hair graying at the temples, stubble, tired kind eyes, a grease smudge on one cheek. Faded dark blue work polo, gray work pants, rubber slippers, a grease stained white towel on his left shoulder, a small carved wooden sun charm on a cord.
-MAMA VICTORIO: Jeff's mother, mid forties, soft but strong. Dark brown hair in a low bun with a claw clip, round friendly face, sharp bright eyes. Faded yellow floral house dress with a plain apron, rubber slippers.
+THE AGTA: a folklore spirit, not human. Twice a man's height, very long and thin, arms past its knees, long pointed fingers. Its body is one solid matte black shape like a living shadow with smoky edges. No clothes, no nose, no skin detail. Only two features: two round glowing red eyes with no pupils, and a wide crooked grin of small white pointed teeth. Root strands for hair.
+PAPA VICTORIO: Jeff's father, late forties, tall, lean, sun browned. Jeff's face but older: narrow calm eyes, short black hair graying at the temples, stubble, a grease smudge on one cheek. Faded dark blue work polo, gray work pants, a grease stained white towel on his left shoulder, a small carved wooden sun charm on a cord.
+MAMA VICTORIO: Jeff's mother, mid forties, soft but strong. Dark brown hair in a low bun with a claw clip, round friendly face, sharp bright eyes. Faded yellow floral house dress with a plain apron.
 GAIL and JANELLE VICTORIO: identical twin sisters, five years old, true child proportions, big heads, short limbs, round cheeks. GAIL has two high pigtails with red ties and a plain red sleeveless dress. JANELLE has one side ponytail with a yellow tie and a yellow and white striped sleeveless dress.
 
-HEAD COUNT: exactly 14 characters appear, and all 14 must be present. Jeff, Hal, Mel, Nikki, Jared, the Agta, Dan, Papa, Mama, Gail, Janelle, Sir Archie, Totet, Tandang Procopio. Count them before finishing. Nikki and Mama are two different women in two different places and must BOTH appear. Never merge them into one woman.
+HEAD COUNT: exactly 14 characters, each drawn ONCE, none duplicated or cloned: Jeff, Hal, Mel, Nikki, Jared, the Agta, Dan, Papa, Mama, Gail, Janelle, Sir Archie, Totet, Tandang Procopio. Count them before finishing. Nikki and Mama are two different women and must both appear, never merged into one.
 
-SIZES, tallest first: the Agta, Dan, Mel, Papa, Jeff, Mama, Sir Archie, Jared, Nikki, Hal and Totet (both short), Procopio (stooped), then the twins, who only reach Jeff's thigh.
-UNIFORMS: Jeff, Hal, Mel, Jared and Dan wear the boys uniform, a blue short sleeved buttoned shirt, khaki pants, black shoes. Nikki and Totet wear the girls uniform, a white blouse and a white skirt. Sir Archie, Procopio, Papa, Mama and the twins wear no uniform. Only Hal and Sir Archie wear glasses.
+SIZES, tallest first: the Agta, Dan, Mel, Papa, Jeff, Mama, Sir Archie, Jared, Nikki, Hal and Totet (both short), Procopio, then the twins, who reach Jeff's thigh.
+UNIFORMS: Jeff, Hal, Mel, Jared and Dan wear the boys uniform, a blue short sleeved shirt, khaki pants, black shoes. Nikki and Totet wear the girls uniform, white blouse and white skirt. Sir Archie, Procopio, Papa, Mama and the twins wear no uniform. Only Hal and Sir Archie wear glasses.
 
-COMPOSITION, a low angle shot in four layers, back to front.
+COMPOSITION, a low angle shot, four layers back to front.
 
-TOP: THE AGTA fills the upper third, rising behind everyone, its two long arms spread wide and curving down the left and right edges as if about to close around the whole group. Only its head, shoulders and arms show, the rest dissolves into smoke. Its red eyes and white grin are the sharpest marks up there. Nobody below sees it except Jared.
+TOP: THE AGTA fills the upper third, rising behind everyone, its two long arms spread wide and curving down the left and right edges as if about to close around the group. Only its head, shoulders and arms show, the rest dissolves into smoke. Its red eyes and white grin are the sharpest marks up there. Nobody below sees it except Jared.
 
-BEHIND THE GROUP, framed between its arms: a tear in the air. Left of the tear, a Durian City street at dusk with a jeepney, power lines and a concrete school wall. Right of the tear, the spirit world: a balete tree as big as a mountain with hanging roots, rivers of fireflies, and a sky holding two low suns and stars at once.
+BEHIND THE GROUP, framed between its arms: a tear in the air. Left of it, a Durian City street at dusk with a jeepney, power lines and a concrete school wall. Right of it, the spirit world: a balete tree as big as a mountain with hanging roots, rivers of fireflies, and a sky holding two low suns and stars at once.
 
-MIDDLE BAND, waist up, smaller than the front group:
+MIDDLE BAND, waist up, smaller than the front row:
 JARED, on the right, turned three quarters away, looking back over his shoulder at the viewer with a hollow stare. Left arm straight down, right hand in his pocket so the tattooed arm shows. His shadow behind him is wrong: long, thin, wearing the Agta's grin, joining the Agta's smoke above.
 DAN, far right behind Jared, arms folded, one shoulder forward, scowling down at the viewer.
 SIR ARCHIE, on the left, calm and knowing, his right hand holding a black coffee thermos at chest height, his left hand in his cardigan pocket, looking up at the Agta.
 TOTET, beside him, both hands holding a notebook to her chest, chin up, eyes bright and curious.
 TANDANG PROCOPIO, far left, stooped, a plain wooden staff in his right hand, his left hand raised palm out close to his own chest as if warding it off, also looking up at the Agta. Keep both of his arms close to his own body so neither reads as belonging to Sir Archie. Only his right arm is tattooed.
 
-FRONT GROUP, largest and closest, standing on the street. Read the row left to right as you look at the cover: PAPA, MAMA, NIKKI, GAIL, JEFF in the centre, JANELLE, HAL, with MEL behind Hal. Each of the eight has their own space in that row and nobody is dropped or merged into a neighbour.
+FRONT ROW, largest and closest, on the street, left to right as you look at the cover: PAPA, MAMA, NIKKI, GAIL, JEFF in the centre, JANELLE, HAL, MEL. Each of the eight has their own space in that row, standing side by side, and nobody is dropped, cloned or merged into a neighbour.
 JEFF, centre, a hero shot. Fierce, a bold grin, both eyes on the viewer. His right arm is raised and bent at ONE elbow, holding a short rattan Arnis stick upright beside his head. His left arm hangs straight down and open. His pendant blazes gold on his chest, the only light pushing back the Agta's dark.
 PAPA, far left of the row, waist up, a wrench in his right hand resting on his shoulder, his left arm around Mama's shoulders, a proud tired smile, watching Jeff and not the camera.
 MAMA, immediately to Papa's right and tucked under his arm, waist up, a middle aged woman, clearly older than the students and clearly not in a school uniform. Her right hand is raised beside her shoulder holding a metal soup ladle like a pointer, her left hand rests on her hip. A warm bossy smile, also watching Jeff. She is the only character in a yellow floral house dress and apron, and the only one with her hair in a bun.
 NIKKI, to Mama's right and a full step apart from her, half a step behind Jeff, a teenager in the white girls uniform with loose wavy hair down her back. Laughing with her head tilted back, one eye winking at the viewer. Her right hand rests on her hip with that arm bent at ONE elbow. Her left arm hangs straight down.
-HAL, on Jeff's right, the shortest, his head at Jeff's chest. Terrified and thrilled at once, eyes huge behind his glasses, mouth open in a shout, looking up at the Agta. Both arms raised straight above his head, both hands open and empty. Hal's arms and hands are ordinary human flesh from shoulder to fingertip, five fingers each, never metal and never mechanical.
-MEL, behind Hal, the tallest of the four friends, serene, a soft smile, half closed eyes, his violin under his chin, his left hand on its neck and his right hand drawing the bow. Faint gold music notes drift up.
+HAL, on Jeff's right, the shortest, his head at Jeff's chest. Terrified and thrilled at once, eyes huge behind his glasses, mouth open in a shout, looking up at the Agta. Both of his hands are up beside his own face at shoulder height, fingers spread, elbows bent and tucked in, each arm clearly joined to his own shoulder. His hands never rise above the top of his own head. They are ordinary human hands, five fingers each, never metal or mechanical.
+MEL, standing to the right of Hal and NOT behind him, the tallest of the four friends, serene, a soft smile, half closed eyes, his violin under his chin, his left hand on its neck and his right hand drawing the bow. Faint gold music notes drift up. Mel is the ONLY blonde person on the whole cover and appears exactly once, with no second blonde anywhere.
 GAIL, at the bottom left of centre, both arms around Jeff's left leg, cheek against it, grinning up.
-JANELLE, at the bottom right of centre, holding up a crayon drawing of a purple haired stick figure in both hands, beaming at the viewer.
+JANELLE, at the bottom right of centre, holding up a crayon drawing of a purple haired stick figure in both hands, beaming.
 
-FACES: every face animated, showing the exact emotion described, head turned and eyes looking where it says. No two characters share an expression. Do not copy the resting faces from the reference sheets.
+FACES: every face animated, showing the emotion described, head turned and eyes looking where it says. No two characters share an expression. Do not copy the resting faces from the reference sheets.
 
-TEXT: at the top use the attached HIRAYA logo exactly as it is, the same gold letters, outline and sun symbol, only scaled, spelled H I R A Y A, never redrawn or restyled. Under it a smaller subtitle reading exactly Chapter 1: Banaag with no full stop at the end. In the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray with no full stop at the end. No other text, no name labels, no readable words on the jeepney or the wall.
+TEXT: at the top use the attached HIRAYA logo exactly as it is, the same gold letters, outline and sun symbol, only scaled, spelled H I R A Y A, never redrawn or restyled. Under it a smaller subtitle reading exactly Chapter 1: Banaag and in the bottom left corner small neat credit text reading exactly Authored by Claude and Miko Daray. Neither of those two lines ends in a full stop. No other text, no name labels, no readable words on the jeepney or the wall.
 
-ANATOMY: every person has exactly two arms, two hands with five fingers each, and two legs. Every arm has exactly two segments joined at exactly ONE elbow, with the shoulder beside the neck, and every leg has one knee. No three segment arms, no second elbow, no third arm, no extra, missing or merged hands or fingers. The Agta also has two arms and two hands, long fingers but five per hand. Avoid robot arms, prosthetic limbs, metal or mechanical hands on any character, ancient warrior costumes, spears, swords, a second Agta, duplicated characters, comic panel borders or gutters, realistic, 3D or photographic rendering, gore, a redrawn logo, misspelled text, and copies of any existing characters.
+ANATOMY: every person has exactly two arms, two hands with five fingers each, and two legs. Every arm has two segments joined at exactly ONE elbow and starts at a visible shoulder, and every leg has one knee. No three segment arms, no second elbow, no third arm, no extra, missing or merged hands or fingers. The Agta also has two arms and two hands, five fingers each. Avoid any duplicated or cloned character, two of the same face, two blonde people, loose arms or hands that do not join a visible shoulder, robot arms, prosthetic limbs, metal or mechanical hands, ancient warrior costumes, spears, swords, a second Agta, duplicated characters, comic panel borders or gutters, realistic, 3D or photographic rendering, gore, a redrawn logo, misspelled text, and copies of any existing characters.
 
 Final anatomy pass before rendering: inspect every visible character and remove any extra limbs, extra fingers, duplicate hands, merged hands, phantom hands, or malformed joints.
 ```
