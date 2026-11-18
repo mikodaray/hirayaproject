@@ -32,6 +32,8 @@ PAPA VICTORIO: Jeff's father, late forties, tall, lean, sun browned. Jeff's face
 MAMA VICTORIO: Jeff's mother, mid forties, soft but strong. Dark brown hair in a low bun with a claw clip, round friendly face, sharp bright eyes. Faded yellow floral house dress with a plain apron, rubber slippers.
 GAIL and JANELLE VICTORIO: identical twin sisters, five years old, true child proportions, big heads, short limbs, round cheeks. GAIL has two high pigtails with red ties and a plain red sleeveless dress. JANELLE has one side ponytail with a yellow tie and a yellow and white striped sleeveless dress.
 
+HEAD COUNT: exactly 14 characters appear, and all 14 must be present. Jeff, Hal, Mel, Nikki, Jared, the Agta, Dan, Papa, Mama, Gail, Janelle, Sir Archie, Totet, Tandang Procopio. Count them before finishing. Nikki and Mama are two different women and must both appear: Nikki is a teenage student in the white girls uniform standing near Jeff, Mama is a middle aged woman in a yellow floral house dress and apron holding a ladle, standing beside Papa. Never merge them into one woman.
+
 SIZES, tallest first: the Agta, Dan, Mel, Papa, Jeff, Mama, Sir Archie, Jared (tall but thin), Nikki, Hal and Totet (both short), Procopio (old and stooped), then the twins, who only reach Jeff's thigh.
 UNIFORMS: Jeff, Hal, Mel, Jared and Dan wear the boys uniform, a blue short sleeved buttoned shirt, khaki pants, black shoes. Nikki and Totet wear the girls uniform, a white blouse and a white skirt. Sir Archie, Procopio, Papa, Mama and the twins wear no uniform. Only Hal and Sir Archie wear glasses.
 
@@ -60,7 +62,7 @@ JANELLE, at the bottom center right, holding up a crayon drawing of a purple hai
 
 FACES: every face animated, showing the exact emotion described, head turned and eyes looking where it says. No two characters share an expression. Do not copy the resting faces from the reference sheets.
 
-TEXT: at the top use the attached HIRAYA logo exactly as it is, the same gold letters, outline and sun symbol, only scaled, spelled H I R A Y A, never redrawn or restyled. Under it a smaller subtitle reading exactly Chapter 1: Banaag. In the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray. No other text, no name labels, no readable words on the jeepney or the wall.
+TEXT: at the top use the attached HIRAYA logo exactly as it is, the same gold letters, outline and sun symbol, only scaled, spelled H I R A Y A, never redrawn or restyled. Under it a smaller subtitle reading exactly Chapter 1: Banaag with no full stop at the end. In the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray with no full stop at the end. No other text, no name labels, no readable words on the jeepney or the wall.
 
 ANATOMY: every person has exactly two arms, two hands with five fingers each, and two legs. Every arm has exactly two segments joined at exactly ONE elbow, with the shoulder beside the neck, and every leg has one knee. No three segment arms, no second elbow, no third arm, no extra, missing or merged hands or fingers. The Agta also has two arms and two hands, long fingers but five per hand. Avoid robot arms, prosthetic limbs, metal or mechanical hands on any character, ancient warrior costumes, spears, swords, a second Agta, duplicated characters, comic panel borders or gutters, realistic, 3D or photographic rendering, blurry results, ninja outfits, headbands, gore, a redrawn logo, misspelled text, and copies of any existing characters.
 
