@@ -13,7 +13,7 @@ Sheets: only Jeff, Hal, Mel, Nikki, Sir Archie, Totet and Tandang Procopio have 
 ```
 REFERENCE IMAGE: the one attached image has labeled panels: HIRAYA LOGO, JEFF, HAL BAUTISTA, MEL, NIKKI, SIR ARCHIE, TOTET, TANDANG PROCOPIO. Match each name to its panel. Use them for looks only, never for pose or expression. Never draw the labels, borders or sheet layout.
 
-A vertical manga chapter cover, aspect ratio 2:3, full color, hand drawn with bold ink linework and flat cel shading, classic shonen manga cover style like Naruto. Clearly a drawing, not realistic, not 3D. ONE single full bleed illustration, NOT a comic page: no panel borders, no gutters, no inset boxes. Full cast cover: each character below appears exactly once, and no extra people.
+A vertical manga chapter cover, aspect ratio 2:3, full color, hand drawn with bold ink linework and flat cel shading, classic shonen manga cover style like Naruto. Clearly a drawing, not realistic, not 3D. ONE single full bleed illustration, NOT a comic page: no panel borders, no gutters, no inset boxes. Full cast cover: each character below appears exactly once.
 
 CHARACTER LOCK, the seven in the reference image:
 JEFF: messy ube purple hair over one eye, narrow calm eyes, small stone pendant necklace, tall and lean. No glasses.
@@ -64,7 +64,7 @@ FACES: every face animated, showing the exact emotion described, head turned and
 
 TEXT: at the top use the attached HIRAYA logo exactly as it is, the same gold letters, outline and sun symbol, only scaled, spelled H I R A Y A, never redrawn or restyled. Under it a smaller subtitle reading exactly Chapter 1: Banaag with no full stop at the end. In the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray with no full stop at the end. No other text, no name labels, no readable words on the jeepney or the wall.
 
-ANATOMY: every person has exactly two arms, two hands with five fingers each, and two legs. Every arm has exactly two segments joined at exactly ONE elbow, with the shoulder beside the neck, and every leg has one knee. No three segment arms, no second elbow, no third arm, no extra, missing or merged hands or fingers. The Agta also has two arms and two hands, long fingers but five per hand. Avoid robot arms, prosthetic limbs, metal or mechanical hands on any character, ancient warrior costumes, spears, swords, a second Agta, duplicated characters, comic panel borders or gutters, realistic, 3D or photographic rendering, blurry results, ninja outfits, headbands, gore, a redrawn logo, misspelled text, and copies of any existing characters.
+ANATOMY: every person has exactly two arms, two hands with five fingers each, and two legs. Every arm has exactly two segments joined at exactly ONE elbow, with the shoulder beside the neck, and every leg has one knee. No three segment arms, no second elbow, no third arm, no extra, missing or merged hands or fingers. The Agta also has two arms and two hands, long fingers but five per hand. Avoid robot arms, prosthetic limbs, metal or mechanical hands on any character, ancient warrior costumes, spears, swords, a second Agta, duplicated characters, comic panel borders or gutters, realistic, 3D or photographic rendering, gore, a redrawn logo, misspelled text, and copies of any existing characters.
 
 Final anatomy pass before rendering: inspect every visible character and remove any extra limbs, extra fingers, duplicate hands, merged hands, phantom hands, or malformed joints.
 ```
