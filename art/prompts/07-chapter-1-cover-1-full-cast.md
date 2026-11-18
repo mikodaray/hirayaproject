@@ -11,9 +11,9 @@ Sheets: only Jeff, Hal, Mel, Nikki, Sir Archie, Totet and Tandang Procopio have 
 
 ## Prompt
 ```
-REFERENCE IMAGE: the one attached image has labeled panels: HIRAYA LOGO, JEFF, HAL BAUTISTA, MEL, NIKKI, SIR ARCHIE, TOTET, TANDANG PROCOPIO. Match each name to its panel. Use them for looks only, never for pose or expression. Never draw the labels, the panel borders or the sheet layout.
+REFERENCE IMAGE: the one attached image has labeled panels: HIRAYA LOGO, JEFF, HAL BAUTISTA, MEL, NIKKI, SIR ARCHIE, TOTET, TANDANG PROCOPIO. Match each name to its panel. Use them for looks only, never for pose or expression. Never draw the labels, borders or sheet layout.
 
-A vertical manga chapter cover, aspect ratio 2:3, full color, hand drawn with bold ink linework and flat cel shading, classic shonen manga cover style like Naruto. Clearly a drawing, not realistic, not 3D, not photographic. ONE single full bleed illustration, NOT a comic page: no panel borders, no gutters, no inset boxes. Full cast cover: each character below appears exactly once, and no extra people.
+A vertical manga chapter cover, aspect ratio 2:3, full color, hand drawn with bold ink linework and flat cel shading, classic shonen manga cover style like Naruto. Clearly a drawing, not realistic, not 3D. ONE single full bleed illustration, NOT a comic page: no panel borders, no gutters, no inset boxes. Full cast cover: each character below appears exactly once, and no extra people.
 
 CHARACTER LOCK, the seven in the reference image:
 JEFF: messy ube purple hair over one eye, narrow calm eyes, small stone pendant necklace, tall and lean. No glasses.
@@ -22,7 +22,7 @@ MEL: long wavy golden blonde hair, tall and big, gentle looking, brown wooden vi
 NIKKI: long wavy chestnut hair with a side part and a white hair clip, curvy figure drawn naturally and modestly. No glasses.
 SIR ARCHIE: a teacher. Messy short white hair, thin rectangle glasses, tall, cream shirt under a long brown cardigan, ID lanyard.
 TOTET: glossy black bob with straight bangs, freckles on cheeks and nose, short and petite. No glasses.
-TANDANG PROCOPIO: a very old village healer. Short silver hair, white goatee, a scar across his left eye, dense tattoos over his whole right arm, a beige vest over a dark wrap skirt, barefoot, beaded necklaces.
+TANDANG PROCOPIO: a very old healer. Short silver hair, white goatee, a scar across his left eye, dense tattoos on his whole right arm only, a beige vest over a dark wrap skirt, barefoot, beaded necklaces.
 
 SIX WITH NO PANEL, draw these from the text:
 JARED CALLAO: student, 18, tall and thin. Jet black emo hair to the jaw, heavy fringe over his right eye, pale tired face, dark circles, a small silver ring in his left nostril. Black punk tattoos over his whole RIGHT arm only, left arm bare. Uniform worn punk: untucked, top button open, a spiked black belt, stacks of bracelets.
@@ -32,9 +32,9 @@ PAPA VICTORIO: Jeff's father, late forties, tall, lean, sun browned. Jeff's face
 MAMA VICTORIO: Jeff's mother, mid forties, soft but strong. Dark brown hair in a low bun with a claw clip, round friendly face, sharp bright eyes. Faded yellow floral house dress with a plain apron, rubber slippers.
 GAIL and JANELLE VICTORIO: identical twin sisters, five years old, true child proportions, big heads, short limbs, round cheeks. GAIL has two high pigtails with red ties and a plain red sleeveless dress. JANELLE has one side ponytail with a yellow tie and a yellow and white striped sleeveless dress.
 
-HEAD COUNT: exactly 14 characters appear, and all 14 must be present. Jeff, Hal, Mel, Nikki, Jared, the Agta, Dan, Papa, Mama, Gail, Janelle, Sir Archie, Totet, Tandang Procopio. Count them before finishing. Nikki and Mama are two different women and must both appear: Nikki is a teenage student in the white girls uniform standing near Jeff, Mama is a middle aged woman in a yellow floral house dress and apron holding a ladle, standing beside Papa. Never merge them into one woman.
+HEAD COUNT: exactly 14 characters appear, and all 14 must be present. Jeff, Hal, Mel, Nikki, Jared, the Agta, Dan, Papa, Mama, Gail, Janelle, Sir Archie, Totet, Tandang Procopio. Count them before finishing. Nikki and Mama are two different women in two different places and must BOTH appear. Never merge them into one woman.
 
-SIZES, tallest first: the Agta, Dan, Mel, Papa, Jeff, Mama, Sir Archie, Jared (tall but thin), Nikki, Hal and Totet (both short), Procopio (old and stooped), then the twins, who only reach Jeff's thigh.
+SIZES, tallest first: the Agta, Dan, Mel, Papa, Jeff, Mama, Sir Archie, Jared, Nikki, Hal and Totet (both short), Procopio (stooped), then the twins, who only reach Jeff's thigh.
 UNIFORMS: Jeff, Hal, Mel, Jared and Dan wear the boys uniform, a blue short sleeved buttoned shirt, khaki pants, black shoes. Nikki and Totet wear the girls uniform, a white blouse and a white skirt. Sir Archie, Procopio, Papa, Mama and the twins wear no uniform. Only Hal and Sir Archie wear glasses.
 
 COMPOSITION, a low angle shot in four layers, back to front.
@@ -50,15 +50,15 @@ SIR ARCHIE, on the left, calm and knowing, his right hand holding a black coffee
 TOTET, beside him, both hands holding a notebook to her chest, chin up, eyes bright and curious.
 TANDANG PROCOPIO, far left, stooped, a plain wooden staff in his right hand, his left hand raised palm out close to his own chest as if warding it off, also looking up at the Agta. Keep both of his arms close to his own body so neither reads as belonging to Sir Archie. Only his right arm is tattooed.
 
-FRONT GROUP, largest and closest, standing on the street:
-JEFF, center, a hero shot. Fierce, a bold grin, both eyes on the viewer. His right arm is raised and bent at ONE elbow, holding a short rattan Arnis stick upright beside his head. His left arm hangs straight down and open. His pendant blazes gold on his chest, the only light pushing back the Agta's dark.
-NIKKI, on Jeff's left as you look at it, half a step back, laughing with her head tilted back, one eye winking at the viewer. Her right hand rests on her hip with that arm bent at ONE elbow. Her left arm hangs straight down.
-HAL, on Jeff's right, the shortest, his head at Jeff's chest. Terrified and thrilled at once, eyes huge behind his glasses, mouth open in a shout, looking up at the Agta. Both arms raised straight above his head, both hands open and empty. Hal's arms and hands are ordinary human flesh from shoulder to fingertip, five fingers each, never metal and never mechanical. If a robot appears, it is a separate boxy toy robot held by its body in his right hand, never attached to his wrist or arm.
-MEL, behind Hal, the tallest of the four, serene, a soft smile, half closed eyes, his violin under his chin, his left hand on its neck and his right hand drawing the bow. Faint gold music notes drift up.
-PAPA, lower left, waist up, a wrench in his right hand resting on his shoulder, his left hand on Mama's back, a proud tired smile, watching Jeff and not the camera.
-MAMA, beside him, a metal ladle raised in her right hand like a pointer, her left hand on her hip, a warm bossy smile, also watching Jeff.
-GAIL, at the bottom center left, both arms around Jeff's left leg, cheek against it, grinning up.
-JANELLE, at the bottom center right, holding up a crayon drawing of a purple haired stick figure in both hands, beaming at the viewer.
+FRONT GROUP, largest and closest, standing on the street. Read the row left to right as you look at the cover: PAPA, MAMA, NIKKI, GAIL, JEFF in the centre, JANELLE, HAL, with MEL behind Hal. Each of the eight has their own space in that row and nobody is dropped or merged into a neighbour.
+JEFF, centre, a hero shot. Fierce, a bold grin, both eyes on the viewer. His right arm is raised and bent at ONE elbow, holding a short rattan Arnis stick upright beside his head. His left arm hangs straight down and open. His pendant blazes gold on his chest, the only light pushing back the Agta's dark.
+PAPA, far left of the row, waist up, a wrench in his right hand resting on his shoulder, his left arm around Mama's shoulders, a proud tired smile, watching Jeff and not the camera.
+MAMA, immediately to Papa's right and tucked under his arm, waist up, a middle aged woman, clearly older than the students and clearly not in a school uniform. Her right hand is raised beside her shoulder holding a metal soup ladle like a pointer, her left hand rests on her hip. A warm bossy smile, also watching Jeff. She is the only character in a yellow floral house dress and apron, and the only one with her hair in a bun.
+NIKKI, to Mama's right and a full step apart from her, half a step behind Jeff, a teenager in the white girls uniform with loose wavy hair down her back. Laughing with her head tilted back, one eye winking at the viewer. Her right hand rests on her hip with that arm bent at ONE elbow. Her left arm hangs straight down.
+HAL, on Jeff's right, the shortest, his head at Jeff's chest. Terrified and thrilled at once, eyes huge behind his glasses, mouth open in a shout, looking up at the Agta. Both arms raised straight above his head, both hands open and empty. Hal's arms and hands are ordinary human flesh from shoulder to fingertip, five fingers each, never metal and never mechanical.
+MEL, behind Hal, the tallest of the four friends, serene, a soft smile, half closed eyes, his violin under his chin, his left hand on its neck and his right hand drawing the bow. Faint gold music notes drift up.
+GAIL, at the bottom left of centre, both arms around Jeff's left leg, cheek against it, grinning up.
+JANELLE, at the bottom right of centre, holding up a crayon drawing of a purple haired stick figure in both hands, beaming at the viewer.
 
 FACES: every face animated, showing the exact emotion described, head turned and eyes looking where it says. No two characters share an expression. Do not copy the resting faces from the reference sheets.
 
