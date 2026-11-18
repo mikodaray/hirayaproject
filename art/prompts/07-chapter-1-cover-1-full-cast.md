@@ -1,6 +1,6 @@
 # Chapter 1 cover 1 prompt, version 6: the full cast
 
-Status: DRAFT v6, 2026-11-18, made at the creator's request: "all the characters that we've mentioned so far", as one complete prompt.
+Status: DRAFT v6, 2026-11-18. Condensed on request to under 10000 characters (8732). The longer first draft is in git history., made at the creator's request: "all the characters that we've mentioned so far", as one complete prompt.
 Aspect ratio: 2:3 portrait, full color (covers stay in color, see art/ART-STYLE.md).
 
 What changed from v3 (the warriors cover): v3 put four characters in ancient Filipino warrior costumes at the river port of Butuan. Butuan and the warrior arc were taken out of arc 1 on 2026-11-12, so this version shows the story as it now stands: the modern day cast in Durian City, with the Agta looming over them and the spirit world opening behind. If the creator still wants the warrior look, see Variant B at the bottom.
@@ -10,6 +10,61 @@ All 14 characters, in cover order: Jeff, Hal, Mel, Nikki, Jared, the Agta, Dan, 
 Sheets: only Jeff, Hal, Mel, Nikki, Sir Archie, Totet and Tandang Procopio have full size sheets, so only those go in the combined reference image. Jared, Dan, the Agta, Papa, Mama and the twins are written out in full in the prompt, because their sheets in this repo are 133x200 previews (see the resolution note in art/README.md). Once the creator sends the full size sheets, rebuild this bundle with all 13 panels in the reference image.
 
 ## Prompt
+```
+REFERENCE IMAGE: the one attached image has labeled panels: HIRAYA LOGO, JEFF, HAL BAUTISTA, MEL, NIKKI, SIR ARCHIE, TOTET, TANDANG PROCOPIO. Match each name to its panel. Use them for looks only, never for pose or expression. Never draw the labels, the panel borders or the sheet layout.
+
+A vertical manga chapter cover, aspect ratio 2:3, full color, hand drawn with bold ink linework and flat cel shading, classic shonen manga cover style like Naruto. Clearly a drawing, not realistic, not 3D, not photographic. ONE single full bleed illustration, NOT a comic page: no panel borders, no gutters, no inset boxes. Full cast cover: each character below appears exactly once, and no extra people.
+
+CHARACTER LOCK, the seven in the reference image:
+JEFF: messy ube purple hair over one eye, narrow calm eyes, small stone pendant necklace, tall and lean. No glasses.
+HAL BAUTISTA: neat chestnut brown hair, big round black framed glasses, shortest of the friends, an 18 year old body, not childlike.
+MEL: long wavy golden blonde hair, tall and big, gentle looking, brown wooden violin. No glasses.
+NIKKI: long wavy chestnut hair with a side part and a white hair clip, curvy figure drawn naturally and modestly. No glasses.
+SIR ARCHIE: a teacher. Messy short white hair, thin rectangle glasses, tall, cream shirt under a long brown cardigan, ID lanyard.
+TOTET: glossy black bob with straight bangs, freckles on cheeks and nose, short and petite. No glasses.
+TANDANG PROCOPIO: a very old village healer. Short silver hair, white goatee, a scar across his left eye, dense tattoos over his whole right arm, a beige vest over a dark wrap skirt, barefoot, beaded necklaces.
+
+SIX WITH NO PANEL, draw these from the text:
+JARED CALLAO: student, 18, tall and thin. Jet black emo hair to the jaw, heavy fringe over his right eye, pale tired face, dark circles, a small silver ring in his left nostril. Black punk tattoos over his whole RIGHT arm only, left arm bare. Uniform worn punk: untucked, top button open, a spiked black belt, stacks of bracelets.
+DAN MACABEBE: student, the biggest human here, a head taller and twice as wide as Mel, thick neck, round belly, huge hands. Black buzz cut with a shaved line, small mean eyes, wide jaw. Uniform too tight, shirt open over a white undershirt.
+THE AGTA: a folklore spirit, not human. Twice a man's height, extremely long and thin, arms past its knees, long pointed fingers. Its body is one solid matte black shape like a living shadow with smoky edges. No clothes, no nose, no skin detail. Only two features: two round glowing red eyes with no pupils, and a very wide crooked grin of small white pointed teeth. Thin root strands for hair.
+PAPA VICTORIO: Jeff's father, late forties, tall, lean, sun browned. Jeff's face but older: the same narrow calm eyes, short black hair graying at the temples, stubble, tired kind eyes, a grease smudge on one cheek. Faded dark blue work polo, gray work pants, rubber slippers, a grease stained white towel on his left shoulder, a small carved wooden sun charm on a cord.
+MAMA VICTORIO: Jeff's mother, mid forties, soft but strong. Dark brown hair in a low bun with a claw clip, round friendly face, sharp bright eyes. Faded yellow floral house dress with a plain apron, rubber slippers.
+GAIL and JANELLE VICTORIO: identical twin sisters, five years old, true child proportions, big heads, short limbs, round cheeks. GAIL has two high pigtails with red ties and a plain red sleeveless dress. JANELLE has one side ponytail with a yellow tie and a yellow and white striped sleeveless dress.
+
+SIZES, tallest first: the Agta, Dan, Mel, Papa, Jeff, Mama, Sir Archie, Jared (tall but thin), Nikki, Hal and Totet (both short), Procopio (old and stooped), then the twins, who only reach Jeff's thigh.
+UNIFORMS: Jeff, Hal, Mel, Jared and Dan wear the boys uniform, a blue short sleeved buttoned shirt, khaki pants, black shoes. Nikki and Totet wear the girls uniform, a white blouse and a white skirt. Sir Archie, Procopio, Papa, Mama and the twins wear no uniform. Only Hal and Sir Archie wear glasses.
+
+COMPOSITION, a low angle shot in four layers, back to front.
+
+TOP: THE AGTA fills the upper third, rising behind everyone, its two long arms spread wide and curving down the left and right edges as if about to close around the whole group. Only its head, shoulders and arms show, the rest dissolves into smoke. Its red eyes and white grin are the sharpest marks up there. Nobody below sees it except Jared.
+
+BEHIND THE GROUP, framed between its arms: a tear in the air. Left of the tear, a Durian City street at dusk with a jeepney, power lines and a concrete school wall. Right of the tear, the spirit world: a balete tree as big as a mountain with hanging roots, rivers of fireflies, and a sky holding two low suns and stars at once.
+
+MIDDLE BAND, waist up, smaller than the front group:
+JARED, on the right, turned three quarters away, looking back over his shoulder at the viewer with a hollow stare. Left arm straight down, right hand in his pocket so the tattooed arm shows. His shadow behind him is wrong: long, thin, wearing the Agta's grin, joining the Agta's smoke above.
+DAN, far right behind Jared, arms folded, one shoulder forward, scowling down at the viewer.
+SIR ARCHIE, on the left, calm and knowing, his right hand holding a black coffee thermos at chest height, his left hand in his cardigan pocket, looking up at the Agta.
+TOTET, beside him, both hands holding a notebook to her chest, chin up, eyes bright and curious.
+TANDANG PROCOPIO, far left, stooped, a plain wooden staff in his right hand, his left hand raised palm out as if warding it off, also looking up at the Agta.
+
+FRONT GROUP, largest and closest, standing on the street:
+JEFF, center, a hero shot. Fierce, a bold grin, both eyes on the viewer. His right arm is raised and bent at ONE elbow, holding a short rattan Arnis stick upright beside his head. His left arm hangs straight down and open. His pendant blazes gold on his chest, the only light pushing back the Agta's dark.
+NIKKI, on Jeff's left as you look at it, half a step back, laughing with her head tilted back, one eye winking at the viewer. Her right hand rests on her hip with that arm bent at ONE elbow. Her left arm hangs straight down.
+HAL, on Jeff's right, the shortest, his head at Jeff's chest. Terrified and thrilled at once, eyes huge behind his glasses, mouth open in a shout, looking up at the Agta. Both arms raised straight above his head, one hand holding a small homemade robot arm.
+MEL, behind Hal, the tallest of the four, serene, a soft smile, half closed eyes, his violin under his chin, his left hand on its neck and his right hand drawing the bow. Faint gold music notes drift up.
+PAPA, lower left, waist up, a wrench in his right hand resting on his shoulder, his left hand on Mama's back, a proud tired smile, watching Jeff and not the camera.
+MAMA, beside him, a metal ladle raised in her right hand like a pointer, her left hand on her hip, a warm bossy smile, also watching Jeff.
+GAIL, at the bottom center left, both arms around Jeff's left leg, cheek against it, grinning up.
+JANELLE, at the bottom center right, holding up a crayon drawing of a purple haired stick figure in both hands, beaming at the viewer.
+
+FACES: every face animated, showing the exact emotion described, head turned and eyes looking where it says. No two characters share an expression. Do not copy the resting faces from the reference sheets.
+
+TEXT: at the top use the attached HIRAYA logo exactly as it is, the same gold letters, outline and sun symbol, only scaled, spelled H I R A Y A, never redrawn or restyled. Under it a smaller subtitle reading exactly Chapter 1: Banaag. In the bottom left corner, small neat credit text reading exactly Authored by Claude and Miko Daray. No other text, no name labels, no readable words on the jeepney or the wall.
+
+ANATOMY: every person has exactly two arms, two hands with five fingers each, and two legs. Every arm has exactly two segments joined at exactly ONE elbow, with the shoulder beside the neck, and every leg has one knee. No three segment arms, no second elbow, no third arm, no extra, missing or merged hands or fingers. The Agta also has two arms and two hands, long fingers but five per hand. Avoid ancient warrior costumes, spears, swords, a second Agta, duplicated characters, comic panel borders or gutters, realistic, 3D or photographic rendering, blurry results, ninja outfits, headbands, gore, a redrawn logo, misspelled text, and copies of any existing characters.
+
+Final anatomy pass before rendering: inspect every visible character and remove any extra limbs, extra fingers, duplicate hands, merged hands, phantom hands, or malformed joints.
 ```
 CHARACTER LOCK. CHARACTER CONSISTENCY IS MORE IMPORTANT THAN STYLE.
 Seven characters have a labeled panel in the attached reference image. Draw each of them exactly as on their own panel: same face, hair, skin tone, clothes, accessories and body type. Use the reference for the look only, never for the pose or the expression, and never transfer one character's hair, clothes or accessories to another.
