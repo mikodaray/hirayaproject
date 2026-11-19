@@ -121,3 +121,7 @@ Reference uploads in Canva: Jeff sheet MAHbIq_IHbQ, page 11 combined MAHbIrPGAj0
 Canva's image generator returns only a 133x200 thumbnail to Claude in the tool result. The real file in Claude's Canva uploads is 1024x1536. Claude cannot download it, because canva.com is blocked from Claude's shell.
 So any page Claude generates lands here as a blurry 133x200 preview. To get the real file into the repo, the creator downloads it from Canva uploads and sends it to Claude, who then replaces the preview.
 Full size right now: the cover and pages 1 to 5. Previews only: pages 6 to 10, pages 11 to 28, and the six new character sheets.
+
+## Cover 1, current
+art/08-chapter-1-cover-1-full-cast.png, approved by the creator 2026-11-19, 1024x1536, full size (not a preview). All 14 characters: Jeff, Hal, Mel, Nikki, Jared, the Agta, Dan, Papa, Mama, Gail, Janelle, Sir Archie, Totet, Tandang Procopio. Prompt: art/prompts/07-chapter-1-cover-1-full-cast.md. Replaces art/06-chapter-1-cover-1-warriors.png, which is kept as the old Butuan era cover.
+Known mismatches against the character sheets, not fixed: Tandang Procopio's tattoos are on his LEFT arm here, his sheet says right arm only. Jared's nose ring is not visible.
