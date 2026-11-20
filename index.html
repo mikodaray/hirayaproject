@@ -197,7 +197,7 @@
   // full: optional link to the full size image.
   var STORYBOARD = "https://github.com/mikodaray/hirayaproject/blob/main/story-bible/chapter-1/";
   var PAGES = [
-    { label: "Cover 1", title: "Chapter 1 cover 1, the full cast", src: "art/08-chapter-1-cover-1-full-cast.png",
+    { label: "Cover 1", title: "Chapter 1 cover 1, the warriors", src: "art/06-chapter-1-cover-1-warriors.png",
       story: STORYBOARD + "00-overview.md" },
     { label: "Page 1", title: "Page 1, meet Jeff", src: "art/pages/ch1-page-01-v5-filipino-sfx.png" }
   ];
@@ -231,6 +231,8 @@
   PAGES[0].n = 0; PAGES[0].key = "cover";
   for (var k = 1; k < PAGES.length; k++) { PAGES[k].n = k; PAGES[k].key = "p" + k; }
   PAGES.splice(1, 0, { label: "Cover 2", title: "Chapter 1 cover 2, the classroom", src: "art/07-chapter-1-cover-2-classroom-fisheye.png", n: 0, key: "cover2", story: STORYBOARD + "00-overview.md" });
+  // Cover 3 added 2026-11-20: the full cast, approved by the creator. The two earlier covers stay.
+  PAGES.splice(2, 0, { label: "Cover 3", title: "Chapter 1 cover 3, the full cast", src: "art/08-chapter-1-cover-3-full-cast.png", n: 0, key: "cover3", story: STORYBOARD + "00-overview.md" });
 
   var idx = 0;
   var rtl = false; // DECIDED: pages go left to right in the viewer, and the panels inside a page also read left to right (changed 2026-11-08)

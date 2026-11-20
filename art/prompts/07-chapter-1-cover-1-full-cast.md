@@ -1,4 +1,6 @@
-# Chapter 1 cover 1 prompt, version 6: the full cast
+# Chapter 1 cover 3 prompt, version 6: the full cast
+
+Note 2026-11-20: the approved result of this prompt is COVER 3, not cover 1. Covers 1 (warriors) and 2 (classroom) are unchanged. The file keeps its old name for git history.
 
 Status: DRAFT v6, 2026-11-18. Condensed on request to under 10000 characters (8732). The longer first draft is in git history., made at the creator's request: "all the characters that we've mentioned so far", as one complete prompt.
 Aspect ratio: 2:3 portrait, full color (covers stay in color, see art/ART-STYLE.md).
