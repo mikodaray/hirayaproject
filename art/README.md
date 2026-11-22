@@ -125,3 +125,6 @@ Full size right now: the cover and pages 1 to 5. Previews only: pages 6 to 10, p
 ## Cover 3, the full cast
 art/08-chapter-1-cover-3-full-cast.png, approved by the creator 2026-11-19, added as the THIRD cover on 2026-11-20, 1024x1536, full size (not a preview). All 14 characters: Jeff, Hal, Mel, Nikki, Jared, the Agta, Dan, Papa, Mama, Gail, Janelle, Sir Archie, Totet, Tandang Procopio. Prompt: art/prompts/07-chapter-1-cover-1-full-cast.md. It does not replace anything. The reader now shows three covers in order: cover 1 art/06-chapter-1-cover-1-warriors.png, cover 2 art/07-chapter-1-cover-2-classroom-fisheye.png, cover 3 this one.
 Known mismatches against the character sheets, not fixed: Tandang Procopio's tattoos are on his LEFT arm here, his sheet says right arm only. Jared's nose ring is not visible.
+
+## Page 1, current
+art/pages/ch1-page-01-v6-bw.png, approved by the creator 2026-11-23, 1024x1536, full size. Prompt: art/prompts/08-chapter-1-page-01-v6.md. Replaces ch1-page-01-v5-filipino-sfx.png, which is kept.
