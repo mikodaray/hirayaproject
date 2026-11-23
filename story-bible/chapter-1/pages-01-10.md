@@ -1,8 +1,8 @@
 # Chapter 1 Storyboard: Pages 1 to 10
 
-Status: DRAFT. Part 1 of 5. Introduces the four main characters, the bully conflict, the splash page for Jeff, and the start of homeroom.
-Reading direction: left to right. Left and right placements below were mirrored on 2026-11-08 for that (they were right to left before).
+Status: Pages 1 to 10 are the approved introduction.
 Panel sizes: WIDE = full width strip, LARGE = about half the page, TALL = vertical strip, SMALL = about one sixth, INSET = tiny panel on top of another.
+Panels inside a page read left to right. Dialogue is spoken in Bisaya, shown in English.
 
 ---
 

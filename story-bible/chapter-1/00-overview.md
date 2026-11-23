@@ -26,17 +26,18 @@ Chapter title (DECIDED by the creator, 2026-11-06): "Banaag". It replaces the ea
 | Pages | What happens |
 |-------|--------------|
 | 1 to 10 | Introduction (approved) |
-| 11 to 13 | Dan Macabebe bullies Jared, nobody helps |
-| 14 to 15 | Jared walks home thinking of his father, throws a stone, wakes the Agta |
-| 16 to 19 | Jeff comes home, the twins, dinner with Mama |
-| 20 to 22 | Papa, the jeepney, high marks and Arnis |
-| 23 to 24 | Jared at home, what he tells himself |
-| 25 to 27 | The Agta watches, lights out, it merges with Jared's shadow |
+| 11 to 14 | DRAFT added 2026-11-23 from the creator's commentary: the Sangkapuluan myth inside Sir Archie's lesson. Licalibutan's pride, Captan's lightning, the brothers become sun, moon, stars and islands, Maguayan plants the first wish. Page 13 is a splash. |
+| 15 to 17 | Dan Macabebe bullies Jared, nobody helps |
+| 18 to 19 | Jared walks home thinking of his father, throws a stone, wakes the Agta |
+| 20 to 23 | Jeff comes home, the twins, dinner with Mama |
+| 24 to 26 | Papa, the jeepney, high marks and Arnis |
+| 27 to 28 | Jared at home, what he tells himself |
+| 29 to 31 | The Agta watches, lights out, it merges with Jared's shadow |
 | 28 | Jared sleeps, the dream begins |
-| 29 to 31 | DRAFT by Claude (2026-11-17): the dream, the Agta's offer, splash of the deal |
-| 32 to 36 | DRAFT by Claude: next morning, the necklace glints, Sir Archie's lesson on tree spirits |
-| 37 to 45 | DRAFT by Claude: Dan again, Jared lifts him, Jeff steps in with Arnis, the shadow pulls the four under |
-| 46 to 50 | DRAFT by Claude: the fall, the banaag light, splash of the spirit world, the hook |
+| 33 to 35 | DRAFT by Claude (2026-11-17): the dream, the Agta's offer, splash of the deal |
+| 36 to 40 | DRAFT by Claude: next morning, the necklace glints, Sir Archie's lesson on tree spirits |
+| 41 to 49 | DRAFT by Claude: Dan again, Jared lifts him, Jeff steps in with Arnis, the shadow pulls the four under |
+| 50 to 54 | DRAFT by Claude: the fall, the banaag light, splash of the spirit world, the hook |
 
 ## One page images
 - Page 7: Jeff catches Nikki's wrist without looking. This proves Jeff is more than the weird folklore kid.
@@ -88,3 +89,7 @@ New DECIDED facts (2026-11-12): Jeff's father was a Babaylan and retired to rais
 5. Which grade or year are the four in? This only matters for the homeroom scenes.
 6. Is the bamboo tube also an Agimat?
 7. Do you want more language jokes later in the chapter?
+
+## Page count
+Chapter 1 is 54 pages as of 2026-11-23. Four myth pages were inserted after page 10, so everything that was pages 11 to 50 is now pages 15 to 54.
+The page art has been taken out of the reader on purpose: none of it is final, so the reader shows the storyboard script for every page while the story is being worked out. The image files are still in art/pages/.

@@ -1,14 +1,94 @@
 # Chapter 1 Storyboard: Pages 11 to 20
 
-Status: DRAFT, work in progress (new arc written 2026-11-12 from the creator's outline). The creator will add details a few at a time. Pages 1 to 10 are the approved introduction.
-The old Butuan draft for these pages (detention, the bamboo tube, the fall through time) is saved in archive-butuan-draft/ and is no longer part of the story.
+Status: Pages 11 to 14 are the Sangkapuluan myth inside Sir Archie's lesson, added 2026-11-23 at the creator's request, DRAFT. Pages 15 to 20 were pages 11 to 16 before that insert.
 Panel sizes: WIDE = full width strip, LARGE = about half the page, TALL = vertical strip, SMALL = about one sixth, INSET = tiny panel on top of another.
-Panels inside a page read left to right.
-Dialogue is spoken in Bisaya, shown in English. Page counts, jokes and exact lines are DRAFT suggestions by Claude. The story beats are the creator's.
+Panels inside a page read left to right. Dialogue is spoken in Bisaya, shown in English.
 
 ---
 
-## Page 11 (5 panels): After school
+## Page 11 (5 panels): The first gods
+Layout: medium panel, wide panel, two small panels, a large panel at the bottom.
+
+**1. MEDIUM.** Sir Archie taps the word on the board. For once the class is quiet.
+SIR ARCHIE: "Before the islands were islands, there was only sea and sky."
+
+**2. WIDE.** Myth panel, drawn like an old inked manuscript. Nothing but a flat endless sea under an endless sky. Two presences fill them: Maguayan below in the water, Captan above in the clouds.
+CAPTION: "Maguayan, the sea. Captan, the sky."
+
+**3. SMALL.** Myth panel. The sea and the sky meet at the horizon. Where they touch, two shapes form: Lidagat, a woman of water, and Lihangin, a man of wind.
+CAPTION: "Their children. Lidagat the sea, Lihangin the wind."
+
+**4. SMALL.** Back in the classroom. Hal with his chin on the desk, actually listening for once.
+HAL (whispering): "Wait. The sky and the sea had kids?"
+MEL (whispering): "Everything has kids in these stories."
+
+**5. LARGE.** Myth panel. Four young gods standing in the open space between sea and sky, hair streaming in the wind. Licalibutan at the front, broad and stone skinned. Liadlao glowing warm gold. Libulan pale and silver. Lisuga the smallest, scattered with points of light.
+CAPTION: "And their children were four."
+SFX: "HIHIP"
+Art note: every myth panel on pages 11 to 14 is drawn in a different style from the present day, heavy black ink and rough woodcut texture, like an old Filipino manuscript.
+
+---
+
+## Page 12 (5 panels): What Licalibutan wanted
+Layout: wide panel, two small panels, a medium panel, a large panel at the bottom.
+
+**1. WIDE.** Myth panel. The four of them in the empty between place. Licalibutan stares up at the gate of the sky, far above.
+LICALIBUTAN: "We live in the space between our grandfathers. Not sea. Not sky. Nothing of our own."
+
+**2. SMALL.** Myth panel. Liadlao, warm and uneasy.
+LIADLAO: "It has always been enough."
+LICALIBUTAN: "Enough is a word for people who are given things."
+
+**3. SMALL.** Myth panel. Libulan looks away. He has already decided.
+
+**4. MEDIUM.** Myth panel. Lisuga, the youngest, silver and small, pulls at Licalibutan's arm.
+LISUGA: "Kuya. Please."
+
+**5. LARGE.** Myth panel. Licalibutan raises his fist toward the sky gate. Liadlao and Libulan rise behind him. Lisuga is left on the ground, reaching after them.
+LICALIBUTAN: "Then we take one."
+CAPTION: "He was not wrong. That is what made them follow."
+SFX: "UGONG"
+
+---
+
+## Page 13 (full page SPLASH): The lightning
+Layout: one full page image.
+
+**1. LARGE.** Splash page, myth panel. The three brothers hammer at the gate of the sky. Above them Captan rises enormous, his face lost in shadow, one open hand coming down with lightning forking out of it. The light is pure white, everything else is black. Far below, Lisuga is a tiny silver speck, still reaching up.
+CAPTION: "Captan did not want to destroy them. He wanted the sky to hold."
+SFX: "KIDLAT"
+Art note: the grand event of the lesson. Heaviest blacks in the chapter so far. No dialogue, only the caption and the sound.
+
+---
+
+## Page 14 (6 panels): What was left
+Layout: three small panels, a wide panel, a small panel, a large panel at the bottom.
+
+**1. SMALL.** Myth panel. Libulan's pale body cooling in the dark, pulling itself round.
+CAPTION: "Libulan became the moon."
+
+**2. SMALL.** Myth panel. Liadlao's gold body catching light and burning.
+CAPTION: "Liadlao became the sun."
+
+**3. SMALL.** Myth panel. Lisuga's silver body bursting apart into countless small lights.
+CAPTION: "Lisuga, who never wanted the war, became the stars."
+
+**4. WIDE.** Myth panel. Licalibutan's broken rock body falls into the sea and shatters. The pieces settle and spread, and they are islands.
+CAPTION: "And Licalibutan became the ground we are standing on."
+SFX: "LAGABOG"
+
+**5. SMALL.** Myth panel. Maguayan's hand presses one seed into the broken rock. A bamboo shoot rises out of it.
+CAPTION: "Then the sea planted a wish in the wreckage."
+
+**6. LARGE.** Back in the classroom. Late morning sun comes through the window and lays a bar of gold across Jeff's desk and his hands. Sir Archie is watching him. Jeff is staring at the light, not at the board.
+SIR ARCHIE: "The Sangkapuluan. Our islands. A broken brother, and a wish planted in him."
+CAPTION: "Hiraya."
+SFX: "KINANG"
+Art note: the necklace under Jeff's collar is warm. Do not show it glowing yet, only Jeff noticing the light.
+
+---
+
+## Page 15 (5 panels): After school
 Layout: wide panel, two small panels, a medium panel, a large panel at the bottom.
 Why nobody is with Jared: he is a loner. Jeff goes home early because his mother needs him, Mel has violin lessons, and Hal has science club. DRAFT, TO CONFIRM.
 
@@ -31,7 +111,7 @@ DAN: "Well, well. Still wearing your costume, freak?"
 
 ---
 
-## Page 12 (5 panels): The bully
+## Page 16 (5 panels): The bully
 Layout: a large panel and a tall panel, two small panels, a wide panel at the bottom.
 
 **1. LARGE.** Dan shoves Jared back against the wall with one hand on his chest.
@@ -51,7 +131,7 @@ Art note: show the shoving and the cruelty, but nothing graphic. Jared only gets
 
 ---
 
-## Page 13 (4 panels): No one helps
+## Page 17 (4 panels): No one helps
 Layout: two small panels, a wide panel, a large panel at the bottom.
 
 **1. SMALL.** Dan rips one of Jared's bracelets off his wrist.
@@ -67,7 +147,7 @@ SFX: "SHAKE SHAKE"
 
 ---
 
-## Page 14 (5 panels): The walk home
+## Page 18 (5 panels): The walk home
 Layout: wide panel, two small panels, a medium panel, a large panel at the bottom.
 
 **1. WIDE.** Jared walks home along a quiet road at dusk, earbuds in, bag over his shoulder, his long shadow stretched behind him. The road is lined with old trees.
@@ -89,7 +169,7 @@ Art note: do not show any violence at home, ever, on these pages. Fear, sound an
 
 ---
 
-## Page 15 (4 panels): The Agta
+## Page 19 (4 panels): The Agta
 Layout: wide panel, two small panels, a large panel at the bottom.
 
 **1. WIDE.** The stone hits the trunk of the old balete tree.
@@ -108,7 +188,7 @@ Art note: DRAFT. The Agta is a mean spirited demon like spirit that preys on hat
 
 ---
 
-## Page 16 (5 panels): Jeff comes home
+## Page 20 (5 panels): Jeff comes home
 Layout: wide panel, two small panels, two medium panels at the bottom.
 
 **1. WIDE.** Jeff's family home at evening, drawn from the home reference: a two storey house with a concrete ground floor, a woven bamboo upper floor, a wooden balcony and a tile gable roof, its windows glowing. Papa's jeepney is parked in the carport with its hood open. The sign above its windshield reads PILIPINAS.
@@ -129,96 +209,3 @@ JANELLE: "KUYA'S HOME!"
 JEFF: "Get off. I just got home."
 GAIL: "No."
 JANELLE: "Never."
-
----
-
-## Page 17 (5 panels): Two koalas
-Layout: two small panels, a medium panel and a small panel, a large panel at the bottom.
-
-**1. SMALL.** Jeff drags himself down the hall, a twin clinging to each leg. Deadpan.
-SFX: "DRAG DRAG"
-
-**2. SMALL.** Janelle holds up a drawing of a purple haired stick figure.
-JANELLE: "I drew you, Kuya!"
-
-**3. MEDIUM.** Jeff looks at the drawing. The stick figure has a huge head and a tiny body, and a banana hat.
-JEFF: "Why do I have a banana on my head?"
-JANELLE: "Because you're handsome."
-JEFF: "...That doesn't make sense."
-
-**4. SMALL.** Gail sticks a heart sticker on Jeff's cheek while he's distracted.
-
-**5. LARGE.** Jeff tries to look annoyed, with a sticker on his cheek and a twin on each leg. His mouth fights a tiny smile and loses. Mama's voice calls from the kitchen.
-MAMA (from the kitchen): "Girls! Let your Kuya breathe!"
-GAIL AND JANELLE: "NO!"
-
----
-
-## Page 18 (5 panels): Dinner with Mama
-Layout: wide panel, two small panels, two medium panels at the bottom.
-
-**1. WIDE.** The family kitchen. A table with steaming rice and tinola. Mama, with an apron and a ladle in her hand, is at the stove.
-CAPTION: "Mama. Runs the house like a general, with soup."
-
-**2. SMALL.** Jeff sits and starts eating. The twins sit on either side of him.
-SFX: "NOM NOM"
-
-**3. SMALL.** Mama sets down a bowl and studies him closely.
-MAMA: "So? How was school?"
-
-**4. MEDIUM.** Jeff, mouth full.
-JEFF: "Good. Nobody died."
-MAMA: "That's your standard now?"
-JEFF: "It's a high standard, Ma."
-
-**5. MEDIUM.** Mama, with the ladle in one hand, narrows her eyes.
-MAMA: "And Hal? Is he still eating enough? That poor little boy."
-JEFF: "Ma, he's not little. He's compact."
-
----
-
-## Page 19 (5 panels): Mama and the twins
-Layout: two small panels, three wide panels stacked below.
-
-**1. SMALL.** Mama slides a piece of fish onto Jeff's plate.
-MAMA: "Eat more. You're too thin."
-
-**2. SMALL.** Janelle's little hand sneaks across the table and steals the fish from Jeff's plate.
-SFX: "SNATCH"
-
-**3. WIDE.** Jeff, without even looking, takes the fish back from her fork. Janelle gasps. Gail gives her a thumbs up.
-JEFF: "Nice try."
-JANELLE: "...How?"
-JEFF: "I have eyes in the back of my head."
-
-**4. WIDE.** Mama, leaning on the table with her chin in her hand and a sly smile.
-MAMA: "And any girlfriend I should know about?"
-
-**5. WIDE.** Jeff chokes on his rice. The twins burst into giggles.
-JEFF: "Ma! Eat your own rice!"
-GAIL: "Kuya has a girlfriend!"
-JANELLE: "Kuya has a banana girlfriend!"
-SFX: "COUGH COUGH"
-
----
-
-## Page 20 (5 panels): Papa
-Layout: wide panel, two small panels, a large panel and a medium panel at the bottom.
-
-**1. WIDE.** The door at the back of the kitchen swings open. A tall man stands in the doorway, backlit by the carport light, a grease stained towel over his shoulder.
-SFX: "CREAK"
-
-**2. SMALL.** The man's face: tired eyes, a faint smile, grease smudged on his cheek. A small carved wooden charm hangs from a cord around his neck.
-CAPTION: "Papa. Jeepney driver. Grease is his cologne."
-
-**3. SMALL.** Papa, with a nod toward the carport.
-PAPA: "Jeff. The jeepney is coughing again. Come help me."
-
-**4. LARGE.** The carport of the house. The jeepney sits with its hood open, a work lamp hanging over the engine. Jeff and Papa lean over the engine side by side, in the same posture, with the same frown.
-SFX: "COUGH SPUTTER"
-
-**5. MEDIUM.** Papa hands Jeff a wrench.
-PAPA: "Hold this. No, the other one."
-JEFF: "Pa, they're the same wrench."
-PAPA: "The other one."
-Art note: Hint only, not explained yet. Papa's old carved charm is a Babaylan symbol. The reveal that he was a Babaylan comes later. TO CONFIRM when.

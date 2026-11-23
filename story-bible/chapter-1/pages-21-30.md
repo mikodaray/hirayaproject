@@ -1,12 +1,105 @@
 # Chapter 1 Storyboard: Pages 21 to 30
 
-Status: DRAFT, work in progress (new arc written 2026-11-12 from the creator's outline). Pages 21 to 28 are drafted from the creator's outline. Pages 29 and 30 (the dream) are a DRAFT written by Claude on 2026-11-17 to fill the gap, not confirmed by the creator.
+Status: These were pages 17 to 26 before the 2026-11-23 insert of four myth pages.
 Panel sizes: WIDE = full width strip, LARGE = about half the page, TALL = vertical strip, SMALL = about one sixth, INSET = tiny panel on top of another.
-Panels inside a page read left to right. Dialogue is spoken in Bisaya, shown in English. Exact lines and page counts are DRAFT suggestions by Claude.
+Panels inside a page read left to right. Dialogue is spoken in Bisaya, shown in English.
 
 ---
 
-## Page 21 (5 panels): The jeepney talk
+## Page 21 (5 panels): Two koalas
+Layout: two small panels, a medium panel and a small panel, a large panel at the bottom.
+
+**1. SMALL.** Jeff drags himself down the hall, a twin clinging to each leg. Deadpan.
+SFX: "DRAG DRAG"
+
+**2. SMALL.** Janelle holds up a drawing of a purple haired stick figure.
+JANELLE: "I drew you, Kuya!"
+
+**3. MEDIUM.** Jeff looks at the drawing. The stick figure has a huge head and a tiny body, and a banana hat.
+JEFF: "Why do I have a banana on my head?"
+JANELLE: "Because you're handsome."
+JEFF: "...That doesn't make sense."
+
+**4. SMALL.** Gail sticks a heart sticker on Jeff's cheek while he's distracted.
+
+**5. LARGE.** Jeff tries to look annoyed, with a sticker on his cheek and a twin on each leg. His mouth fights a tiny smile and loses. Mama's voice calls from the kitchen.
+MAMA (from the kitchen): "Girls! Let your Kuya breathe!"
+GAIL AND JANELLE: "NO!"
+
+---
+
+## Page 22 (5 panels): Dinner with Mama
+Layout: wide panel, two small panels, two medium panels at the bottom.
+
+**1. WIDE.** The family kitchen. A table with steaming rice and tinola. Mama, with an apron and a ladle in her hand, is at the stove.
+CAPTION: "Mama. Runs the house like a general, with soup."
+
+**2. SMALL.** Jeff sits and starts eating. The twins sit on either side of him.
+SFX: "NOM NOM"
+
+**3. SMALL.** Mama sets down a bowl and studies him closely.
+MAMA: "So? How was school?"
+
+**4. MEDIUM.** Jeff, mouth full.
+JEFF: "Good. Nobody died."
+MAMA: "That's your standard now?"
+JEFF: "It's a high standard, Ma."
+
+**5. MEDIUM.** Mama, with the ladle in one hand, narrows her eyes.
+MAMA: "And Hal? Is he still eating enough? That poor little boy."
+JEFF: "Ma, he's not little. He's compact."
+
+---
+
+## Page 23 (5 panels): Mama and the twins
+Layout: two small panels, three wide panels stacked below.
+
+**1. SMALL.** Mama slides a piece of fish onto Jeff's plate.
+MAMA: "Eat more. You're too thin."
+
+**2. SMALL.** Janelle's little hand sneaks across the table and steals the fish from Jeff's plate.
+SFX: "SNATCH"
+
+**3. WIDE.** Jeff, without even looking, takes the fish back from her fork. Janelle gasps. Gail gives her a thumbs up.
+JEFF: "Nice try."
+JANELLE: "...How?"
+JEFF: "I have eyes in the back of my head."
+
+**4. WIDE.** Mama, leaning on the table with her chin in her hand and a sly smile.
+MAMA: "And any girlfriend I should know about?"
+
+**5. WIDE.** Jeff chokes on his rice. The twins burst into giggles.
+JEFF: "Ma! Eat your own rice!"
+GAIL: "Kuya has a girlfriend!"
+JANELLE: "Kuya has a banana girlfriend!"
+SFX: "COUGH COUGH"
+
+---
+
+## Page 24 (5 panels): Papa
+Layout: wide panel, two small panels, a large panel and a medium panel at the bottom.
+
+**1. WIDE.** The door at the back of the kitchen swings open. A tall man stands in the doorway, backlit by the carport light, a grease stained towel over his shoulder.
+SFX: "CREAK"
+
+**2. SMALL.** The man's face: tired eyes, a faint smile, grease smudged on his cheek. A small carved wooden charm hangs from a cord around his neck.
+CAPTION: "Papa. Jeepney driver. Grease is his cologne."
+
+**3. SMALL.** Papa, with a nod toward the carport.
+PAPA: "Jeff. The jeepney is coughing again. Come help me."
+
+**4. LARGE.** The carport of the house. The jeepney sits with its hood open, a work lamp hanging over the engine. Jeff and Papa lean over the engine side by side, in the same posture, with the same frown.
+SFX: "COUGH SPUTTER"
+
+**5. MEDIUM.** Papa hands Jeff a wrench.
+PAPA: "Hold this. No, the other one."
+JEFF: "Pa, they're the same wrench."
+PAPA: "The other one."
+Art note: Hint only, not explained yet. Papa's old carved charm is a Babaylan symbol. The reveal that he was a Babaylan comes later. TO CONFIRM when.
+
+---
+
+## Page 25 (5 panels): The jeepney talk
 Layout: two small panels, a large panel, two small panels at the bottom.
 
 **1. SMALL.** Papa, bent over the engine with a flashlight in his teeth, eyes on the engine.
@@ -27,7 +120,7 @@ PAPA: "Free for what?"
 
 ---
 
-## Page 22 (4 panels): Arnis
+## Page 26 (4 panels): Arnis
 Layout: wide panel, two small panels, a large panel at the bottom.
 
 **1. WIDE.** The back wall of the carport. Two worn rattan sticks hang on hooks above a tool bench. Jeff glances at them, then back at his father.
@@ -47,7 +140,7 @@ Art note: optional beat, TO CONFIRM. Papa pauses for a second and looks out towa
 
 ---
 
-## Page 23 (5 panels): Jared at home
+## Page 27 (5 panels): Jared at home
 Layout: wide panel, two small panels, two medium panels at the bottom.
 
 **1. WIDE.** Night. A small, narrow house with one dim upstairs window. Inside, Jared's room: band posters, a desk lamp, a notebook, a cracked mirror. The broken bracelet lies on the desk.
@@ -69,7 +162,7 @@ Art note: nothing violent is shown here either. Sound, shadow and Jared's face o
 
 ---
 
-## Page 24 (4 panels): What Jared tells himself
+## Page 28 (4 panels): What Jared tells himself
 Layout: large panel, two small panels, a wide panel at the bottom.
 
 **1. LARGE.** Jared sits on the edge of his bed, staring at the broken bracelet in his palm. His reflection in the cracked mirror is split in two.
@@ -87,7 +180,7 @@ SFX: "THROB"
 
 ---
 
-## Page 25 (4 panels): The watcher
+## Page 29 (4 panels): The watcher
 Layout: wide panel, two small panels, a large panel at the bottom.
 
 **1. WIDE.** Jared's house from outside at night, one window lit. A huge old tree stands beside it, its branches reaching toward the roof.
@@ -103,7 +196,7 @@ Then, softly: "Let me help you with that."
 
 ---
 
-## Page 26 (4 panels): Lights out
+## Page 30 (4 panels): Lights out
 Layout: two small panels, a wide panel, a large panel at the bottom.
 
 **1. SMALL.** Jared rubs his eyes and closes the notebook.
@@ -115,78 +208,3 @@ JARED: "Just sleep. Tomorrow's the same anyway."
 
 **4. LARGE.** Jared, standing by the switch with one hand raised. His shadow stretches long across the wall behind him. In the dark window, behind his reflection, two red eyes.
 JARED (quietly, toward the floor): "Good night, Ma."
-
----
-
-## Page 27 (5 panels): The merge
-Layout: wide panel, three small panels, a large panel at the bottom.
-
-**1. WIDE.** Jared's hand flips the switch. The room goes black. Jared stands in the dark, not moving yet.
-SFX: "CLICK"
-
-**2. SMALL.** Moonlight through the window. The curtain waves.
-
-**3. SMALL.** The tree outside rattles. The branch where the Agta sat is empty.
-
-**4. SMALL.** A dark shape launches from the branch, arms wide.
-SFX: "SWOOSH"
-
-**5. LARGE.** The Agta flies through the window like smoke, the glass stays whole, and dives into the long shadow on the floor behind Jared. The shadow ripples. For one second, the shadow has red eyes. Jared, still standing in the dark, notices nothing.
-SFX: "ZUUUUM"
-Art note: DRAFT. This is the scary beat of the chapter, so use a lot of black.
-
----
-
-## Page 28 (5 panels): Sleep
-Layout: wide panel, two small panels, a wide panel, a large panel at the bottom.
-
-**1. WIDE.** Jared's shadow on the floor, in the moonlight. It is a little too long and a little too dark, and its shape does not quite match Jared's.
-
-**2. SMALL.** Jared lies down on the bed, tired.
-JARED: "Why am I so tired all of a sudden..."
-
-**3. SMALL.** He pulls the blanket up to his chin.
-
-**4. WIDE.** His eyes close. His breathing slows.
-SFX: "ZZZ"
-
-**5. LARGE.** A pure black panel. Far in the center, one tiny faint light, a glimmer of dawn, grows slowly brighter.
-CAPTION: "And so Jared dreamed."
-Art note: the light is the banaag, the first glimmer (the chapter title). The dream sequence starts here. DRAFT, the creator will add the details.
-
----
-
-## Page 29 (4 panels): The dream
-Layout: wide panel, two small panels, a large panel at the bottom.
-
-**1. WIDE.** Jared opens his eyes inside the dream. He stands in his own kitchen, but everything is gray and stretched, the ceiling too high, the table too long. Empty bottles cover the table.
-CAPTION: "In the dream, the house was bigger. Or he was smaller."
-
-**2. SMALL.** Jared looks at his hands. They are a child's hands. He is seven years old again, in pajamas.
-
-**3. SMALL.** A huge man's shadow fills the wall above him. No face, only the shadow and a bottle in its hand.
-SFX: "THUD THUD"
-
-**4. LARGE.** Little Jared backs into a corner under the giant shadow, arms over his head. The floor behind him is cracking open into pure black.
-JARED: "Stop... please stop..."
-Art note: no violence is shown. The father is only a shadow. This is a memory turned into a nightmare.
-
----
-
-## Page 30 (5 panels): The offer
-Layout: two small panels, a wide panel, two medium panels at the bottom.
-
-**1. SMALL.** A long thin hand reaches out of the black crack in the floor and rests on little Jared's shoulder.
-
-**2. SMALL.** Little Jared turns. Two glowing eyes and a crooked grin float in the dark behind him.
-AGTA: "Poor little thing. Always the small one."
-
-**3. WIDE.** The Agta rises behind him, long and thin, its arms wrapping the corner like smoke. The giant shadow of the father freezes on the wall.
-AGTA: "You hate him. You hate the big boy at school. You hate yourself most of all. I can taste it."
-
-**4. MEDIUM.** Little Jared, trembling, but looking up at the Agta.
-JARED: "Who are you?"
-AGTA: "A friend who was asleep. You woke me with a stone."
-
-**5. MEDIUM.** The Agta holds out its long hand, palm up. A small black flame burns in it.
-AGTA: "Give me the hate. I will make you tall."

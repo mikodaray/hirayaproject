@@ -45,8 +45,8 @@ EXPR = {
 }
 # ---- Pages 11 and up: the new arc (added 2026-11-17). The page blocks come from tools/build-page-prompts.py. ----
 HOME = 'art/places/jeff-family-home-color-v1.png'
-SCHOOL_PAGES |= {11, 12, 13}
-HOME_PAGES = set(range(16, 23))
+SCHOOL_PAGES |= {15, 16, 17}
+HOME_PAGES = set(range(20, 27))
 # Who is on each page. Sheet characters get their sheet. New characters have NO sheet yet, so they get a written look (NEWCAST).
 PAGE_CAST = {11: ['jeff','hal','mel','jared','dan'], 12: ['jared','dan'], 13: ['jared','dan'], 14: ['jared'], 15: ['jared','agta'],
              16: ['jeff','twins'], 17: ['jeff','twins'], 18: ['jeff','mama','twins'], 19: ['jeff','mama','twins'], 20: ['jeff','papa'],
@@ -84,60 +84,60 @@ HOME_NOTE = ("HOME REFERENCE: the attached home image is in color. Draw the hous
 NOSHEET = ("NEW CHARACTERS WITHOUT A SHEET. These characters have no reference image yet, so draw them from this written look and keep each one identical in every panel:\n")
 
 EXPR.update({
- 11: "Jeff: relaxed, a small goodbye smile. Mel: gentle and calm. Hal: bright and boasting about his robot. Panels 3 and 4, Jared: closed off, eyes down, tired. Panel 5, Dan: a wide mean grin, looking down; Jared: wary, looking up with one eye through his hair.",
- 12: "Dan: sneering, enjoying it, teeth showing. Jared: cold, flat, jaw set, holding everything in, a flash of pain when he hits the ground. Passing students: awkward, eyes turned away.",
- 13: "Dan: laughing with his head back. Jared: blank and still in panel 2, then in panel 4 hurt and shaking, eyes wet but not crying, mouth pressed shut.",
- 14: "Jared: numb in panel 2, then heavy and dreading in panel 3, then in panel 5 his whole face breaks into rage, mouth wide open in a shout, eyes shut tight.",
- 15: "Jared: empty and let down, staring at his hand. The Agta: delighted and hungry, a crooked grin, eyes wide.",
- 16: "Jeff: tired but soft when he walks in, then a flat annoyed stare with red ears in panel 5. Gail and Janelle: huge open mouthed joy, then stubborn and smug.",
- 17: "Jeff: deadpan in panel 1, confused in panel 3, and in panel 5 trying to frown while a small smile wins. Janelle: proud of her drawing. Gail: sneaky and focused.",
- 18: "Mama: brisk and warm, then narrow suspicious eyes in panel 5. Jeff: chewing, dry and teasing. The twins: busy eating, cheeks full.",
- 19: "Mama: caring, then a sly teasing smile in panel 4. Janelle: sneaky, then shocked. Gail: impressed. Jeff: cool and smug in panel 3, then in panel 5 choking, red faced and flustered. The twins: laughing hard.",
- 20: "Papa: tired eyes with a faint smile, calm. Jeff: alert and glad to be asked. Panel 4, both: the same thinking frown. Panel 5, Papa: dry and stubborn; Jeff: flat disbelief.",
- 21: "Papa: focused, then one eyebrow up and teasing in panel 3, a sly half smile in panel 5. Jeff: shy and modest in panel 2, then eyes sparkling in panel 4.",
- 22: "Jeff: eager, hopeful. Papa: chuckling, then fond and proud. Panel 4, both: the same wide grin lit by the headlights.",
- 23: "Jared: trying to focus in panel 2, then in panel 4 eyes squeezed shut and teeth clenched, then in panel 5 a face of helpless anger.",
- 24: "Jared: ashamed and bitter, eyes down, then jaw tight, then in panel 4 shaking with hate and close to tears.",
- 25: "The Agta: curious, head tilted, then a wide hungry grin, eyes glowing. Jared, tiny in the window: slumped and small.",
- 26: "Jared: worn out and flat, then younger and softer without his spikes, then in panel 4 quiet and sad, eyes on the floor.",
- 27: "Jared: tired, blank, noticing nothing. The Agta: gleeful, mouth wide, arms open as it dives.",
- 28: "Jared: heavy eyed, confused by how tired he is, then peaceful and asleep.",
+ 15: "Jeff: relaxed, a small goodbye smile. Mel: gentle and calm. Hal: bright and boasting about his robot. Panels 3 and 4, Jared: closed off, eyes down, tired. Panel 5, Dan: a wide mean grin, looking down; Jared: wary, looking up with one eye through his hair.",
+ 16: "Dan: sneering, enjoying it, teeth showing. Jared: cold, flat, jaw set, holding everything in, a flash of pain when he hits the ground. Passing students: awkward, eyes turned away.",
+ 17: "Dan: laughing with his head back. Jared: blank and still in panel 2, then in panel 4 hurt and shaking, eyes wet but not crying, mouth pressed shut.",
+ 18: "Jared: numb in panel 2, then heavy and dreading in panel 3, then in panel 5 his whole face breaks into rage, mouth wide open in a shout, eyes shut tight.",
+ 19: "Jared: empty and let down, staring at his hand. The Agta: delighted and hungry, a crooked grin, eyes wide.",
+ 20: "Jeff: tired but soft when he walks in, then a flat annoyed stare with red ears in panel 5. Gail and Janelle: huge open mouthed joy, then stubborn and smug.",
+ 21: "Jeff: deadpan in panel 1, confused in panel 3, and in panel 5 trying to frown while a small smile wins. Janelle: proud of her drawing. Gail: sneaky and focused.",
+ 22: "Mama: brisk and warm, then narrow suspicious eyes in panel 5. Jeff: chewing, dry and teasing. The twins: busy eating, cheeks full.",
+ 23: "Mama: caring, then a sly teasing smile in panel 4. Janelle: sneaky, then shocked. Gail: impressed. Jeff: cool and smug in panel 3, then in panel 5 choking, red faced and flustered. The twins: laughing hard.",
+ 24: "Papa: tired eyes with a faint smile, calm. Jeff: alert and glad to be asked. Panel 4, both: the same thinking frown. Panel 5, Papa: dry and stubborn; Jeff: flat disbelief.",
+ 25: "Papa: focused, then one eyebrow up and teasing in panel 3, a sly half smile in panel 5. Jeff: shy and modest in panel 2, then eyes sparkling in panel 4.",
+ 26: "Jeff: eager, hopeful. Papa: chuckling, then fond and proud. Panel 4, both: the same wide grin lit by the headlights.",
+ 27: "Jared: trying to focus in panel 2, then in panel 4 eyes squeezed shut and teeth clenched, then in panel 5 a face of helpless anger.",
+ 28: "Jared: ashamed and bitter, eyes down, then jaw tight, then in panel 4 shaking with hate and close to tears.",
+ 29: "The Agta: curious, head tilted, then a wide hungry grin, eyes glowing. Jared, tiny in the window: slumped and small.",
+ 30: "Jared: worn out and flat, then younger and softer without his spikes, then in panel 4 quiet and sad, eyes on the floor.",
+ 31: "Jared: tired, blank, noticing nothing. The Agta: gleeful, mouth wide, arms open as it dives.",
+ 32: "Jared: heavy eyed, confused by how tired he is, then peaceful and asleep.",
 })
 PAGE_NOTES.update({
- 12: "PAGE 12 NOTES. Show shoving and cruelty but nothing graphic, no blood. Jared only gets a slight scrape. ",
- 13: "PAGE 13 NOTES. No blood. Jared has one small scrape on his cheek and one small bruise on his forearm, and he keeps them on later pages. ",
- 14: "PAGE 14 NOTES. Jared keeps the small scrape on his cheek and the small bruise on his forearm. Panel 4 is a memory: show NO violence and no faces, only the bottles, the man's shadow on the wall and the woman's hands. ",
- 15: "PAGE 15 NOTES. Jared keeps the small scrape on his cheek. ",
- 16: "PAGE 16 NOTES. The only sign that may be read is PILIPINAS above the jeepney windshield in panel 1. ",
- 23: "PAGE 23 NOTES. Jared keeps the small scrape on his cheek. Show NO violence. The parents are never seen, only heard. ",
- 24: "PAGE 24 NOTES. Jared keeps the small scrape on his cheek. ",
- 26: "PAGE 26 NOTES. In panels 3 and 4 Jared has taken off his spiked belt and bracelets. He keeps his nose ring and his arm tattoos. ",
- 27: "PAGE 27 NOTES. Jared has no spiked belt and no bracelets. The window glass does not break. ",
- 28: "PAGE 28 NOTES. Jared has no spiked belt and no bracelets. Panel 5 is solid black with one tiny point of light in the center. ",
+ 16: "PAGE 12 NOTES. Show shoving and cruelty but nothing graphic, no blood. Jared only gets a slight scrape. ",
+ 17: "PAGE 13 NOTES. No blood. Jared has one small scrape on his cheek and one small bruise on his forearm, and he keeps them on later pages. ",
+ 18: "PAGE 14 NOTES. Jared keeps the small scrape on his cheek and the small bruise on his forearm. Panel 4 is a memory: show NO violence and no faces, only the bottles, the man's shadow on the wall and the woman's hands. ",
+ 19: "PAGE 15 NOTES. Jared keeps the small scrape on his cheek. ",
+ 20: "PAGE 16 NOTES. The only sign that may be read is PILIPINAS above the jeepney windshield in panel 1. ",
+ 27: "PAGE 23 NOTES. Jared keeps the small scrape on his cheek. Show NO violence. The parents are never seen, only heard. ",
+ 28: "PAGE 24 NOTES. Jared keeps the small scrape on his cheek. ",
+ 30: "PAGE 26 NOTES. In panels 3 and 4 Jared has taken off his spiked belt and bracelets. He keeps his nose ring and his arm tattoos. ",
+ 31: "PAGE 27 NOTES. Jared has no spiked belt and no bracelets. The window glass does not break. ",
+ 32: "PAGE 28 NOTES. Jared has no spiked belt and no bracelets. Panel 5 is solid black with one tiny point of light in the center. ",
 })
 # ---- Pages 29 to 50: draft by Claude (2026-11-17) ----
-SCHOOL_PAGES |= {34, 37, 38, 39, 40, 41, 42, 43, 44, 45, 50}
-HOME_PAGES |= {33}
-PAGE_CAST.update({29: ['jared'], 30: ['jared','agta'], 31: ['jared','agta'], 32: ['jared'], 33: ['jeff','papa','twins'], 34: ['jeff','hal','mel','nikki','jared'],
- 35: ['jeff','nikki','archie','jared'], 36: ['hal','archie','jared'], 37: ['jared','dan'], 38: ['jared','dan','agta'], 39: ['jeff','hal','mel','jared','dan','agta'],
- 40: ['jeff','hal','mel','nikki','jared','dan','agta'], 41: ['jeff','nikki','jared','dan','agta'], 42: ['jeff','agta'], 43: ['jeff','hal','mel','jared','agta'],
- 44: ['jeff','hal','mel','nikki','jared','agta'], 45: ['jeff','hal','mel','nikki','jared','agta'], 46: ['jeff','hal','mel','nikki'], 47: ['jeff','hal','mel','nikki'],
- 48: ['jeff','hal','mel','nikki'], 49: ['jeff','hal','mel','nikki'], 50: ['jeff','archie','papa','jared','agta']})
+SCHOOL_PAGES |= {38, 41, 42, 43, 44, 45, 46, 47, 48, 49, 54}
+HOME_PAGES |= {37}
+PAGE_CAST.update({33: ['jared'], 34: ['jared','agta'], 35: ['jared','agta'], 36: ['jared'], 37: ['jeff','papa','twins'], 38: ['jeff','hal','mel','nikki','jared'],
+ 39: ['jeff','nikki','archie','jared'], 40: ['hal','archie','jared'], 41: ['jared','dan'], 42: ['jared','dan','agta'], 43: ['jeff','hal','mel','jared','dan','agta'],
+ 44: ['jeff','hal','mel','nikki','jared','dan','agta'], 45: ['jeff','nikki','jared','dan','agta'], 46: ['jeff','agta'], 47: ['jeff','hal','mel','jared','agta'],
+ 48: ['jeff','hal','mel','nikki','jared','agta'], 49: ['jeff','hal','mel','nikki','jared','agta'], 50: ['jeff','hal','mel','nikki'], 51: ['jeff','hal','mel','nikki'],
+ 52: ['jeff','hal','mel','nikki'], 53: ['jeff','hal','mel','nikki'], 54: ['jeff','archie','papa','jared','agta']})
 _path = "the path along the outside wall of Durian City High School, after class, bright afternoon sun"
-SETTING.update({29: "a nightmare version of Jared's kitchen, gray, stretched and too big, with heavy black shadows",
- 30: "the same nightmare kitchen, with a black crack in the floor", 31: "the nightmare, almost all solid black",
- 32: "Jared's bedroom in the morning light, then the small kitchen downstairs", 33: "Jeff's family home in the morning, the carport and the front gate, like the attached home reference",
- 34: "the road to school and the front gate of Durian City High School in the morning", 35: "the homeroom classroom of Durian City High School, with ceiling fans, a blackboard and open windows",
- 36: "the homeroom classroom of Durian City High School", 37: _path, 38: _path, 39: _path, 40: _path, 41: _path, 42: _path, 43: _path,
- 44: _path + ", with a pool of black shadow spreading over the ground", 45: _path + ", with a pool of black shadow on the ground",
- 46: "an endless black void with giant roots, firefly lanterns and one huge eye drifting past", 47: "the black void, then a ceiling of giant leaves, lit by one soft light",
- 48: "a forest floor of thick glowing moss and giant roots in the spirit world", 49: "the spirit world: a balete tree as big as a mountain under a sky with two low suns and stars",
- 50: "three places: the empty path by the school wall, the carport of Jeff's family home, and a giant root in the spirit world"})
-PAGE_NOTES.update({29: "PAGE 29 NOTES. In panels 2 to 4 Jared is a seven year old boy in pajamas, with the same long black hair but no nose ring, no tattoos and no spikes. The father is ONLY a shadow on the wall. Show no violence. ",
- 30: "PAGE 30 NOTES. Jared is the seven year old boy from the dream, with no nose ring, no tattoos and no spikes. ",
- 32: "PAGE 32 NOTES. Jared's mother is seen only from behind. The father is never seen. ",
- 38: "PAGE 38 NOTES. No blood and no injury. Dan is scared, not hurt. ", 39: "PAGE 39 NOTES. No blood and no injury. ",
- 46: "PAGE 46 NOTES. Hal's scream is one long speech bubble. ", 50: "PAGE 50 NOTES. The uniform rule does not apply to Sir Archie or Papa. "})
+SETTING.update({33: "a nightmare version of Jared's kitchen, gray, stretched and too big, with heavy black shadows",
+ 34: "the same nightmare kitchen, with a black crack in the floor", 35: "the nightmare, almost all solid black",
+ 36: "Jared's bedroom in the morning light, then the small kitchen downstairs", 37: "Jeff's family home in the morning, the carport and the front gate, like the attached home reference",
+ 38: "the road to school and the front gate of Durian City High School in the morning", 39: "the homeroom classroom of Durian City High School, with ceiling fans, a blackboard and open windows",
+ 40: "the homeroom classroom of Durian City High School", 41: _path, 42: _path, 43: _path, 44: _path, 45: _path, 46: _path, 47: _path,
+ 48: _path + ", with a pool of black shadow spreading over the ground", 49: _path + ", with a pool of black shadow on the ground",
+ 50: "an endless black void with giant roots, firefly lanterns and one huge eye drifting past", 51: "the black void, then a ceiling of giant leaves, lit by one soft light",
+ 52: "a forest floor of thick glowing moss and giant roots in the spirit world", 53: "the spirit world: a balete tree as big as a mountain under a sky with two low suns and stars",
+ 54: "three places: the empty path by the school wall, the carport of Jeff's family home, and a giant root in the spirit world"})
+PAGE_NOTES.update({33: "PAGE 29 NOTES. In panels 2 to 4 Jared is a seven year old boy in pajamas, with the same long black hair but no nose ring, no tattoos and no spikes. The father is ONLY a shadow on the wall. Show no violence. ",
+ 34: "PAGE 30 NOTES. Jared is the seven year old boy from the dream, with no nose ring, no tattoos and no spikes. ",
+ 36: "PAGE 32 NOTES. Jared's mother is seen only from behind. The father is never seen. ",
+ 42: "PAGE 38 NOTES. No blood and no injury. Dan is scared, not hurt. ", 43: "PAGE 39 NOTES. No blood and no injury. ",
+ 50: "PAGE 46 NOTES. Hal's scream is one long speech bubble. ", 54: "PAGE 50 NOTES. The uniform rule does not apply to Sir Archie or Papa. "})
 PAGE10 = """## Page 10 (6 panels): The lesson
 Layout: medium panel, wide illustrated panel, small panel, medium panel, small panel, small panel.
 
@@ -166,7 +166,9 @@ def prompt_for(n):
     prefix = re.sub(r'Characters, same designs as the reference image but in black and white:.*?(?=Boys wear)', LOOK, pre.group(1), flags=re.S)
     m = re.search(r'## Page %d .*?(?=\n## Page %d |\Z)' % (n, n + 1), t, re.S)
     block = PAGE10 if n == 10 else m.group(0).strip()
-    if n >= 11:
+    if n in (11, 12, 13, 14):
+        raise SystemExit('Pages 11 to 14 are the Sangkapuluan myth (inserted 2026-11-23). They need their own prompt in the old ink myth style, not this builder.')
+    if n >= 15:
         block = block.split('\n<!--')[0].strip()
         prefix = re.sub(r'Setting: Durian City High School in Durian City, a modern Makati like Philippine city\.', 'Setting for this page: ' + SETTING[n] + '.', prefix)
         cast = PAGE_CAST[n]; new = [c for c in cast if c in NEWCAST]

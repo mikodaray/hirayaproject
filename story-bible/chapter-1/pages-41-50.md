@@ -1,12 +1,89 @@
 # Chapter 1 Storyboard: Pages 41 to 50
 
-Status: DRAFT WRITTEN BY CLAUDE (2026-11-17) to fill the empty pages, at the creator's request. None of this is confirmed. The creator can change or replace any page. It follows the decided direction: the Agta feeds on Jared's hate, and the four friends are pulled into the spiritual world of Filipino mythology.
+Status: DRAFT written by Claude on 2026-11-17, not confirmed. These were pages 37 to 46 before the 2026-11-23 insert.
 Panel sizes: WIDE = full width strip, LARGE = about half the page, TALL = vertical strip, SMALL = about one sixth, INSET = tiny panel on top of another.
 Panels inside a page read left to right. Dialogue is spoken in Bisaya, shown in English.
 
 ---
 
-## Page 41 (4 panels): The drop
+## Page 41 (5 panels): Dan again
+Layout: wide panel, two small panels, two medium panels at the bottom.
+
+**1. WIDE.** After class, the same path along the school wall. Dan Macabebe waits with two friends, cracking his knuckles.
+DAN: "There's my favorite freak."
+
+**2. SMALL.** Jared keeps walking with his head down.
+
+**3. SMALL.** Dan's hand lands on Jared's chest and stops him.
+DAN: "I'm talking to you."
+
+**4. MEDIUM.** Jared lifts his head. Calm. Too calm. A small smile.
+JARED: "Take your hand off."
+
+**5. MEDIUM.** Dan laughs and winds up for a shove. On the ground, Jared's shadow has already raised its arm.
+DAN: "Or what?"
+
+---
+
+## Page 42 (4 panels): Tall
+Layout: a tall panel and two small panels stacked beside it, a large panel at the bottom.
+
+**1. TALL.** Jared catches Dan's wrist in one hand. Dan's arm stops dead.
+SFX: "TAK"
+
+**2. SMALL.** Dan's face, confused, trying to pull free.
+DAN: "H-hey. Let go."
+
+**3. SMALL.** Jared's eye through his hair. The pupil is a thin white ring.
+
+**4. LARGE.** Jared lifts Dan off the ground by the wrist, with one arm. Dan's feet kick in the air. His two friends drop their bags and run. Jared's shadow on the wall is huge, long armed and grinning.
+JARED: "You said I was a freak."
+AGTA (from the shadow): "Show him."
+
+---
+
+## Page 43 (5 panels): Too far
+Layout: two small panels, a wide panel, two medium panels at the bottom.
+
+**1. SMALL.** Dan, crying now, all the meanness gone.
+DAN: "I'm sorry! I'm sorry! Put me down!"
+
+**2. SMALL.** Jared's face twitches. A flash of the real Jared, scared of himself.
+JARED: "I... I don't..."
+
+**3. WIDE.** Students at the end of the path stop and stare. Phones come out. Nobody steps forward.
+SFX: "BULONG BULONG"
+
+**4. MEDIUM.** The shadow's long hand closes over Jared's own shoulder from behind, and his face goes blank again.
+AGTA: "Don't stop now. This is the best part."
+
+**5. MEDIUM.** A voice from the end of the path. Jeff, with Hal and Mel behind him, the necklace bright against his shirt.
+JEFF: "That's enough."
+
+---
+
+## Page 44 (5 panels): Jeff steps in, again
+Layout: wide panel, two small panels, a medium panel and a small panel at the bottom.
+
+**1. WIDE.** Jeff walks down the path toward Jared, calm, hands open. Hal and Mel hang back. Nikki arrives behind the crowd and pushes through.
+HAL: "Jeff. Jeff. He is holding Dan like a grocery bag."
+MEL: "I see it."
+
+**2. SMALL.** Jeff, eyes on Jared, not on Dan.
+JEFF: "Jared, right? Put him down. He's not worth it."
+
+**3. SMALL.** Jared's head turns slowly toward Jeff. Then the shadow's head turns too, a beat later.
+
+**4. MEDIUM.** The Agta's eyes open in the shadow on the wall and fix on the necklace.
+AGTA: "Oh. That light. I know that light."
+SFX: "KISLAP"
+
+**5. SMALL.** Jeff, looking at the wall, not at Jared.
+JEFF (thinking): "The shadow is looking at me."
+
+---
+
+## Page 45 (4 panels): The drop
 Layout: two small panels, a wide panel, a large panel at the bottom.
 
 **1. SMALL.** Jared's hand opens. Dan falls.
@@ -23,7 +100,7 @@ AGTA: "A child of the sun. Asleep, like I was. How lucky for me."
 
 ---
 
-## Page 42 (5 panels): Arnis
+## Page 46 (5 panels): Arnis
 Layout: wide panel, three small panels, a large panel at the bottom.
 
 **1. WIDE.** The shadow's long arm whips across the path toward Jeff.
@@ -42,7 +119,7 @@ SFX: "TAK!"
 
 ---
 
-## Page 43 (5 panels): It does not work twice
+## Page 47 (5 panels): It does not work twice
 Layout: two small panels, a wide panel, two medium panels at the bottom.
 
 **1. SMALL.** Hal, hiding behind Mel, pointing.
@@ -62,7 +139,7 @@ JEFF: "I hear you. Hold on."
 
 ---
 
-## Page 44 (4 panels): The shadow spreads
+## Page 48 (4 panels): The shadow spreads
 Layout: wide panel, two small panels, a large panel at the bottom.
 
 **1. WIDE.** The Agta slams both hands on the ground. Its shadow floods across the path like spilled ink, running under everyone's feet.
@@ -79,7 +156,7 @@ AGTA: "Come. Let me show the sun child where the old ones live."
 
 ---
 
-## Page 45 (5 panels): Pulled under
+## Page 49 (5 panels): Pulled under
 Layout: three small panels, a wide panel, a large panel at the bottom.
 
 **1. SMALL.** Mel grabs Hal by the back of the shirt with one hand and holds his violin case high with the other.
@@ -97,7 +174,7 @@ SFX: "GLUP"
 
 ---
 
-## Page 46 (4 panels): The fall
+## Page 50 (4 panels): The fall
 Layout: a tall panel and a tall panel side by side, a wide panel, a wide panel at the bottom.
 
 **1. TALL.** Pure black. The four fall, tiny figures, still holding on to each other in a chain: Mel, Hal, Jeff, Nikki.
@@ -110,71 +187,3 @@ NIKKI: "This is your fault! I don't know how! But it is!"
 
 **4. WIDE.** Jeff's necklace. One small point of light in the black, growing.
 SFX: "TIBOK... TIBOK..."
-
----
-
-## Page 47 (4 panels): Banaag
-Layout: wide panel, two small panels, a large panel at the bottom.
-
-**1. WIDE.** The light from the necklace spreads like the first light before sunrise and wraps the four of them.
-CAPTION: "Banaag. The first glimmer."
-
-**2. SMALL.** Their fall slows. Hal opens one eye.
-HAL: "...Are we dead? I didn't finish my robot."
-
-**3. SMALL.** Mel, calm, looking down.
-MEL: "There's ground."
-
-**4. LARGE.** They drop gently through a ceiling of giant leaves, in a ball of soft light, toward a floor of roots and glowing moss.
-SFX: "FWAAAH"
-
----
-
-## Page 48 (5 panels): Landing
-Layout: wide panel, three small panels, a medium panel at the bottom.
-
-**1. WIDE.** The four land in a heap on thick moss. The light fades back into the necklace.
-SFX: "POF"
-
-**2. SMALL.** Hal, face down in the moss.
-HAL: "I am alive. Barely. Tell my robot I loved him."
-
-**3. SMALL.** Nikki sits up, pulls a leaf out of her hair, and realizes Jeff is still holding her wrist.
-NIKKI: "...You can let go now."
-
-**4. SMALL.** Jeff lets go at once, ears red.
-JEFF: "Right. Sorry."
-
-**5. MEDIUM.** Mel is the first to stand. He is looking up, and for once his calm face is gone.
-MEL: "Guys. Look up."
-
----
-
-## Page 49 (full page SPLASH): The other side
-Layout: one full page image.
-
-**1. LARGE.** Splash page. The four stand tiny at the foot of a balete tree as big as a mountain, its hanging roots like towers. The sky has two suns low on the horizon and stars at the same time. Fireflies in rivers. Far off between the roots, shapes are watching: a kapre's glowing cigar high in a tree, a tikbalang's long silhouette on a ridge, tiny duwende lights in the grass.
-CAPTION: "The elders had a name for the place behind the trees. The friends would learn it soon."
-JEFF: "It's real. All of it is real."
-Art note: one page image, the grand event of the end of the chapter. The name of this world is OPEN.
-
----
-
-## Page 50 (5 panels): It has begun
-Layout: wide panel, two small panels, a medium panel and a medium panel at the bottom.
-
-**1. WIDE.** Durian City, the same afternoon. The empty path by the school wall. Sir Archie picks up the broken broom stick and looks at the ground where there is no shadow at all.
-SIR ARCHIE: "So it has started."
-
-**2. SMALL.** Jeff's family home. In the carport, the carved charm on Papa's neck cracks down the middle.
-SFX: "KRAK"
-
-**3. SMALL.** Papa's eyes, wide. The tired jeepney driver is gone. This is the face of a Babaylan.
-PAPA: "Jeff."
-
-**4. MEDIUM.** In the other world, far above the four friends, the Agta crouches on a root with Jared limp under its arm, grinning down.
-AGTA: "Welcome home, sun child."
-
-**5. MEDIUM.** Jeff looks up at it and tightens his grip on nothing. His stick is gone. The necklace glows once.
-CAPTION: "End of Chapter 1: Banaag."
-JEFF: "Give him back."

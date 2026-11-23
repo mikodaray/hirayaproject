@@ -1,12 +1,87 @@
 # Chapter 1 Storyboard: Pages 31 to 40
 
-Status: DRAFT WRITTEN BY CLAUDE (2026-11-17) to fill the empty pages, at the creator's request. None of this is confirmed. The creator can change or replace any page. It follows the decided direction: the Agta feeds on Jared's hate, and the four friends are pulled into the spiritual world of Filipino mythology.
+Status: These were pages 27 to 36 before the 2026-11-23 insert. Pages 33 onward are a DRAFT written by Claude on 2026-11-17, not confirmed.
 Panel sizes: WIDE = full width strip, LARGE = about half the page, TALL = vertical strip, SMALL = about one sixth, INSET = tiny panel on top of another.
 Panels inside a page read left to right. Dialogue is spoken in Bisaya, shown in English.
 
 ---
 
-## Page 31 (full page SPLASH): The deal
+## Page 31 (5 panels): The merge
+Layout: wide panel, three small panels, a large panel at the bottom.
+
+**1. WIDE.** Jared's hand flips the switch. The room goes black. Jared stands in the dark, not moving yet.
+SFX: "CLICK"
+
+**2. SMALL.** Moonlight through the window. The curtain waves.
+
+**3. SMALL.** The tree outside rattles. The branch where the Agta sat is empty.
+
+**4. SMALL.** A dark shape launches from the branch, arms wide.
+SFX: "SWOOSH"
+
+**5. LARGE.** The Agta flies through the window like smoke, the glass stays whole, and dives into the long shadow on the floor behind Jared. The shadow ripples. For one second, the shadow has red eyes. Jared, still standing in the dark, notices nothing.
+SFX: "ZUUUUM"
+Art note: DRAFT. This is the scary beat of the chapter, so use a lot of black.
+
+---
+
+## Page 32 (5 panels): Sleep
+Layout: wide panel, two small panels, a wide panel, a large panel at the bottom.
+
+**1. WIDE.** Jared's shadow on the floor, in the moonlight. It is a little too long and a little too dark, and its shape does not quite match Jared's.
+
+**2. SMALL.** Jared lies down on the bed, tired.
+JARED: "Why am I so tired all of a sudden..."
+
+**3. SMALL.** He pulls the blanket up to his chin.
+
+**4. WIDE.** His eyes close. His breathing slows.
+SFX: "ZZZ"
+
+**5. LARGE.** A pure black panel. Far in the center, one tiny faint light, a glimmer of dawn, grows slowly brighter.
+CAPTION: "And so Jared dreamed."
+Art note: the light is the banaag, the first glimmer (the chapter title). The dream sequence starts here. DRAFT, the creator will add the details.
+
+---
+
+## Page 33 (4 panels): The dream
+Layout: wide panel, two small panels, a large panel at the bottom.
+
+**1. WIDE.** Jared opens his eyes inside the dream. He stands in his own kitchen, but everything is gray and stretched, the ceiling too high, the table too long. Empty bottles cover the table.
+CAPTION: "In the dream, the house was bigger. Or he was smaller."
+
+**2. SMALL.** Jared looks at his hands. They are a child's hands. He is seven years old again, in pajamas.
+
+**3. SMALL.** A huge man's shadow fills the wall above him. No face, only the shadow and a bottle in its hand.
+SFX: "THUD THUD"
+
+**4. LARGE.** Little Jared backs into a corner under the giant shadow, arms over his head. The floor behind him is cracking open into pure black.
+JARED: "Stop... please stop..."
+Art note: no violence is shown. The father is only a shadow. This is a memory turned into a nightmare.
+
+---
+
+## Page 34 (5 panels): The offer
+Layout: two small panels, a wide panel, two medium panels at the bottom.
+
+**1. SMALL.** A long thin hand reaches out of the black crack in the floor and rests on little Jared's shoulder.
+
+**2. SMALL.** Little Jared turns. Two glowing eyes and a crooked grin float in the dark behind him.
+AGTA: "Poor little thing. Always the small one."
+
+**3. WIDE.** The Agta rises behind him, long and thin, its arms wrapping the corner like smoke. The giant shadow of the father freezes on the wall.
+AGTA: "You hate him. You hate the big boy at school. You hate yourself most of all. I can taste it."
+
+**4. MEDIUM.** Little Jared, trembling, but looking up at the Agta.
+JARED: "Who are you?"
+AGTA: "A friend who was asleep. You woke me with a stone."
+
+**5. MEDIUM.** The Agta holds out its long hand, palm up. A small black flame burns in it.
+AGTA: "Give me the hate. I will make you tall."
+
+---
+
+## Page 35 (full page SPLASH): The deal
 Layout: one full page image.
 
 **1. LARGE.** Splash page. Jared, grown again and standing tall, takes the black flame. His shadow rises behind him as the huge grinning Agta, many times his size, its arms spread across the whole page. The father's shadow is small now, and it shrinks at the edge of the page.
@@ -17,7 +92,7 @@ Art note: one page image, the grand event of the middle of the chapter. Heavy bl
 
 ---
 
-## Page 32 (5 panels): Morning
+## Page 36 (5 panels): Morning
 Layout: wide panel, two small panels, two medium panels at the bottom.
 
 **1. WIDE.** Morning light in Jared's room. He sits up in bed, wide awake. The room looks the same. The broken bracelet is on the desk.
@@ -38,7 +113,7 @@ Art note: Jared's mother is seen only from behind or in part. Her design is open
 
 ---
 
-## Page 33 (5 panels): The necklace
+## Page 37 (5 panels): The necklace
 Layout: wide panel, two small panels, a large panel and a small panel at the bottom.
 
 **1. WIDE.** Morning at Jeff's family home. Papa wipes the jeepney's windshield in the carport. The twins wave from the balcony.
@@ -60,7 +135,7 @@ PAPA: "Nothing. Come straight home after class."
 
 ---
 
-## Page 34 (5 panels): Walking in
+## Page 38 (5 panels): Walking in
 Layout: wide panel, three small panels, a medium panel at the bottom.
 
 **1. WIDE.** The road to school. Jeff, Hal and Mel walk together. Hal carries a cardboard box with a robot arm sticking out of it.
@@ -81,7 +156,7 @@ SFX: "TIBOK"
 
 ---
 
-## Page 35 (5 panels): Sir Archie's question
+## Page 39 (5 panels): Sir Archie's question
 Layout: wide panel, two small panels, a medium panel and a small panel at the bottom.
 
 **1. WIDE.** Homeroom. Sir Archie at the board with his coffee. On the board: SPIRITS OF THE TREES.
@@ -100,7 +175,7 @@ SIR ARCHIE: "The Agta. Tall, dark, fond of old trees. They say it sleeps for yea
 
 ---
 
-## Page 36 (4 panels): What it eats
+## Page 40 (4 panels): What it eats
 Layout: two small panels, a wide panel, a large panel at the bottom.
 
 **1. SMALL.** Hal raises his hand.
@@ -115,80 +190,3 @@ SFX: "WUP... WUP... WUP"
 **4. LARGE.** Sir Archie looks straight at the back of the room, over his glasses. Jared looks up. For a moment the two lock eyes. Behind Jared, his shadow on the wall is turned the wrong way, facing the teacher.
 SIR ARCHIE (thinking): "...Hm."
 Art note: a hint that Sir Archie sees more than a teacher should.
-
----
-
-## Page 37 (5 panels): Dan again
-Layout: wide panel, two small panels, two medium panels at the bottom.
-
-**1. WIDE.** After class, the same path along the school wall. Dan Macabebe waits with two friends, cracking his knuckles.
-DAN: "There's my favorite freak."
-
-**2. SMALL.** Jared keeps walking with his head down.
-
-**3. SMALL.** Dan's hand lands on Jared's chest and stops him.
-DAN: "I'm talking to you."
-
-**4. MEDIUM.** Jared lifts his head. Calm. Too calm. A small smile.
-JARED: "Take your hand off."
-
-**5. MEDIUM.** Dan laughs and winds up for a shove. On the ground, Jared's shadow has already raised its arm.
-DAN: "Or what?"
-
----
-
-## Page 38 (4 panels): Tall
-Layout: a tall panel and two small panels stacked beside it, a large panel at the bottom.
-
-**1. TALL.** Jared catches Dan's wrist in one hand. Dan's arm stops dead.
-SFX: "TAK"
-
-**2. SMALL.** Dan's face, confused, trying to pull free.
-DAN: "H-hey. Let go."
-
-**3. SMALL.** Jared's eye through his hair. The pupil is a thin white ring.
-
-**4. LARGE.** Jared lifts Dan off the ground by the wrist, with one arm. Dan's feet kick in the air. His two friends drop their bags and run. Jared's shadow on the wall is huge, long armed and grinning.
-JARED: "You said I was a freak."
-AGTA (from the shadow): "Show him."
-
----
-
-## Page 39 (5 panels): Too far
-Layout: two small panels, a wide panel, two medium panels at the bottom.
-
-**1. SMALL.** Dan, crying now, all the meanness gone.
-DAN: "I'm sorry! I'm sorry! Put me down!"
-
-**2. SMALL.** Jared's face twitches. A flash of the real Jared, scared of himself.
-JARED: "I... I don't..."
-
-**3. WIDE.** Students at the end of the path stop and stare. Phones come out. Nobody steps forward.
-SFX: "BULONG BULONG"
-
-**4. MEDIUM.** The shadow's long hand closes over Jared's own shoulder from behind, and his face goes blank again.
-AGTA: "Don't stop now. This is the best part."
-
-**5. MEDIUM.** A voice from the end of the path. Jeff, with Hal and Mel behind him, the necklace bright against his shirt.
-JEFF: "That's enough."
-
----
-
-## Page 40 (5 panels): Jeff steps in, again
-Layout: wide panel, two small panels, a medium panel and a small panel at the bottom.
-
-**1. WIDE.** Jeff walks down the path toward Jared, calm, hands open. Hal and Mel hang back. Nikki arrives behind the crowd and pushes through.
-HAL: "Jeff. Jeff. He is holding Dan like a grocery bag."
-MEL: "I see it."
-
-**2. SMALL.** Jeff, eyes on Jared, not on Dan.
-JEFF: "Jared, right? Put him down. He's not worth it."
-
-**3. SMALL.** Jared's head turns slowly toward Jeff. Then the shadow's head turns too, a beat later.
-
-**4. MEDIUM.** The Agta's eyes open in the shadow on the wall and fix on the necklace.
-AGTA: "Oh. That light. I know that light."
-SFX: "KISLAP"
-
-**5. SMALL.** Jeff, looking at the wall, not at Jared.
-JEFF (thinking): "The shadow is looking at me."
